@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英検過去問演習 - Eiken Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Views will be rendered here -->
+        <header class="app-header">
+            <h1 id="app-title">英検<sup>®</sup>大問1攻略</h1>
+            <div class="hero-tags">
+                <span class="hero-tag">完全再現</span>
+                <span class="hero-tag">徹底演習</span>
+                <span class="hero-tag">語彙定着</span>
+            </div>
+            <p class="hero-desc">過去問データに基づく究極の語彙対策。<br>隙間時間の「5分」で、合格への確信を。</p>
+        </header>
+
+        <main id="main-container" class="container">
+            <!-- Home View -->
+            <div id="home-view" class="view active">
+                <div class="grade-grid">
+                    <button class="grade-card" data-grade="3">
+                        <span class="grade-label">3級</span>
+                        <span class="grade-sub">Grade 3</span>
+                    </button>
+                    <button class="grade-card" data-grade="pre-2">
+                        <span class="grade-label">準2級</span>
+                        <span class="grade-sub">Grade Pre-2</span>
+                    </button>
+                    <button class="grade-card" data-grade="2">
+                        <span class="grade-label">2級</span>
+                        <span class="grade-sub">Grade 2</span>
+                    </button>
+                    <button class="grade-card" data-grade="pre-1">
+                        <span class="grade-label">準1級</span>
+                        <span class="grade-sub">Grade Pre-1</span>
+                    </button>
+                </div>
+
+                <div id="review-container" class="review-container hidden">
+                    <button id="review-btn" class="review-btn">
+                        <span class="review-icon">↺</span>
+                        間違えた問題を復習する (Review Mistakes)
+                    </button>
+                    <p id="mistakes-count" class="mistakes-count"></p>
+                </div>
+            </div>
+
+            <!-- Settings View -->
+            <div id="settings-view" class="view hidden">
+                <div class="settings-card">
+                    <h2 id="settings-title" class="settings-title">設定 (Settings)</h2>
+
+                    <div class="settings-form">
+                        <!-- Year Selection -->
+                        <div class="form-group">
+                            <label>
+                                実施年度 (Year/Session)
+                                <span id="setting-available-count" class="badge-count"></span>
+                            </label>
+                            <select id="setting-year" class="form-control">
+                                <option value="all">すべて (All)</option>
+                                <!-- Examples will be populated dynamically -->
+                            </select>
+                        </div>
+
+                        <!-- Range Selection -->
+                        <div class="form-group">
+                            <label>問題ID範囲 (ID Range)</label>
+                            <div class="range-inputs">
+                                <input type="number" id="setting-range-start" class="form-control"
+                                    placeholder="Start (e.g. 1)" min="1">
+                                <span>～</span>
+                                <input type="number" id="setting-range-end" class="form-control" placeholder="End"
+                                    min="1">
+                            </div>
+                            <p class="helper-text">※空欄の場合は全範囲になります</p>
+                        </div>
+
+                        <!-- Order Selection -->
+                        <div class="form-group">
+                            <label>出題順 (Order)</label>
+                            <select id="setting-order" class="form-control">
+                                <option value="id">ID順 (Sequential)</option>
+                                <option value="random">ランダム (Random)</option>
+                            </select>
+                        </div>
+
+                        <!-- Count Selection -->
+                        <div class="form-group">
+                            <label>出題数 (Question Count)</label>
+                            <select id="setting-count" class="form-control">
+                                <option value="10">10問</option>
+                                <option value="20">20問</option>
+                                <option value="all">すべて</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="settings-actions">
+                        <button id="settings-back-btn" class="nav-btn">戻る</button>
+                        <button id="quiz-start-btn" class="start-btn">テスト開始 (Start)</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz View -->
+            <div id="quiz-view" class="view hidden">
+                <div class="quiz-header">
+                    <button id="home-btn" class="icon-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 12H5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12 19L5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        ホーム
+                    </button>
+                    <div class="progress-display">
+                        <span id="current-grade-display">2級</span> | <span id="progress-text">1 / 10</span>
+                    </div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-content">
+                        <p id="question-text">Loading question...</p>
+                    </div>
+
+                    <div id="options-container" class="options-grid">
+                        <!-- Options will be injected here -->
+                    </div>
+
+                    <div id="feedback-section" class="feedback-section hidden">
+                        <div id="result-badge" class="result-badge">
+                            <!-- Correct/Incorrect -->
+                        </div>
+                        <div class="explanation-box">
+                            <h4>解説</h4>
+                            <p id="explanation-text">Explanation goes here.</p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer-meta">
+                        <span id="question-source"></span>
+                    </div>
+                </div>
+
+                <div class="quiz-footer">
+                    <button id="prev-btn" class="nav-btn" disabled>前へ</button>
+                    <button id="next-btn" class="nav-btn">次へ</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <small>&copy; ECCベストワン藍住・北島中央</small>
+        </footer>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

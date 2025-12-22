@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英検大問一攻略決定版 - 公式アプリ案内</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Outfit:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* A4 Reset & Base Styles */
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 210mm;
+            height: 297mm;
+            /* Exact A4 height */
+            font-family: 'Noto Sans JP', sans-serif;
+            background: #fff;
+            color: #1e293b;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 40%, #4c1d95 100%);
+            color: white;
+            padding: 15mm 15mm 0 15mm;
+            position: relative;
+            overflow: hidden;
+            height: 100mm;
+            /* Fixed height for Hero */
+            flex-shrink: 0;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        /* Abstract Glass Background Elements */
+        .glass-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.6;
+        }
+
+        .orb-1 {
+            width: 300px;
+            height: 300px;
+            background: #ec4899;
+            top: -50px;
+            right: -50px;
+        }
+
+        .orb-2 {
+            width: 200px;
+            height: 200px;
+            background: #6366f1;
+            bottom: 50px;
+            left: -50px;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 10;
+        }
+
+        .tagline {
+            font-size: 14pt;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            color: #fbbf24;
+            /* Amber 400 */
+            margin-bottom: 3mm;
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 4px 12px;
+            border-radius: 4px;
+            backdrop-filter: blur(4px);
+        }
+
+        h1 {
+            font-size: 36pt;
+            line-height: 1.1;
+            margin: 0 0 4mm 0;
+            font-weight: 900;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 span {
+            color: #a5b4fc;
+            font-size: 0.5em;
+            display: block;
+            margin-bottom: 1mm;
+            font-family: 'Outfit', sans-serif;
+            letter-spacing: 0.05em;
+        }
+
+        .sublead {
+            font-size: 13pt;
+            line-height: 1.6;
+            margin-bottom: 2mm;
+            opacity: 0.9;
+            max-width: 60%;
+        }
+
+        /* Device Mockups (CSS Only) */
+        .mockup-container {
+            display: flex;
+            gap: 20px;
+            position: absolute;
+            right: 15mm;
+            bottom: -5mm;
+            transform: translateY(12%) rotate(-5deg) scale(0.9);
+            transform-origin: bottom right;
+        }
+
+        /* Phone Outline */
+        .phone-mockup {
+            width: 70mm;
+            height: 140mm;
+            background: #0f172a;
+            border-radius: 12mm;
+            border: 3mm solid #334155;
+            padding: 2mm;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 20;
+        }
+
+        /* Tablet Outline */
+        .tablet-mockup {
+            width: 120mm;
+            height: 90mm;
+            background: #0f172a;
+            border-radius: 8mm;
+            border: 3mm solid #334155;
+            padding: 2mm;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            position: absolute;
+            left: -80mm;
+            top: 40mm;
+            z-index: 10;
+        }
+
+        .screen {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #1e1b4b, #312e81);
+            border-radius: 8mm;
+            /* inner radius */
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tablet-mockup .screen {
+            border-radius: 5mm;
+        }
+
+        /* Fake UI inside Mockups */
+        .app-header {
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            font-family: 'Outfit', sans-serif;
+            color: white;
+            font-weight: bold;
+            font-size: 9pt;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .app-body {
+            padding: 15px;
+            color: white;
+            flex: 1;
+        }
+
+        .q-text {
+            font-size: 8pt;
+            line-height: 1.4;
+            margin-bottom: 15px;
+            opacity: 0.9;
+        }
+
+        .opt-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 8px;
+            margin-bottom: 6px;
+            border-radius: 6px;
+            font-size: 7pt;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .opt-btn.correct {
+            background: rgba(16, 185, 129, 0.2);
+            border-color: #10b981;
+            color: #6ee7b7;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #10b981;
+            color: #064e3b;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 6pt;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 5mm 15mm;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 8mm;
+            flex-grow: 1;
+            align-content: center;
+        }
+
+        .feature-card {
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 28pt;
+            margin-bottom: 3mm;
+            color: #4c1d95;
+            background: #ede9fe;
+            width: 20mm;
+            height: 20mm;
+            line-height: 20mm;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .feature-title {
+            font-weight: 900;
+            font-size: 13pt;
+            color: #1e1b4b;
+            margin-bottom: 2mm;
+        }
+
+        .feature-desc {
+            font-size: 9.5pt;
+            line-height: 1.6;
+            color: #475569;
+            text-align: left;
+        }
+
+        /* Message Section (Grid) */
+        .message-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            margin: 0 15mm 8mm 15mm;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+            flex-shrink: 0;
+        }
+
+        .msg-box {
+            padding: 8mm;
+        }
+
+        .msg-student {
+            background: #f8fafc;
+        }
+
+        .msg-parent {
+            background: #fff;
+        }
+
+        .msg-title {
+            font-size: 11pt;
+            font-weight: 700;
+            margin-bottom: 3mm;
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+        }
+
+        .msg-title.student {
+            color: #3b82f6;
+        }
+
+        .msg-title.parent {
+            color: #8b5cf6;
+        }
+
+        .msg-text {
+            font-size: 9.5pt;
+            line-height: 1.7;
+            color: #334155;
+        }
+
+        .highlight {
+            background: linear-gradient(180deg, transparent 60%, rgba(251, 191, 36, 0.3) 60%);
+            font-weight: bold;
+        }
+
+        /* Footer / CTA */
+        .footer {
+            background: #0f172a;
+            color: white;
+            padding: 8mm 15mm 12mm 15mm;
+            /* Extra bottom padding for aesthetic balance */
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .footer-left h2 {
+            font-size: 18pt;
+            margin: 0 0 2mm 0;
+            font-weight: 900;
+        }
+
+        .footer-left p {
+            margin: 0;
+            opacity: 0.8;
+            font-size: 10pt;
+        }
+
+        .cta-badge {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 3mm 6mm;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 3mm;
+            box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+            font-size: 10pt;
+        }
+
+        .qr-placeholder {
+            background: white;
+            width: 25mm;
+            height: 25mm;
+            border-radius: 3mm;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0f172a;
+            font-weight: bold;
+            font-size: 7pt;
+            text-align: center;
+        }
+
+        .footer-copyright {
+            position: absolute;
+            bottom: 3mm;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 8pt;
+            color: rgba(255, 255, 255, 0.3);
+            font-family: 'Outfit', sans-serif;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Header -->
+    <div class="hero">
+        <div class="glass-orb orb-1"></div>
+        <div class="glass-orb orb-2"></div>
+
+        <div class="header-content">
+            <div class="tagline">当校完全オリジナル教材</div>
+            <h1>
+                <span>EIKEN PART 1 STRATEGY</span>
+                英検<sup>®</sup>大問一<br>攻略決定版
+            </h1>
+            <div class="sublead">
+                よそにはない。ここでしか学べない。<br>
+                英検合格、そして共通テストを見据えた<br>
+                <strong>「最強の基礎力」</strong>をこのアプリで。
+            </div>
+        </div>
+
+        <!-- CSS Mockups -->
+        <div class="mockup-container">
+            <!-- Tablet -->
+            <div class="tablet-mockup">
+                <div class="screen">
+                    <div class="app-header">
+                        <span>準2級 対策コース</span>
+                        <span>...</span>
+                    </div>
+                    <div class="app-body">
+                        <div class="q-text">
+                            The hard, wooden bench in the park was _____, so Anna and Cathy decided to sit on the grass.
+                        </div>
+                        <div class="opt-btn correct">
+                            <span>uncomfortable</span>
+                            <span>不快な</span>
+                        </div>
+                        <div class="opt-btn">
+                            <span>permanent</span>
+                            <span>永続的な</span>
+                        </div>
+                        <div class="badge">正解 (Correct)</div>
+                        <div style="font-size:7pt; line-height:1.4; opacity:0.8;">
+                            公園の硬い木製のベンチは<br>不快な／心地よくないだったので...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="phone-mockup">
+                <div class="screen">
+                    <div class="app-header">
+                        <span>2級 (Grade 2)</span>
+                        <span>≡</span>
+                    </div>
+                    <div class="app-body">
+                        <div class="q-text">
+                            ...the government make rules to _____ banks more strictly.
+                        </div>
+                        <div class="opt-btn correct">
+                            <span>regulate</span>
+                        </div>
+                        <div class="opt-btn">
+                            <span>reproduce</span>
+                        </div>
+                        <div class="opt-btn">
+                            <span>irritate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features">
+        <div class="feature-card">
+            <div class="feature-icon">💯</div>
+            <div class="feature-title">圧倒的な得点力</div>
+            <div class="feature-desc">
+                合否を分ける「大問1」の単語・熟語・文法問題を完全網羅。過去問分析に基づき、頻出パターンを徹底的にトレーニング。ただの暗記ではなく、文脈から解く力を養います。
+            </div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📚</div>
+            <div class="feature-title">長文読解への<br>語彙力定着</div>
+            <div class="feature-desc">
+                短文空所補充を繰り返すことで、長文読解に不可欠な「生きた語彙力」が自然と身につきます。解説では文構造やコロケーション（語の繋がり）も丁寧に指導します。
+            </div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <div class="feature-title">「即断力」の育成</div>
+            <div class="feature-desc">
+                共通テストのリーディングで求められるのは圧倒的なスピード。迷いなく正解を選び取る「判断力」「速読の基礎」を、このアプリでの反復練習を通じて固めます。
+            </div>
+        </div>
+    </div>
+
+    <!-- Target Audience Messages -->
+    <div class="message-section">
+        <div class="msg-box msg-student">
+            <div class="msg-title student">
+                <span>🎓</span> 生徒のみなさんへ
+            </div>
+            <div class="msg-text">
+                「単語帳を見るのが辛い...」そんな悩みはもう終わり。このアプリなら、<span class="highlight">ゲーム感覚でサクサク進められます。</span>
+                正解の理由が「なるほど！」と分かるリッチな解説付き。スキマ時間でライバルに差をつけよう！
+            </div>
+        </div>
+        <div class="msg-box msg-parent">
+            <div class="msg-title parent">
+                <span>👨‍👩‍👧‍👦</span> 保護者様へ
+            </div>
+            <div class="msg-text">
+                当校が独自開発した、<span class="highlight">他塾にはない完全オリジナル教材</span>です。
+                お子様の学習状況（間違えた問題）をデータで管理し、効率的に弱点を克服します。英検合格はもちろん、大学入試につながる基礎学力を保証します。
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <h2>Start Learning Today.</h2>
+            <p>詳細・お申し込みは教室または公式サイトまで</p>
+            <div class="cta-badge">今すぐ体験する</div>
+        </div>
+        <div class="qr-placeholder">
+            QR CODE<br>Here
+        </div>
+        <div class="footer-copyright">
+            © 2025 Original English Strategy App. All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+
+</html>
