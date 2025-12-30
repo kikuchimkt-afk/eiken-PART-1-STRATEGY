@@ -8,6 +8,7 @@ class App {
         this.currentIndex = 0;
         this.score = 0;
         this.mistakes = JSON.parse(localStorage.getItem('eiken_mistakes')) || [];
+        this.history = JSON.parse(localStorage.getItem('eiken_history')) || []; // List of answered IDs
 
         this.ui = {
             header: document.querySelector('.app-header'),
@@ -211,7 +212,25 @@ class App {
         // Order
         const order = this.ui.settings.orderSelect.value;
         if (order === 'random') {
-            qs = this.shuffleSimple(qs);
+            // Prioritize Unseen Questions
+            const seenSet = new Set(this.history);
+            const unseen = [];
+            const seen = [];
+
+            qs.forEach(q => {
+                if (seenSet.has(q.id)) {
+                    seen.push(q);
+                } else {
+                    unseen.push(q);
+                }
+            });
+
+            // Shuffle both independently
+            const shuffledUnseen = this.shuffleSimple(unseen);
+            const shuffledSeen = this.shuffleSimple(seen);
+
+            // Combine: Unseen first, then Seen
+            qs = [...shuffledUnseen, ...shuffledSeen];
         }
 
         // Filter by Count (Slice)
@@ -463,6 +482,9 @@ class App {
             this.saveMistake(questionObj);
         }
 
+        // Save to History (Mark as seen)
+        this.saveHistory(questionObj.id);
+
         // Disable all options visually (handled by re-render, but for instant feedback:)
         const allBtns = this.ui.quiz.optionsContainer.querySelectorAll('.option-btn');
         allBtns.forEach(b => b.disabled = true);
@@ -525,6 +547,13 @@ class App {
             });
             localStorage.setItem('eiken_mistakes', JSON.stringify(this.mistakes));
             console.log("Mistake saved:", question.id);
+        }
+    }
+
+    saveHistory(id) {
+        if (!this.history.includes(id)) {
+            this.history.push(id);
+            localStorage.setItem('eiken_history', JSON.stringify(this.history));
         }
     }
 
