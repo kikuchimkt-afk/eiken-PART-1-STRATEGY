@@ -628,13 +628,44 @@ body {
     text-align: center;
 }
 
+.review-controls {
+    display: flex;
+    gap: 0.75rem;
+    align-items: stretch;
+    width: 100%;
+}
+
+.review-select {
+    padding: 0 1rem;
+    border-radius: var(--card-radius);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 0.95rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: all 0.2s;
+    appearance: none; /* simple look */
+    text-align: center;
+}
+
+.review-select:focus {
+    outline: none;
+    border-color: var(--primary-light);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.review-select option {
+    background: #1e293b;
+    color: white;
+}
+
 .review-btn {
     background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
     color: white;
     font-size: 1.1rem;
     font-weight: 700;
     padding: 1.25rem;
-    width: 100%;
+    flex: 1; /* Take remaining space */
     border: none;
     border-radius: var(--card-radius);
     cursor: pointer;

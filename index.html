@@ -49,10 +49,16 @@
                 </div>
 
                 <div id="review-container" class="review-container hidden">
-                    <button id="review-btn" class="review-btn">
-                        <span class="review-icon">↺</span>
-                        間違えた問題を復習する (Review Mistakes)
-                    </button>
+                    <div class="review-controls">
+                        <select id="review-order" class="review-select">
+                            <option value="random">ランダム (Random)</option>
+                            <option value="sequential">追加順 (Sequential)</option>
+                        </select>
+                        <button id="review-btn" class="review-btn">
+                            <span class="review-icon">↺</span>
+                            間違えた問題を復習
+                        </button>
+                    </div>
                     <p id="mistakes-count" class="mistakes-count"></p>
                 </div>
             </div>

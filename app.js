@@ -20,6 +20,7 @@ class App {
                 buttons: document.querySelectorAll('.grade-card'),
                 reviewContainer: document.getElementById('review-container'),
                 reviewBtn: document.getElementById('review-btn'),
+                reviewOrder: document.getElementById('review-order'),
                 mistakesCount: document.getElementById('mistakes-count'),
             },
             settings: {
@@ -95,7 +96,15 @@ class App {
 
     startReview() {
         this.currentGrade = 'review';
-        this.questions = [...this.mistakes]; // Copy
+        let reviewQs = [...this.mistakes];
+
+        // Apply Order
+        const order = this.ui.home.reviewOrder ? this.ui.home.reviewOrder.value : 'random';
+        if (order === 'random') {
+            reviewQs = this.shuffleSimple(reviewQs);
+        }
+
+        this.questions = reviewQs;
         this.startCommon();
     }
 
