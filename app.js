@@ -9,6 +9,10 @@ class App {
         this.score = 0;
         this.mistakes = JSON.parse(localStorage.getItem('eiken_mistakes')) || [];
         this.history = JSON.parse(localStorage.getItem('eiken_history')) || []; // List of answered IDs
+        this.favorites = JSON.parse(localStorage.getItem('eiken_favorites')) || [];
+        this.questionIndex = new Map(Object.entries(window.questionsMap).flatMap(([grade, qs]) =>
+            qs.map(q => [q.id, { ...q, grade }])));
+        this.libraryMode = 'review';
 
         this.ui = {
             header: document.querySelector('.app-header'),
@@ -16,12 +20,12 @@ class App {
                 home: document.getElementById('home-view'),
                 settings: document.getElementById('settings-view'),
                 quiz: document.getElementById('quiz-view'),
+                library: document.getElementById('library-view'),
             },
             home: {
                 buttons: document.querySelectorAll('.grade-card'),
                 reviewContainer: document.getElementById('review-container'),
                 reviewBtn: document.getElementById('review-btn'),
-                reviewOrder: document.getElementById('review-order'),
                 mistakesCount: document.getElementById('mistakes-count'),
             },
             settings: {
@@ -65,7 +69,14 @@ class App {
         });
 
         // Review
-        this.ui.home.reviewBtn.addEventListener('click', () => this.startReview());
+        this.ui.home.reviewBtn.addEventListener('click', () => this.openLibrary('review'));
+        document.getElementById('favorites-btn').addEventListener('click', () => this.openLibrary('favorites'));
+        document.getElementById('library-back-btn').addEventListener('click', () => this.showHome());
+        document.getElementById('library-start-btn').addEventListener('click', () => this.startLibraryPractice());
+        document.getElementById('library-grade').addEventListener('change', () => this.populateLibrarySessions());
+        document.getElementById('library-session').addEventListener('change', () => this.renderLibrary());
+        document.getElementById('library-count').addEventListener('change', () => this.renderLibrary());
+        document.getElementById('favorite-toggle').addEventListener('click', () => this.toggleFavorite());
 
         // Settings Actions
         this.ui.settings.startBtn.addEventListener('click', () => this.startFromSettings());
@@ -89,24 +100,127 @@ class App {
         const count = this.mistakes.length;
         if (count > 0) {
             this.ui.home.reviewContainer.classList.remove('hidden');
-            this.ui.home.mistakesCount.textContent = `${count} questions to review`;
+            this.ui.home.mistakesCount.textContent = `${count}問を保存中。級・回を選んで解き直せます。`;
         } else {
             this.ui.home.reviewContainer.classList.add('hidden');
         }
+        document.getElementById('favorites-count').textContent = `${this.favorites.length}問を保存中`;
     }
 
-    startReview() {
-        this.currentGrade = 'review';
-        let reviewQs = [...this.mistakes];
+    getLibraryQuestions() {
+        const saved = this.libraryMode === 'favorites' ? this.favorites : this.mistakes;
+        return saved.map(q => this.questionIndex.get(q.id) || {
+            ...q, grade: q.id.startsWith('pre-') ? q.id.split('-').slice(0, 2).join('-') :
+                q.id.split('-')[0].replace('pre1', 'pre-1').replace('pre2', 'pre-2')
+        });
+    }
 
-        // Apply Order
-        const order = this.ui.home.reviewOrder ? this.ui.home.reviewOrder.value : 'random';
-        if (order === 'random') {
-            reviewQs = this.shuffleSimple(reviewQs);
-        }
+    openLibrary(mode) {
+        this.libraryMode = mode;
+        document.getElementById('library-title').textContent = mode === 'favorites' ? '付箋・お気に入り' : '間違えた問題の解き直し';
+        document.getElementById('library-description').textContent = mode === 'favorites'
+            ? '付箋を付けた問題を管理できます。級や回を選んで、少しずつ演習しましょう。'
+            : '解き直す級・回・問題数を選べます。取り組みやすい量から始めましょう。';
+        const select = document.getElementById('library-grade');
+        select.replaceChildren(new Option('すべての級', 'all'));
+        [...new Set(this.getLibraryQuestions().map(q => q.grade))].sort().forEach(g =>
+            select.add(new Option(this.formatGrade(g), g)));
+        document.getElementById('library-count').value = '10';
+        document.getElementById('library-order').value = 'random';
+        this.populateLibrarySessions();
+        this.switchView('library');
+    }
 
-        this.questions = reviewQs;
+    populateLibrarySessions() {
+        const grade = document.getElementById('library-grade').value;
+        const previous = document.getElementById('library-session').value;
+        const qs = this.getLibraryQuestions().filter(q => grade === 'all' || q.grade === grade);
+        const select = document.getElementById('library-session');
+        select.replaceChildren(new Option('すべての回', 'all'));
+        [...new Set(qs.map(q => q.source || '実施回不明'))].sort((a, b) => b.localeCompare(a, 'ja', { numeric: true }))
+            .forEach(source => select.add(new Option(source, source)));
+        if ([...select.options].some(o => o.value === previous)) select.value = previous;
+        this.renderLibrary();
+    }
+
+    getFilteredLibraryQuestions() {
+        const grade = document.getElementById('library-grade').value;
+        const session = document.getElementById('library-session').value;
+        return this.getLibraryQuestions().filter(q =>
+            (grade === 'all' || q.grade === grade) &&
+            (session === 'all' || (q.source || '実施回不明') === session));
+    }
+
+    renderLibrary() {
+        const qs = this.getFilteredLibraryQuestions();
+        const limit = document.getElementById('library-count').value;
+        const count = limit === 'all' ? qs.length : Math.min(Number(limit), qs.length);
+        document.getElementById('library-summary').textContent = qs.length
+            ? `対象 ${qs.length}問 ／ 今回は ${count}問を演習`
+            : this.libraryMode === 'favorites'
+                ? '該当する問題はありません。問題画面で付箋を付けるか、条件を変更してください。'
+                : '該当する問題はありません。条件を変更してください。';
+        document.getElementById('library-start-btn').disabled = qs.length === 0;
+        const list = document.getElementById('library-list');
+        list.replaceChildren();
+        if (this.libraryMode !== 'favorites') return;
+        qs.forEach(q => {
+            const row = document.createElement('li');
+            row.className = 'saved-question';
+            const content = document.createElement('div');
+            const meta = document.createElement('p');
+            meta.className = 'saved-meta';
+            meta.textContent = `${this.formatGrade(q.grade)} · ${q.source || '実施回不明'} · ${q.id}`;
+            const text = document.createElement('p');
+            const plain = document.createElement('div');
+            plain.innerHTML = q.question;
+            text.textContent = plain.textContent;
+            content.append(meta, text);
+            const remove = document.createElement('button');
+            remove.className = 'nav-btn';
+            remove.textContent = '付箋を外す';
+            remove.setAttribute('aria-label', `${q.id} の付箋を外す`);
+            remove.addEventListener('click', () => {
+                this.favorites = this.favorites.filter(item => item.id !== q.id);
+                this.saveFavorites();
+                this.populateLibrarySessions();
+            });
+            row.append(content, remove);
+            list.appendChild(row);
+        });
+    }
+
+    startLibraryPractice() {
+        let qs = this.getFilteredLibraryQuestions();
+        if (!qs.length) return;
+        if (document.getElementById('library-order').value === 'random') qs = this.shuffleSimple(qs);
+        const limit = document.getElementById('library-count').value;
+        this.questions = limit === 'all' ? qs : qs.slice(0, Number(limit));
+        this.currentGrade = this.libraryMode;
         this.startCommon();
+    }
+
+    saveFavorites() {
+        localStorage.setItem('eiken_favorites', JSON.stringify(this.favorites));
+        this.checkMistakes();
+    }
+
+    toggleFavorite() {
+        const q = this.questions[this.currentIndex];
+        if (this.favorites.some(item => item.id === q.id)) {
+            this.favorites = this.favorites.filter(item => item.id !== q.id);
+        } else {
+            this.favorites.push({ ...q });
+        }
+        this.saveFavorites();
+        this.updateFavoriteButton();
+    }
+
+    updateFavoriteButton() {
+        const saved = this.favorites.some(q => q.id === this.questions[this.currentIndex].id);
+        const button = document.getElementById('favorite-toggle');
+        button.textContent = saved ? '付箋を外す' : '付箋を付ける';
+        button.setAttribute('aria-pressed', String(saved));
     }
 
     prepareSettings(grade) {
@@ -309,6 +423,7 @@ class App {
 
     renderQuestion() {
         const q = this.questions[this.currentIndex];
+        this.updateFavoriteButton();
         const state = this.quizState[this.currentIndex];
 
         // Prepare Shuffled Options if not exists
@@ -566,6 +681,7 @@ class App {
             case 'pre-1': return '準1級';
             case 'pre1': return '準1級'; // Handle ID prefix
             case 'review': return '復習 (Review)';
+            case 'favorites': return '付箋の演習';
             default: return g;
         }
     }

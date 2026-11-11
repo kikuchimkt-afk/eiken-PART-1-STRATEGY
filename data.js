@@ -37509,6 +37509,746 @@ const gradePre2Questions = [
 
 const gradePre1Questions = [
     {
+        "id": "pre1-592",
+        "question": "In order to illustrate how a cell functions, the biology teacher drew a detailed _____ on the board showing all of its parts.",
+        "translation": "細胞がどのように機能するかを説明するため、生物の先生は細胞のすべての部分を示す詳しい<b>図</b>を黒板に描いた。",
+        "options": [
+            "cemetery",
+            "diagram",
+            "equation",
+            "forecast"
+        ],
+        "optionMeanings": [
+            "墓地",
+            "図・図解",
+            "方程式",
+            "予測・予報"
+        ],
+        "answer": "diagram",
+        "explanation": "<b>正解：diagram（図・図解）</b><br><br>⚡ 速読の着眼点：drew on the board と showing all of its parts から、細胞の構造を示す「詳細な図」が自然。<br><br>💡 in order to + 動詞は「〜するために」。how a cell functions は「細胞がどのように機能するか」という間接疑問で、showing 以下は diagram の内容を補足する分詞句。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-593",
+        "question": "A: I think this sentence in your essay is _____.\nB: Oh, you're right. It's almost the same as what I said in the previous paragraph.",
+        "translation": "A：あなたの作文のこの文は<b>重複している</b>と思います。\nB：ああ、その通りですね。前の段落で書いたこととほとんど同じです。",
+        "options": [
+            "possessive",
+            "horizontal",
+            "redundant",
+            "drastic"
+        ],
+        "optionMeanings": [
+            "所有の・独占欲の強い",
+            "水平の",
+            "重複している・余分な",
+            "抜本的な・急激な"
+        ],
+        "answer": "redundant",
+        "explanation": "<b>正解：redundant（重複している・余分な）</b><br><br>⚡ 速読の着眼点：almost the same as what I said in the previous paragraph が、同じ内容を繰り返していて不要だと示している。<br><br>💡 the same as ... は「〜と同じ」。what I said は「私が述べたこと」で、what が先行詞を含む関係代名詞として said の目的語になっている。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-594",
+        "question": "In some countries, governments _____ the media in order to prevent criticism of them from being published.",
+        "translation": "一部の国では、政府が自分たちへの批判が公表されるのを防ぐためにメディアを<b>検閲している</b>。",
+        "options": [
+            "haul",
+            "envy",
+            "subtract",
+            "censor"
+        ],
+        "optionMeanings": [
+            "強く引く・運搬する",
+            "うらやむ",
+            "差し引く",
+            "検閲する"
+        ],
+        "answer": "censor",
+        "explanation": "<b>正解：censor（検閲する）</b><br><br>⚡ 速読の着眼点：criticism ... from being published を防ぐために、政府がメディアの内容を審査・制限する文脈。<br><br>💡 prevent A from -ing は「Aが〜するのを防ぐ」。ここでは A が criticism of them、being published は受動態の動名詞で「公表されること」。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-595",
+        "question": "The scholarship is only available to students who meet its requirements. A _____ must have excellent grades and be from a low-income background.",
+        "translation": "その奨学金を受けられるのは条件を満たした学生だけである。<b>受給者</b>は成績が優秀で、かつ低所得の家庭の出身でなければならない。",
+        "options": [
+            "referral",
+            "recipient",
+            "bouncer",
+            "successor"
+        ],
+        "optionMeanings": [
+            "紹介・照会",
+            "受給者・受取人",
+            "用心棒・入場整理係",
+            "後継者"
+        ],
+        "answer": "recipient",
+        "explanation": "<b>正解：recipient（受給者・受取人）</b><br><br>⚡ 速読の着眼点：scholarship の条件を満たして実際に受け取る人について、成績と家庭状況の要件を述べている。<br><br>💡 students who meet its requirements の who は students を修飾する主格の関係代名詞。must have ... and be ... では、助動詞 must が have と be の両方にかかる。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-596",
+        "question": "The scientist was accused of _____ his data after experts attempted to copy his experiments but were unable to produce the same results.",
+        "translation": "専門家たちがその科学者の実験を再現しようとしても同じ結果が得られなかったため、彼はデータを<b>捏造した</b>として非難された。",
+        "options": [
+            "triggering",
+            "fabricating",
+            "conserving",
+            "renouncing"
+        ],
+        "optionMeanings": [
+            "引き起こすこと",
+            "捏造すること",
+            "保存すること・保護すること",
+            "放棄すること"
+        ],
+        "answer": "fabricating",
+        "explanation": "<b>正解：fabricating（捏造すること）</b><br><br>⚡ 速読の着眼点：同じ実験結果を再現できなかったため、データを作り上げたのではないかと accused of された。<br><br>💡 be accused of -ing は「〜したとして非難される」。attempt to + 動詞は「〜しようとする」、be unable to + 動詞は「〜することができない」。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-597",
+        "question": "Last week, a police officer stopped Javier and gave him a traffic _____ for driving faster than the speed limit.",
+        "translation": "先週、警察官がハビエルの車を止め、制限速度を超えて運転したとして交通<b>違反切符</b>を渡した。",
+        "options": [
+            "ransom",
+            "specimen",
+            "cavity",
+            "citation"
+        ],
+        "optionMeanings": [
+            "身代金",
+            "標本・検体",
+            "空洞・虫歯",
+            "違反切符・召喚状"
+        ],
+        "answer": "citation",
+        "explanation": "<b>正解：citation（違反切符・召喚状）</b><br><br>⚡ 速読の着眼点：traffic citation は交通違反切符。driving faster than the speed limit が交付理由を示す。<br><br>💡 give 人 物 は「人に物を与える」。for -ing はここでは理由を表し、for driving faster than ... で「制限速度を超えて運転したため」。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-598",
+        "question": "Because some _____ was expected, the captain turned on the seat belt sign and asked all the passengers to return to their seats.",
+        "translation": "多少の<b>乱気流</b>が予想されたため、機長はシートベルト着用サインを点灯させ、乗客全員に席に戻るよう求めた。",
+        "options": [
+            "distortion",
+            "generosity",
+            "turbulence",
+            "conjecture"
+        ],
+        "optionMeanings": [
+            "歪み・曲解",
+            "寛大さ",
+            "乱気流",
+            "推測・憶測"
+        ],
+        "answer": "turbulence",
+        "explanation": "<b>正解：turbulence（乱気流）</b><br><br>⚡ 速読の着眼点：captain、seat belt sign、return to their seats から、飛行機が揺れる乱気流への備えだと分かる。<br><br>💡 Because some turbulence was expected は受動態で理由を示す節。ask 人 to + 動詞は「人に〜するよう求める」。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-599",
+        "question": "After several years with almost no rain, the area became a _____ wasteland where no trees or other plants could survive.",
+        "translation": "ほとんど雨が降らない年が数年続いた後、その地域は木も他の植物も生き残れない<b>不毛の</b>荒れ地になった。",
+        "options": [
+            "nutritious",
+            "diverse",
+            "barren",
+            "coincidental"
+        ],
+        "optionMeanings": [
+            "栄養価の高い",
+            "多様な",
+            "不毛の",
+            "偶然一致した"
+        ],
+        "answer": "barren",
+        "explanation": "<b>正解：barren（不毛の）</b><br><br>⚡ 速読の着眼点：almost no rain と no ... plants could survive が、植物の育たない不毛な土地を具体的に説明している。<br><br>💡 become + 名詞句で「〜になる」。where は a barren wasteland を先行詞とする関係副詞で、その場所では植物が生き残れないと説明する。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-600",
+        "question": "When Simon pulled on the rope, it suddenly became _____. He realized that it must have come untied at the other end.",
+        "translation": "サイモンがロープを引っぱると、突然ロープが<b>たるんだ</b>。反対側の端がほどけてしまったに違いないと彼は気づいた。",
+        "options": [
+            "slack",
+            "sparse",
+            "vast",
+            "vital"
+        ],
+        "optionMeanings": [
+            "緩んだ・たるんだ",
+            "まばらな",
+            "広大な",
+            "極めて重要な・生命の"
+        ],
+        "answer": "slack",
+        "explanation": "<b>正解：slack（緩んだ・たるんだ）</b><br><br>⚡ 速読の着眼点：ロープの反対側が untied になったため張力がなくなり、引いたときにたるんだ状態になった。<br><br>💡 must have + 過去分詞は、過去の出来事への強い推量「〜したに違いない」。come untied は「結び目がほどけた状態になる」。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-601",
+        "question": "The patient was diagnosed with a vitamin _____. The doctor said she would need to take supplements until her vitamin levels were normal again.",
+        "translation": "その患者はビタミン<b>欠乏症</b>と診断された。医師は、ビタミンの値が正常に戻るまでサプリメントを飲む必要があると言った。",
+        "options": [
+            "descendant",
+            "triumph",
+            "emission",
+            "deficiency"
+        ],
+        "optionMeanings": [
+            "子孫",
+            "勝利・大成功",
+            "排出・放出",
+            "不足・欠乏"
+        ],
+        "answer": "deficiency",
+        "explanation": "<b>正解：deficiency（不足・欠乏）</b><br><br>⚡ 速読の着眼点：vitamin deficiency は「ビタミン欠乏症」。levels が normal になるまで supplements を摂るという治療内容とも一致する。<br><br>💡 be diagnosed with ... は「〜と診断される」。until S V は「SがVするまで」で、正常値に戻る時点まで服用が続く。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-602",
+        "question": "Tanya seemed shy and nervous when she entered her new school, but she is now _____ socially and has made a lot of friends.",
+        "translation": "ターニャは新しい学校に入ったころは内気で不安そうだったが、今では人間関係の面で<b>のびのびと活躍して</b>おり、友達もたくさんできた。",
+        "options": [
+            "flourishing",
+            "pledging",
+            "scattering",
+            "drooping"
+        ],
+        "optionMeanings": [
+            "順調に成長している・活躍している",
+            "誓約している",
+            "散らしている・散らばっている",
+            "垂れ下がっている・元気を失っている"
+        ],
+        "answer": "flourishing",
+        "explanation": "<b>正解：flourishing（順調に成長している・活躍している）</b><br><br>⚡ 速読の着眼点：shy and nervous だった以前と対照的に、now と has made a lot of friends が社交面でうまくいっていることを示す。<br><br>💡 seem + 形容詞は「〜のように見える」。but を境に過去 entered と現在 is now / has made が対比され、環境への適応を表す。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-603",
+        "question": "The art student showed her _____ to the gallery owner. It contained samples of her paintings, drawings, and photographs.",
+        "translation": "その美術学生はギャラリーのオーナーに自分の<b>作品集</b>を見せた。そこには絵画、素描、写真の見本が収められていた。",
+        "options": [
+            "reptile",
+            "glacier",
+            "blockade",
+            "portfolio"
+        ],
+        "optionMeanings": [
+            "爬虫類",
+            "氷河",
+            "封鎖",
+            "作品集・ポートフォリオ"
+        ],
+        "answer": "portfolio",
+        "explanation": "<b>正解：portfolio（作品集・ポートフォリオ）</b><br><br>⚡ 速読の着眼点：paintings, drawings, and photographs の samples をまとめ、gallery owner に実力を示す作品集を指す。<br><br>💡 show A to B は「AをBに見せる」。It は直前の portfolio を受け、contained samples of ... がその中身を説明する。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-604",
+        "question": "The teacher asked the student to _____ his essay. She said it should be about half the length it was.",
+        "translation": "先生はその生徒に作文を<b>短くする</b>よう求めた。元のおよそ半分の長さにすべきだと言った。",
+        "options": [
+            "abbreviate",
+            "attest",
+            "carve",
+            "yield"
+        ],
+        "optionMeanings": [
+            "短縮する",
+            "証明する・証言する",
+            "彫る・切り分ける",
+            "産出する・譲る"
+        ],
+        "answer": "abbreviate",
+        "explanation": "<b>正解：abbreviate（短縮する）</b><br><br>⚡ 速読の着眼点：essay を half the length にするという指示なので、内容を短くまとめることを求めている。<br><br>💡 ask 人 to + 動詞は「人に〜するよう頼む」。half the length it was は「以前の長さの半分」で、the length の後に関係詞 that が省略されている。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-605",
+        "question": "The patient was in so much pain that the dentist had no choice but to _____ the patient's damaged tooth.",
+        "translation": "患者がひどい痛みに苦しんでいたため、歯科医は傷んだ歯を<b>抜く</b>しかなかった。",
+        "options": [
+            "radiate",
+            "magnify",
+            "extract",
+            "impart"
+        ],
+        "optionMeanings": [
+            "放射する・発する",
+            "拡大する",
+            "抜き取る・抜歯する",
+            "与える・伝える"
+        ],
+        "answer": "extract",
+        "explanation": "<b>正解：extract（抜き取る・抜歯する）</b><br><br>⚡ 速読の着眼点：damaged tooth と so much pain から、歯科医が痛みの原因となる歯を抜く処置だと分かる。<br><br>💡 so ... that S V は「とても…なのでSはVする」。have no choice but to + 動詞は「〜するほか選択肢がない」。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-606",
+        "question": "The company was badly affected by the financial crisis and nearly _____, but it has now recovered and is making a profit again.",
+        "translation": "その会社は金融危機で深刻な打撃を受け、もう少しで<b>倒産する</b>ところだったが、今では立ち直って再び利益を上げている。",
+        "options": [
+            "sank in",
+            "let out",
+            "went under",
+            "lived off"
+        ],
+        "optionMeanings": [
+            "徐々に理解された・身にしみた",
+            "外に出した・漏らした",
+            "倒産した",
+            "〜を生活の糧にした"
+        ],
+        "answer": "went under",
+        "explanation": "<b>正解：went under（倒産した）</b><br><br>⚡ 速読の着眼点：financial crisis で badly affected された後、recovered and is making a profit again とあるため、会社が破綻寸前だったという対比になる。<br><br>💡 go under は企業について「倒産する」。nearly + 過去形で「もう少しで〜するところだった」、but 以下の現在完了 has recovered と現在進行形が現在の回復を示す。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-607",
+        "question": "The police officer became suspicious of the man because his story did not _____. He was later found to have lied to the police.",
+        "translation": "男の話の<b>つじつまが合わ</b>なかったので、その警察官は彼を疑い始めた。後に、男が警察にうそをついていたことがわかった。",
+        "options": [
+            "add up",
+            "read into",
+            "take off",
+            "fall out"
+        ],
+        "optionMeanings": [
+            "つじつまが合う",
+            "〜を深読みする",
+            "離陸する・急に成功する・脱ぐ",
+            "仲たがいする・抜け落ちる"
+        ],
+        "answer": "add up",
+        "explanation": "<b>正解：add up（つじつまが合う）</b><br><br>⚡ 速読の着眼点：story did not add up は「話の筋が通らなかった」。後に lied と分かったことが警官の疑いを裏づける。<br><br>💡 become suspicious of ... は「〜を疑うようになる」。be found to have + 過去分詞は「〜していたことが判明する」で、発覚より前の行為を完了不定詞で示す。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-608",
+        "question": "The patient tried to _____ from the hospital without anyone noticing, but the nurse saw him and stopped him.",
+        "translation": "その患者は誰にも気づかれずに病院から<b>こっそり抜け出そう</b>としたが、看護師に見つかって止められた。",
+        "options": [
+            "slip away",
+            "tear up",
+            "drop out",
+            "follow up"
+        ],
+        "optionMeanings": [
+            "こっそり立ち去る",
+            "引き裂く",
+            "中退する・脱落する",
+            "追跡調査する・追加対応する"
+        ],
+        "answer": "slip away",
+        "explanation": "<b>正解：slip away（こっそり立ち去る）</b><br><br>⚡ 速読の着眼点：without anyone noticing が、人目につかないよう病院を抜け出そうとしたことを明示している。<br><br>💡 try to + 動詞は「〜しようとする」。without + 名詞 + -ing で「名詞が〜することなく」となり、without anyone noticing は独立した意味上の主語を含む。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-609",
+        "question": "A: Our meeting prep took longer than expected.\nB: Yeah, the budget review really _____ most of our afternoon.",
+        "translation": "A：会議の準備は思ったより時間がかかりましたね。\nB：ええ、予算の見直しで午後の大半を<b>すっかり使って</b>しまいました。",
+        "options": [
+            "fed off",
+            "burnt out",
+            "fell through",
+            "ate up"
+        ],
+        "optionMeanings": [
+            "〜を餌・エネルギー源にした",
+            "燃え尽きた・疲れ果てた",
+            "失敗に終わった",
+            "大量に消費した"
+        ],
+        "answer": "ate up",
+        "explanation": "<b>正解：ate up（大量に消費した）</b><br><br>⚡ 速読の着眼点：took longer than expected と most of our afternoon から、budget review が午後の時間の大半を使ったことを表す。<br><br>💡 eat up は食べ物だけでなく、time や money を「大量に消費する」という比喩的用法がある。take longer than expected は「予想より長くかかる」。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre1-610",
+        "question": "The cabin crew was forced to _____ a passenger on the airplane when he started to become violent toward a person sitting near him.",
+        "translation": "ある乗客が近くの席の人に対して暴力をふるい始めたため、客室乗務員は機内でその乗客を<b>取り押さえ</b>ざるを得なかった。",
+        "options": [
+            "restrain",
+            "recharge",
+            "resume",
+            "reflect"
+        ],
+        "optionMeanings": [
+            "取り押さえる・拘束する",
+            "再充電する",
+            "再開する",
+            "反映する・反射する"
+        ],
+        "answer": "restrain",
+        "explanation": "<b>正解：restrain（取り押さえる・拘束する）</b><br><br>⚡ 速読の着眼点：started to become violent toward a person から、暴れ出した乗客の動きを力で抑える場面だと分かる。<br><br>💡 be forced to + 動詞の原形は「〜せざるを得ない」。start to become ～ は「～になり始める」、violent toward ～ は「～に対して暴力的な」。sitting near him は a person を後ろから修飾する現在分詞句。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-611",
+        "question": "Luna looked out of the window at the winter landscape, with its _____ trees and empty fields.",
+        "translation": "ルナは窓から冬の景色を眺めた。<b>葉の落ちた</b>木々と、何もない畑が広がっていた。",
+        "options": [
+            "dizzy",
+            "keen",
+            "fussy",
+            "bare"
+        ],
+        "optionMeanings": [
+            "めまいがする",
+            "熱心な・鋭い",
+            "好みがうるさい",
+            "葉のない・むき出しの"
+        ],
+        "answer": "bare",
+        "explanation": "<b>正解：bare（葉のない・むき出しの）</b><br><br>⚡ 速読の着眼点：winter landscape と empty fields から、葉が落ちて枝だけになった寂しい冬の木々が自然。<br><br>💡 with its ～ は直前の the winter landscape を補足し、「（その景色には）～がある」と付帯的な特徴を加える。( 2 ) trees と empty fields が and で並列され、どちらも冬の寂しさを描いている。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-612",
+        "question": "Emir and Corinne were disappointed that they had to change their vacation _____, but it was necessary for them to take a different route because of the storm.",
+        "translation": "エミールとコリーヌは休暇の<b>旅程</b>を変更しなければならないことにがっかりしたが、嵐のため別のルートを取る必要があった。",
+        "options": [
+            "dignity",
+            "controversy",
+            "monarchy",
+            "itinerary"
+        ],
+        "optionMeanings": [
+            "威厳・尊厳",
+            "論争",
+            "君主制",
+            "旅程・旅行計画"
+        ],
+        "answer": "itinerary",
+        "explanation": "<b>正解：itinerary（旅程・旅行計画）</b><br><br>⚡ 速読の着眼点：take a different route（別のルートを取る）が、旅程を変更せざるを得なかった理由を説明している。<br><br>💡 be disappointed that S V は「SがVすることにがっかりする」。it was necessary for them to take ... は形式主語構文で、for them が不定詞 to take の意味上の主語。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-613",
+        "question": "The couple took regular walks to _____ themselves with their new neighborhood. They wanted to learn their way around as quickly as possible.",
+        "translation": "その夫婦は新しい近所に<b>慣れる</b>ために、定期的に散歩をした。できるだけ早く周辺の道を覚えたかったのだ。",
+        "options": [
+            "confine",
+            "inhibit",
+            "familiarize",
+            "seize"
+        ],
+        "optionMeanings": [
+            "閉じ込める・限定する",
+            "抑制する・妨げる",
+            "慣れさせる・精通させる",
+            "つかむ・押収する"
+        ],
+        "answer": "familiarize",
+        "explanation": "<b>正解：familiarize（慣れさせる・精通させる）</b><br><br>⚡ 速読の着眼点：familiarize oneself with ～ は「～に慣れる・～をよく知る」。learn their way around（周辺の道を覚える）が言い換えになっている。<br><br>💡 familiarize oneself with ～ は「～に慣れる・～をよく知る」。to familiarize は目的を表す不定詞の副詞的用法。learn one's way around は「（場所の）勝手を覚える」。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-614",
+        "question": "A: Can we discuss that problem next week?\nB: No, I’m sorry. It’s a matter of great _____, so I need to have your answer today.",
+        "translation": "A：その件は来週話し合えますか。\nB：いいえ、すみません。とても<b>急を要する</b>問題なので、今日中にお返事をいただく必要があります。",
+        "options": [
+            "diversion",
+            "maneuver",
+            "urgency",
+            "contempt"
+        ],
+        "optionMeanings": [
+            "気晴らし・迂回",
+            "策略・巧みな操作",
+            "緊急性",
+            "軽蔑"
+        ],
+        "answer": "urgency",
+        "explanation": "<b>正解：urgency（緊急性）</b><br><br>⚡ 速読の着眼点：next week ではなく I need to have your answer today と急いでいることから、「緊急を要する問題」だと分かる。<br><br>💡 a matter of great + 抽象名詞 は「非常に～な事柄」。a matter of great urgency＝a very urgent matter。so は結果を表し「だから（今日答えが必要だ）」とつながる。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-615",
+        "question": "The huge Christmas tree in the town square was a great sight in itself, but the colorful _____ that decorated it made it truly beautiful.",
+        "translation": "町の広場の巨大なクリスマスツリーはそれ自体がすばらしい光景だったが、それを飾るカラフルな<b>飾り</b>が、ツリーを本当に美しいものにしていた。",
+        "options": [
+            "dwellings",
+            "refuges",
+            "prospects",
+            "ornaments"
+        ],
+        "optionMeanings": [
+            "住居",
+            "避難所・保護区",
+            "見込み・展望",
+            "飾り・装飾品"
+        ],
+        "answer": "ornaments",
+        "explanation": "<b>正解：ornaments（飾り・装飾品）</b><br><br>⚡ 速読の着眼点：that decorated it（それを飾った）とクリスマスツリーから、ツリーにつるす飾りだと分かる。<br><br>💡 in itself は「それ自体で」。that decorated it は ( 6 ) を修飾する関係代名詞節で、the colorful ( 6 ) that decorated it 全体が made の主語。make O C は「OをCにする」。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-616",
+        "question": "Peter spends most of his time at work doing _____ tasks, like typing letters, answering phones, and filing documents.",
+        "translation": "ピーターは職場での時間のほとんどを、手紙の入力、電話の応対、書類の整理といった<b>事務</b>作業に費やしている。",
+        "options": [
+            "rugged",
+            "clerical",
+            "majestic",
+            "apt"
+        ],
+        "optionMeanings": [
+            "起伏の多い・頑丈な",
+            "事務の",
+            "雄大な・威厳のある",
+            "適切な・～しがちな"
+        ],
+        "answer": "clerical",
+        "explanation": "<b>正解：clerical（事務の）</b><br><br>⚡ 速読の着眼点：typing letters, answering phones, filing documents という具体例が、典型的な事務作業を示している。<br><br>💡 spend + 時間 + doing は「～して時間を過ごす」。like ～ は具体例を挙げる前置詞「～のような」で、typing / answering / filing の動名詞が並列されている。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-617",
+        "question": "The teacher warned the students not to _____ in front of the school after classes, as it made the school look bad.",
+        "translation": "先生は生徒たちに、放課後に校門の前で<b>たむろし</b>ないよう注意した。学校の印象が悪くなるからだ。",
+        "options": [
+            "loiter",
+            "scratch",
+            "mourn",
+            "applaud"
+        ],
+        "optionMeanings": [
+            "ぶらつく・たむろする",
+            "ひっかく・かく",
+            "嘆き悲しむ・悼む",
+            "拍手する・称賛する"
+        ],
+        "answer": "loiter",
+        "explanation": "<b>正解：loiter（ぶらつく・たむろする）</b><br><br>⚡ 速読の着眼点：in front of the school after classes と made the school look bad から、放課後に校門前でたむろする行為を注意していると分かる。<br><br>💡 warn O not to do は「Oに～しないよう警告する」。不定詞の否定は not を to の直前に置く。as は理由「～なので」、make O look bad は使役の make + O + 動詞の原形で「Oの見た目を悪くする」。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-618",
+        "question": "The woman was so _____ with thoughts about her sick child that she did not notice when her husband arrived home.",
+        "translation": "その女性は病気の子どものことで<b>頭がいっぱい</b>だったので、夫が帰宅したことに気づかなかった。",
+        "options": [
+            "preoccupied",
+            "trespassed",
+            "grated",
+            "endorsed"
+        ],
+        "optionMeanings": [
+            "心を奪われた・頭がいっぱいの",
+            "不法侵入した",
+            "すりおろされた・いらだたせた",
+            "支持された・承認された"
+        ],
+        "answer": "preoccupied",
+        "explanation": "<b>正解：preoccupied（心を奪われた・頭がいっぱいの）</b><br><br>⚡ 速読の着眼点：be preoccupied with ～ は「～のことで頭がいっぱいだ」。夫の帰宅に気づかなかったという結果と自然につながる。<br><br>💡 so ～ that S V は「とても～なのでSはVする」という程度・結果の構文。when her husband arrived home は notice の目的語になる名詞節で「夫がいつ帰宅したか」→「夫の帰宅」。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-619",
+        "question": "The government official’s _____ of the factory revealed that it was polluting the local river. The factory was soon ordered to stop.",
+        "translation": "政府職員による工場の<b>検査</b>によって、その工場が地元の川を汚染していることが明らかになった。工場はまもなく操業停止を命じられた。",
+        "options": [
+            "column",
+            "succession",
+            "inaction",
+            "inspection"
+        ],
+        "optionMeanings": [
+            "柱・コラム",
+            "連続・継承",
+            "何もしないこと・無策",
+            "検査・査察"
+        ],
+        "answer": "inspection",
+        "explanation": "<b>正解：inspection（検査・査察）</b><br><br>⚡ 速読の着眼点：revealed that it was polluting から、職員が工場を調べた結果、汚染が判明したと分かる。<br><br>💡 The government official’s inspection of the factory は「政府職員が工場を査察したこと」という名詞化表現。所有格が動作主、of の後が対象。無生物主語 + revealed that ～ は「～によって…が明らかになった」と訳すと自然。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-620",
+        "question": "The young politician was very _____. He believed he could solve every social problem, but most of the older politicians thought his ideas were impractical.",
+        "translation": "その若い政治家はとても<b>理想主義的</b>だった。あらゆる社会問題を解決できると信じていたが、年配の政治家の多くは彼の考えを非現実的だと思っていた。",
+        "options": [
+            "soothing",
+            "punctual",
+            "clumsy",
+            "idealistic"
+        ],
+        "optionMeanings": [
+            "心を落ち着かせる",
+            "時間に正確な",
+            "不器用な",
+            "理想主義的な"
+        ],
+        "answer": "idealistic",
+        "explanation": "<b>正解：idealistic（理想主義的な）</b><br><br>⚡ 速読の着眼点：he could solve every social problem と impractical の対比から、現実離れした理想を抱く人物像が読み取れる。<br><br>💡 第2文が第1文の具体的な説明になっている。every + 単数名詞は「あらゆる～」。thought (that) his ideas were impractical は that の省略と時制の一致。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-621",
+        "question": "The horse has a _____ habit of trying to chase its own tail. The owner has never seen any other horse do something so odd.",
+        "translation": "その馬には自分のしっぽを追いかけようとする<b>奇妙な</b>癖がある。飼い主は、ほかの馬がそんな奇妙なことをするのを一度も見たことがない。",
+        "options": [
+            "peculiar",
+            "conceited",
+            "fragrant",
+            "transparent"
+        ],
+        "optionMeanings": [
+            "奇妙な・独特の",
+            "うぬぼれた",
+            "香りのよい",
+            "透明な・見え透いた"
+        ],
+        "answer": "peculiar",
+        "explanation": "<b>正解：peculiar（奇妙な・独特の）</b><br><br>⚡ 速読の着眼点：第2文の something so odd が ( 12 ) の言い換えになっている。<br><br>💡 a habit of doing は「～する癖」。see O do は知覚動詞の構文で「Oが～するのを見る」。has never seen は経験の現在完了。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-622",
+        "question": "The CEO of the company was a man of great _____ in society. His connections with famous politicians and celebrities were well-known.",
+        "translation": "その会社のCEOは社会的に大きな<b>名声</b>を持つ人物だった。有名な政治家や著名人とのつながりはよく知られていた。",
+        "options": [
+            "distress",
+            "referral",
+            "detention",
+            "prominence"
+        ],
+        "optionMeanings": [
+            "苦悩・苦痛",
+            "紹介・照会",
+            "拘留・居残り",
+            "著名さ・名声"
+        ],
+        "answer": "prominence",
+        "explanation": "<b>正解：prominence（著名さ・名声）</b><br><br>⚡ 速読の着眼点：connections with famous politicians and celebrities were well-known から、社会的に目立つ有名人物だと分かる。<br><br>💡 a man of + 抽象名詞 は「～を持つ人」。of + 抽象名詞は形容詞の働きをし、a man of great prominence＝a very prominent man となる。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-623",
+        "question": "The author provided an _____ of his new book on his website. He hoped that readers would enjoy the sample and buy the full version.",
+        "translation": "その作家は自分のウェブサイトで新刊の<b>抜粋</b>を公開した。読者がその試し読みを楽しみ、完全版を買ってくれることを期待していた。",
+        "options": [
+            "inheritance",
+            "excerpt",
+            "odor",
+            "agenda"
+        ],
+        "optionMeanings": [
+            "遺産・相続",
+            "抜粋",
+            "におい",
+            "議題・協議事項"
+        ],
+        "answer": "excerpt",
+        "explanation": "<b>正解：excerpt（抜粋）</b><br><br>⚡ 速読の着眼点：the sample と the full version の対比から、本の一部を抜き出したものだと分かる。<br><br>💡 an があるので母音で始まる語が入るが、4つの選択肢はすべて母音で始まるため冠詞は決め手にならない。He hoped that readers would ～ は時制の一致で、would は過去から見た未来。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-624",
+        "question": "After long discussions, the two sides were finally able to _____ a deal that was acceptable to both of them.",
+        "translation": "長い話し合いの末、双方はようやく両者が受け入れられる合意を<b>まとめ上げる</b>ことができた。",
+        "options": [
+            "hammer out",
+            "jump in",
+            "weed out",
+            "step aside"
+        ],
+        "optionMeanings": [
+            "（協議を重ねて）まとめ上げる",
+            "割り込む・飛び込む",
+            "取り除く・ふるい落とす",
+            "身を引く・脇へ寄る"
+        ],
+        "answer": "hammer out",
+        "explanation": "<b>正解：hammer out（（協議を重ねて）まとめ上げる）</b><br><br>⚡ 速読の着眼点：After long discussions と a deal から、時間をかけた交渉で合意をまとめたと分かる。hammer out a deal は定番のコロケーション。<br><br>💡 be able to do は「～することができる」。that was acceptable to both of them は a deal を修飾する主格の関係代名詞節。both of them は交渉した the two sides を指す。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-625",
+        "question": "Miranda plans to become a politician someday, so she is careful not to do anything that could be _____ her in the future. She does not want a scandal to affect her chances of getting elected.",
+        "translation": "ミランダはいつか政治家になるつもりなので、将来自分に<b>不利な材料にされ</b>かねないことは一切しないよう気をつけている。スキャンダルで当選の可能性が損なわれるのを避けたいのだ。",
+        "options": [
+            "held against",
+            "kept from",
+            "grown into",
+            "sailed through"
+        ],
+        "optionMeanings": [
+            "（hold A against B）AをBに不利に扱う",
+            "（keep A from B）AをBに隠す",
+            "成長して～になる・（服が）合うようになる",
+            "楽々と切り抜ける"
+        ],
+        "answer": "held against",
+        "explanation": "<b>正解：held against（（hold A against B の受動態）不利な材料とされる）</b><br><br>⚡ 速読の着眼点：a scandal が当選の可能性に影響することを避けたいという第2文から、将来不利に使われるような行動を避けていると分かる。<br><br>💡 hold A against B は「AのことでBを悪く思う・Bに不利に扱う」。受動態にすると A be held against B となり、anything that could be held against her は「彼女に不利に使われうるもの」。want O to do は「Oに～してほしい」。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-626",
+        "question": "Debt adds up quickly, so people with credit cards must be careful not to _____ large bills before checking how much they have spent.",
+        "translation": "借金はすぐに膨らむので、クレジットカードを持つ人は、自分がいくら使ったかを確かめる前に高額の請求を<b>ためて</b>しまわないよう注意しなければならない。",
+        "options": [
+            "phase out",
+            "swear by",
+            "rub in",
+            "run up"
+        ],
+        "optionMeanings": [
+            "段階的に廃止する",
+            "～を信頼して推奨する",
+            "すり込む・（嫌なことを）しつこく言う",
+            "（借金・請求額を）ためる"
+        ],
+        "answer": "run up",
+        "explanation": "<b>正解：run up（（借金・請求額を）ためる）</b><br><br>⚡ 速読の着眼点：Debt adds up quickly と how much they have spent から、使いすぎて高額の請求をためることへの注意だと分かる。<br><br>💡 add up は「（少しずつ）積み重なる」。be careful not to do は「～しないよう気をつける」。how much they have spent は間接疑問で checking の目的語。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-627",
+        "question": "When the villagers heard a major typhoon was coming, they _____ preparing for the storm. They knew they had to hurry for their own safety.",
+        "translation": "大型の台風が近づいていると聞くと、村人たちは嵐への備えに<b>取りかかった</b>。安全のためには急がなければならないとわかっていたのだ。",
+        "options": [
+            "set about",
+            "took after",
+            "brought down",
+            "called on"
+        ],
+        "optionMeanings": [
+            "～に取りかかる",
+            "～に似ていた",
+            "～を倒した・下げた",
+            "～を訪問した・～に求めた"
+        ],
+        "answer": "set about",
+        "explanation": "<b>正解：set about（～に取りかかる）</b><br><br>⚡ 速読の着眼点：set about doing は「～し始める・～に取りかかる」。後ろに動名詞 preparing が続き、第2文の had to hurry とも合う。<br><br>💡 set about doing は「～に取りかかる」。heard (that) a major typhoon was coming は接続詞 that の省略と時制の一致で、過去進行形 was coming は「近づいてきている」という近い未来を表す。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre1-628",
+        "question": "Emergency services were having difficulty getting to the scene of the accident, so the police _____ traffic to another road to make space for ambulances and fire trucks.",
+        "translation": "救急隊が事故現場になかなか到着できなかったので、警察は救急車や消防車が通れるように車の流れを別の道路へ<b>迂回させた</b>。",
+        "options": [
+            "infected",
+            "recited",
+            "galloped",
+            "diverted"
+        ],
+        "optionMeanings": [
+            "感染させた",
+            "暗唱した",
+            "駆けた",
+            "迂回させた"
+        ],
+        "answer": "diverted",
+        "explanation": "<b>正解：diverted（迂回させた）</b><br><br>⚡ 速読の着眼点：divert trafficは「交通を迂回させる」。緊急車両のスペース確保<br><br>💡 divertは「方向を変える」。divert attention（注意をそらす）も頻出。名詞形はdiversion。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
         "id": "pre1-001",
         "question": "The teacher suddenly lost his temper and shouted at the class to be quiet. Following his _____, all the students in the classroom went silent.",
         "translation": "先生は突然腹を立て、静かにするようにクラスに怒鳴った。彼の<b>爆発</b>に続いて、教室の生徒全員が静まり返った。",
@@ -38207,6 +38947,366 @@ const gradePre1Questions = [
         "answer": "get down",
         "explanation": "<b>正解：get down（降りる）</b><br><br>⚡ 速読の着眼点：from the mountaintop（山頂から）どうするか。「下山する」のだから、シンプルに get down が正解。句動詞は難しく考えすぎず、前置詞（down＝下へ）のイメージを大切にしよう。",
         "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre1-629",
+        "question": "The men who escaped from prison _____ the police for three weeks, but they were finally caught and brought back.",
+        "translation": "刑務所から脱走した男たちは3週間にわたって警察の追跡を<b>逃れた</b>が、最終的には捕まって連れ戻された。",
+        "options": [
+            "evaded",
+            "sterilized",
+            "wrecked",
+            "commuted"
+        ],
+        "optionMeanings": [
+            "逃れた",
+            "滅菌した",
+            "大破させた",
+            "通勤した"
+        ],
+        "answer": "evaded",
+        "explanation": "<b>正解：evaded（逃れた）</b><br><br>⚡ 速読の着眼点：evade the policeは「警察の追跡を逃れる」。3週間逃走後に逮捕<br><br>💡 evade は「巧みに逃れる」。escape from prison（脱獄）の後、警察を evade（回避）するという自然な流れ。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-630",
+        "question": "The novel was fascinating because it told the same story from several different _____. Each character saw the events in a very different way.",
+        "translation": "その小説は同じ物語を複数の異なる<b>視点</b>から語っていたので魅力的だった。各登場人物がまったく異なる見方で出来事を捉えていた。",
+        "options": [
+            "reductions",
+            "nominations",
+            "maneuvers",
+            "perspectives"
+        ],
+        "optionMeanings": [
+            "削減",
+            "指名",
+            "策略・巧みな動き",
+            "視点"
+        ],
+        "answer": "perspectives",
+        "explanation": "<b>正解：perspectives（視点）</b><br><br>⚡ 速読の着眼点：different perspectivesは「異なる視点」。各登場人物が異なる見方で出来事を捉える<br><br>💡 perspective は「観点・視点」。from several different perspectives で「複数の異なる視点から」。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-631",
+        "question": "Although the bedrooms in the apartment were quite _____, the kitchen and dining room were small, so the couple decided not to rent it.",
+        "translation": "そのアパートの寝室はかなり<b>広々として</b>いたが、台所と食堂が狭かったので、夫婦は借りないことにした。",
+        "options": [
+            "supernatural",
+            "cowardly",
+            "spacious",
+            "compliant"
+        ],
+        "optionMeanings": [
+            "超自然的な",
+            "臆病な",
+            "広々とした",
+            "従順な"
+        ],
+        "answer": "spacious",
+        "explanation": "<b>正解：spacious（広々とした）</b><br><br>⚡ 速読の着眼点：寝室はspacious（広々）だがキッチンと食堂が狭い→借りない決断<br><br>💡 spacious は「広々とした」。although で逆接→寝室は広いが台所は狭い、という対比。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-632",
+        "question": "The university will hold an event next month for graduating high school students who are thinking of _____ there next semester.",
+        "translation": "その大学は来月、来学期にそこへ<b>入学する</b>ことを考えている高校の卒業予定者向けにイベントを開く。",
+        "options": [
+            "enrolling",
+            "rebelling",
+            "radiating",
+            "solidifying"
+        ],
+        "optionMeanings": [
+            "入学する",
+            "反抗する",
+            "放射する",
+            "固める"
+        ],
+        "answer": "enrolling",
+        "explanation": "<b>正解：enrolling（入学する）</b><br><br>⚡ 速読の着眼点：enroll at a universityは「大学に入学する」。高校卒業生向けイベント<br><br>💡 enroll は「入学する・登録する」。enroll there（そこに入学する）。think of -ing で「〜することを考える」。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-633",
+        "question": "Although the actual battle lasted for almost a week, the writer decided to _____ all the events into one day in his novel to make it more dramatic.",
+        "translation": "実際の戦いはほぼ1週間続いたが、作家は小説をより劇的にするため、すべての出来事を1日に<b>凝縮する</b>ことにした。",
+        "options": [
+            "inhale",
+            "haunt",
+            "obstruct",
+            "compress"
+        ],
+        "optionMeanings": [
+            "吸い込む",
+            "取り憑く",
+            "妨害する",
+            "圧縮する"
+        ],
+        "answer": "compress",
+        "explanation": "<b>正解：compress（圧縮する）</b><br><br>⚡ 速読の着眼点：1週間の出来事を1日にcompress（圧縮する）。小説の効果的な構成<br><br>💡 compress は「圧縮する」。1週間の出来事を1日に compress する＝時間を圧縮する。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-634",
+        "question": "The _____ between the two neighboring teams is very strong. Sometimes, the players have even fought during games.",
+        "translation": "隣り合う2チーム間の<b>ライバル関係</b>は非常に激しい。時には選手同士が試合中に殴り合いになることもある。",
+        "options": [
+            "forgery",
+            "candidacy",
+            "leniency",
+            "rivalry"
+        ],
+        "optionMeanings": [
+            "偽造",
+            "立候補",
+            "寛大さ",
+            "ライバル関係"
+        ],
+        "answer": "rivalry",
+        "explanation": "<b>正解：rivalry（ライバル関係）</b><br><br>⚡ 速読の着眼点：隣り合うチーム間の激しいrivalry（ライバル関係）。試合中の喧嘩も<br><br>💡 rivalry は「競争・対抗意識」。隣接チーム間の激しい対抗意識。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-635",
+        "question": "A: Are you going anywhere for spring vacation, George?\nB: I have _____ plans to visit Spain, but I haven't booked anything yet.",
+        "translation": "A：ジョージ、春休みはどこかに行くの？\nB：スペインに行く<b>暫定的な</b>計画はあるけど、まだ何も予約していないんだ。",
+        "options": [
+            "nutritious",
+            "righteous",
+            "tentative",
+            "universal"
+        ],
+        "optionMeanings": [
+            "栄養のある",
+            "正義の",
+            "暫定的な",
+            "普遍的な"
+        ],
+        "answer": "tentative",
+        "explanation": "<b>正解：tentative（暫定的な）</b><br><br>⚡ 速読の着眼点：tentative plansは「暫定的な計画」。まだ予約していない段階<br><br>💡 tentative は「暫定的な・仮の」。tentative plans＝まだ確定していない計画。haven't booked で裏付け。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-636",
+        "question": "Medical students spend a lot of time studying human _____. They must memorize the terms for even the smallest parts of the body.",
+        "translation": "医学生は人体の<b>解剖学</b>の勉強に多くの時間を費やす。体のごく小さな部分の用語まで暗記しなければならない。",
+        "options": [
+            "reprimand",
+            "anatomy",
+            "esteem",
+            "distress"
+        ],
+        "optionMeanings": [
+            "叱責",
+            "解剖学",
+            "尊敬",
+            "苦痛"
+        ],
+        "answer": "anatomy",
+        "explanation": "<b>正解：anatomy（解剖学）</b><br><br>⚡ 速読の着眼点：human anatomyは「人体解剖学」。医学生が体の最小部分まで暗記する<br><br>💡 anatomy は「解剖学」。human anatomy＝人体解剖学。医学生が体の部位の用語を暗記する文脈。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-637",
+        "question": "While the _____ of the mountain took them two days, the climbers were able to come down in less than twelve hours.",
+        "translation": "山の<b>登り</b>には2日かかったが、登山者たちは12時間足らずで下山することができた。",
+        "options": [
+            "warranty",
+            "fracture",
+            "hazard",
+            "ascent"
+        ],
+        "optionMeanings": [
+            "保証",
+            "骨折",
+            "危険",
+            "登頂"
+        ],
+        "answer": "ascent",
+        "explanation": "<b>正解：ascent（登頂）</b><br><br>⚡ 速読の着眼点：ascentは「登頂・上昇」。登りに2日、下りは12時間未満<br><br>💡 ascent は「上昇・登山」。the ascent of the mountain＝山の上り。下山と対比されている。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-638",
+        "question": "The two fighter jets were flying so close to one another that the pilot of one of them was afraid they would _____.",
+        "translation": "2機の戦闘機があまりに接近して飛んでいたので、パイロットの1人は<b>衝突する</b>のではないかと恐れた。",
+        "options": [
+            "abide",
+            "collide",
+            "subside",
+            "preside"
+        ],
+        "optionMeanings": [
+            "従う",
+            "衝突する",
+            "収まる",
+            "司会する"
+        ],
+        "answer": "collide",
+        "explanation": "<b>正解：collide（衝突する）</b><br><br>⚡ 速読の着眼点：collideは「衝突する」。接近しすぎた2機の戦闘機の危険<br><br>💡 collide は「衝突する」。2機の戦闘機が接近→衝突を恐れる。-ide で韻を踏む選択肢群。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-639",
+        "question": "After carefully removing the screws, the technician was able to _____ the power supply from the computer and replace it with a newer model.",
+        "translation": "ねじを慎重に外したあと、技術者はコンピューターから電源装置を<b>取り外し</b>、新しいものに交換することができた。",
+        "options": [
+            "detach",
+            "tame",
+            "unfold",
+            "bundle"
+        ],
+        "optionMeanings": [
+            "取り外す",
+            "飼いならす",
+            "広げる",
+            "束ねる"
+        ],
+        "answer": "detach",
+        "explanation": "<b>正解：detach（取り外す）</b><br><br>⚡ 速読の着眼点：detachは「取り外す」。ネジを外してから電源ユニットを取り外して交換<br><br>💡 detach は「取り外す・分離する」。ネジを外して電源装置を detach＝取り外す。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-640",
+        "question": "The company gave its salespeople _____ over their daily work. They are now free to make their own decisions without having to get approval from management.",
+        "translation": "会社は営業担当者に日々の業務に対する<b>自律性</b>を与えた。彼らは今や経営陣の承認を得ずに自分で決定を下すことができる。",
+        "options": [
+            "ransom",
+            "precaution",
+            "autonomy",
+            "conservation"
+        ],
+        "optionMeanings": [
+            "身代金",
+            "予防措置",
+            "自律性",
+            "保全"
+        ],
+        "answer": "autonomy",
+        "explanation": "<b>正解：autonomy（自律性）</b><br><br>⚡ 速読の着眼点：autonomyは「自律性」。上司の承認なしに自分で決定できる裁量権<br><br>💡 autonomy は「自律性・自治」。over their daily work で「日々の業務に対する自律性」。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-641",
+        "question": "New Croix City is known for its _____ culture. People from all over the world come to live in the city, and it is famous for its diverse restaurants and neighborhoods.",
+        "translation": "ニュークロワ市は<b>国際色豊かな</b>文化で知られている。世界中から人々が移り住み、多様なレストランや地区で有名だ。",
+        "options": [
+            "gloomy",
+            "tender",
+            "cosmopolitan",
+            "menacing"
+        ],
+        "optionMeanings": [
+            "陰気な",
+            "優しい",
+            "国際的な",
+            "威嚇的な"
+        ],
+        "answer": "cosmopolitan",
+        "explanation": "<b>正解：cosmopolitan（国際的な）</b><br><br>⚡ 速読の着眼点：世界中から人が集まる多様なレストランや地区＝cosmopolitan（国際的な）文化<br><br>💡 cosmopolitan は「国際的な・多文化の」。世界中から人が来る多様な街。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-642",
+        "question": "The little girl had a _____ in her eye as she told her grandmother about the new puppy her mother had given her. It was clear she was very happy.",
+        "translation": "母親からもらった新しい子犬のことを祖母に話すとき、少女の目には<b>輝き</b>があった。彼女がとても喜んでいるのは明らかだった。",
+        "options": [
+            "perch",
+            "breeze",
+            "gleam",
+            "sizzle"
+        ],
+        "optionMeanings": [
+            "止まり木",
+            "そよ風",
+            "輝き",
+            "ジュージュー"
+        ],
+        "answer": "gleam",
+        "explanation": "<b>正解：gleam（輝き）</b><br><br>⚡ 速読の着眼点：a gleam in her eyeは「目の輝き」。新しい子犬に喜ぶ少女の表情<br><br>💡 gleam は「きらめき・輝き」。a gleam in her eye＝目の輝き（幸福の表れ）。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-643",
+        "question": "The children were hungry, so the couple decided to _____ the nearest town. They thought they could find a restaurant there.",
+        "translation": "子供たちがお腹を空かせていたので、夫婦は最寄りの町に<b>向かう</b>ことにした。そこでレストランが見つかると思った。",
+        "options": [
+            "live off",
+            "make for",
+            "pass on",
+            "wipe out"
+        ],
+        "optionMeanings": [
+            "頼って暮らす",
+            "向かう",
+            "伝える",
+            "全滅させる"
+        ],
+        "answer": "make for",
+        "explanation": "<b>正解：make for（向かう）</b><br><br>⚡ 速読の着眼点：make forは「～に向かう」。空腹の子供のためにレストランを探しに町へ<br><br>💡 make for は「〜に向かう」。空腹の子供たちのためにレストランのある町に向かう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-644",
+        "question": "Julia has decided her son, Rob, is old enough to _____ more responsibilities at home, so she will give him two additional jobs to do on weekends.",
+        "translation": "ジュリアは息子のロブが家でもっと責任を<b>引き受けて</b>もよい年齢になったと判断し、週末にやる仕事を2つ増やすことにした。",
+        "options": [
+            "iron out",
+            "toss in",
+            "take on",
+            "size up"
+        ],
+        "optionMeanings": [
+            "解決する",
+            "投げ入れる",
+            "引き受ける",
+            "見積もる"
+        ],
+        "answer": "take on",
+        "explanation": "<b>正解：take on（引き受ける）</b><br><br>⚡ 速読の着眼点：take on responsibilitiesは「責任を引き受ける」。週末の家事を2つ追加<br><br>💡 take on は「引き受ける」。take on responsibilities＝責任を引き受ける。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-645",
+        "question": "The company wants to try all other options first, but it cannot _____ reducing its staff if its poor sales continue.",
+        "translation": "会社はまずほかのあらゆる手段を試したいと考えているが、売上の不振が続けば人員削減の可能性を<b>排除する</b>ことはできない。",
+        "options": [
+            "sound off",
+            "draw back",
+            "turn up",
+            "rule out"
+        ],
+        "optionMeanings": [
+            "意見を述べる",
+            "後退する",
+            "現れる",
+            "除外する"
+        ],
+        "answer": "rule out",
+        "explanation": "<b>正解：rule out（除外する）</b><br><br>⚡ 速読の着眼点：cannot rule outは「除外できない」。売上不振が続けば人員削減もありうる<br><br>💡 rule out は「除外する・排除する」。cannot rule out＝排除できない＝選択肢として残る。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre1-646",
+        "question": "The movie star asked the journalist to _____ after the interview. She promised to give him an exclusive story if he did.",
+        "translation": "その映画スターは、インタビューのあともジャーナリストに<b>残って</b>くれるよう頼んだ。そうしてくれれば独占記事を提供すると約束した。",
+        "options": [
+            "chip in",
+            "pull off",
+            "stick around",
+            "bear up"
+        ],
+        "optionMeanings": [
+            "寄付する",
+            "やり遂げる",
+            "残る",
+            "耐える"
+        ],
+        "answer": "stick around",
+        "explanation": "<b>正解：stick around（残る）</b><br><br>⚡ 速読の着眼点：stick aroundは「その場に残る」。独占記事と引き換えにインタビュー後も待つよう依頼<br><br>💡 stick around は「その場に留まる」。インタビュー後も帰らずに待っていてほしいという依頼。",
+        "source": "2025年第3回(本会場)"
     },
     {
         "id": "pre1-036",
@@ -39449,6 +40549,26 @@ const gradePre1Questions = [
         "source": "2023年第1回(本会場)"
     },
     {
+        "id": "pre1-647",
+        "question": "Bibi loves hiking and playing sports, so she needs clothes that do not wear out too quickly. When she goes shopping, she generally buys clothing that is _____.",
+        "translation": "ビビはハイキングやスポーツが大好きなので、すぐに傷まない服が必要だ。買い物に行くと、たいてい<b>丈夫な</b>服を買う。",
+        "options": [
+            "swift",
+            "aloof",
+            "shallow",
+            "durable"
+        ],
+        "optionMeanings": [
+            "素早い",
+            "よそよそしい",
+            "浅い",
+            "耐久性のある"
+        ],
+        "answer": "durable",
+        "explanation": "<b>正解：durable（耐久性のある）</b><br><br>⚡ 速読の着眼点：ハイキングやスポーツで早く痛まない服＝durable（耐久性のある）<br><br>💡 durable＝耐久性のある。durability（名詞）。durable goods＝耐久財。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
         "id": "pre1-098",
         "question": "Consumers should not _____ any personal information to callers claiming to be from the bank, as such calls are sometimes from criminals.",
         "translation": "消費者は、銀行員を名乗る電話の相手にいかなる個人情報も（開示して）はならない。そのような電話は時として犯罪者からのものであるからだ。",
@@ -39606,6 +40726,26 @@ const gradePre1Questions = [
         ],
         "answer": "altitude",
         "explanation": "<b>正解：altitude（標高）</b><br><br>⚡ 速読の着眼点：top of the mountain（山頂）の話だ。高い場所といえば「高度、標高（altitude）」。high altitude で「高地」という意味になる。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "pre1-648",
+        "question": "Ted lives on a _____ income. He makes just enough to afford a small apartment, pay his bills, and occasionally go out for dinner.",
+        "translation": "テッドは<b>ささやかな</b>収入で暮らしている。小さなアパートを借りて請求書を払い、ときどき外食できる程度の稼ぎだ。",
+        "options": [
+            "blissful",
+            "modest",
+            "showy",
+            "sturdy"
+        ],
+        "optionMeanings": [
+            "至福の",
+            "控えめな",
+            "派手な",
+            "頑丈な"
+        ],
+        "answer": "modest",
+        "explanation": "<b>正解：modest（控えめな）</b><br><br>⚡ 速読の着眼点：小さなアパート+たまの外食がやっと＝modest（控えめな）収入<br><br>💡 modest＝控えめな、質素な。a modest income＝質素な収入。modesty（名詞）。",
         "source": "2023年第1回(本会場)"
     },
     {
@@ -39950,8 +41090,8 @@ const gradePre1Questions = [
     },
     {
         "id": "pre1-123",
-        "question": "A: Did you make a New Year’s _____ this year, Serena?\nB: Yes, I decided to start eating healthy snacks instead of sweets between meals.",
-        "translation": "A： セリーナ、今年は新年の<b>抱負</b>を立てた？\nB： ええ、間食に甘いものの代わりに健康的なスナックを食べることにしたわ。",
+        "question": "A: Did you make a New Year's _____ this year, Serena?\nB: Yes, I decided to start eating healthy snacks instead of sweets between meals. It's been difficult to keep away from the chocolate and candy, though.",
+        "translation": "A： セリーナ、今年は新年の<b>抱負</b>を立てた？\nB： ええ、間食に甘いものの代わりに健康的なスナックを食べることにしたわ。でも、チョコレートやキャンディーを我慢するのは大変なのよね。",
         "options": [
             "astonishment",
             "resolution",
@@ -40586,6 +41726,26 @@ const gradePre1Questions = [
         ],
         "answer": "overdue",
         "explanation": "<b>正解：overdue（期限を過ぎた）</b><br><br>⚡ 速読の着眼点：late fee（延滞料）を取られるのはどんな本？「返却期限を過ぎた（overdue）」本だ。due（期限の）を超えている（over）から overdue。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "pre1-649",
+        "question": "John and Tina made the _____ decision to end their relationship. Neither one was happy, and they both wanted to start dating other people.",
+        "translation": "ジョンとティナは、関係を終わらせるという<b>お互い合意の上での</b>決断をした。どちらも幸せではなく、二人とも別の人と付き合いたいと思っていた。",
+        "options": [
+            "monetary",
+            "judicial",
+            "mutual",
+            "indifferent"
+        ],
+        "optionMeanings": [
+            "金銭的な",
+            "司法の",
+            "相互の",
+            "無関心な"
+        ],
+        "answer": "mutual",
+        "explanation": "<b>正解：mutual（相互の）</b><br><br>⚡ 速読の着眼点：mutual decisionは「相互の決定」。どちらも幸せでなく、両者が合意した別れ<br><br>💡 mutual＝相互の、双方の。mutual decision＝双方の決定。",
         "source": "2023年第3回(本会場)"
     },
     {
@@ -41389,6 +42549,26 @@ const gradePre1Questions = [
         "source": "2022年第2回(本会場)"
     },
     {
+        "id": "pre1-650",
+        "question": "Police officers must promise to _____ the law. This includes, of course, following the law themselves.",
+        "translation": "警察官は法を<b>守る</b>ことを誓わなければならない。これにはもちろん、自分自身が法に従うことも含まれる。",
+        "options": [
+            "gravitate",
+            "detach",
+            "uphold",
+            "eradicate"
+        ],
+        "optionMeanings": [
+            "引き寄せられる",
+            "切り離す",
+            "守る",
+            "根絶する"
+        ],
+        "answer": "uphold",
+        "explanation": "<b>正解：uphold（守る）</b><br><br>⚡ 速読の着眼点：uphold the lawは「法を守る」。警察官自身も法に従うことを含む<br><br>💡 uphold＝擁護する、支持する。uphold the law＝法律を守る。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
         "id": "pre1-195",
         "question": "All employees have a _____ medical checkup every year. Companies are required by law to make sure all their workers do it.",
         "translation": "すべての従業員は毎年<b>義務的な</b>健康診断を受ける。企業は法律により、全従業員にそれを受けさせることが義務付けられている。",
@@ -41546,6 +42726,26 @@ const gradePre1Questions = [
         ],
         "answer": "evaluate",
         "explanation": "<b>正解：evaluate（評価する）</b><br><br>⚡ 速読の着眼点：上司にドラフトを見せて何を求めるか？良し悪しの「評価（evaluation）」だ。value（価値）を見極める動詞が evaluate だ。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "pre1-651",
+        "question": "American presidents Thomas Jefferson and John Adams exchanged letters with each other for over 50 years. This _____ is an important part of American history.",
+        "translation": "アメリカ大統領のトーマス・ジェファソンとジョン・アダムズは、50年以上にわたって手紙をやりとりした。この<b>文通</b>はアメリカ史の重要な一部となっている。",
+        "options": [
+            "matrimony",
+            "federation",
+            "horizon",
+            "correspondence"
+        ],
+        "optionMeanings": [
+            "結婚",
+            "連邦",
+            "地平線",
+            "文通"
+        ],
+        "answer": "correspondence",
+        "explanation": "<b>正解：correspondence（文通）</b><br><br>⚡ 速読の着眼点：50年以上にわたる手紙の交換＝correspondence（文通・書簡のやりとり）<br><br>💡 correspondence＝書簡。correspond（動詞）＝文通する。",
         "source": "2022年第2回(本会場)"
     },
     {
@@ -41846,6 +43046,26 @@ const gradePre1Questions = [
         ],
         "answer": "incorporate",
         "explanation": "<b>正解：incorporate（組み込む）</b><br><br>⚡ 速読の着眼点：何かを全体の一部として「取り入れる、合体させる」ことを incorporate と言う。corporate（法人、組織）にするイメージだ。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "pre1-652",
+        "question": "Some historians believe the _____ of dogs occurred over 10,000 years ago. They have been kept as pets and used to work on farms ever since.",
+        "translation": "犬の<b>家畜化</b>は1万年以上前に起こったと考える歴史家もいる。それ以来、犬はペットとして飼われ、農場で働かされてきた。",
+        "options": [
+            "elevation",
+            "domestication",
+            "deception",
+            "verification"
+        ],
+        "optionMeanings": [
+            "標高",
+            "家畜化",
+            "欺き",
+            "検証"
+        ],
+        "answer": "domestication",
+        "explanation": "<b>正解：domestication（家畜化）</b><br><br>⚡ 速読の着眼点：1万年以上前にペットや農作業用に飼われ始めた＝domestication（家畜化）の歴史<br><br>💡 domestication＝家畜化。domesticate（動詞）。domestic（形容詞）＝家庭の。",
         "source": "2022年第3回(本会場)"
     },
     {
@@ -42329,6 +43549,26 @@ const gradePre1Questions = [
         "source": "2021年第1回(本会場)"
     },
     {
+        "id": "pre1-653",
+        "question": "Lying on the sunny beach with her husband on their vacation, Roberta felt _____ happy. She had never been so content.",
+        "translation": "休暇中、夫と一緒に日の当たるビーチに寝そべりながら、ロベルタは<b>心から</b>幸せだと感じた。これほど満ち足りた気持ちになったことはなかった。",
+        "options": [
+            "barely",
+            "profoundly",
+            "improperly",
+            "harshly"
+        ],
+        "optionMeanings": [
+            "かろうじて",
+            "深く",
+            "不適切に",
+            "厳しく"
+        ],
+        "answer": "profoundly",
+        "explanation": "<b>正解：profoundly（深く）</b><br><br>⚡ 速読の着眼点：profoundly happyは「深く幸せな」。never been so contentが根拠<br><br>💡 profoundly＝深く。profound（形容詞）＝深い。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
         "id": "pre1-242",
         "question": "Nadine spends an hour thoroughly cleaning her apartment every day, so the entire place is _____.",
         "translation": "ナディーンは毎日1時間かけてアパートを徹底的に掃除しているので、家中が（一点の曇りもない／とてもきれい）だ。",
@@ -42486,6 +43726,26 @@ const gradePre1Questions = [
         ],
         "answer": "signifies",
         "explanation": "<b>正解：signifies（意味する）</b><br><br>⚡ 速読の着眼点：笑顔＝幸せのサイン。sign（印）を与える、つまり「意味する、示す（signifies）」だ。mean や indicate に近い堅い表現。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "pre1-654",
+        "question": "The supermarket chain's expansion plans are based on the _____ that consumer spending will continue to increase for the next five years at least.",
+        "translation": "そのスーパーマーケットチェーンの拡大計画は、消費者の支出が少なくとも今後5年間は増え続けるという<b>想定</b>に基づいている。",
+        "options": [
+            "malfunction",
+            "institution",
+            "assumption",
+            "transcription"
+        ],
+        "optionMeanings": [
+            "故障",
+            "制度",
+            "仮定",
+            "書き起こし"
+        ],
+        "answer": "assumption",
+        "explanation": "<b>正解：assumption（仮定）</b><br><br>⚡ 速読の着眼点：based on the assumption that ～は「～という仮定に基づいて」の定型表現<br><br>💡 assumption＝仮定。assume（動詞）。on the assumption that＝～という仮定で。",
         "source": "2021年第1回(本会場)"
     },
     {
@@ -42786,6 +44046,26 @@ const gradePre1Questions = [
         ],
         "answer": "remote",
         "explanation": "<b>正解：remote（人里離れた）</b><br><br>⚡ 速読の着眼点：最寄りの村まで90分もかかる場所。これは「へんぴな、遠い（remote）」場所だ。リモートワークの remote と同じ意味。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "pre1-655",
+        "question": "Yesterday, Rhett _____ while working in the garden. When he woke up, his wife and children were standing around him with worried faces.",
+        "translation": "昨日、レットは庭仕事の最中に<b>気を失った</b>。目を覚ますと、妻と子どもたちが心配そうな顔で彼のまわりに立っていた。",
+        "options": [
+            "diluted",
+            "fainted",
+            "persisted",
+            "corrected"
+        ],
+        "optionMeanings": [
+            "薄めた",
+            "気を失った",
+            "固執した",
+            "訂正した"
+        ],
+        "answer": "fainted",
+        "explanation": "<b>正解：fainted（気を失った）</b><br><br>⚡ 速読の着眼点：woke up（目を覚ました）が気絶の根拠。庭仕事中の熱中症を示唆<br><br>💡 faint＝気絶する。pass out（口語）。",
         "source": "2021年第2回(本会場)"
     },
     {
@@ -43269,6 +44549,26 @@ const gradePre1Questions = [
         "source": "2021年第3回(本会場)"
     },
     {
+        "id": "pre1-656",
+        "question": "A: I've been living in this apartment for a year now, and the _____ is about to end. I have to decide if I should stay or move.\nB: If your rent will be the same, I recommend renewing your contract and staying.",
+        "translation": "A：このアパートに住んで1年になるんだけど、<b>賃貸契約</b>がもうすぐ切れるんだ。住み続けるか引っ越すか決めないと。\nB：家賃が変わらないなら、契約を更新して住み続けるのがいいと思うよ。",
+        "options": [
+            "token",
+            "lease",
+            "vicinity",
+            "dialect"
+        ],
+        "optionMeanings": [
+            "しるし",
+            "賃貸契約",
+            "近所",
+            "方言"
+        ],
+        "answer": "lease",
+        "explanation": "<b>正解：lease（賃貸契約）</b><br><br>⚡ 速読の着眼点：1年住んで契約が「終わる」ので残るか引っ越すか決める文脈にlease（賃貸契約）が一致<br><br>💡 lease＝賃貸契約。sign a lease＝契約を結ぶ。renew a lease＝契約を更新する。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
         "id": "pre1-289",
         "question": "The presidential candidate blamed the _____ economy on the current president. He promised he would improve it if he were elected.",
         "translation": "大統領候補は、<b>停滞した</b>経済を現大統領のせいにした。彼は当選すれば経済を改善すると約束した。",
@@ -43426,6 +44726,26 @@ const gradePre1Questions = [
         ],
         "answer": "conventional",
         "explanation": "<b>正解：conventional（従来の）</b><br><br>⚡ 速読の着眼点：unique style（独自のスタイル）の対極にあるのは、「従来の、型にはまった（conventional）」ルールだ。convention（慣習）の形容詞形。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "pre1-657",
+        "question": "The items in the box were packaged carefully because they were _____, but some of them were still damaged when they were being delivered.",
+        "translation": "箱の中の品物は<b>壊れやすい</b>ので丁寧に梱包されていたが、それでも配送中にいくつかが破損してしまった。",
+        "options": [
+            "coarse",
+            "fragile",
+            "immovable",
+            "glossy"
+        ],
+        "optionMeanings": [
+            "粗い",
+            "壊れやすい",
+            "動かせない",
+            "光沢のある"
+        ],
+        "answer": "fragile",
+        "explanation": "<b>正解：fragile（壊れやすい）</b><br><br>⚡ 速読の着眼点：carefully packaged（丁寧に梱包）の理由がfragile（壊れやすい）。それでも損傷した<br><br>💡 fragile＝壊れやすい。Handle with care / Fragile（取扱注意）。",
         "source": "2021年第3回(本会場)"
     },
     {
@@ -44229,6 +45549,26 @@ const gradePre1Questions = [
         "source": "2020年第2回(本会場)"
     },
     {
+        "id": "pre1-658",
+        "question": "After viewing the _____ caused by the hurricane, the president promised government aid to help rebuild the affected areas.",
+        "translation": "ハリケーンによる<b>甚大な被害</b>を視察した後、大統領は被災地の復興を支援するため、政府による援助を約束した。",
+        "options": [
+            "corruption",
+            "evaluation",
+            "justification",
+            "devastation"
+        ],
+        "optionMeanings": [
+            "汚職、腐敗",
+            "評価",
+            "正当化",
+            "（大規模な）破壊、荒廃"
+        ],
+        "answer": "devastation",
+        "explanation": "<b>正解：devastation（（大規模な）破壊、荒廃）</b><br><br>⚡ 速読の着眼点：caused by the hurricane（ハリケーンによって引き起こされた）と rebuild the affected areas（被災地を再建する）から、大規模な破壊の跡を指す語が入る。devastate（壊滅させる）の名詞形 devastation だ。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
         "id": "pre1-337",
         "question": "Since research shows that a poor diet is one of the _____ causes of heart disease, the government has said it will do more to teach people how to eat healthily.",
         "translation": "研究によれば、偏った食事は心臓病の<b>根本的な</b>原因の一つであるため、政府は健康的な食事方法を人々に教えるためにもっと取り組むと述べている。",
@@ -44709,6 +46049,26 @@ const gradePre1Questions = [
         "source": "2020年第3回(本会場)"
     },
     {
+        "id": "pre1-659",
+        "question": "Domingo’s boss told him his plan for a new factory was not _____. It would cost too much and take too long to finish.",
+        "translation": "ドミンゴの上司は彼に、新しい工場の計画は<b>実現可能</b>ではないと言った。費用がかかりすぎるうえ、完成までに時間がかかりすぎるからだ。",
+        "options": [
+            "feasible",
+            "fierce",
+            "inventive",
+            "eventful"
+        ],
+        "optionMeanings": [
+            "実現可能な",
+            "激しい、獰猛な",
+            "独創的な",
+            "出来事の多い"
+        ],
+        "answer": "feasible",
+        "explanation": "<b>正解：feasible（実現可能な）</b><br><br>⚡ 速読の着眼点：2文目の理由（お金も時間もかかりすぎる）は、計画が「実行できない」ことの根拠だ。feasible は「実現可能な」で、a feasible plan のように計画とよく結びつく。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
         "id": "pre1-361",
         "question": "The new mayor said he was looking forward to his first day in office, when he could begin _____ some of the problems that faced the city.",
         "translation": "新市長は、市が直面するいくつかの問題に（取り組み）始められる初登庁の日を楽しみにしていると述べた。",
@@ -44866,6 +46226,26 @@ const gradePre1Questions = [
         ],
         "answer": "vivid",
         "explanation": "<b>正解：vivid（鮮明な）</b><br><br>⚡ 速読の着眼点：intense, realistic experiences（強烈でリアルな体験）のような夢。これを「鮮明な（vivid）」夢と言う。vivid colors（鮮やかな色）と同じ形容詞だ。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "pre1-660",
+        "question": "Before a match, the boy always asks famous soccer players for their _____. He waits near the locker room entrance hoping they will sign their names in his notebook.",
+        "translation": "試合の前になると、その少年はいつも有名なサッカー選手たちに<b>サイン</b>を頼む。彼はロッカールームの入り口近くで、選手が自分のノートに名前を書いてくれることを期待して待つ。",
+        "options": [
+            "telegraphs",
+            "autographs",
+            "editorials",
+            "exhibits"
+        ],
+        "optionMeanings": [
+            "電報",
+            "（有名人の）サイン",
+            "社説",
+            "展示品"
+        ],
+        "answer": "autographs",
+        "explanation": "<b>正解：autographs（（有名人の）サイン）</b><br><br>⚡ 速読の着眼点：sign their names in his notebook（ノートに名前を書いてくれる）から、有名人のサインを表す autograph が正解。auto（自分で）＋ graph（書く）。日本語の「サイン」は英語では autograph で、sign は動詞として使う点にも注意。",
         "source": "2020年第3回(本会場)"
     },
     {
@@ -45169,6 +46549,26 @@ const gradePre1Questions = [
         "source": "2019年第1回(本会場)"
     },
     {
+        "id": "pre1-661",
+        "question": "The couple was awoken in the night by an _____ who broke a window and entered their home. Whoever it was had left by the time the police arrived.",
+        "translation": "その夫婦は夜中に、窓を割って家に入ってきた<b>侵入者</b>に起こされた。それが誰だったにせよ、警察が到着したときにはもういなくなっていた。",
+        "options": [
+            "administrator",
+            "inspector",
+            "originator",
+            "intruder"
+        ],
+        "optionMeanings": [
+            "管理者",
+            "検査官",
+            "創始者、発案者",
+            "侵入者"
+        ],
+        "answer": "intruder",
+        "explanation": "<b>正解：intruder（侵入者）</b><br><br>⚡ 速読の着眼点：broke a window and entered their home（窓を割って家に侵入した）人物を表す語を選ぶ。intrude（押し入る）＋ -er で intruder（侵入者）。警察が来たという流れとも合う。",
+        "source": "2019年第1回(本会場)"
+    },
+    {
         "id": "pre1-384",
         "question": "After his retirement from office, the former mayor started an organization dedicated to the _____ of homelessness from his city.",
         "translation": "退任後、前市長は市からのホームレス状態の（根絶／排除）に尽力する組織を立ち上げた。",
@@ -45326,6 +46726,26 @@ const gradePre1Questions = [
         ],
         "answer": "tremble",
         "explanation": "<b>正解：tremble（震える）</b><br><br>⚡ 速読の着眼点：with fear（恐怖で）どうなるか？体が「震える（tremble）」だ。shiver（寒さや恐怖で震える）や shake も類義語。",
+        "source": "2019年第1回(本会場)"
+    },
+    {
+        "id": "pre1-662",
+        "question": "When Horst dropped his plate on the floor, it broke into many small _____. He cleaned them all up carefully so that he would not step on one and hurt his foot.",
+        "translation": "ホルストが皿を床に落とすと、皿は小さな<b>破片</b>になって散らばった。彼は、踏んで足をけがしないように、それらを全部丁寧に片づけた。",
+        "options": [
+            "fragments",
+            "diagrams",
+            "monarchs",
+            "novelties"
+        ],
+        "optionMeanings": [
+            "破片、断片",
+            "図表",
+            "君主",
+            "目新しいもの"
+        ],
+        "answer": "fragments",
+        "explanation": "<b>正解：fragments（破片、断片）</b><br><br>⚡ 速読の着眼点：broke into many small 〜（割れて小さな〜になった）の形から、割れた後の「かけら」を表す名詞が入る。後半の step on one and hurt his foot（踏んでけがをする）も破片のイメージと一致する。fragment は fragile（壊れやすい）と同じ語源だ。",
         "source": "2019年第1回(本会場)"
     },
     {
@@ -45809,6 +47229,26 @@ const gradePre1Questions = [
         "source": "2019年第2回(本会場)"
     },
     {
+        "id": "pre1-663",
+        "question": "After receiving an expensive Christmas present from her neighbors, Cassandra felt _____ to give them something in return, so she bought them a nice vase.",
+        "translation": "近所の人たちから高価なクリスマスプレゼントをもらったので、カサンドラはお返しに何か贈らなければ<b>いけないと感じ</b>、すてきな花瓶を買った。",
+        "options": [
+            "obliged",
+            "wrinkled",
+            "strangled",
+            "scattered"
+        ],
+        "optionMeanings": [
+            "（〜する）義務があると感じた",
+            "しわの寄った",
+            "首を絞められた",
+            "散らばった"
+        ],
+        "answer": "obliged",
+        "explanation": "<b>正解：obliged（（〜する）義務があると感じた）</b><br><br>⚡ 速読の着眼点：feel obliged to do で「〜しなければならないと感じる」。高価な贈り物をもらったから「お返しをしなくては」と思った、という自然な流れだ。oblige は「義務を負わせる」。",
+        "source": "2019年第2回(本会場)"
+    },
+    {
         "id": "pre1-416",
         "question": "The man’s experience living in Italy had been so interesting that, in his later years, he decided to write a _____ of his life during that time.",
         "translation": "その男のイタリアでの生活体験は非常に興味深いものだったので、晩年、彼はその間の人生の（物語／記録）を書くことにした。",
@@ -46106,6 +47546,26 @@ const gradePre1Questions = [
         ],
         "answer": "courtesy",
         "explanation": "<b>正解：courtesy（礼儀正しさ）</b><br><br>⚡ 速読の着眼点：rude（失礼）や bad manners の反対。接客に必要なのは「礼儀（courtesy）」だ。courteous（礼儀正しい）の名詞形。",
+        "source": "2019年第3回(本会場)"
+    },
+    {
+        "id": "pre1-664",
+        "question": "In the morning, the café was quiet, but at lunchtime it became much more _____. The waitstaff had to rush back and forth taking and delivering orders.",
+        "translation": "朝のうちはそのカフェは静かだったが、昼どきにはずっと<b>慌ただしく</b>なった。店員たちは注文を取ったり料理を運んだりして、あちこち走り回らなければならなかった。",
+        "options": [
+            "subtle",
+            "touchy",
+            "vulgar",
+            "hectic"
+        ],
+        "optionMeanings": [
+            "微妙な",
+            "怒りっぽい",
+            "下品な",
+            "慌ただしい、てんてこ舞いの"
+        ],
+        "answer": "hectic",
+        "explanation": "<b>正解：hectic（慌ただしい、てんてこ舞いの）</b><br><br>⚡ 速読の着眼点：but で「朝は静か（quiet）」と対比されている。さらに2文目の rush back and forth（あちこち走り回る）が決定打。忙しくて落ち着かない状態を表す hectic が入る。",
         "source": "2019年第3回(本会場)"
     },
     {
@@ -47269,6 +48729,26 @@ const gradePre1Questions = [
         "source": "2018年第2回(本会場)"
     },
     {
+        "id": "pre1-665",
+        "question": "A: Before I invest in your new company, I’d like you to _____ the help of an outside expert to guide you for the first few months.\nB: That seems reasonable. I know a consultant who can help us.",
+        "translation": "A：あなたの新しい会社に投資する前に、最初の数か月は外部の専門家の助けを<b>得て</b>、指導してもらってほしいのです。\nB：もっともですね。力になってくれそうなコンサルタントを知っています。",
+        "options": [
+            "sprint",
+            "enlist",
+            "drift",
+            "curse"
+        ],
+        "optionMeanings": [
+            "全力疾走する",
+            "（協力・援助を）得る、協力を求める",
+            "漂流する",
+            "ののしる"
+        ],
+        "answer": "enlist",
+        "explanation": "<b>正解：enlist（（協力・援助を）得る、協力を求める）</b><br><br>⚡ 速読の着眼点：目的語が the help of an outside expert（外部の専門家の助け）なので、「助けを得る」という意味の動詞が必要だ。enlist the help of 〜 で「〜の協力を取りつける」。enlist は本来「兵籍に入れる」で、そこから「味方に引き入れる」の意味になった。",
+        "source": "2018年第2回(本会場)"
+    },
+    {
         "id": "pre1-489",
         "question": "Banks will usually only _____ loans for people who have good financial histories. If you have had money troubles, it is unlikely they will loan you any money.",
         "translation": "銀行は通常、良好な財務履歴を持つ人にのみローンを<b>認可する</b>。金銭トラブルがあった場合、彼らがお金を貸してくれる可能性は低い。",
@@ -47566,6 +49046,26 @@ const gradePre1Questions = [
         ],
         "answer": "decency",
         "explanation": "<b>正解：decency（礼儀）</b><br><br>⚡ 速読の着眼点：欠席連絡をするくらいの常識的な「礼儀、品位」を decency と言う。didn't have the decency to...（〜するくらいの礼儀もなかった）は怒りのフレーズ。[23]",
+        "source": "2018年第3回(本会場)"
+    },
+    {
+        "id": "pre1-666",
+        "question": "After inspecting the old dam, engineers reported that urgent measures to _____ it were needed. Without them, the dam could collapse.",
+        "translation": "古いダムを点検した後、技術者たちは、ダムを<b>補強する</b>ための緊急の対策が必要だと報告した。それがなければ、ダムは決壊するおそれがあった。",
+        "options": [
+            "refund",
+            "relay",
+            "reinforce",
+            "reserve"
+        ],
+        "optionMeanings": [
+            "払い戻す",
+            "中継する、伝える",
+            "補強する",
+            "予約する、取っておく"
+        ],
+        "answer": "reinforce",
+        "explanation": "<b>正解：reinforce（補強する）</b><br><br>⚡ 速読の着眼点：2文目の Without them, the dam could collapse（対策がなければ決壊しかねない）が決め手。決壊を防ぐために必要なのはダムを「強くする」こと。reinforce は re（再び）＋ in（中に）＋ force（力）で「力を加えて強化する」だ。",
         "source": "2018年第3回(本会場)"
     },
     {
@@ -48046,6 +49546,26 @@ const gradePre1Questions = [
         ],
         "answer": "rations",
         "explanation": "<b>正解：rations（食糧）</b><br><br>⚡ 速読の着眼点：兵士が携帯する食料のこと。配給制の食料を rations と呼ぶ。動詞 ration（配給する）も重要。",
+        "source": "2017年第1回(本会場)"
+    },
+    {
+        "id": "pre1-667",
+        "question": "A: Elena, the weather forecast says it will rain today, so maybe we should do some gardening another day.\nB: It’s only supposed to rain _____, honey. Let’s just do as much as we can before it starts.",
+        "translation": "A：エレナ、天気予報では今日は雨が降るって。庭仕事は別の日にしたほうがいいんじゃないかな。\nB：雨は<b>ときどき</b>降るだけらしいわよ、あなた。降り出す前にできるだけやってしまいましょう。",
+        "options": [
+            "solemnly",
+            "courteously",
+            "intermittently",
+            "recklessly"
+        ],
+        "optionMeanings": [
+            "厳粛に",
+            "礼儀正しく",
+            "断続的に、ときどき",
+            "無謀に"
+        ],
+        "answer": "intermittently",
+        "explanation": "<b>正解：intermittently（断続的に、ときどき）</b><br><br>⚡ 速読の着眼点：B は「降り出す前にできるだけやろう」と提案している。雨が一日中降り続くわけではなく「降ったりやんだり」だから作業できる、という流れだ。intermittent（断続的な）は inter（間）＋ mit（送る）で「間をおいて起こる」イメージ。",
         "source": "2017年第1回(本会場)"
     },
     {
@@ -48709,6 +50229,26 @@ const gradePre1Questions = [
         "source": "2017年第2回(本会場)"
     },
     {
+        "id": "pre1-668",
+        "question": "Although the building was only _____ destroyed in the fire, the owners decided to take it down completely and build a new one in its place.",
+        "translation": "その建物は火事で<b>部分的に</b>焼けただけだったが、所有者は完全に取り壊して、その場所に新しい建物を建てることにした。",
+        "options": [
+            "mutually",
+            "partially",
+            "manually",
+            "regretfully"
+        ],
+        "optionMeanings": [
+            "相互に",
+            "部分的に",
+            "手作業で",
+            "残念ながら"
+        ],
+        "answer": "partially",
+        "explanation": "<b>正解：partially（部分的に）</b><br><br>⚡ 速読の着眼点：Although（〜だけれども）と only に注目。「建物は一部しか壊れなかったのに、全部（completely）取り壊した」という対比になっている。completely の反対の意味を持つ partially が入る。",
+        "source": "2017年第2回(本会場)"
+    },
+    {
         "id": "pre1-561",
         "question": "Many charities receive tax _____ from the government. Since they do not have to pay taxes, they have more money to spend on helping society.",
         "translation": "多くの慈善団体は政府から免税<b>措置／免除</b>を受けている。税金を払う必要がないため、社会貢献により多くのお金を使うことができる。",
@@ -49006,6 +50546,26 @@ const gradePre1Questions = [
         ],
         "answer": "improper",
         "explanation": "<b>正解：improper（不作法な）</b><br><br>⚡ 速読の着眼点：避けるべき（should be avoided）話題。マナー違反であることを「不適切な（improper）」と言う。proper（適切な）の対義語。",
+        "source": "2017年第3回(本会場)"
+    },
+    {
+        "id": "pre1-669",
+        "question": "The presidential candidate came from a wealthy family. This hurt his popularity among the poor, who felt his _____ prevented him from understanding their economic troubles.",
+        "translation": "その大統領候補は裕福な家庭の出身だった。そのことは貧しい人々の間での彼の人気を損なった。彼らは、彼の<b>生い立ち</b>のせいで自分たちの経済的な苦しみを理解できないと感じたのだ。",
+        "options": [
+            "pharmacy",
+            "upbringing",
+            "conquest",
+            "spectacle"
+        ],
+        "optionMeanings": [
+            "薬局",
+            "生い立ち、しつけ",
+            "征服",
+            "光景、見せ物"
+        ],
+        "answer": "upbringing",
+        "explanation": "<b>正解：upbringing（生い立ち、しつけ）</b><br><br>⚡ 速読の着眼点：1文目の came from a wealthy family（裕福な家庭の出身）がヒント。貧しい人々が問題視したのは、彼が「どう育ったか」だ。upbringing は bring up（育てる）の名詞形で「育ち、生い立ち」を表す。",
         "source": "2017年第3回(本会場)"
     },
     {

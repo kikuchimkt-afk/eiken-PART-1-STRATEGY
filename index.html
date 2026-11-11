@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英検過去問演習 - Eiken Practice</title>
+    <meta name="theme-color" content="#312e81">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +23,7 @@
     <div id="app">
         <!-- Views will be rendered here -->
         <header class="app-header">
+            <img class="app-logo" src="icon.svg" width="72" height="72" alt="">
             <h1 id="app-title">英検<sup>®</sup>大問1攻略</h1>
             <div class="hero-tags">
                 <span class="hero-tag">完全再現</span>
@@ -50,16 +57,56 @@
 
                 <div id="review-container" class="review-container hidden">
                     <div class="review-controls">
-                        <select id="review-order" class="review-select">
-                            <option value="random">ランダム (Random)</option>
-                            <option value="sequential">追加順 (Sequential)</option>
-                        </select>
                         <button id="review-btn" class="review-btn">
                             <span class="review-icon">↺</span>
                             間違えた問題を復習
                         </button>
                     </div>
                     <p id="mistakes-count" class="mistakes-count"></p>
+                </div>
+                <div class="review-container favorites-home">
+                    <button id="favorites-btn" class="nav-btn">付箋・お気に入りを開く</button>
+                    <p id="favorites-count" class="mistakes-count" aria-live="polite"></p>
+                    <p class="helper-text">付箋と学習記録は、このブラウザに保存されます。</p>
+                </div>
+            </div>
+
+            <div id="library-view" class="view hidden">
+                <div class="settings-card library-card">
+                    <h2 id="library-title" class="settings-title"></h2>
+                    <p id="library-description" class="library-description"></p>
+                    <div class="library-filters">
+                        <div class="form-group">
+                            <label for="library-grade">級</label>
+                            <select id="library-grade" class="form-control"></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="library-session">実施年度・回</label>
+                            <select id="library-session" class="form-control"></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="library-count">今回の問題数</label>
+                            <select id="library-count" class="form-control">
+                                <option value="5">5問</option>
+                                <option value="10" selected>10問</option>
+                                <option value="20">20問</option>
+                                <option value="all">すべて</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="library-order">出題順</label>
+                            <select id="library-order" class="form-control">
+                                <option value="random">ランダム</option>
+                                <option value="sequential">保存順</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p id="library-summary" class="library-description" aria-live="polite"></p>
+                    <div class="settings-actions">
+                        <button id="library-back-btn" class="nav-btn">ホームへ</button>
+                        <button id="library-start-btn" class="start-btn">演習を始める</button>
+                    </div>
+                    <ul id="library-list" class="saved-list" aria-label="付箋を付けた問題"></ul>
                 </div>
             </div>
 
@@ -139,6 +186,9 @@
                 </div>
 
                 <div class="question-card">
+                    <div class="question-tools">
+                        <button id="favorite-toggle" class="nav-btn favorite-toggle" aria-pressed="false">付箋を付ける</button>
+                    </div>
                     <div class="question-content">
                         <p id="question-text">Loading question...</p>
                     </div>
