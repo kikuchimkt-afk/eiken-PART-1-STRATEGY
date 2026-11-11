@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英検過去問演習 - Eiken Practice</title>
-    <meta name="theme-color" content="#312e81">
+    <meta name="theme-color" content="#172c28">
+    <meta name="description" content="英検®大問1の語彙を、回別の演習・解き直し・付箋で少しずつ身につける学習アプリ。">
+    <link rel="preload" as="image" href="assets/study-desk.webp">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="icon" href="favicon.ico" sizes="32x32">
     <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
@@ -21,37 +23,45 @@
 
 <body>
     <div id="app">
+        <div class="topbar">
+            <a class="brand" href="./" aria-label="英検大問1攻略 ホーム"><img src="icon.svg" width="32" height="32" alt=""><span>英検<sup>®</sup>大問1攻略</span></a>
+            <button id="help-btn" class="help-btn" aria-haspopup="dialog"><span aria-hidden="true">?</span> 使い方</button>
+        </div>
         <!-- Views will be rendered here -->
         <header class="app-header">
-            <img class="app-logo" src="icon.svg" width="72" height="72" alt="">
+            <img class="hero-photo" src="assets/study-desk.webp" width="1024" height="1536" alt="窓辺にノートと本を広げた学習机" fetchpriority="high">
+            <div class="hero-content">
+            <p class="hero-eyebrow">少しずつ、できるを増やそう。</p>
             <h1 id="app-title">英検<sup>®</sup>大問1攻略</h1>
             <div class="hero-tags">
-                <span class="hero-tag">完全再現</span>
-                <span class="hero-tag">徹底演習</span>
-                <span class="hero-tag">語彙定着</span>
+                <span class="hero-tag">回別の演習</span>
+                <span class="hero-tag">解き直し</span>
+                <span class="hero-tag">付箋で復習</span>
             </div>
-            <p class="hero-desc">過去問データに基づく究極の語彙対策。<br>隙間時間の「5分」で、合格への確信を。</p>
+            <p class="hero-desc">今日の5分を、語彙の力に。<br>自分のペースで、一問ずつ。</p>
+            </div>
         </header>
 
         <main id="main-container" class="container">
             <!-- Home View -->
             <div id="home-view" class="view active">
+                <div class="section-heading"><h2>演習する級を選ぶ</h2><span>YOUR PRACTICE</span></div>
                 <div class="grade-grid">
                     <button class="grade-card" data-grade="3">
                         <span class="grade-label">3級</span>
-                        <span class="grade-sub">Grade 3</span>
+                        <span class="grade-sub">中学卒業程度 <span aria-hidden="true">↗</span></span>
                     </button>
                     <button class="grade-card" data-grade="pre-2">
                         <span class="grade-label">準2級</span>
-                        <span class="grade-sub">Grade Pre-2</span>
+                        <span class="grade-sub">高校中級程度 <span aria-hidden="true">↗</span></span>
                     </button>
                     <button class="grade-card" data-grade="2">
                         <span class="grade-label">2級</span>
-                        <span class="grade-sub">Grade 2</span>
+                        <span class="grade-sub">高校卒業程度 <span aria-hidden="true">↗</span></span>
                     </button>
                     <button class="grade-card" data-grade="pre-1">
                         <span class="grade-label">準1級</span>
-                        <span class="grade-sub">Grade Pre-1</span>
+                        <span class="grade-sub">大学中級程度 <span aria-hidden="true">↗</span></span>
                     </button>
                 </div>
 
@@ -223,6 +233,19 @@
             <small>&copy; ECCベストワン藍住・北島中央</small>
         </footer>
     </div>
+    <dialog id="help-dialog" aria-labelledby="help-title">
+        <div class="help-heading"><div><p class="hero-eyebrow">HOW TO USE</p><h2 id="help-title">使い方</h2></div><button id="help-close-btn" class="nav-btn" aria-label="使い方を閉じる">閉じる ×</button></div>
+        <p class="help-intro">一度に全部取り組まなくても大丈夫。<br>今日できる量を選んで始めましょう。</p>
+        <ol class="help-steps">
+            <li><h3>級と実施回を選ぶ</h3><p>ホームで級を選び、設定画面で実施年度・回、出題数、順番を選んで演習を始めます。</p></li>
+            <li><h3>答えて、解説を確認する</h3><p>選択肢をタップすると正解・訳・解説が表示されます。「次へ」で進み、「前へ」で回答済みの問題を確認できます。</p></li>
+            <li><h3>気になる問題には付箋を</h3><p>問題画面の「付箋を付ける」をタップ。同じボタンでもう一度外せます。正解した問題にも付けられます。</p></li>
+            <li><h3>解き直しは、少しずつ</h3><p>ホームの「間違えた問題を復習」から級・回を絞り、5問・10問・20問・すべての中から量を選べます。間違えた問題は自動で保存されます。</p></li>
+            <li><h3>付箋を管理して、もう一度演習</h3><p>「付箋・お気に入りを開く」で保存した問題を一覧で確認できます。級・回で絞った演習や、不要になった付箋の解除もできます。</p></li>
+        </ol>
+        <div class="storage-note"><h3>記録の保存について</h3><p>付箋と学習記録は、この端末のブラウザに保存されます。他の端末やブラウザとは共有されません。ブラウザのサイトデータを削除すると記録も消えるため、ご注意ください。</p></div>
+        <button id="help-done-btn" class="start-btn">わかりました</button>
+    </dialog>
     <script src="data.js"></script>
     <script src="app.js"></script>
 </body>

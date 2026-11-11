@@ -60,6 +60,15 @@ class App {
     }
 
     bindEvents() {
+        const help = document.getElementById('help-dialog');
+        document.getElementById('help-btn').addEventListener('click', () => help.showModal());
+        ['help-close-btn', 'help-done-btn'].forEach(id =>
+            document.getElementById(id).addEventListener('click', () => help.close()));
+        help.addEventListener('click', event => {
+            if (event.target !== help) return;
+            const rect = help.getBoundingClientRect();
+            if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) help.close();
+        });
         // Grade Selection
         this.ui.home.buttons.forEach(btn => {
             btn.addEventListener('click', (e) => {
@@ -225,6 +234,7 @@ class App {
 
     prepareSettings(grade) {
         this.currentGrade = grade;
+        this.ui.settings.title.textContent = `${this.formatGrade(grade)}の演習設定`;
         const allQuestions = window.questionsMap[grade] || [];
 
         if (allQuestions.length === 0) {
@@ -245,7 +255,7 @@ class App {
         // Reset Inputs
         this.ui.settings.rangeStart.value = '';
         this.ui.settings.rangeEnd.value = '';
-        this.ui.settings.countSelect.value = 'all';
+        this.ui.settings.countSelect.value = '10';
         this.ui.settings.orderSelect.value = 'id';
 
         this.updateSettingsCount(); // Initial count
@@ -399,6 +409,7 @@ class App {
         } else {
             this.ui.header.classList.remove('hidden');
         }
+        window.scrollTo({ top: 0, behavior: 'instant' });
     }
 
     showHome() {
