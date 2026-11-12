@@ -60893,6 +60893,3606 @@ const grade4Questions = [
         "answer": "stop",
         "explanation": "<b>正解：stop（やめる）</b><br><br>💡 着眼点：Please don't のあとは動詞の原形です。stop playing で「ひくのをやめる」という意味になります。",
         "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "4-331",
+        "question": "A: How much time do we have before the _____ train comes?\nB: About five minutes.",
+        "translation": "A：<b>次の</b>電車が来るまで、あとどのくらい時間がある？\nB：5分くらいだよ。",
+        "options": [
+            "lost",
+            "clear",
+            "next",
+            "heavy"
+        ],
+        "optionMeanings": [
+            "失われた",
+            "晴れた",
+            "次の",
+            "重い"
+        ],
+        "answer": "next",
+        "explanation": "<b>正解：next（次の）</b><br><br>💡 着眼点：「How much time（どのくらいの時間）」があるかをたずね、「About five minutes.（5分くらい）」と答えています。これから来る電車なので next（次の）が合います。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-332",
+        "question": "A: How long did you play tennis today?\nB: _____ two hours.",
+        "translation": "A：今日はテニスをどのくらいしたの？\nB：2時間<b>の間</b>だよ。",
+        "options": [
+            "For",
+            "Since",
+            "With",
+            "Through"
+        ],
+        "optionMeanings": [
+            "〜の間",
+            "〜以来",
+            "〜と一緒に",
+            "〜を通って"
+        ],
+        "answer": "For",
+        "explanation": "<b>正解：For（〜の間）</b><br><br>💡 着眼点：「How long（どのくらいの長さ）」と時間の長さをたずねています。for ＋ 期間で「～の間」を表します。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-333",
+        "question": "A: Oh no! I wrote the wrong date. Can I use your _____?\nB: Sure. Here you go.",
+        "translation": "A：あっ、しまった。日付をまちがえて書いちゃった。あなたの<b>消しゴム</b>を使ってもいい？\nB：もちろん。はい、どうぞ。",
+        "options": [
+            "belt",
+            "eraser",
+            "coat",
+            "map"
+        ],
+        "optionMeanings": [
+            "ベルト",
+            "消しゴム",
+            "コート",
+            "地図"
+        ],
+        "answer": "eraser",
+        "explanation": "<b>正解：eraser（消しゴム）</b><br><br>💡 着眼点：「wrote the wrong date（まちがった日付を書いた）」とあります。書きまちがいを直すために使うのは eraser（消しゴム）です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-334",
+        "question": "In winter, the _____ is very cold in some cities in Canada.",
+        "translation": "冬になると、カナダのいくつかの都市では<b>気温</b>がとても低くなります。",
+        "options": [
+            "hometown",
+            "address",
+            "problem",
+            "temperature"
+        ],
+        "optionMeanings": [
+            "故郷",
+            "住所",
+            "問題",
+            "気温"
+        ],
+        "answer": "temperature",
+        "explanation": "<b>正解：temperature（気温）</b><br><br>💡 着眼点：「In winter（冬には）」「very cold（とても寒い）」がヒントです。寒い・暑いで表せるのは temperature（気温）です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-335",
+        "question": "Every year, I _____ flowers to my grandmother. Her birthday is on Christmas Day.",
+        "translation": "毎年、私は祖母に花を<b>送ります</b>。祖母の誕生日はクリスマスの日です。",
+        "options": [
+            "send",
+            "keep",
+            "believe",
+            "forget"
+        ],
+        "optionMeanings": [
+            "〜を送る",
+            "〜を保つ",
+            "〜を信じる",
+            "〜を忘れる"
+        ],
+        "answer": "send",
+        "explanation": "<b>正解：send（〜を送る）</b><br><br>💡 着眼点：空所のあとに「flowers to my grandmother（花を祖母に）」があります。send 物 to 人 で「人に物を送る」という意味です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-336",
+        "question": "A: I’m so _____, but I need to finish my homework.\nB: Go to bed and wake up early tomorrow.",
+        "translation": "A：すごく<b>眠い</b>けど、宿題を終わらせなきゃ。\nB：もう寝て、明日早く起きなさい。",
+        "options": [
+            "sleepy",
+            "local",
+            "boring",
+            "rich"
+        ],
+        "optionMeanings": [
+            "眠い",
+            "地元の",
+            "退屈な",
+            "お金持ちの"
+        ],
+        "answer": "sleepy",
+        "explanation": "<b>正解：sleepy（眠い）</b><br><br>💡 着眼点：B が「Go to bed（寝なさい）」と答えています。寝るようにすすめられる状態は sleepy（眠い）です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-337",
+        "question": "A: Can we go shopping this weekend, Mom?\nB: Let’s go on Sunday. I’m _____ on Saturday.",
+        "translation": "A：今週末に買い物に行ける、お母さん？\nB：日曜日に行きましょう。土曜日は<b>忙しい</b>の。",
+        "options": [
+            "fast",
+            "weak",
+            "busy",
+            "careful"
+        ],
+        "optionMeanings": [
+            "速い",
+            "弱い",
+            "忙しい",
+            "注意深い"
+        ],
+        "answer": "busy",
+        "explanation": "<b>正解：busy（忙しい）</b><br><br>💡 着眼点：B は土曜日ではなく「Sunday（日曜日）」に行こうと言っています。土曜日に行けない理由として busy（忙しい）が合います。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-338",
+        "question": "A: You’re running too fast. Can you slow _____, please?\nB: Sure.",
+        "translation": "A：走るのが速すぎるよ。<b>スピードを落として</b>くれる？\nB：いいよ。",
+        "options": [
+            "down",
+            "about",
+            "long",
+            "often"
+        ],
+        "optionMeanings": [
+            "下へ（slow downで「速度を落とす」）",
+            "〜について",
+            "長い",
+            "よく"
+        ],
+        "answer": "down",
+        "explanation": "<b>正解：down（slow down で「速度を落とす」）</b><br><br>💡 着眼点：「running too fast（走るのが速すぎる）」と言っています。slow down で「速度を落とす」という意味になります。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-339",
+        "question": "A: Turn off the TV. Come here _____ once and help me.\nB: OK, Mom.",
+        "translation": "A：テレビを消して。<b>すぐに</b>ここに来て手伝って。\nB：わかったよ、お母さん。",
+        "options": [
+            "as",
+            "at",
+            "in",
+            "of"
+        ],
+        "optionMeanings": [
+            "〜として",
+            "〜に（at onceで「すぐに」）",
+            "〜の中に",
+            "〜の"
+        ],
+        "answer": "at",
+        "explanation": "<b>正解：at（at once で「すぐに」）</b><br><br>💡 着眼点：空所のあとに once があります。at once で「すぐに」という決まった言い方です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-340",
+        "question": "Ms. Barton has a good _____ for the school concert. She wants to speak to us after class.",
+        "translation": "バートン先生は学校のコンサートについて良い<b>考え</b>を持っています。先生は放課後に私たちと話したいそうです。",
+        "options": [
+            "way",
+            "side",
+            "idea",
+            "rice"
+        ],
+        "optionMeanings": [
+            "方法",
+            "側",
+            "考え",
+            "米"
+        ],
+        "answer": "idea",
+        "explanation": "<b>正解：idea（考え）</b><br><br>💡 着眼点：「has a good ～（良い～を持っている）」と「for the school concert（学校のコンサートのための）」から考えます。have a good idea で「良い考えがある」という意味です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-341",
+        "question": "A: Let’s watch the news together, Grandpa.\nB: Just a _____. I’ll get my glasses.",
+        "translation": "A：一緒にニュースを見ようよ、おじいちゃん。\nB：<b>ちょっと待って</b>。めがねを取ってくるよ。",
+        "options": [
+            "trouble",
+            "lesson",
+            "moment",
+            "pocket"
+        ],
+        "optionMeanings": [
+            "困りごと",
+            "授業",
+            "少しの間",
+            "ポケット"
+        ],
+        "answer": "moment",
+        "explanation": "<b>正解：moment（少しの間）</b><br><br>💡 着眼点：B は「I'll get my glasses.（めがねを取ってくる）」と言っています。Just a moment. で「ちょっと待って」という意味になります。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-342",
+        "question": "A: Your brother looks _____ a famous singer.\nB: Really? I’ll tell him.",
+        "translation": "A：あなたのお兄さんは有名な歌手<b>のように</b>見えるね。\nB：本当？彼に伝えておくよ。",
+        "options": [
+            "on",
+            "about",
+            "like",
+            "to"
+        ],
+        "optionMeanings": [
+            "〜の上に",
+            "〜について",
+            "〜のような",
+            "〜へ"
+        ],
+        "answer": "like",
+        "explanation": "<b>正解：like（〜のような）</b><br><br>💡 着眼点：空所の前に looks があります。look like ＋ 名詞で「～のように見える」という意味です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-343",
+        "question": "A: Where are you going?\nB: I’m going _____ video games at Joe’s house.\nA: Come home before dinner.",
+        "translation": "A：どこへ行くの？\nB：ジョーの家にテレビゲームを<b>しに</b>行くよ。\nA：夕食前には帰ってきなさいね。",
+        "options": [
+            "to play",
+            "played",
+            "playing",
+            "plays"
+        ],
+        "optionMeanings": [
+            "〜するために（to不定詞）",
+            "playの過去形",
+            "playの-ing形",
+            "playの3人称単数"
+        ],
+        "answer": "to play",
+        "explanation": "<b>正解：to play（〜するために（to不定詞））</b><br><br>💡 着眼点：「I'm going（行くところ）」のあとに、行く目的が続きます。目的を表す「～するために」は to ＋ 動詞の原形（to不定詞）です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-344",
+        "question": "My uncle likes _____ people, so he became a police officer.",
+        "translation": "私のおじは人を<b>助けること</b>が好きなので、警察官になりました。",
+        "options": [
+            "help",
+            "helps",
+            "helping",
+            "helped"
+        ],
+        "optionMeanings": [
+            "helpの原形",
+            "helpの3人称単数",
+            "helpの-ing形（動名詞）",
+            "helpの過去形"
+        ],
+        "answer": "helping",
+        "explanation": "<b>正解：helping（〜を助けること（動名詞））</b><br><br>💡 着眼点：likes のあとに「～すること」という意味の語を入れます。動詞の -ing 形（動名詞）は「～すること」を表すので helping が入ります。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-345",
+        "question": "A: _____ I put this hat in a box for you, sir?\nB: Yes, please. It’s a present for my son.",
+        "translation": "A：この帽子を箱にお入れ<b>しましょうか</b>、お客様？\nB：はい、お願いします。息子へのプレゼントなんです。",
+        "options": [
+            "Shall",
+            "Does",
+            "Have",
+            "Be"
+        ],
+        "optionMeanings": [
+            "〜しましょうか（Shall）",
+            "〜しますか（Does）",
+            "持っている（Have）",
+            "〜である（Be）"
+        ],
+        "answer": "Shall",
+        "explanation": "<b>正解：Shall（〜しましょうか）</b><br><br>💡 着眼点：Shall I ～? で「（私が）～しましょうか」と申し出る言い方です。B が「Yes, please.（はい、お願いします）」と答えていることもヒントです。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "4-346",
+        "question": "A: Who is your _____ baseball player?\nB: It's Ichiro Suzuki.",
+        "translation": "A：あなたの<b>いちばん好きな</b>野球選手はだれ？\nB：鈴木一朗だよ。",
+        "options": [
+            "high",
+            "favorite",
+            "free",
+            "tall"
+        ],
+        "optionMeanings": [
+            "高い",
+            "いちばん好きな",
+            "自由な・ひまな",
+            "背が高い"
+        ],
+        "answer": "favorite",
+        "explanation": "<b>正解：favorite（いちばん好きな）</b><br><br>💡 着眼点：「Who is your ～ baseball player?（あなたの～な野球選手はだれ？）」とたずねています。好きな選手をたずねる表現なので favorite（いちばん好きな）が合います。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-347",
+        "question": "A: Can you _____ the windows, Steve? It's so hot in the classroom.\nB: Sure, Mrs. Brown.",
+        "translation": "A：窓を<b>開けて</b>くれる、スティーブ？教室がとても暑いの。\nB：はい、ブラウン先生。",
+        "options": [
+            "sell",
+            "call",
+            "find",
+            "open"
+        ],
+        "optionMeanings": [
+            "〜を売る",
+            "〜に電話する",
+            "〜を見つける",
+            "〜を開ける"
+        ],
+        "answer": "open",
+        "explanation": "<b>正解：open（〜を開ける）</b><br><br>💡 着眼点：目的語が「the windows（窓）」で、「It's so hot（とても暑い）」と理由を言っています。暑いときに窓をどうするかを考えると open（開ける）です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-348",
+        "question": "Yesterday, Tara couldn't find her dog, so she was _____. She was very happy when her dog came home.",
+        "translation": "昨日、タラは犬が見つからなかったので<b>悲しかった</b>です。犬が家に帰ってきたとき、彼女はとてもうれしかったです。",
+        "options": [
+            "sad",
+            "cute",
+            "deep",
+            "bright"
+        ],
+        "optionMeanings": [
+            "悲しい",
+            "かわいい",
+            "深い",
+            "明るい"
+        ],
+        "answer": "sad",
+        "explanation": "<b>正解：sad（悲しい）</b><br><br>💡 着眼点：「couldn't find her dog（犬が見つからなかった）」ときの気持ちを考えます。あとの「very happy（とてもうれしい）」と反対の気持ちの sad（悲しい）が合います。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-349",
+        "question": "A: We have two hours _____ our flight.\nB: I know. Let's go and have some coffee and cake.",
+        "translation": "A：飛行機の出発<b>まで</b>2時間あるね。\nB：そうだね。コーヒーとケーキを食べに行こう。",
+        "options": [
+            "under",
+            "over",
+            "before",
+            "about"
+        ],
+        "optionMeanings": [
+            "〜の下に",
+            "〜の上に",
+            "〜の前に",
+            "〜について"
+        ],
+        "answer": "before",
+        "explanation": "<b>正解：before（〜の前に）</b><br><br>💡 着眼点：「two hours（2時間）」と「our flight（私たちの飛行機）」をつなぐ語を選びます。before ～ で「～の前に」となり、出発までに時間があることを表します。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-350",
+        "question": "A: Will you come home late tonight?\nB: I _____ so. We have a badminton tournament all day.",
+        "translation": "A：今夜は遅く帰ってくるの？\nB：そう<b>思う</b>よ。一日中バドミントンの大会があるんだ。",
+        "options": [
+            "think",
+            "eat",
+            "teach",
+            "feel"
+        ],
+        "optionMeanings": [
+            "思う",
+            "食べる",
+            "教える",
+            "感じる"
+        ],
+        "answer": "think",
+        "explanation": "<b>正解：think（思う）</b><br><br>💡 着眼点：空所のあとに so があります。I think so. で「そう思う」という意味です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-351",
+        "question": "Many children around the world _____ help because they don't have enough food and water.",
+        "translation": "世界中の多くの子どもたちは、十分な食べ物と水がないので、助けを<b>必要としています</b>。",
+        "options": [
+            "sell",
+            "look",
+            "live",
+            "need"
+        ],
+        "optionMeanings": [
+            "〜を売る",
+            "見る",
+            "住む",
+            "〜を必要とする"
+        ],
+        "answer": "need",
+        "explanation": "<b>正解：need（〜を必要とする）</b><br><br>💡 着眼点：目的語は「help（助け）」で、理由が「don't have enough food and water（十分な食べ物と水がない）」です。need help で「助けを必要とする」という意味になります。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-352",
+        "question": "A: What is that nice _____?\nB: I made some bread today.",
+        "translation": "A：あのいい<b>におい</b>は何？\nB：今日パンを焼いたのよ。",
+        "options": [
+            "point",
+            "report",
+            "smell",
+            "culture"
+        ],
+        "optionMeanings": [
+            "点",
+            "報告",
+            "におい",
+            "文化"
+        ],
+        "answer": "smell",
+        "explanation": "<b>正解：smell（におい）</b><br><br>💡 着眼点：B が「I made some bread（パンを作った）」と答えています。焼いたパンから出るのは smell（におい）です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-353",
+        "question": "After my brother _____ a shower, he met his girlfriend. They saw a movie together.",
+        "translation": "兄はシャワーを<b>浴びた</b>あと、ガールフレンドに会いました。2人は一緒に映画を見ました。",
+        "options": [
+            "took",
+            "started",
+            "called",
+            "wore"
+        ],
+        "optionMeanings": [
+            "〜を取った（takeの過去形）",
+            "〜を始めた（startの過去形）",
+            "〜に電話した（callの過去形）",
+            "〜を着ていた（wearの過去形）"
+        ],
+        "answer": "took",
+        "explanation": "<b>正解：took（takeの過去形）</b><br><br>💡 着眼点：空所のあとに「a shower（シャワー）」があります。take a shower で「シャワーを浴びる」という意味なので、過去形の took が入ります。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-354",
+        "question": "A: You don't _____ to wash the dishes today, Grandma. I just did them.\nB: Thank you.",
+        "translation": "A：おばあちゃん、今日はお皿を洗わなくて<b>いいよ</b>。ちょうど私が洗ったから。\nB：ありがとう。",
+        "options": [
+            "stand",
+            "have",
+            "move",
+            "know"
+        ],
+        "optionMeanings": [
+            "立つ",
+            "持っている（have toで「〜しなければならない」）",
+            "動く",
+            "知っている"
+        ],
+        "answer": "have",
+        "explanation": "<b>正解：have（have to で「〜しなければならない」）</b><br><br>💡 着眼点：空所のあとに to wash が続いています。have to ～ は「～しなければならない」で、否定の don't have to ～ は「～しなくてよい」という意味です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-355",
+        "question": "On New Year's Day, my family _____ cards and other games. We have a lot of fun.",
+        "translation": "元日に、私の家族はトランプやほかのゲームを<b>します</b>。とても楽しいです。",
+        "options": [
+            "plays",
+            "rides",
+            "washes",
+            "visits"
+        ],
+        "optionMeanings": [
+            "〜をする・遊ぶ（3人称単数）",
+            "〜に乗る（3人称単数）",
+            "〜を洗う（3人称単数）",
+            "〜を訪ねる（3人称単数）"
+        ],
+        "answer": "plays",
+        "explanation": "<b>正解：plays（〜をする・遊ぶ）</b><br><br>💡 着眼点：目的語が「cards（トランプ）」と「other games（ほかのゲーム）」です。ゲームを「する」は play で表し、主語が my family なので plays になります。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-356",
+        "question": "Matthew didn't understand the question, so the teacher said it to him once _____.",
+        "translation": "マシューは質問がわからなかったので、先生は<b>もう一度</b>彼に言いました。",
+        "options": [
+            "ever",
+            "already",
+            "still",
+            "again"
+        ],
+        "optionMeanings": [
+            "今までに",
+            "もう",
+            "まだ",
+            "もう一度"
+        ],
+        "answer": "again",
+        "explanation": "<b>正解：again（もう一度）</b><br><br>💡 着眼点：「didn't understand（わからなかった）」ので、先生がどうしたかを考えます。once again で「もう一度」という意味です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-357",
+        "question": "A: It's so cold today. Can you make me a cup _____ hot chocolate, please?\nB: Sure. Just a minute.",
+        "translation": "A：今日はとても寒いね。1杯<b>の</b>ホットチョコレートを作ってくれる？\nB：いいよ。ちょっと待ってね。",
+        "options": [
+            "at",
+            "to",
+            "as",
+            "of"
+        ],
+        "optionMeanings": [
+            "〜で",
+            "〜へ",
+            "〜として",
+            "〜の"
+        ],
+        "answer": "of",
+        "explanation": "<b>正解：of（〜の）</b><br><br>💡 着眼点：空所の前に a cup があります。a cup of ～ で「1杯の～」という決まった言い方です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-358",
+        "question": "Everyone in the music hall stopped _____ when the band got on stage.",
+        "translation": "バンドがステージに上がると、音楽ホールにいた全員が<b>話すのを</b>やめました。",
+        "options": [
+            "talks",
+            "talk",
+            "talked",
+            "talking"
+        ],
+        "optionMeanings": [
+            "talkの3人称単数",
+            "talkの原形",
+            "talkの過去形",
+            "talkの-ing形（動名詞）"
+        ],
+        "answer": "talking",
+        "explanation": "<b>正解：talking（talkの-ing形）</b><br><br>💡 着眼点：空所の前に stopped があります。stop ～ing で「～するのをやめる」という意味なので、talking が入ります。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-359",
+        "question": "My sister must _____ a computer at work every day, so she's going to take a computer class on weekends.",
+        "translation": "私の姉は毎日仕事でコンピューターを<b>使わ</b>なければならないので、週末にコンピューターの講座を受けるつもりです。",
+        "options": [
+            "use",
+            "used",
+            "using",
+            "uses"
+        ],
+        "optionMeanings": [
+            "〜を使う（原形）",
+            "useの過去形",
+            "useの-ing形",
+            "useの3人称単数"
+        ],
+        "answer": "use",
+        "explanation": "<b>正解：use（〜を使う（原形））</b><br><br>💡 着眼点：空所の前に must があります。must のあとは動詞の原形なので use が入ります。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-360",
+        "question": "A: What do you like _____ pictures of?\nB: Flowers in my garden.",
+        "translation": "A：何の絵を<b>描くの</b>が好き？\nB：私の庭の花だよ。",
+        "options": [
+            "draw",
+            "drew",
+            "to draw",
+            "draws"
+        ],
+        "optionMeanings": [
+            "drawの原形",
+            "drawの過去形",
+            "〜を描くこと（to不定詞）",
+            "drawの3人称単数"
+        ],
+        "answer": "to draw",
+        "explanation": "<b>正解：to draw（〜を描くこと（to不定詞））</b><br><br>💡 着眼点：空所の前に like があります。like to ～ で「～するのが好きだ」という意味なので、to draw が入ります。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "4-361",
+        "question": "A: Did you _____ your mother about going to the movie?\nB: Yes. I can go with you.",
+        "translation": "A：映画に行くことについて、お母さんに<b>聞いた</b>の？\nB：うん。いっしょに行けるよ。",
+        "options": [
+            "watch",
+            "make",
+            "ask",
+            "get"
+        ],
+        "optionMeanings": [
+            "〜を見る",
+            "〜を作る",
+            "〜にたずねる",
+            "〜を手に入れる"
+        ],
+        "answer": "ask",
+        "explanation": "<b>正解：ask（〜にたずねる）</b><br><br>💡 着眼点：「ask＋人＋about 〜」で「人に〜についてたずねる」という意味になります。B が「I can go with you.（いっしょに行ける）」と答えているので、お母さんに聞いて許可をもらったことがわかります。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-362",
+        "question": "In many countries, Christmas Day is a popular holiday, and many children get _____ on this day.",
+        "translation": "多くの国で、クリスマスは人気のある祝日で、多くの子どもたちがこの日に<b>プレゼント</b>をもらいます。",
+        "options": [
+            "subjects",
+            "sounds",
+            "rooms",
+            "presents"
+        ],
+        "optionMeanings": [
+            "教科",
+            "音",
+            "部屋",
+            "プレゼント"
+        ],
+        "answer": "presents",
+        "explanation": "<b>正解：presents（プレゼント）</b><br><br>💡 着眼点：「Christmas Day（クリスマスの日）」と「children get（子どもたちがもらう）」が手がかりです。クリスマスに子どもがもらうものとして自然なのは presents（プレゼント）です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-363",
+        "question": "A: What will you do this weekend?\nB: I’ll move to a new _____. It’s bigger, so I’m happy.",
+        "translation": "A：今週末は何をするの？\nB：新しい<b>アパート</b>に引っ越すんだ。前より広いから、うれしいよ。",
+        "options": [
+            "apartment",
+            "band",
+            "race",
+            "painting"
+        ],
+        "optionMeanings": [
+            "アパート",
+            "バンド",
+            "競走",
+            "絵"
+        ],
+        "answer": "apartment",
+        "explanation": "<b>正解：apartment（アパート）</b><br><br>💡 着眼点：「move to a new 〜（新しい〜に引っ越す）」と「It's bigger（もっと広い）」が手がかりです。引っ越し先として合うのは apartment（アパート）です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-364",
+        "question": "Wendy often _____ some fruit to eat after lunch.",
+        "translation": "ウェンディは、昼食のあとに食べるためのフルーツをよく<b>持ってきます</b>。",
+        "options": [
+            "meets",
+            "brings",
+            "sits",
+            "falls"
+        ],
+        "optionMeanings": [
+            "〜に会う",
+            "〜を持ってくる",
+            "すわる",
+            "落ちる"
+        ],
+        "answer": "brings",
+        "explanation": "<b>正解：brings（〜を持ってくる）</b><br><br>💡 着眼点：「some fruit to eat after lunch（昼食のあとに食べるフルーツ）」が手がかりです。食べ物を「持ってくる」という意味の brings が合います。主語が Wendy なので s がついています。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-365",
+        "question": "A: Do you want to go camping this weekend? The weather will be great, so we can see many _____ at night.\nB: That sounds great.",
+        "translation": "A：今週末、キャンプに行かない？天気がとてもいいから、夜にたくさんの<b>星</b>が見られるよ。\nB：それはいいね。",
+        "options": [
+            "pens",
+            "dishes",
+            "stars",
+            "teams"
+        ],
+        "optionMeanings": [
+            "ペン",
+            "皿",
+            "星",
+            "チーム"
+        ],
+        "answer": "stars",
+        "explanation": "<b>正解：stars（星）</b><br><br>💡 着眼点：「see many 〜 at night（夜にたくさんの〜が見える）」が手がかりです。天気がよい夜に見えるものは stars（星）です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-366",
+        "question": "Canada has many _____ parks and lakes. Many people visit there in summer.",
+        "translation": "カナダには<b>美しい</b>公園や湖がたくさんあります。夏には多くの人がそこを訪れます。",
+        "options": [
+            "beautiful",
+            "tired",
+            "easy",
+            "necessary"
+        ],
+        "optionMeanings": [
+            "美しい",
+            "疲れた",
+            "簡単な",
+            "必要な"
+        ],
+        "answer": "beautiful",
+        "explanation": "<b>正解：beautiful（美しい）</b><br><br>💡 着眼点：「parks and lakes（公園や湖）」と「Many people visit there（多くの人が訪れる）」が手がかりです。人が訪れたくなる場所を表す beautiful（美しい）が合います。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-367",
+        "question": "A: Can you cut this bread with this _____?\nB: Sure.",
+        "translation": "A：このパンをこの<b>ナイフ</b>で切ってくれる？\nB：いいよ。",
+        "options": [
+            "bridge",
+            "picnic",
+            "rest",
+            "knife"
+        ],
+        "optionMeanings": [
+            "橋",
+            "ピクニック",
+            "休み",
+            "ナイフ"
+        ],
+        "answer": "knife",
+        "explanation": "<b>正解：knife（ナイフ）</b><br><br>💡 着眼点：「cut this bread with this 〜（この〜でパンを切る）」が手がかりです。with は「〜を使って」という意味で、パンを切る道具は knife（ナイフ）です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-368",
+        "question": "The members of the baseball team _____ catch for 15 minutes during every practice.",
+        "translation": "その野球チームのメンバーは、毎回の練習中に15分間キャッチボールを<b>します</b>。",
+        "options": [
+            "hold",
+            "play",
+            "want",
+            "say"
+        ],
+        "optionMeanings": [
+            "〜を持つ",
+            "（スポーツなど）をする",
+            "〜がほしい",
+            "〜と言う"
+        ],
+        "answer": "play",
+        "explanation": "<b>正解：play（（キャッチボール）をする）</b><br><br>💡 着眼点：「play catch」で「キャッチボールをする」という決まった言い方です。play は「（スポーツや遊び）をする」という意味です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-369",
+        "question": "The new English teacher from Australia was kind _____ all the students in the class.",
+        "translation": "オーストラリアから来た新しい英語の先生は、クラスのすべての生徒<b>に</b>やさしかったです。",
+        "options": [
+            "of",
+            "at",
+            "to",
+            "as"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜で",
+            "〜に対して",
+            "〜として"
+        ],
+        "answer": "to",
+        "explanation": "<b>正解：to（〜に対して）</b><br><br>💡 着眼点：「be kind to 〜」で「〜にやさしい、親切だ」という意味になります。人に対する態度を表すときは to を使います。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-370",
+        "question": "A: Is there a good movie _____ TV tonight?\nB: Yes. It’s about a young dancer.",
+        "translation": "A：今夜、テレビ<b>で</b>いい映画はある？\nB：うん。若いダンサーについての映画だよ。",
+        "options": [
+            "on",
+            "for",
+            "by",
+            "after"
+        ],
+        "optionMeanings": [
+            "（テレビ）で",
+            "〜のために",
+            "〜によって",
+            "〜のあとで"
+        ],
+        "answer": "on",
+        "explanation": "<b>正解：on（（テレビ）で）</b><br><br>💡 着眼点：「on TV」で「テレビで（放送されている）」という意味になります。テレビやラジオで放送されるときは on を使います。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-371",
+        "question": "Rick often _____ a long walk with his dog early in the morning.",
+        "translation": "リックは朝早くに、よく犬と長い散歩を<b>します</b>。",
+        "options": [
+            "calls",
+            "listens",
+            "shows",
+            "takes"
+        ],
+        "optionMeanings": [
+            "〜に電話する",
+            "聞く",
+            "〜を見せる",
+            "（散歩など）をする"
+        ],
+        "answer": "takes",
+        "explanation": "<b>正解：takes（（散歩）をする）</b><br><br>💡 着眼点：「take a walk」で「散歩をする」という決まった言い方です。ここでは a long walk（長い散歩）となっています。主語が Rick なので takes です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-372",
+        "question": "A: What do you _____ of my chocolate chip cookies?\nB: They’re great.",
+        "translation": "A：私のチョコチップクッキー、どう<b>思う</b>？\nB：とてもおいしいよ。",
+        "options": [
+            "think",
+            "sing",
+            "open",
+            "come"
+        ],
+        "optionMeanings": [
+            "思う",
+            "歌う",
+            "〜を開ける",
+            "来る"
+        ],
+        "answer": "think",
+        "explanation": "<b>正解：think（思う）</b><br><br>💡 着眼点：「What do you think of 〜?」で「〜をどう思いますか」と感想をたずねる表現です。B が「They're great.（すごくいい）」と感想を答えていることも手がかりです。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-373",
+        "question": "James _____ go to today’s baseball game because he hurt his leg.",
+        "translation": "ジェームズは足をけがしたので、今日の野球の試合には<b>行かないでしょう</b>。",
+        "options": [
+            "won’t",
+            "isn’t",
+            "hasn’t",
+            "don’t"
+        ],
+        "optionMeanings": [
+            "〜しないだろう（will notの短縮形）",
+            "〜ではない（is notの短縮形）",
+            "〜していない（has notの短縮形）",
+            "〜しない（do notの短縮形）"
+        ],
+        "answer": "won’t",
+        "explanation": "<b>正解：won’t（〜しないだろう）</b><br><br>💡 着眼点：空所のあとに動詞の原形 go があり、「today's（今日の）」試合のことなので、未来を表す won't（will not）が合います。主語が James（3人称単数）なので don't は使えません。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-374",
+        "question": "My sister and I came home from school at noon. My mother made lunch for _____.",
+        "translation": "姉［妹］と私は正午に学校から帰ってきました。母は<b>私たち</b>に昼食を作ってくれました。",
+        "options": [
+            "our",
+            "we",
+            "us",
+            "their"
+        ],
+        "optionMeanings": [
+            "私たちの",
+            "私たちは",
+            "私たちを、私たちに",
+            "彼らの"
+        ],
+        "answer": "us",
+        "explanation": "<b>正解：us（私たちに）</b><br><br>💡 着眼点：前置詞 for のあとには「〜を、〜に」の形（目的格）が入ります。「My sister and I（姉［妹］と私）」を指すので us（私たち）です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-375",
+        "question": "A: Grandma is still _____, so don’t watch TV.\nB: OK, Mom.",
+        "translation": "A：おばあちゃんはまだ<b>眠っている</b>から、テレビは見ないでね。\nB：わかったよ、お母さん。",
+        "options": [
+            "sleeps",
+            "sleeping",
+            "slept",
+            "sleep"
+        ],
+        "optionMeanings": [
+            "sleepの3人称単数現在形",
+            "sleepの-ing形",
+            "sleepの過去形",
+            "眠る（原形）"
+        ],
+        "answer": "sleeping",
+        "explanation": "<b>正解：sleeping（眠っている）</b><br><br>💡 着眼点：空所の前に is があり、「still（まだ）」とあるので、「今〜している」を表す現在進行形「is ＋ -ing形」にします。sleeping が正解です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "4-376",
+        "question": "A: It's so hot today.\nB: Yeah. I'm thirsty. Let's get something to _____.",
+        "translation": "A：今日はとても暑いね。\nB：うん。のどがかわいたよ。何か<b>飲む</b>ものを買おう。",
+        "options": [
+            "check",
+            "drink",
+            "sing",
+            "think"
+        ],
+        "optionMeanings": [
+            "〜を確認する",
+            "〜を飲む",
+            "歌う",
+            "思う"
+        ],
+        "answer": "drink",
+        "explanation": "<b>正解：drink（〜を飲む）</b><br><br>💡 着眼点：「I'm thirsty（のどがかわいた）」が手がかりです。「something to drink」で「何か飲むもの」という意味になります。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-377",
+        "question": "When my father was in university, he _____ around Europe with his friend for one month.",
+        "translation": "父は大学生のとき、友だちと1か月間ヨーロッパを<b>旅行しました</b>。",
+        "options": [
+            "used",
+            "changed",
+            "decided",
+            "traveled"
+        ],
+        "optionMeanings": [
+            "〜を使った",
+            "〜を変えた",
+            "〜を決めた",
+            "旅行した（travelの過去形）"
+        ],
+        "answer": "traveled",
+        "explanation": "<b>正解：traveled（旅行した）</b><br><br>💡 着眼点：「around Europe（ヨーロッパじゅうを）」と「for one month（1か月間）」が手がかりです。ヨーロッパを回ったことを表す traveled（旅行した）が合います。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-378",
+        "question": "On the way home, I didn't get off the bus at my _____. I got home late.",
+        "translation": "帰り道、私は自分の<b>停留所</b>でバスを降りませんでした。家に帰るのが遅くなりました。",
+        "options": [
+            "stop",
+            "key",
+            "map",
+            "cow"
+        ],
+        "optionMeanings": [
+            "停留所",
+            "かぎ",
+            "地図",
+            "牛"
+        ],
+        "answer": "stop",
+        "explanation": "<b>正解：stop（停留所）</b><br><br>💡 着眼点：「get off the bus（バスを降りる）」が手がかりです。バスを降りる場所は stop（停留所）です。降りそびれたので帰宅が遅くなったという流れです。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-379",
+        "question": "A: Last weekend, the _____ was bad, so I stayed home.\nB: Me, too. I watched a movie.",
+        "translation": "A：先週末は<b>天気</b>が悪かったので、家にいたよ。\nB：私もだよ。映画を見たんだ。",
+        "options": [
+            "money",
+            "phone",
+            "weather",
+            "music"
+        ],
+        "optionMeanings": [
+            "お金",
+            "電話",
+            "天気",
+            "音楽"
+        ],
+        "answer": "weather",
+        "explanation": "<b>正解：weather（天気）</b><br><br>💡 着眼点：「was bad, so I stayed home（悪かったので家にいた）」が手がかりです。家にいる理由として自然なのは weather（天気）が悪いことです。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-380",
+        "question": "A: Will you take a _____ this summer?\nB: Yes. I want to visit Canada.",
+        "translation": "A：この夏は<b>休暇</b>をとるの？\nB：うん。カナダを訪れたいんだ。",
+        "options": [
+            "beach",
+            "vacation",
+            "theater",
+            "stadium"
+        ],
+        "optionMeanings": [
+            "浜辺",
+            "休暇",
+            "劇場",
+            "競技場"
+        ],
+        "answer": "vacation",
+        "explanation": "<b>正解：vacation（休暇）</b><br><br>💡 着眼点：「take a vacation」で「休暇をとる」という意味になります。B が「I want to visit Canada.（カナダを訪れたい）」と答えていることも手がかりです。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-381",
+        "question": "A: Is your history class _____?\nB: Yes, Mom. I have to remember many names and dates.",
+        "translation": "A：歴史の授業は<b>難しい</b>の？\nB：うん、お母さん。たくさんの名前や年号を覚えないといけないんだ。",
+        "options": [
+            "large",
+            "ready",
+            "dark",
+            "difficult"
+        ],
+        "optionMeanings": [
+            "大きい",
+            "準備ができた",
+            "暗い",
+            "難しい"
+        ],
+        "answer": "difficult",
+        "explanation": "<b>正解：difficult（難しい）</b><br><br>💡 着眼点：B の「I have to remember many names and dates.（たくさんの名前や年号を覚えなければならない）」が手がかりです。授業が difficult（難しい）理由になっています。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-382",
+        "question": "Alex's bag has many textbooks in it, so it is very _____.",
+        "translation": "アレックスのかばんには教科書がたくさん入っているので、とても<b>重い</b>です。",
+        "options": [
+            "heavy",
+            "careful",
+            "angry",
+            "same"
+        ],
+        "optionMeanings": [
+            "重い",
+            "注意深い",
+            "怒った",
+            "同じ"
+        ],
+        "answer": "heavy",
+        "explanation": "<b>正解：heavy（重い）</b><br><br>💡 着眼点：「many textbooks in it（中に教科書がたくさん）」が手がかりです。教科書がたくさん入ったかばんは heavy（重い）です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-383",
+        "question": "Eric was angry because he waited _____ over 20 minutes for the seven o'clock bus.",
+        "translation": "エリックは7時のバスを20分以上<b>の間</b>待ったので、怒っていました。",
+        "options": [
+            "from",
+            "for",
+            "of",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜から",
+            "〜の間",
+            "〜の",
+            "〜に"
+        ],
+        "answer": "for",
+        "explanation": "<b>正解：for（〜の間）</b><br><br>💡 着眼点：「over 20 minutes（20分以上）」という時間の長さが続いています。「for ＋時間の長さ」で「〜の間」という意味になります。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-384",
+        "question": "A: How's Ellen, Ms. Simpson?\nB: She's still sick _____ bed, but she's better.",
+        "translation": "A：シンプソンさん、エレンの具合はどうですか。\nB：まだ病気で<b>寝ています</b>が、よくなってきています。",
+        "options": [
+            "at",
+            "under",
+            "in",
+            "with"
+        ],
+        "optionMeanings": [
+            "〜で",
+            "〜の下に",
+            "〜の中に",
+            "〜といっしょに"
+        ],
+        "answer": "in",
+        "explanation": "<b>正解：in（（ベッド）で）</b><br><br>💡 着眼点：「sick in bed」で「病気で寝ている」という意味になります。「in bed」は「ベッドに入って、寝て」を表す決まった言い方です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-385",
+        "question": "The first _____ of the movie was boring, but I liked the ending. It was really exciting.",
+        "translation": "その映画の最初の<b>部分</b>は退屈でしたが、結末は気に入りました。とてもわくわくしました。",
+        "options": [
+            "part",
+            "idea",
+            "side",
+            "word"
+        ],
+        "optionMeanings": [
+            "部分",
+            "考え",
+            "側",
+            "単語"
+        ],
+        "answer": "part",
+        "explanation": "<b>正解：part（部分）</b><br><br>💡 着眼点：「The first 〜 of the movie（映画の最初の〜）」と「the ending（結末）」が対になっています。映画の一部分を表す part が合います。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-386",
+        "question": "A: Can I speak _____ you about the science homework? I don't understand it.\nB: Of course.",
+        "translation": "A：理科の宿題のことで、あなた<b>と</b>話してもいいですか。わからないんです。\nB：もちろん。",
+        "options": [
+            "on",
+            "by",
+            "as",
+            "to"
+        ],
+        "optionMeanings": [
+            "〜の上に",
+            "〜によって",
+            "〜として",
+            "〜に"
+        ],
+        "answer": "to",
+        "explanation": "<b>正解：to（〜に）</b><br><br>💡 着眼点：「speak to 〜」で「〜と話す、〜に話しかける」という意味になります。話す相手を表すときは to を使います。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-387",
+        "question": "A: I'm tired because I studied all day. I'm going to bed now.\nB: _____ a good night's sleep.",
+        "translation": "A：一日中勉強したから疲れたよ。もう寝るね。\nB：ぐっすり<b>眠ってね</b>。",
+        "options": [
+            "Keep",
+            "Have",
+            "Look",
+            "Feel"
+        ],
+        "optionMeanings": [
+            "〜を保つ",
+            "〜を持つ、過ごす",
+            "〜を見る",
+            "〜と感じる"
+        ],
+        "answer": "Have",
+        "explanation": "<b>正解：Have（〜を過ごす）</b><br><br>💡 着眼点：「Have a good night's sleep.」で「ぐっすり眠ってね」という意味になります。Have a good day. と同じように、have で「（よい時間を）過ごす」を表します。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-388",
+        "question": "My grandparents _____ to our home last Sunday. We had lunch together.",
+        "translation": "先週の日曜日、祖父母が私たちの家に<b>来ました</b>。いっしょに昼食を食べました。",
+        "options": [
+            "come",
+            "coming",
+            "came",
+            "comes"
+        ],
+        "optionMeanings": [
+            "来る（原形）",
+            "comeの-ing形",
+            "comeの過去形",
+            "comeの3人称単数現在形"
+        ],
+        "answer": "came",
+        "explanation": "<b>正解：came（来た）</b><br><br>💡 着眼点：「last Sunday（先週の日曜日）」があるので過去形にします。come の過去形は came です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-389",
+        "question": "A: What do you need for the ski trip tomorrow?\nB: I must _____ a warm jacket and hat.",
+        "translation": "A：明日のスキー旅行には何が必要なの？\nB：暖かい上着とぼうしを<b>持っていか</b>なければならないんだ。",
+        "options": [
+            "bring",
+            "brought",
+            "bringing",
+            "brings"
+        ],
+        "optionMeanings": [
+            "〜を持っていく（原形）",
+            "bringの過去形",
+            "bringの-ing形",
+            "bringの3人称単数現在形"
+        ],
+        "answer": "bring",
+        "explanation": "<b>正解：bring（〜を持っていく）</b><br><br>💡 着眼点：空所の前に must があります。must のあとは動詞の原形なので、bring が正解です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-390",
+        "question": "A: Excuse me. _____ I have some water, please?\nB: Of course.",
+        "translation": "A：すみません。お水を<b>いただいてもいいですか</b>。\nB：もちろんです。",
+        "options": [
+            "Will",
+            "Does",
+            "May",
+            "Has"
+        ],
+        "optionMeanings": [
+            "〜でしょうか（未来）",
+            "〜しますか",
+            "〜してもよい",
+            "〜しましたか"
+        ],
+        "answer": "May",
+        "explanation": "<b>正解：May（〜してもよいですか）</b><br><br>💡 着眼点：「May I 〜?」で「〜してもいいですか」とていねいに許可を求める表現になります。B が「Of course.（もちろん）」と答えていることも手がかりです。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "4-391",
+        "question": "John’s teacher was _____ because John forgot to do his homework again.",
+        "translation": "ジョンがまた宿題をするのを忘れたので、ジョンの先生は<b>怒って</b>いました。",
+        "options": [
+            "rich",
+            "easy",
+            "angry",
+            "ready"
+        ],
+        "optionMeanings": [
+            "お金持ちの",
+            "簡単な",
+            "怒った",
+            "準備ができた"
+        ],
+        "answer": "angry",
+        "explanation": "<b>正解：angry（怒った）</b><br><br>💡 着眼点：「forgot to do his homework again（また宿題をするのを忘れた）」が手がかりです。そのときの先生の気持ちとして angry（怒った）が合います。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-392",
+        "question": "New York has many famous art _____, so I want to visit there someday.",
+        "translation": "ニューヨークには有名な<b>美術館</b>がたくさんあるので、いつかそこを訪れたいです。",
+        "options": [
+            "museums",
+            "doors",
+            "towels",
+            "pools"
+        ],
+        "optionMeanings": [
+            "美術館、博物館",
+            "ドア",
+            "タオル",
+            "プール"
+        ],
+        "answer": "museums",
+        "explanation": "<b>正解：museums（美術館）</b><br><br>💡 着眼点：「art 〜」の形で「art museum（美術館）」になります。「famous（有名な）」「visit（訪れる）」も手がかりです。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-393",
+        "question": "My mother and father first _____ in high school.",
+        "translation": "私の母と父は、高校で初めて<b>出会いました</b>。",
+        "options": [
+            "found",
+            "met",
+            "bought",
+            "put"
+        ],
+        "optionMeanings": [
+            "〜を見つけた",
+            "出会った（meetの過去形）",
+            "〜を買った",
+            "〜を置いた"
+        ],
+        "answer": "met",
+        "explanation": "<b>正解：met（出会った）</b><br><br>💡 着眼点：「first（初めて）」と「in high school（高校で）」が手がかりです。両親が初めて会った場面なので met（meet の過去形）が合います。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-394",
+        "question": "The city _____ is very busy on weekends. It has many interesting books.",
+        "translation": "市の<b>図書館</b>は週末にとても混んでいます。おもしろい本がたくさんあります。",
+        "options": [
+            "gym",
+            "mountain",
+            "garden",
+            "library"
+        ],
+        "optionMeanings": [
+            "体育館",
+            "山",
+            "庭",
+            "図書館"
+        ],
+        "answer": "library",
+        "explanation": "<b>正解：library（図書館）</b><br><br>💡 着眼点：2文目の「It has many interesting books.（おもしろい本がたくさんある）」が手がかりです。本がたくさんある場所は library（図書館）です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-395",
+        "question": "Learning languages is _____ for Takeru because he often travels to other countries.",
+        "translation": "タケルはよく外国へ旅行するので、言語を学ぶことは彼にとって<b>役に立ちます</b>。",
+        "options": [
+            "useful",
+            "cold",
+            "full",
+            "clean"
+        ],
+        "optionMeanings": [
+            "役に立つ",
+            "寒い",
+            "いっぱいの",
+            "きれいな"
+        ],
+        "answer": "useful",
+        "explanation": "<b>正解：useful（役に立つ）</b><br><br>💡 着眼点：「he often travels to other countries（よく外国へ旅行する）」が理由になっています。旅行する人にとって言語の学習は useful（役に立つ）です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-396",
+        "question": "A: I’ll _____ myself. My name is Jeff, and I’m from Australia.\nB: Hi, Jeff. I’m Martin.",
+        "translation": "A：自己<b>紹介</b>をします。私の名前はジェフで、オーストラリア出身です。\nB：こんにちは、ジェフ。私はマーティンです。",
+        "options": [
+            "run",
+            "introduce",
+            "ask",
+            "listen"
+        ],
+        "optionMeanings": [
+            "走る",
+            "〜を紹介する",
+            "〜にたずねる",
+            "聞く"
+        ],
+        "answer": "introduce",
+        "explanation": "<b>正解：introduce（〜を紹介する）</b><br><br>💡 着眼点：「introduce myself」で「自己紹介をする」という意味になります。そのあとに名前と出身を話していることも手がかりです。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-397",
+        "question": "Many temples in Japan have a long _____.",
+        "translation": "日本の多くの寺には長い<b>歴史</b>があります。",
+        "options": [
+            "forest",
+            "time",
+            "country",
+            "history"
+        ],
+        "optionMeanings": [
+            "森",
+            "時間",
+            "国",
+            "歴史"
+        ],
+        "answer": "history",
+        "explanation": "<b>正解：history（歴史）</b><br><br>💡 着眼点：「have a long 〜」で「長い〜がある」となります。お寺について「長い歴史がある」と言うので history が合います。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-398",
+        "question": "A: _____ up, Dad! The movie will start soon.\nB: OK.",
+        "translation": "A：お父さん、<b>急いで</b>。映画がもうすぐ始まるよ。\nB：わかった。",
+        "options": [
+            "Cut",
+            "Find",
+            "Hurry",
+            "Read"
+        ],
+        "optionMeanings": [
+            "〜を切る",
+            "〜を見つける",
+            "急ぐ",
+            "〜を読む"
+        ],
+        "answer": "Hurry",
+        "explanation": "<b>正解：Hurry（急ぐ）</b><br><br>💡 着眼点：「Hurry up」で「急いで」という意味になります。「The movie will start soon.（映画がもうすぐ始まる）」が急ぐ理由になっています。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-399",
+        "question": "A: Let’s go. We’ll be _____ for the bus. It’ll leave in five minutes.\nB: OK.",
+        "translation": "A：行こう。バスに<b>遅れちゃう</b>よ。5分後に出発するんだ。\nB：わかった。",
+        "options": [
+            "late",
+            "fast",
+            "glad",
+            "sure"
+        ],
+        "optionMeanings": [
+            "遅れた",
+            "速い",
+            "うれしい",
+            "確かな"
+        ],
+        "answer": "late",
+        "explanation": "<b>正解：late（遅れた）</b><br><br>💡 着眼点：「be late for 〜」で「〜に遅れる」という意味になります。「It'll leave in five minutes.（5分後に出発する）」も手がかりです。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-400",
+        "question": "Dan will _____ a train to the airport because he doesn’t have a car.",
+        "translation": "ダンは車を持っていないので、空港まで電車に<b>乗って</b>行くつもりです。",
+        "options": [
+            "arrive",
+            "take",
+            "sleep",
+            "close"
+        ],
+        "optionMeanings": [
+            "到着する",
+            "（乗り物）に乗る",
+            "眠る",
+            "〜を閉める"
+        ],
+        "answer": "take",
+        "explanation": "<b>正解：take（〜に乗る）</b><br><br>💡 着眼点：「take a train」で「電車に乗る（電車を使って行く）」という意味になります。「doesn't have a car（車を持っていない）」も手がかりです。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-401",
+        "question": "At a party, Shelly _____ some new friends. They will go to a movie on the weekend.",
+        "translation": "パーティーで、シェリーは新しい友だちを何人か<b>つくりました</b>。彼女たちは週末に映画に行く予定です。",
+        "options": [
+            "said",
+            "cooked",
+            "made",
+            "forgot"
+        ],
+        "optionMeanings": [
+            "〜と言った",
+            "〜を料理した",
+            "（友だち）をつくった（makeの過去形）",
+            "〜を忘れた"
+        ],
+        "answer": "made",
+        "explanation": "<b>正解：made（（友だち）をつくった）</b><br><br>💡 着眼点：「make friends」で「友だちをつくる」という意味になります。ここでは過去のことなので made になっています。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-402",
+        "question": "A: Will you be in Vancouver for the weekend?\nB: Yes, we’ll stay _____ my friend’s place.",
+        "translation": "A：週末はバンクーバーにいるの？\nB：うん、友だちの家<b>に</b>泊まるよ。",
+        "options": [
+            "as",
+            "to",
+            "on",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜として",
+            "〜へ",
+            "〜の上に",
+            "〜に（場所）"
+        ],
+        "answer": "at",
+        "explanation": "<b>正解：at（〜に）</b><br><br>💡 着眼点：「stay at 〜」で「〜に泊まる」という意味になります。「my friend's place（友だちの家）」のような1つの地点を表すときは at を使います。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-403",
+        "question": "A: _____ sport is more popular at your school, baseball or soccer?\nB: Baseball.",
+        "translation": "A：あなたの学校では、野球とサッカーの<b>どちらの</b>スポーツのほうが人気があるの？\nB：野球だよ。",
+        "options": [
+            "Which",
+            "Whose",
+            "Where",
+            "Who"
+        ],
+        "optionMeanings": [
+            "どちらの",
+            "だれの",
+            "どこで",
+            "だれが"
+        ],
+        "answer": "Which",
+        "explanation": "<b>正解：Which（どちらの）</b><br><br>💡 着眼点：文の最後に「baseball or soccer（野球かサッカーか）」とあるので、2つのうちどちらかをたずねる Which を使います。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-404",
+        "question": "Keiko can swim faster _____ her classmates.",
+        "translation": "ケイコはクラスメート<b>よりも</b>速く泳ぐことができます。",
+        "options": [
+            "for",
+            "and",
+            "than",
+            "because"
+        ],
+        "optionMeanings": [
+            "〜のために",
+            "〜と",
+            "〜よりも",
+            "〜なので"
+        ],
+        "answer": "than",
+        "explanation": "<b>正解：than（〜よりも）</b><br><br>💡 着眼点：空所の前に faster（より速く）という比較級があります。比較級のあとで「〜よりも」を表すときは than を使います。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-405",
+        "question": "When Ben _____ going home on the train yesterday, he saw his old friend.",
+        "translation": "昨日、ベンは電車で家に帰る途中<b>だった</b>とき、昔の友だちに会いました。",
+        "options": [
+            "be",
+            "was",
+            "were",
+            "is"
+        ],
+        "optionMeanings": [
+            "be動詞の原形",
+            "be動詞の過去形（主語が単数）",
+            "be動詞の過去形（主語が複数・you）",
+            "be動詞の現在形"
+        ],
+        "answer": "was",
+        "explanation": "<b>正解：was（〜していた）</b><br><br>💡 着眼点：「yesterday（昨日）」があり、going が続くので、過去進行形「was ＋ -ing形」にします。主語が Ben（1人）なので was を使います。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "4-406",
+        "question": "A: Can you swim _____?\nB: Yes, I was on the swimming team in high school.",
+        "translation": "A：<b>速く</b>泳げる？\nB：うん、高校で水泳部に入っていたよ。",
+        "options": [
+            "fast",
+            "down",
+            "ago",
+            "loud"
+        ],
+        "optionMeanings": [
+            "速く",
+            "下へ",
+            "〜前に",
+            "大声で"
+        ],
+        "answer": "fast",
+        "explanation": "<b>正解：fast（速く）</b><br><br>💡 着眼点：B の「I was on the swimming team（水泳部に入っていた）」が手がかりです。泳ぎ方を表す言葉として fast（速く）が合います。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-407",
+        "question": "A: When do you _____ get up on weekends?\nB: About nine o'clock.",
+        "translation": "A：週末は<b>たいてい</b>何時に起きるの？\nB：9時ごろだよ。",
+        "options": [
+            "early",
+            "hard",
+            "soon",
+            "usually"
+        ],
+        "optionMeanings": [
+            "早く",
+            "一生懸命に",
+            "まもなく",
+            "ふつうは、たいてい"
+        ],
+        "answer": "usually",
+        "explanation": "<b>正解：usually（たいてい）</b><br><br>💡 着眼点：「on weekends（週末に）」と、ふだんの習慣をたずねていることが手がかりです。「When do you usually 〜?」で「たいていいつ〜しますか」となります。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-408",
+        "question": "Ryan hurt his hand at volleyball practice, so his mother took him to the _____ yesterday.",
+        "translation": "ライアンはバレーボールの練習で手をけがしたので、昨日お母さんが彼を<b>病院</b>に連れていきました。",
+        "options": [
+            "garden",
+            "room",
+            "hospital",
+            "cafeteria"
+        ],
+        "optionMeanings": [
+            "庭",
+            "部屋",
+            "病院",
+            "カフェテリア"
+        ],
+        "answer": "hospital",
+        "explanation": "<b>正解：hospital（病院）</b><br><br>💡 着眼点：「hurt his hand（手をけがした）」が手がかりです。けがをしたときに連れていく場所は hospital（病院）です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-409",
+        "question": "School lunch is _____ at Yusuke's junior high school. Everyone likes it.",
+        "translation": "ユウスケの中学校では、給食が<b>人気です</b>。みんなが給食を好きです。",
+        "options": [
+            "popular",
+            "easy",
+            "difficult",
+            "last"
+        ],
+        "optionMeanings": [
+            "人気のある",
+            "簡単な",
+            "難しい",
+            "最後の"
+        ],
+        "answer": "popular",
+        "explanation": "<b>正解：popular（人気のある）</b><br><br>💡 着眼点：2文目の「Everyone likes it.（みんながそれを好き）」が手がかりです。みんなに好かれていることを表す popular（人気のある）が合います。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-410",
+        "question": "Joe's father loves all kinds of music, and he plays in a _____.",
+        "translation": "ジョーのお父さんはあらゆる種類の音楽が大好きで、<b>バンド</b>で演奏しています。",
+        "options": [
+            "color",
+            "band",
+            "coin",
+            "bag"
+        ],
+        "optionMeanings": [
+            "色",
+            "バンド",
+            "硬貨",
+            "かばん"
+        ],
+        "answer": "band",
+        "explanation": "<b>正解：band（バンド）</b><br><br>💡 着眼点：「loves all kinds of music（あらゆる音楽が大好き）」と「plays in a 〜（〜で演奏する）」が手がかりです。いっしょに演奏する集まりは band（バンド）です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-411",
+        "question": "During English class, the students read a _____ story. It only took five minutes to read.",
+        "translation": "英語の授業中、生徒たちは<b>短い</b>物語を読みました。読むのに5分しかかかりませんでした。",
+        "options": [
+            "hungry",
+            "quiet",
+            "short",
+            "late"
+        ],
+        "optionMeanings": [
+            "おなかがすいた",
+            "静かな",
+            "短い",
+            "遅い"
+        ],
+        "answer": "short",
+        "explanation": "<b>正解：short（短い）</b><br><br>💡 着眼点：2文目の「It only took five minutes to read.（読むのに5分しかかからなかった）」が手がかりです。すぐ読み終わる物語なので short（短い）が合います。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-412",
+        "question": "A: What day is your birthday this year?\nB: I don't know. Look at the _____ on your phone.",
+        "translation": "A：今年のあなたの誕生日は何曜日？\nB：わからないよ。電話の<b>カレンダー</b>を見てみて。",
+        "options": [
+            "map",
+            "calendar",
+            "pencil",
+            "cup"
+        ],
+        "optionMeanings": [
+            "地図",
+            "カレンダー",
+            "鉛筆",
+            "カップ"
+        ],
+        "answer": "calendar",
+        "explanation": "<b>正解：calendar（カレンダー）</b><br><br>💡 着眼点：「What day（何曜日）」をたずねているので、曜日を確かめられる calendar（カレンダー）が合います。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-413",
+        "question": "_____ work, Matt will meet his friend. They will have dinner together.",
+        "translation": "仕事の<b>あとで</b>、マットは友だちに会います。彼らはいっしょに夕食を食べます。",
+        "options": [
+            "With",
+            "Behind",
+            "After",
+            "Across"
+        ],
+        "optionMeanings": [
+            "〜といっしょに",
+            "〜の後ろに",
+            "〜のあとで",
+            "〜を横切って"
+        ],
+        "answer": "After",
+        "explanation": "<b>正解：After（〜のあとで）</b><br><br>💡 着眼点：仕事に続いて友だちと会い、夕食を食べるという流れです。「After work」で「仕事のあとで」という意味になります。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-414",
+        "question": "Andy is _____ in comics, so he often reads them on the Internet.",
+        "translation": "アンディはマンガに<b>興味がある</b>ので、よくインターネットでマンガを読みます。",
+        "options": [
+            "interested",
+            "dirty",
+            "kind",
+            "slow"
+        ],
+        "optionMeanings": [
+            "興味がある",
+            "汚い",
+            "親切な",
+            "遅い"
+        ],
+        "answer": "interested",
+        "explanation": "<b>正解：interested（興味がある）</b><br><br>💡 着眼点：「be interested in 〜」で「〜に興味がある」という意味になります。空所のあとの in と、「often reads them（よく読む）」という内容が手がかりです。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-415",
+        "question": "A: Are you feeling OK, Pat?\nB: I _____ a cold on the weekend, but I'm better now.",
+        "translation": "A：パット、具合は大丈夫？\nB：週末に<b>かぜをひいた</b>けど、今はよくなったよ。",
+        "options": [
+            "forgot",
+            "caught",
+            "broke",
+            "came"
+        ],
+        "optionMeanings": [
+            "〜を忘れた",
+            "（かぜ）をひいた（catchの過去形）",
+            "〜をこわした",
+            "来た"
+        ],
+        "answer": "caught",
+        "explanation": "<b>正解：caught（（かぜ）をひいた）</b><br><br>💡 着眼点：「catch a cold」で「かぜをひく」という意味になります。週末のことなので過去形 caught を使います。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-416",
+        "question": "A: Where is the concert tomorrow?\nB: I _____ no idea. Let's ask Mr. Thompson.",
+        "translation": "A：明日のコンサートはどこであるの？\nB：<b>わからない</b>な。トンプソン先生に聞いてみよう。",
+        "options": [
+            "make",
+            "get",
+            "know",
+            "have"
+        ],
+        "optionMeanings": [
+            "〜を作る",
+            "〜を手に入れる",
+            "〜を知っている",
+            "〜を持っている"
+        ],
+        "answer": "have",
+        "explanation": "<b>正解：have（〜を持っている）</b><br><br>💡 着眼点：「I have no idea.」で「まったくわからない」という意味の決まった表現です。know を使う場合は I don't know. となります。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-417",
+        "question": "Every year, more _____ more people come to work in Japan.",
+        "translation": "毎年、<b>ますます</b>多くの人が日本に働きに来ています。",
+        "options": [
+            "before",
+            "and",
+            "so",
+            "if"
+        ],
+        "optionMeanings": [
+            "〜の前に",
+            "そして",
+            "とても、だから",
+            "もし〜なら"
+        ],
+        "answer": "and",
+        "explanation": "<b>正解：and（そして）</b><br><br>💡 着眼点：「more and more 〜」で「ますます多くの〜」という意味になります。「Every year（毎年）」と合わせて、人数が増え続けていることを表します。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-418",
+        "question": "A: Please _____ quiet. I'm watching a movie.\nB: Sorry, Dad.",
+        "translation": "A：<b>静かにして</b>ね。映画を見ているんだ。\nB：ごめんなさい、お父さん。",
+        "options": [
+            "am",
+            "is",
+            "be",
+            "are"
+        ],
+        "optionMeanings": [
+            "be動詞（Iのとき）",
+            "be動詞（3人称単数のとき）",
+            "be動詞の原形",
+            "be動詞（複数・youのとき）"
+        ],
+        "answer": "be",
+        "explanation": "<b>正解：be（〜でいる）</b><br><br>💡 着眼点：「Please ＋動詞の原形」で「〜してください」という命令文になります。quiet（静かな）は形容詞なので、be動詞の原形 be を使って be quiet とします。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-419",
+        "question": "Last Friday, I _____ skiing with my family. We had fun.",
+        "translation": "先週の金曜日、私は家族とスキーに<b>行きました</b>。楽しかったです。",
+        "options": [
+            "went",
+            "goes",
+            "go",
+            "going"
+        ],
+        "optionMeanings": [
+            "行った（goの過去形）",
+            "goの3人称単数現在形",
+            "行く（原形）",
+            "goの-ing形"
+        ],
+        "answer": "went",
+        "explanation": "<b>正解：went（行った）</b><br><br>💡 着眼点：「Last Friday（先週の金曜日）」があるので過去形にします。「go skiing（スキーに行く）」の go の過去形は went です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-420",
+        "question": "A: Today, apples are _____ than bananas.\nB: OK. Let's get some apples.",
+        "translation": "A：今日はりんごのほうがバナナ<b>より安い</b>よ。\nB：わかった。りんごを買おう。",
+        "options": [
+            "cheap",
+            "cheapest",
+            "the cheapest",
+            "cheaper"
+        ],
+        "optionMeanings": [
+            "原級：安い",
+            "最上級：いちばん安い",
+            "最上級：いちばん安い（the付き）",
+            "比較級：より安い"
+        ],
+        "answer": "cheaper",
+        "explanation": "<b>正解：cheaper（より安い）</b><br><br>💡 着眼点：空所のあとに than（〜よりも）があるので、比較級を使います。cheap の比較級は cheaper です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "4-421",
+        "question": "My father is a _____ of a sports club. He plays tennis there every Wednesday night.",
+        "translation": "私の父はスポーツクラブの<b>会員</b>です。毎週水曜日の夜にそこでテニスをしています。",
+        "options": [
+            "festival",
+            "picnic",
+            "member",
+            "group"
+        ],
+        "optionMeanings": [
+            "祭り",
+            "ピクニック",
+            "会員",
+            "集団"
+        ],
+        "answer": "member",
+        "explanation": "<b>正解：member（会員）</b><br><br>💡 着眼点：「a _____ of a sports club（スポーツクラブの〜）」と、そこで毎週テニスをしていることから、クラブに入っている人を表す語が入ります。member は「会員、メンバー」という意味です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-422",
+        "question": "Mr. Clark told us many interesting _____ about his trip to India.",
+        "translation": "クラーク先生は私たちにインドへの旅行についてのおもしろい<b>話</b>をたくさんしてくれました。",
+        "options": [
+            "pictures",
+            "books",
+            "stories",
+            "magazines"
+        ],
+        "optionMeanings": [
+            "写真",
+            "本",
+            "話",
+            "雑誌"
+        ],
+        "answer": "stories",
+        "explanation": "<b>正解：stories（話）</b><br><br>💡 着眼点：「told us（私たちに話した）」とあるので、話して伝えるものが入ります。「tell ＋人＋ stories」で「人に話をする」という意味になります。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-423",
+        "question": "It’s snowing a lot today, so please drive _____.",
+        "translation": "今日は雪がたくさん降っているので、<b>ゆっくり</b>運転してください。",
+        "options": [
+            "slowly",
+            "freely",
+            "coldly",
+            "busily"
+        ],
+        "optionMeanings": [
+            "ゆっくりと",
+            "自由に",
+            "冷たく",
+            "忙しく"
+        ],
+        "answer": "slowly",
+        "explanation": "<b>正解：slowly（ゆっくりと）</b><br><br>💡 着眼点：「It's snowing a lot（雪がたくさん降っている）」が理由になっています。雪の日に安全に運転するには「ゆっくりと」が自然です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-424",
+        "question": "In spring, Jane likes to walk in her grandmother’s _____. She enjoys looking at the beautiful flowers there.",
+        "translation": "春になると、ジェーンはおばあさんの<b>庭</b>を歩くのが好きです。彼女はそこできれいな花を見るのを楽しみます。",
+        "options": [
+            "stone",
+            "sky",
+            "garden",
+            "wall"
+        ],
+        "optionMeanings": [
+            "石",
+            "空",
+            "庭",
+            "壁"
+        ],
+        "answer": "garden",
+        "explanation": "<b>正解：garden（庭）</b><br><br>💡 着眼点：2文目の「beautiful flowers there（そこにある美しい花）」がヒントです。花が咲いていて歩ける場所なので garden（庭）が入ります。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-425",
+        "question": "Many girls in my class have _____ hair.",
+        "translation": "私のクラスの女の子の多くは<b>短い</b>髪をしています。",
+        "options": [
+            "late",
+            "slow",
+            "short",
+            "busy"
+        ],
+        "optionMeanings": [
+            "遅れた",
+            "遅い（速度が）",
+            "短い",
+            "忙しい"
+        ],
+        "answer": "short",
+        "explanation": "<b>正解：short（短い）</b><br><br>💡 着眼点：「_____ hair（〜な髪）」に合う形容詞を選びます。髪の長さを表す short（短い）が自然です。「長い髪」なら long hair と言います。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-426",
+        "question": "A: Do you live in a city?\nB: No. I live in a small _____.",
+        "translation": "A：あなたは都会に住んでいるのですか。\nB：いいえ。私は小さな<b>町</b>に住んでいます。",
+        "options": [
+            "hobby",
+            "ticket",
+            "town",
+            "holiday"
+        ],
+        "optionMeanings": [
+            "趣味",
+            "切符",
+            "町",
+            "休日"
+        ],
+        "answer": "town",
+        "explanation": "<b>正解：town（町）</b><br><br>💡 着眼点：「Do you live in a city?（都会に住んでいるの？）」に「No」と答えているので、city と対になる住む場所が入ります。「a small town（小さな町）」が自然です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-427",
+        "question": "I _____ Nancy’s notebook. It was on Mary’s desk.",
+        "translation": "私はナンシーのノートを<b>見つけました</b>。それはメアリーの机の上にありました。",
+        "options": [
+            "stayed",
+            "found",
+            "stopped",
+            "went"
+        ],
+        "optionMeanings": [
+            "滞在した（stayの過去形）",
+            "〜を見つけた（findの過去形）",
+            "止まった（stopの過去形）",
+            "行った（goの過去形）"
+        ],
+        "answer": "found",
+        "explanation": "<b>正解：found（〜を見つけた）</b><br><br>💡 着眼点：2文目の「It was on Mary's desk.（それはメアリーの机の上にあった）」がヒントです。ノートがあった場所を説明しているので、「見つけた」という意味の found が入ります。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-428",
+        "question": "Dennis went to Japan for a year in August. He was sad when he _____ goodbye to his family.",
+        "translation": "デニスは8月に1年間の予定で日本へ行きました。家族に<b>さよならを言った</b>とき、彼は悲しくなりました。",
+        "options": [
+            "ended",
+            "hoped",
+            "told",
+            "said"
+        ],
+        "optionMeanings": [
+            "終えた（endの過去形）",
+            "望んだ（hopeの過去形）",
+            "伝えた（tellの過去形）",
+            "言った（sayの過去形）"
+        ],
+        "answer": "said",
+        "explanation": "<b>正解：said（言った（sayの過去形））</b><br><br>💡 着眼点：「_____ goodbye（さようならを〜）」の形に注目します。「say goodbye to ＋人」で「〜にさよならを言う」という決まった言い方です。told は「told ＋人」の形で使うので、ここには合いません。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-429",
+        "question": "Jeff left the party at 8:00. He wanted to _____ home early and go to bed.",
+        "translation": "ジェフは8時にパーティーを出ました。彼は早く<b>家に帰って</b>寝たかったのです。",
+        "options": [
+            "meet",
+            "put",
+            "send",
+            "get"
+        ],
+        "optionMeanings": [
+            "会う",
+            "置く",
+            "送る",
+            "着く"
+        ],
+        "answer": "get",
+        "explanation": "<b>正解：get（着く）</b><br><br>💡 着眼点：「_____ home early（早く家に〜）」の形に注目します。「get home」で「家に帰り着く」という意味のまとまりです。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-430",
+        "question": "Mom’s lemon cake is not as good _____ her chocolate cake.",
+        "translation": "お母さんのレモンケーキは、チョコレートケーキ<b>ほど</b>おいしくありません。",
+        "options": [
+            "to",
+            "of",
+            "as",
+            "by"
+        ],
+        "optionMeanings": [
+            "〜へ",
+            "〜の",
+            "〜と同じくらい",
+            "〜によって"
+        ],
+        "answer": "as",
+        "explanation": "<b>正解：as（〜ほど）</b><br><br>💡 着眼点：「not as good _____」に注目します。「not as ＋形容詞＋ as 〜」で「〜ほど…ではない」という意味になるので、2つ目の as が入ります。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-431",
+        "question": "Patrick is very _____ in art. He draws or paints pictures every day.",
+        "translation": "パトリックは美術にとても<b>興味があります</b>。彼は毎日絵を描いています。",
+        "options": [
+            "fast",
+            "interested",
+            "clean",
+            "healthy"
+        ],
+        "optionMeanings": [
+            "速い",
+            "興味がある",
+            "きれいな",
+            "健康な"
+        ],
+        "answer": "interested",
+        "explanation": "<b>正解：interested（興味がある）</b><br><br>💡 着眼点：「_____ in art」と2文目の「He draws or paints pictures every day.（毎日絵を描く）」がヒントです。「be interested in 〜」で「〜に興味がある」という意味です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-432",
+        "question": "A: Did you enjoy the speech in English?\nB: Yes, but I wasn’t able _____ understand all of it.",
+        "translation": "A：英語のスピーチは楽しかったですか。\nB：はい、でも全部は<b>理解できませんでした</b>。",
+        "options": [
+            "for",
+            "on",
+            "to",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜のために",
+            "〜の上に",
+            "〜すること（不定詞のto）",
+            "〜で"
+        ],
+        "answer": "to",
+        "explanation": "<b>正解：to（不定詞のto）</b><br><br>💡 着眼点：「wasn't able _____ understand」に注目します。「be able to ＋動詞の原形」で「〜することができる」という意味なので、to が入ります。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-433",
+        "question": "When Sachiko was visiting India, she _____ her camera.",
+        "translation": "サチコはインドを訪れているときに、カメラを<b>なくしました</b>。",
+        "options": [
+            "lost",
+            "lose",
+            "to lose",
+            "losing"
+        ],
+        "optionMeanings": [
+            "〜をなくした（loseの過去形）",
+            "〜をなくす（原形）",
+            "不定詞：なくすこと",
+            "loseの-ing形"
+        ],
+        "answer": "lost",
+        "explanation": "<b>正解：lost（loseの過去形）</b><br><br>💡 着眼点：「When Sachiko was visiting（訪れていたとき）」と過去の話なので、空所の動詞も過去形にします。lose の過去形は lost です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-434",
+        "question": "There _____ a new swimming pool near our house.",
+        "translation": "私たちの家の近くに新しいプールが<b>あります</b>。",
+        "options": [
+            "be",
+            "are",
+            "does",
+            "is"
+        ],
+        "optionMeanings": [
+            "be動詞の原形",
+            "be動詞（複数）",
+            "doesの形",
+            "be動詞（単数）"
+        ],
+        "answer": "is",
+        "explanation": "<b>正解：is（be動詞（単数））</b><br><br>💡 着眼点：「There is / are 〜」は後ろの名詞に合わせます。「a new swimming pool」は単数で現在の話なので is を使います。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-435",
+        "question": "A: Enjoy your trip.\nB: Thanks. I _____ send you a postcard.",
+        "translation": "A：旅行を楽しんできてね。\nB：ありがとう。あなたに絵はがきを<b>送るね</b>。",
+        "options": [
+            "are",
+            "am",
+            "do",
+            "will"
+        ],
+        "optionMeanings": [
+            "be動詞（are）",
+            "be動詞（am）",
+            "do（する）",
+            "〜するつもりだ（未来）"
+        ],
+        "answer": "will",
+        "explanation": "<b>正解：will（〜するつもりだ）</b><br><br>💡 着眼点：旅行に行く前の会話で、これからすることを話しています。「send」という動詞の原形が続くので、未来を表す will が入ります。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "4-436",
+        "question": "Judy _____ around India for three weeks last summer.",
+        "translation": "ジュディは去年の夏、3週間インドを<b>旅行してまわりました</b>。",
+        "options": [
+            "arrived",
+            "gave",
+            "said",
+            "traveled"
+        ],
+        "optionMeanings": [
+            "到着した（arriveの過去形）",
+            "与えた（giveの過去形）",
+            "言った（sayの過去形）",
+            "旅行した（travelの過去形）"
+        ],
+        "answer": "traveled",
+        "explanation": "<b>正解：traveled（旅行した）</b><br><br>💡 着眼点：「_____ around India for three weeks（3週間インドを〜まわった）」がヒントです。「travel around 〜」で「〜を旅してまわる」という意味です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-437",
+        "question": "A: Where do you get off the train?\nB: At the _____ station.",
+        "translation": "A：どこで電車を降りるのですか。\nB：<b>次の</b>駅です。",
+        "options": [
+            "next",
+            "very",
+            "all",
+            "late"
+        ],
+        "optionMeanings": [
+            "次の",
+            "とても",
+            "すべての",
+            "遅い"
+        ],
+        "answer": "next",
+        "explanation": "<b>正解：next（次の）</b><br><br>💡 着眼点：「get off the train（電車を降りる）」場所を答えています。「the _____ station」に合うのは next（次の）です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-438",
+        "question": "My mother is in the kitchen now. She's making a _____ dinner for my father's birthday.",
+        "translation": "私の母は今台所にいます。父の誕生日のために<b>特別な</b>夕食を作っています。",
+        "options": [
+            "low",
+            "high",
+            "busy",
+            "special"
+        ],
+        "optionMeanings": [
+            "低い",
+            "高い",
+            "忙しい",
+            "特別な"
+        ],
+        "answer": "special",
+        "explanation": "<b>正解：special（特別な）</b><br><br>💡 着眼点：「for my father's birthday（父の誕生日のために）」がヒントです。誕生日のための夕食なので special（特別な）が自然です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-439",
+        "question": "A: Andy, do you want to go to Sam's party _____?\nB: Sure. Let's meet at my house at 12:15.",
+        "translation": "A：アンディ、<b>いっしょに</b>サムのパーティーに行かない？\nB：いいよ。12時15分に私の家で会おう。",
+        "options": [
+            "all",
+            "ago",
+            "left",
+            "together"
+        ],
+        "optionMeanings": [
+            "すべて",
+            "〜前に",
+            "左",
+            "いっしょに"
+        ],
+        "answer": "together",
+        "explanation": "<b>正解：together（いっしょに）</b><br><br>💡 着眼点：B が「Let's meet at my house（私の家で会おう）」と答えているので、2人で行こうと誘っていることがわかります。together は「いっしょに」という意味です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-440",
+        "question": "Mary _____ me some flowers from her garden.",
+        "translation": "メアリーは庭の花を何本か私に<b>持ってきてくれました</b>。",
+        "options": [
+            "rode",
+            "brought",
+            "stopped",
+            "answered"
+        ],
+        "optionMeanings": [
+            "乗った（rideの過去形）",
+            "持ってきた（bringの過去形）",
+            "止まった（stopの過去形）",
+            "答えた（answerの過去形）"
+        ],
+        "answer": "brought",
+        "explanation": "<b>正解：brought（持ってきた）</b><br><br>💡 着眼点：「me some flowers from her garden（庭からの花を私に）」に注目します。「bring ＋人＋物」で「人に物を持ってくる」という意味になります。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-441",
+        "question": "A: David, please _____ the door when you come in.\nB: OK. Sorry, Mom.",
+        "translation": "A：デイビッド、入ってくるときはドアを<b>閉めて</b>ね。\nB：わかった。ごめんなさい、お母さん。",
+        "options": [
+            "ride",
+            "hope",
+            "change",
+            "close"
+        ],
+        "optionMeanings": [
+            "乗る",
+            "望む",
+            "変える",
+            "閉める"
+        ],
+        "answer": "close",
+        "explanation": "<b>正解：close（閉める）</b><br><br>💡 着眼点：「_____ the door（ドアを〜）」と「when you come in（入ってくるとき）」がヒントです。部屋に入るときにドアに対してすることなので close（閉める）が入ります。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-442",
+        "question": "Todd eats _____ at 7:00 a.m. every morning.",
+        "translation": "トッドは毎朝午前7時に<b>朝食</b>を食べます。",
+        "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "water"
+        ],
+        "optionMeanings": [
+            "朝食",
+            "昼食",
+            "夕食",
+            "水"
+        ],
+        "answer": "breakfast",
+        "explanation": "<b>正解：breakfast（朝食）</b><br><br>💡 着眼点：「at 7:00 a.m. every morning（毎朝午前7時に）」がヒントです。朝に食べる食事なので breakfast（朝食）が入ります。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-443",
+        "question": "Ms. Thompson is _____ to all her students, so everyone likes her.",
+        "translation": "トンプソン先生はすべての生徒に<b>親切な</b>ので、みんな彼女のことが好きです。",
+        "options": [
+            "busy",
+            "kind",
+            "popular",
+            "tired"
+        ],
+        "optionMeanings": [
+            "忙しい",
+            "親切な",
+            "人気のある",
+            "疲れた"
+        ],
+        "answer": "kind",
+        "explanation": "<b>正解：kind（親切な）</b><br><br>💡 着眼点：「_____ to all her students（すべての生徒に〜）」と「so everyone likes her（だからみんなが彼女を好き）」がヒントです。「be kind to 〜」で「〜に親切だ」という意味です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-444",
+        "question": "I took the train this morning, so I _____ to school at seven thirty.",
+        "translation": "今朝は電車に乗ったので、7時30分に学校に<b>着きました</b>。",
+        "options": [
+            "woke",
+            "had",
+            "got",
+            "put"
+        ],
+        "optionMeanings": [
+            "目が覚めた（wakeの過去形）",
+            "持っていた（haveの過去形）",
+            "着いた（getの過去形）",
+            "置いた（putの過去形）"
+        ],
+        "answer": "got",
+        "explanation": "<b>正解：got（着いた）</b><br><br>💡 着眼点：「_____ to school at seven thirty（7時30分に学校に〜）」に注目します。「get to 〜」で「〜に着く」という意味で、過去の話なので got を使います。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-445",
+        "question": "Ladies and gentlemen, please have a _____. The show will begin in three minutes.",
+        "translation": "みなさま、<b>ご着席</b>ください。ショーはあと3分で始まります。",
+        "options": [
+            "size",
+            "seat",
+            "song",
+            "sofa"
+        ],
+        "optionMeanings": [
+            "大きさ",
+            "座席",
+            "歌",
+            "ソファー"
+        ],
+        "answer": "seat",
+        "explanation": "<b>正解：seat（座席）</b><br><br>💡 着眼点：「The show will begin in three minutes.（ショーはあと3分で始まる）」がヒントです。「have a seat」で「座る、着席する」という意味の決まった言い方です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-446",
+        "question": "A: Did you watch the soccer game _____ TV yesterday?\nB: Yes, it was so exciting.",
+        "translation": "A：昨日、サッカーの試合をテレビ<b>で</b>見ましたか。\nB：はい、とてもわくわくしました。",
+        "options": [
+            "for",
+            "on",
+            "with",
+            "by"
+        ],
+        "optionMeanings": [
+            "〜のために",
+            "〜で（テレビで）",
+            "〜といっしょに",
+            "〜によって"
+        ],
+        "answer": "on",
+        "explanation": "<b>正解：on（〜で）</b><br><br>💡 着眼点：「_____ TV」に注目します。「テレビで」は on TV と言います。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-447",
+        "question": "A: We're going to go out for dinner for Dad's birthday tomorrow. Where should we go?\nB: I _____ no idea. Let's ask Mom.",
+        "translation": "A：明日はお父さんの誕生日に夕食を食べに出かけるよ。どこに行こうか。\nB：<b>まったくわからない</b>な。お母さんに聞こう。",
+        "options": [
+            "save",
+            "have",
+            "take",
+            "give"
+        ],
+        "optionMeanings": [
+            "ためる",
+            "持っている",
+            "取る",
+            "与える"
+        ],
+        "answer": "have",
+        "explanation": "<b>正解：have（持っている）</b><br><br>💡 着眼点：「_____ no idea」に注目します。「I have no idea.」で「まったくわからない」という意味の決まった言い方です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-448",
+        "question": "A: _____ is your new teacher's name?\nB: It's Mr. Brown.",
+        "translation": "A：あなたの新しい先生の名前は<b>何</b>ですか。\nB：ブラウン先生です。",
+        "options": [
+            "Where",
+            "When",
+            "What",
+            "How"
+        ],
+        "optionMeanings": [
+            "どこ",
+            "いつ",
+            "何",
+            "どのように"
+        ],
+        "answer": "What",
+        "explanation": "<b>正解：What（何）</b><br><br>💡 着眼点：B が「It's Mr. Brown.（ブラウン先生です）」と名前を答えています。名前をたずねるときは「What is 〜's name?」を使います。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-449",
+        "question": "Naoko likes _____ e-mails to her friends.",
+        "translation": "ナオコは友だちにメールを<b>書くこと</b>が好きです。",
+        "options": [
+            "write",
+            "writes",
+            "wrote",
+            "writing"
+        ],
+        "optionMeanings": [
+            "書く（原形）",
+            "書く（3人称単数）",
+            "書いた（writeの過去形）",
+            "writeの-ing形"
+        ],
+        "answer": "writing",
+        "explanation": "<b>正解：writing（writeの-ing形）</b><br><br>💡 着眼点：「likes _____」に注目します。「like ＋動詞の-ing形」で「〜することが好き」という意味になるので writing が入ります。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-450",
+        "question": "Susan and I _____ in the same class last year.",
+        "translation": "スーザンと私は、去年同じクラス<b>でした</b>。",
+        "options": [
+            "am",
+            "are",
+            "was",
+            "were"
+        ],
+        "optionMeanings": [
+            "be動詞（am）",
+            "be動詞（are）",
+            "be動詞の過去形（単数）",
+            "be動詞の過去形（複数）"
+        ],
+        "answer": "were",
+        "explanation": "<b>正解：were（be動詞の過去形）</b><br><br>💡 着眼点：「last year（去年）」があるので過去形にします。主語「Susan and I」は複数なので、was ではなく were を使います。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "4-451",
+        "question": "I don’t know this word. I need a _____.",
+        "translation": "私はこの単語を知りません。<b>辞書</b>が必要です。",
+        "options": [
+            "dictionary",
+            "chair",
+            "desk",
+            "stamp"
+        ],
+        "optionMeanings": [
+            "辞書",
+            "いす",
+            "机",
+            "切手"
+        ],
+        "answer": "dictionary",
+        "explanation": "<b>正解：dictionary（辞書）</b><br><br>💡 着眼点：「I don't know this word.（この単語を知らない）」がヒントです。知らない単語を調べるのに必要なものなので dictionary（辞書）が入ります。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-452",
+        "question": "The movie _____ at 8:00, but I didn’t get to the theater until 8:20.",
+        "translation": "映画は8時に<b>始まりました</b>が、私は8時20分まで映画館に着きませんでした。",
+        "options": [
+            "met",
+            "began",
+            "invited",
+            "saw"
+        ],
+        "optionMeanings": [
+            "会った（meetの過去形）",
+            "始まった（beginの過去形）",
+            "招待した（inviteの過去形）",
+            "見た（seeの過去形）"
+        ],
+        "answer": "began",
+        "explanation": "<b>正解：began（始まった）</b><br><br>💡 着眼点：「The movie _____ at 8:00（映画は8時に〜）」と、後半の「8時20分まで着かなかった」がヒントです。映画が始まる時刻を表すので began が入ります。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-453",
+        "question": "A: Look at that man. He’s a _____ sumo wrestler.\nB: Wow! He’s big!",
+        "translation": "A：あの男の人を見て。<b>有名な</b>すもうの力士だよ。\nB：わあ。大きいね。",
+        "options": [
+            "famous",
+            "dry",
+            "left",
+            "long"
+        ],
+        "optionMeanings": [
+            "有名な",
+            "乾いた",
+            "左の",
+            "長い"
+        ],
+        "answer": "famous",
+        "explanation": "<b>正解：famous（有名な）</b><br><br>💡 着眼点：「a _____ sumo wrestler（〜なすもうの力士）」に合う形容詞を選びます。人を紹介する言い方として famous（有名な）が自然です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-454",
+        "question": "A: Mom, there’s no _____ in the bathroom. I need to take a shower.\nB: OK. I’ll get some for you.",
+        "translation": "A：お母さん、お風呂場に<b>せっけん</b>がないよ。シャワーを浴びたいんだ。\nB：わかった。持ってきてあげるね。",
+        "options": [
+            "store",
+            "stop",
+            "ship",
+            "soap"
+        ],
+        "optionMeanings": [
+            "店",
+            "停留所",
+            "船",
+            "せっけん"
+        ],
+        "answer": "soap",
+        "explanation": "<b>正解：soap（せっけん）</b><br><br>💡 着眼点：「in the bathroom（お風呂場に）」と「take a shower（シャワーを浴びる）」がヒントです。シャワーのときに使うものなので soap（せっけん）が入ります。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-455",
+        "question": "A: What do you do in your _____ time, Ben?\nB: I listen to music.",
+        "translation": "A：ベン、<b>ひまな</b>時間には何をしているの？\nB：音楽を聞いているよ。",
+        "options": [
+            "good",
+            "high",
+            "free",
+            "short"
+        ],
+        "optionMeanings": [
+            "よい",
+            "高い",
+            "自由な",
+            "短い"
+        ],
+        "answer": "free",
+        "explanation": "<b>正解：free（自由な）</b><br><br>💡 着眼点：「your _____ time」に注目します。「free time」で「ひまな時間、自由な時間」という意味です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-456",
+        "question": "A: How was your fishing trip last weekend, John? Did you _____ any fish?\nB: Yes! Five big ones.",
+        "translation": "A：先週末の釣り旅行はどうだった、ジョン？ 魚は<b>釣れた</b>？\nB：うん。大きいのが5匹。",
+        "options": [
+            "catch",
+            "arrive",
+            "close",
+            "think"
+        ],
+        "optionMeanings": [
+            "〜をつかまえる",
+            "到着する",
+            "〜を閉める",
+            "考える"
+        ],
+        "answer": "catch",
+        "explanation": "<b>正解：catch（〜をつかまえる）</b><br><br>💡 着眼点：「fishing trip（釣り旅行）」と「_____ any fish（魚を〜）」がヒントです。魚を「とる、釣る」は catch を使います。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-457",
+        "question": "The _____ was nice yesterday, so we went to the zoo.",
+        "translation": "昨日は<b>天気</b>がよかったので、私たちは動物園に行きました。",
+        "options": [
+            "phone",
+            "hope",
+            "weather",
+            "plane"
+        ],
+        "optionMeanings": [
+            "電話",
+            "希望",
+            "天気",
+            "飛行機"
+        ],
+        "answer": "weather",
+        "explanation": "<b>正解：weather（天気）</b><br><br>💡 着眼点：「The _____ was nice yesterday（昨日は〜がよかった）」と「so we went to the zoo（だから動物園に行った）」がヒントです。出かける理由になるのは weather（天気）です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-458",
+        "question": "Judy calls her friend Emily every weekend. They talk _____ a long time.",
+        "translation": "ジュディは毎週末、友だちのエミリーに電話をします。2人は長い<b>間</b>話します。",
+        "options": [
+            "on",
+            "as",
+            "in",
+            "for"
+        ],
+        "optionMeanings": [
+            "〜の上に",
+            "〜として",
+            "〜の中に",
+            "〜の間"
+        ],
+        "answer": "for",
+        "explanation": "<b>正解：for（〜の間）</b><br><br>💡 着眼点：「_____ a long time（長い時間）」に注目します。期間の長さを表すときは for を使い、「for a long time」で「長い間」という意味です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-459",
+        "question": "A: I practice tennis every day, but I’m not good at it.\nB: Don’t give _____. You’ll get better.",
+        "translation": "A：毎日テニスを練習しているけど、上手じゃないんだ。\nB：<b>あきらめ</b>ないで。上手になるよ。",
+        "options": [
+            "up",
+            "of",
+            "over",
+            "under"
+        ],
+        "optionMeanings": [
+            "上へ",
+            "〜の",
+            "〜をこえて",
+            "〜の下に"
+        ],
+        "answer": "up",
+        "explanation": "<b>正解：up（give up：あきらめる）</b><br><br>💡 着眼点：「Don't give _____.」と「You'll get better.（上手になるよ）」がヒントです。「give up」で「あきらめる」という意味です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-460",
+        "question": "Natsuyo stayed _____ a host family in Spain last year.",
+        "translation": "ナツヨは去年、スペインでホストファミリー<b>のところに</b>滞在しました。",
+        "options": [
+            "with",
+            "into",
+            "from",
+            "through"
+        ],
+        "optionMeanings": [
+            "〜といっしょに",
+            "〜の中へ",
+            "〜から",
+            "〜を通って"
+        ],
+        "answer": "with",
+        "explanation": "<b>正解：with（〜といっしょに）</b><br><br>💡 着眼点：「stayed _____ a host family（ホストファミリーの〜に滞在した）」に注目します。「stay with ＋人」で「〜の家に泊まる」という意味です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-461",
+        "question": "Lisa must go _____ to her hometown because her father is sick.",
+        "translation": "リサはお父さんが病気なので、故郷へ<b>帰ら</b>なければなりません。",
+        "options": [
+            "fine",
+            "back",
+            "little",
+            "long"
+        ],
+        "optionMeanings": [
+            "元気な",
+            "戻って",
+            "少し",
+            "長い"
+        ],
+        "answer": "back",
+        "explanation": "<b>正解：back（戻って）</b><br><br>💡 着眼点：「go _____ to her hometown（故郷へ〜行く）」と「her father is sick（父が病気）」がヒントです。「go back to 〜」で「〜へ戻る」という意味です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-462",
+        "question": "A: Did you go shopping last Sunday, Judy?\nB: No. I watched a soccer game on TV _____ home.",
+        "translation": "A：この前の日曜日は買い物に行ったの、ジュディ？\nB：ううん。<b>家で</b>テレビのサッカーの試合を見たよ。",
+        "options": [
+            "up",
+            "down",
+            "on",
+            "at"
+        ],
+        "optionMeanings": [
+            "上へ",
+            "下へ",
+            "〜の上に",
+            "〜で（場所）"
+        ],
+        "answer": "at",
+        "explanation": "<b>正解：at（〜で）</b><br><br>💡 着眼点：「_____ home」に注目します。「at home」で「家で」という意味です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-463",
+        "question": "Last month, Taro’s grandmother _____ him and his sister to Disneyland.",
+        "translation": "先月、タロウのおばあさんは彼と妹をディズニーランドに<b>連れて行ってくれました</b>。",
+        "options": [
+            "take",
+            "takes",
+            "took",
+            "taking"
+        ],
+        "optionMeanings": [
+            "連れて行く（原形）",
+            "連れて行く（3人称単数）",
+            "連れて行った（takeの過去形）",
+            "takeの-ing形"
+        ],
+        "answer": "took",
+        "explanation": "<b>正解：took（takeの過去形）</b><br><br>💡 着眼点：「Last month（先月）」があるので過去形にします。take の過去形は took です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-464",
+        "question": "A: How did you get to the party?\nB: My father brought _____ by car.",
+        "translation": "A：パーティーにはどうやって行ったの？\nB：父が車で<b>私を</b>連れて行ってくれたよ。",
+        "options": [
+            "I",
+            "me",
+            "my",
+            "mine"
+        ],
+        "optionMeanings": [
+            "私は",
+            "私を",
+            "私の",
+            "私のもの"
+        ],
+        "answer": "me",
+        "explanation": "<b>正解：me（私を）</b><br><br>💡 着眼点：「brought _____」と動詞のあとにくるので、「〜を」の形（目的格）を使います。I の目的格は me です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-465",
+        "question": "The students stopped _____ when the teacher came into the classroom.",
+        "translation": "先生が教室に入ってくると、生徒たちは<b>話すのを</b>やめました。",
+        "options": [
+            "talking",
+            "talks",
+            "talk",
+            "talked"
+        ],
+        "optionMeanings": [
+            "話すこと（talkの-ing形）",
+            "話す（3人称単数）",
+            "話す（原形）",
+            "話した（talkの過去形）"
+        ],
+        "answer": "talking",
+        "explanation": "<b>正解：talking（talkの-ing形）</b><br><br>💡 着眼点：「stopped _____」に注目します。「stop ＋動詞の-ing形」で「〜するのをやめる」という意味なので talking が入ります。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "4-466",
+        "question": "A: Your skirt is very pretty, Nancy. Where did you _____ it?\nB: At a store by the subway station.",
+        "translation": "A：あなたのスカート、とてもかわいいね、ナンシー。どこで<b>見つけた</b>の？\nB：地下鉄の駅のそばのお店でだよ。",
+        "options": [
+            "put",
+            "hear",
+            "mean",
+            "find"
+        ],
+        "optionMeanings": [
+            "置く",
+            "聞く",
+            "意味する",
+            "見つける"
+        ],
+        "answer": "find",
+        "explanation": "<b>正解：find（見つける）</b><br><br>💡 着眼点：B が「At a store（お店で）」と答えています。スカートを手に入れた場所をたずねているので、find（見つける）が自然です。did のあとなので原形を使います。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-467",
+        "question": "I like cooking. I watch a cooking _____ on TV every Wednesday.",
+        "translation": "私は料理が好きです。毎週水曜日にテレビで料理<b>番組</b>を見ています。",
+        "options": [
+            "view",
+            "road",
+            "member",
+            "program"
+        ],
+        "optionMeanings": [
+            "眺め",
+            "道",
+            "会員",
+            "番組"
+        ],
+        "answer": "program",
+        "explanation": "<b>正解：program（番組）</b><br><br>💡 着眼点：「watch a cooking _____ on TV（テレビで料理の〜を見る）」がヒントです。テレビで見るものなので program（番組）が入ります。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-468",
+        "question": "My sister is studying English hard now because she wants to _____ an English teacher.",
+        "translation": "私の姉［妹］は英語の先生に<b>なりたい</b>ので、今英語を一生けんめい勉強しています。",
+        "options": [
+            "become",
+            "think",
+            "speak",
+            "leave"
+        ],
+        "optionMeanings": [
+            "〜になる",
+            "考える",
+            "話す",
+            "去る"
+        ],
+        "answer": "become",
+        "explanation": "<b>正解：become（〜になる）</b><br><br>💡 着眼点：「wants to _____ an English teacher（英語の先生に〜したい）」に注目します。将来の職業について言うときは become（〜になる）を使います。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-469",
+        "question": "A: When is your math test, Sally?\nB: It's _____ Friday, Mom.",
+        "translation": "A：数学のテストはいつなの、サリー？\nB：<b>金曜日に</b>あるよ、お母さん。",
+        "options": [
+            "at",
+            "in",
+            "of",
+            "on"
+        ],
+        "optionMeanings": [
+            "〜に（時刻）",
+            "〜に（月・年）",
+            "〜の",
+            "〜に（曜日）"
+        ],
+        "answer": "on",
+        "explanation": "<b>正解：on（〜に（曜日））</b><br><br>💡 着眼点：「_____ Friday」に注目します。曜日の前には on を使います。時刻には at、月や年には in を使うことと区別しましょう。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-470",
+        "question": "A: Did you read this book?\nB: Yes. It's _____. I really liked it.",
+        "translation": "A：この本を読んだ？\nB：うん。<b>すばらしい</b>よ。本当に気に入ったよ。",
+        "options": [
+            "sure",
+            "late",
+            "early",
+            "great"
+        ],
+        "optionMeanings": [
+            "確かな",
+            "遅い",
+            "早い",
+            "すばらしい"
+        ],
+        "answer": "great",
+        "explanation": "<b>正解：great（すばらしい）</b><br><br>💡 着眼点：あとの「I really liked it.（本当に気に入った）」がヒントです。本をほめる言葉として great（すばらしい）が入ります。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-471",
+        "question": "A: Grandpa, this photograph looks very _____.\nB: It is. My father took it in 1935.",
+        "translation": "A：おじいちゃん、この写真はとても<b>古く</b>見えるね。\nB：そうだよ。私の父が1935年に撮ったんだ。",
+        "options": [
+            "late",
+            "tall",
+            "old",
+            "long"
+        ],
+        "optionMeanings": [
+            "遅い",
+            "背が高い",
+            "古い",
+            "長い"
+        ],
+        "answer": "old",
+        "explanation": "<b>正解：old（古い）</b><br><br>💡 着眼点：B の「My father took it in 1935.（父が1935年に撮った）」がヒントです。昔の写真なので old（古い）が入ります。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-472",
+        "question": "A: When is dinner, Mom?\nB: We'll eat in two _____.",
+        "translation": "A：夕食はいつ、お母さん？\nB：2<b>時間</b>後に食べるよ。",
+        "options": [
+            "nights",
+            "dates",
+            "weeks",
+            "hours"
+        ],
+        "optionMeanings": [
+            "夜",
+            "日付",
+            "週",
+            "時間"
+        ],
+        "answer": "hours",
+        "explanation": "<b>正解：hours（時間）</b><br><br>💡 着眼点：「in two _____（2〜後に）」で夕食までの時間を答えています。夕食を待つ時間として自然なのは hours（時間）です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-473",
+        "question": "A: Are you enjoying the cycling trip?\nB: Yes, but could we slow _____ a bit?\nA: Sure.",
+        "translation": "A：サイクリング旅行を楽しんでる？\nB：うん、でも少し<b>スピードを落として</b>もいい？\nA：いいよ。",
+        "options": [
+            "after",
+            "over",
+            "down",
+            "behind"
+        ],
+        "optionMeanings": [
+            "〜のあとに",
+            "〜をこえて",
+            "下へ",
+            "〜の後ろに"
+        ],
+        "answer": "down",
+        "explanation": "<b>正解：down（slow down：速度を落とす）</b><br><br>💡 着眼点：「could we slow _____ a bit?（少し〜してもいい？）」に注目します。「slow down」で「スピードを落とす」という意味です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-474",
+        "question": "My grandfather _____ a walk with his dog every morning at six.",
+        "translation": "私の祖父は毎朝6時に犬と<b>散歩をします</b>。",
+        "options": [
+            "takes",
+            "jumps",
+            "buys",
+            "rides"
+        ],
+        "optionMeanings": [
+            "（散歩を）する",
+            "跳ぶ",
+            "買う",
+            "乗る"
+        ],
+        "answer": "takes",
+        "explanation": "<b>正解：takes（（散歩を）する）</b><br><br>💡 着眼点：「_____ a walk（散歩を〜）」に注目します。「take a walk」で「散歩をする」という意味です。主語が My grandfather なので takes になっています。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-475",
+        "question": "My uncle lives in Spain. I want to go there and stay with him in the _____.",
+        "translation": "私のおじはスペインに住んでいます。私は<b>将来</b>そこへ行って、おじのところに泊まりたいです。",
+        "options": [
+            "way",
+            "future",
+            "top",
+            "time"
+        ],
+        "optionMeanings": [
+            "道",
+            "将来",
+            "頂上",
+            "時間"
+        ],
+        "answer": "future",
+        "explanation": "<b>正解：future（将来）</b><br><br>💡 着眼点：「I want to go there（そこへ行きたい）」とこれからの希望を話しています。「in the future」で「将来」という意味です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-476",
+        "question": "A: What do you want to do today?\nB: I have a good _____. Let's ride our bikes to the river.",
+        "translation": "A：今日は何をしたい？\nB：いい<b>考え</b>があるよ。川まで自転車に乗って行こう。",
+        "options": [
+            "idea",
+            "word",
+            "lesson",
+            "paper"
+        ],
+        "optionMeanings": [
+            "考え",
+            "単語",
+            "授業",
+            "紙"
+        ],
+        "answer": "idea",
+        "explanation": "<b>正解：idea（考え）</b><br><br>💡 着眼点：「I have a good _____.」のあとに「Let's ride our bikes to the river.（川まで自転車で行こう）」と提案しています。「I have a good idea.」で「いい考えがある」という意味です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-477",
+        "question": "John works in an office from 9 a.m. to 5 p.m. _____ work, he likes to go to the movies with his friends.",
+        "translation": "ジョンは午前9時から午後5時まで会社で働いています。仕事の<b>あとで</b>、彼は友だちと映画に行くのが好きです。",
+        "options": [
+            "Down",
+            "Among",
+            "After",
+            "Away"
+        ],
+        "optionMeanings": [
+            "下へ",
+            "〜の間で",
+            "〜のあとで",
+            "離れて"
+        ],
+        "answer": "After",
+        "explanation": "<b>正解：After（〜のあとで）</b><br><br>💡 着眼点：前の文で働く時間を説明し、「_____ work（仕事の〜）」のあとに映画に行くと続きます。時間の順番から after（〜のあとで）が入ります。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-478",
+        "question": "It started to rain when we _____ in the pool.",
+        "translation": "私たちがプールで<b>泳いでいた</b>とき、雨が降り始めました。",
+        "options": [
+            "swim",
+            "to swim",
+            "swimming",
+            "were swimming"
+        ],
+        "optionMeanings": [
+            "泳ぐ（原形）",
+            "不定詞：泳ぐこと",
+            "swimの-ing形",
+            "泳いでいた（過去進行形）"
+        ],
+        "answer": "were swimming",
+        "explanation": "<b>正解：were swimming（過去進行形：泳いでいた）</b><br><br>💡 着眼点：「It started to rain（雨が降り始めた）」と過去の話です。雨が降り始めたときにしている最中だったことは、過去進行形「were ＋ -ing形」で表します。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-479",
+        "question": "I have one brother. _____ name is Tom.",
+        "translation": "私には兄［弟］が1人います。<b>彼の</b>名前はトムです。",
+        "options": [
+            "Their",
+            "Her",
+            "His",
+            "Your"
+        ],
+        "optionMeanings": [
+            "彼らの",
+            "彼女の",
+            "彼の",
+            "あなたの"
+        ],
+        "answer": "His",
+        "explanation": "<b>正解：His（彼の）</b><br><br>💡 着眼点：「one brother（1人の兄弟）」について説明しています。男性1人なので、「彼の」を表す His が入ります。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-480",
+        "question": "A: _____ is your father, John?\nB: He's fine, thank you.",
+        "translation": "A：お父さんは<b>元気</b>、ジョン？\nB：元気だよ、ありがとう。",
+        "options": [
+            "What",
+            "Which",
+            "Who",
+            "How"
+        ],
+        "optionMeanings": [
+            "何",
+            "どちら",
+            "だれ",
+            "どのような状態で"
+        ],
+        "answer": "How",
+        "explanation": "<b>正解：How（どのような状態で）</b><br><br>💡 着眼点：B が「He's fine（元気だよ）」と答えています。体調や様子をたずねるときは「How is 〜?」を使います。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "4-481",
+        "question": "A: I can’t swim, so I want to take _____.\nB: You should call the city pool. I learned to swim there.",
+        "translation": "A：私は泳げないので、<b>レッスン</b>を受けたいです。\nB：市民プールに電話するといいですよ。私はそこで泳ぎを習いました。",
+        "options": [
+            "examples",
+            "flowers",
+            "minutes",
+            "lessons"
+        ],
+        "optionMeanings": [
+            "例",
+            "花",
+            "分",
+            "レッスン"
+        ],
+        "answer": "lessons",
+        "explanation": "<b>正解：lessons（レッスン）</b><br><br>💡 着眼点：「can't swim（泳げない）」と言っているので、泳ぎを習いたいという流れです。take lessons で「レッスンを受ける」という意味になります。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-482",
+        "question": "The rain _____ in the morning, so we went to the park.",
+        "translation": "午前中に雨が<b>やんだ</b>ので、私たちは公園へ行きました。",
+        "options": [
+            "stopped",
+            "studied",
+            "bought",
+            "heard"
+        ],
+        "optionMeanings": [
+            "〜がやんだ（stopの過去形）",
+            "〜を勉強した（studyの過去形）",
+            "〜を買った（buyの過去形）",
+            "〜を聞いた（hearの過去形）"
+        ],
+        "answer": "stopped",
+        "explanation": "<b>正解：stopped（やんだ）</b><br><br>💡 着眼点：主語が「The rain（雨）」で、そのあと「went to the park（公園へ行った）」とあります。雨が「やんだ」から出かけられた、と考えると自然です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-483",
+        "question": "The Internet is very useful for getting _____ quickly.",
+        "translation": "インターネットは<b>情報</b>をすばやく手に入れるのにとても役立ちます。",
+        "options": [
+            "subjects",
+            "classrooms",
+            "tape",
+            "information"
+        ],
+        "optionMeanings": [
+            "教科",
+            "教室",
+            "テープ",
+            "情報"
+        ],
+        "answer": "information",
+        "explanation": "<b>正解：information（情報）</b><br><br>💡 着眼点：「The Internet（インターネット）」が「useful（役に立つ）」理由を考えます。インターネットですばやく得られるものは information（情報）です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-484",
+        "question": "Karen has some _____ news. She’s going to move to France.",
+        "translation": "カレンには<b>わくわくする</b>知らせがあります。彼女はフランスへ引っ越すのです。",
+        "options": [
+            "each",
+            "every",
+            "exciting",
+            "easy"
+        ],
+        "optionMeanings": [
+            "それぞれの",
+            "すべての",
+            "わくわくする",
+            "簡単な"
+        ],
+        "answer": "exciting",
+        "explanation": "<b>正解：exciting（わくわくする）</b><br><br>💡 着眼点：空所のあとの news（知らせ）を説明する形容詞を選びます。後ろの文「move to France（フランスへ引っ越す）」という内容から、exciting（わくわくする）が合います。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-485",
+        "question": "A: Do you want _____ hamburger, Larry?\nB: No, thanks. I’m full.",
+        "translation": "A：ハンバーガーを<b>もう1つ</b>いかが、ラリー？\nB：いいえ、けっこうです。おなかがいっぱいです。",
+        "options": [
+            "all",
+            "another",
+            "same",
+            "few"
+        ],
+        "optionMeanings": [
+            "すべての",
+            "もう1つの",
+            "同じ",
+            "少しの"
+        ],
+        "answer": "another",
+        "explanation": "<b>正解：another（もう1つの）</b><br><br>💡 着眼点：空所のあとが hamburger と単数なので、1つを表す語が入ります。another は「もう1つの」という意味で、おかわりをすすめるときによく使います。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-486",
+        "question": "The city is going to _____ a new school in my neighborhood.",
+        "translation": "市は私の近所に新しい学校を<b>建てる</b>予定です。",
+        "options": [
+            "build",
+            "become",
+            "brush",
+            "bring"
+        ],
+        "optionMeanings": [
+            "〜を建てる",
+            "〜になる",
+            "〜をみがく",
+            "〜を持ってくる"
+        ],
+        "answer": "build",
+        "explanation": "<b>正解：build（〜を建てる）</b><br><br>💡 着眼点：目的語が「a new school（新しい学校）」です。学校に対してする動作として自然なのは build（建てる）です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-487",
+        "question": "Mr. Roberts is always busy, but he _____ his e-mail every morning.",
+        "translation": "ロバーツさんはいつも忙しいですが、毎朝メールを<b>確認します</b>。",
+        "options": [
+            "closes",
+            "changes",
+            "calls",
+            "checks"
+        ],
+        "optionMeanings": [
+            "〜を閉める（3人称単数）",
+            "〜を変える（3人称単数）",
+            "〜に電話する（3人称単数）",
+            "〜を確認する（3人称単数）"
+        ],
+        "answer": "checks",
+        "explanation": "<b>正解：checks（〜を確認する）</b><br><br>💡 着眼点：目的語は「his e-mail（彼のメール）」です。メールを「確認する」は check で表します。主語が he なので checks になります。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-488",
+        "question": "A: Do you often visit your grandfather?\nB: No, but we speak to each _____ every weekend.",
+        "translation": "A：おじいさんをよく訪ねるの？\nB：いいえ、でも毎週末<b>おたがいに</b>話をしているよ。",
+        "options": [
+            "other",
+            "some",
+            "next",
+            "many"
+        ],
+        "optionMeanings": [
+            "ほかの（each otherで「おたがい」）",
+            "いくつかの",
+            "次の",
+            "多くの"
+        ],
+        "answer": "other",
+        "explanation": "<b>正解：other（each other で「おたがい」）</b><br><br>💡 着眼点：空所の前に each があります。each other で「おたがい」という決まった言い方になります。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-489",
+        "question": "I can talk _____ everything with my mom, so she’s my best friend.",
+        "translation": "私は母と何<b>について</b>でも話せるので、母は私の親友です。",
+        "options": [
+            "after",
+            "about",
+            "under",
+            "near"
+        ],
+        "optionMeanings": [
+            "〜のあとに",
+            "〜について",
+            "〜の下に",
+            "〜の近くに"
+        ],
+        "answer": "about",
+        "explanation": "<b>正解：about（〜について）</b><br><br>💡 着眼点：talk about ～ で「～について話す」という意味です。「everything（何でも）」について話せる、とつながります。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-490",
+        "question": "Kyoko always _____ up early in the morning. She makes her lunch before she goes to work.",
+        "translation": "キョウコはいつも朝早く<b>起きます</b>。彼女は仕事に行く前にお弁当を作ります。",
+        "options": [
+            "catches",
+            "forgets",
+            "wakes",
+            "keeps"
+        ],
+        "optionMeanings": [
+            "〜をつかまえる（3人称単数）",
+            "〜を忘れる（3人称単数）",
+            "目が覚める（3人称単数）",
+            "〜を保つ（3人称単数）"
+        ],
+        "answer": "wakes",
+        "explanation": "<b>正解：wakes（wake up で「起きる」）</b><br><br>💡 着眼点：空所のあとに up と「early in the morning（朝早く）」があります。wake up で「起きる、目が覚める」という意味です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-491",
+        "question": "My parents both work, so they aren’t at home _____ the day.",
+        "translation": "両親は2人とも働いているので、日中<b>の間</b>は家にいません。",
+        "options": [
+            "down",
+            "before",
+            "against",
+            "during"
+        ],
+        "optionMeanings": [
+            "下へ",
+            "〜の前に",
+            "〜に反対して",
+            "〜の間"
+        ],
+        "answer": "during",
+        "explanation": "<b>正解：during（〜の間）</b><br><br>💡 着眼点：空所のあとの「the day（日中）」とつながる前置詞を選びます。during the day で「日中の間」という意味になります。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-492",
+        "question": "Each year, more _____ more people travel to Japan to enjoy sightseeing and shopping.",
+        "translation": "毎年、観光や買い物を楽しむために日本を訪れる人は<b>ますます</b>増えています。",
+        "options": [
+            "and",
+            "or",
+            "but",
+            "than"
+        ],
+        "optionMeanings": [
+            "〜と",
+            "〜または",
+            "しかし",
+            "〜よりも"
+        ],
+        "answer": "and",
+        "explanation": "<b>正解：and（more and more で「ますます多くの」）</b><br><br>💡 着眼点：more and more ～ で「ますます多くの～」という決まった言い方です。比較級を and でつなぐと「だんだん～」の意味になります。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-493",
+        "question": "The students _____ 50 meters in the school pool yesterday.",
+        "translation": "生徒たちは昨日、学校のプールで50メートル<b>泳ぎました</b>。",
+        "options": [
+            "swim",
+            "swam",
+            "swimming",
+            "to swim"
+        ],
+        "optionMeanings": [
+            "swimの原形",
+            "swimの過去形",
+            "swimの-ing形",
+            "swimのto不定詞"
+        ],
+        "answer": "swam",
+        "explanation": "<b>正解：swam（swimの過去形）</b><br><br>💡 着眼点：文の最後に「yesterday（昨日）」があるので過去の文です。swim の過去形は swam です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-494",
+        "question": "Mike likes comic books. He reads _____ every day.",
+        "translation": "マイクはマンガが好きです。彼は毎日<b>それらを</b>読みます。",
+        "options": [
+            "it",
+            "me",
+            "him",
+            "them"
+        ],
+        "optionMeanings": [
+            "それを",
+            "私を",
+            "彼を",
+            "それらを"
+        ],
+        "answer": "them",
+        "explanation": "<b>正解：them（それらを）</b><br><br>💡 着眼点：前の文の「comic books（マンガ）」は複数です。複数のものを受ける目的語の代名詞は them です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-495",
+        "question": "A: I forgot my pencil. _____ I use yours, Mark?\nB: Yes. Here you are.",
+        "translation": "A：鉛筆を忘れちゃった。あなたのを<b>使ってもいい</b>、マーク？\nB：うん。はい、どうぞ。",
+        "options": [
+            "Have",
+            "Could",
+            "Are",
+            "Was"
+        ],
+        "optionMeanings": [
+            "持っている（Have）",
+            "〜してもよいですか（Could）",
+            "〜です（Are）",
+            "〜でした（Was）"
+        ],
+        "answer": "Could",
+        "explanation": "<b>正解：Could（Could I ～? で「～してもよいですか」）</b><br><br>💡 着眼点：「Could I ～?」で「～してもよいですか」とていねいに許可を求める言い方になります。B が「Here you are.（はい、どうぞ）」と貸していることもヒントです。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "4-496",
+        "question": "Susan _____ me some photos of our trip.",
+        "translation": "スーザンは私に旅行の写真を何枚か<b>くれました</b>。",
+        "options": [
+            "rode",
+            "stopped",
+            "gave",
+            "listened"
+        ],
+        "optionMeanings": [
+            "〜に乗った（rideの過去形）",
+            "〜を止めた（stopの過去形）",
+            "〜をあげた（giveの過去形）",
+            "聞いた（listenの過去形）"
+        ],
+        "answer": "gave",
+        "explanation": "<b>正解：gave（giveの過去形）</b><br><br>💡 着眼点：空所のあとが「me（私に）」「some photos（何枚かの写真）」と2つ続いています。give 人 物 で「人に物をあげる」なので、過去形の gave が入ります。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-497",
+        "question": "Tim, you must be _____ in the library. People are reading.",
+        "translation": "ティム、図書館では<b>静かに</b>しなければいけませんよ。みんなが本を読んでいます。",
+        "options": [
+            "sorry",
+            "quiet",
+            "late",
+            "poor"
+        ],
+        "optionMeanings": [
+            "すまなく思って",
+            "静かな",
+            "遅れた",
+            "貧しい"
+        ],
+        "answer": "quiet",
+        "explanation": "<b>正解：quiet（静かな）</b><br><br>💡 着眼点：場所が「the library（図書館）」で、「People are reading.（人々が読書をしている）」とあります。図書館では quiet（静かな）にするべきです。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-498",
+        "question": "A: Goodbye, Nancy.\nB: Goodbye, Maggie. I'll write to you _____.",
+        "translation": "A：さようなら、ナンシー。\nB：さようなら、マギー。<b>すぐに</b>手紙を書くね。",
+        "options": [
+            "soon",
+            "before",
+            "away",
+            "ago"
+        ],
+        "optionMeanings": [
+            "すぐに",
+            "以前に",
+            "離れて",
+            "〜前に"
+        ],
+        "answer": "soon",
+        "explanation": "<b>正解：soon（すぐに）</b><br><br>💡 着眼点：別れのあいさつのあとで「I'll write to you（手紙を書くね）」と未来のことを言っています。未来の文に合うのは soon（すぐに）です。ago は過去の文で使います。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-499",
+        "question": "A: What _____ are you studying at school?\nB: French.",
+        "translation": "A：学校で何の<b>言語</b>を勉強しているの？\nB：フランス語だよ。",
+        "options": [
+            "vacation",
+            "team",
+            "passport",
+            "language"
+        ],
+        "optionMeanings": [
+            "休暇",
+            "チーム",
+            "パスポート",
+            "言語"
+        ],
+        "answer": "language",
+        "explanation": "<b>正解：language（言語）</b><br><br>💡 着眼点：B が「French（フランス語）」と答えています。フランス語は language（言語）の一つです。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-500",
+        "question": "Helen wants to live in a big _____ because it's more exciting than living in a small town.",
+        "translation": "ヘレンは、小さな町に住むよりもわくわくするので、大きな<b>都市</b>に住みたいと思っています。",
+        "options": [
+            "food",
+            "body",
+            "city",
+            "word"
+        ],
+        "optionMeanings": [
+            "食べ物",
+            "体",
+            "都市",
+            "単語"
+        ],
+        "answer": "city",
+        "explanation": "<b>正解：city（都市）</b><br><br>💡 着眼点：あとに「a small town（小さな町）」と比べる表現があります。小さな町と比べられるのは big city（大きな都市）です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-501",
+        "question": "Spring is my favorite season in Japan. I love to look at the _____ trees.",
+        "translation": "春は日本で私のいちばん好きな季節です。<b>桜の</b>木を見るのが大好きです。",
+        "options": [
+            "cherry",
+            "coat",
+            "chair",
+            "camping"
+        ],
+        "optionMeanings": [
+            "さくら（cherry treesで「桜の木」）",
+            "コート",
+            "いす",
+            "キャンプ"
+        ],
+        "answer": "cherry",
+        "explanation": "<b>正解：cherry（さくら）</b><br><br>💡 着眼点：「Spring（春）」と「Japan（日本）」がヒントです。空所のあとの trees とあわせて cherry trees（桜の木）になります。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-502",
+        "question": "Alice wanted to find the library, so she talked to a policeman. The policeman showed her a _____, and she found it easily.",
+        "translation": "アリスは図書館を見つけたかったので、警察官に話しかけました。警察官は彼女に<b>地図</b>を見せ、彼女は簡単に図書館を見つけました。",
+        "options": [
+            "map",
+            "moment",
+            "meal",
+            "mouth"
+        ],
+        "optionMeanings": [
+            "地図",
+            "瞬間",
+            "食事",
+            "口"
+        ],
+        "answer": "map",
+        "explanation": "<b>正解：map（地図）</b><br><br>💡 着眼点：「find the library（図書館を見つける）」ために警察官が見せたものを考えます。「found it easily（簡単に見つけた）」につながるのは map（地図）です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-503",
+        "question": "A: What is your dream, Misa?\nB: I love animals, so I want to _____ for a zoo someday.",
+        "translation": "A：あなたの夢は何、ミサ？\nB：動物が大好きなので、いつか動物園で<b>働き</b>たいです。",
+        "options": [
+            "hope",
+            "work",
+            "keep",
+            "put"
+        ],
+        "optionMeanings": [
+            "望む",
+            "働く",
+            "保つ",
+            "置く"
+        ],
+        "answer": "work",
+        "explanation": "<b>正解：work（働く）</b><br><br>💡 着眼点：空所のあとに「for a zoo（動物園のために）」があります。work for ～ で「～で働く」という意味になります。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-504",
+        "question": "The students in Ms. Hayashi's class have to _____ to each other in English.",
+        "translation": "ハヤシ先生のクラスの生徒たちは、英語でおたがいに<b>話さ</b>なければなりません。",
+        "options": [
+            "wait",
+            "play",
+            "learn",
+            "speak"
+        ],
+        "optionMeanings": [
+            "待つ",
+            "遊ぶ",
+            "学ぶ",
+            "話す"
+        ],
+        "answer": "speak",
+        "explanation": "<b>正解：speak（話す）</b><br><br>💡 着眼点：空所のあとに「to each other（おたがいに）」と「in English（英語で）」があります。speak to ～ で「～に話しかける」という意味です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-505",
+        "question": "A: How many _____ a week do you practice the piano?\nB: Twice a week.",
+        "translation": "A：1週間に何<b>回</b>ピアノを練習するの？\nB：週に2回だよ。",
+        "options": [
+            "songs",
+            "times",
+            "members",
+            "games"
+        ],
+        "optionMeanings": [
+            "歌",
+            "回（timeの複数形）",
+            "メンバー",
+            "試合"
+        ],
+        "answer": "times",
+        "explanation": "<b>正解：times（回）</b><br><br>💡 着眼点：B が「Twice a week.（週に2回）」と回数を答えています。How many times ～? で「何回～？」とたずねます。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-506",
+        "question": "A: I really want to _____ about your trip to Canada, Amy.\nB: Sure.",
+        "translation": "A：カナダへの旅行のことをぜひ<b>聞き</b>たいな、エイミー。\nB：いいよ。",
+        "options": [
+            "drink",
+            "hear",
+            "have",
+            "wait"
+        ],
+        "optionMeanings": [
+            "飲む",
+            "聞く",
+            "持っている",
+            "待つ"
+        ],
+        "answer": "hear",
+        "explanation": "<b>正解：hear（聞く）</b><br><br>💡 着眼点：空所のあとに「about your trip（あなたの旅行について）」があります。hear about ～ で「～について聞く」という意味です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-507",
+        "question": "A: Did you have a good weekend?\nB: No. I was _____ in bed on Saturday.",
+        "translation": "A：週末は楽しかった？\nB：ううん。土曜日は<b>病気で</b>寝ていたの。",
+        "options": [
+            "sick",
+            "long",
+            "dry",
+            "short"
+        ],
+        "optionMeanings": [
+            "病気の",
+            "長い",
+            "乾いた",
+            "短い"
+        ],
+        "answer": "sick",
+        "explanation": "<b>正解：sick（病気の）</b><br><br>💡 着眼点：B は「No.」と答え、「in bed（ベッドで寝て）」いたと言っています。be sick in bed で「病気で寝ている」という意味です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-508",
+        "question": "A: Jim, when will you _____ Uncle Jack?\nB: Tomorrow.",
+        "translation": "A：ジム、いつジャックおじさんを<b>訪ねる</b>の？\nB：明日だよ。",
+        "options": [
+            "visit",
+            "visiting",
+            "visited",
+            "are visiting"
+        ],
+        "optionMeanings": [
+            "〜を訪ねる（原形）",
+            "visitの-ing形",
+            "visitの過去形",
+            "訪ねているところだ"
+        ],
+        "answer": "visit",
+        "explanation": "<b>正解：visit（〜を訪ねる（原形））</b><br><br>💡 着眼点：空所の前に will があります。will のあとは動詞の原形なので visit が入ります。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-509",
+        "question": "A: _____ were you late for the party?\nB: Because I was helping my mother.",
+        "translation": "A：<b>なぜ</b>パーティーに遅れたの？\nB：母の手伝いをしていたからだよ。",
+        "options": [
+            "When",
+            "Why",
+            "What",
+            "Where"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "なぜ",
+            "何",
+            "どこ"
+        ],
+        "answer": "Why",
+        "explanation": "<b>正解：Why（なぜ）</b><br><br>💡 着眼点：B が「Because ～（なぜなら～）」と理由を答えています。理由をたずねる疑問詞は Why です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "4-510",
+        "question": "A: Would you like some chocolate cake?\nB: No, thanks. I _____ like chocolate.",
+        "translation": "A：チョコレートケーキはいかが？\nB：いいえ、けっこうです。私はチョコレートが<b>好きではない</b>んです。",
+        "options": [
+            "isn't",
+            "aren't",
+            "don't",
+            "doesn't"
+        ],
+        "optionMeanings": [
+            "〜ではない（is not）",
+            "〜ではない（are not）",
+            "〜しない（do not）",
+            "〜しない（does not）"
+        ],
+        "answer": "don't",
+        "explanation": "<b>正解：don't（〜しない（do not））</b><br><br>💡 着眼点：空所のあとに一般動詞の like があります。主語が I なので、一般動詞の否定は don't を使います。",
+        "source": "2021年第3回(準会場)"
     }
 ];
 
