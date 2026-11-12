@@ -119,9 +119,15 @@ class App {
     getLibraryQuestions() {
         const saved = this.libraryMode === 'favorites' ? this.favorites : this.mistakes;
         return saved.map(q => this.questionIndex.get(q.id) || {
-            ...q, grade: q.id.startsWith('pre-') ? q.id.split('-').slice(0, 2).join('-') :
-                q.id.split('-')[0].replace('pre1', 'pre-1').replace('pre2', 'pre-2')
+            ...q, grade: this.gradeFromId(q.id)
         });
+    }
+
+    // ID の接頭辞（"pre2plus-001" など）から questionsMap のキーを求める
+    gradeFromId(id) {
+        const prefix = String(id).split('-')[0];
+        const map = { pre1: 'pre-1', pre2: 'pre-2', pre2plus: 'pre-2-plus' };
+        return map[prefix] || prefix;
     }
 
     openLibrary(mode) {
@@ -450,9 +456,7 @@ class App {
         this.ui.quiz.progressText.textContent = `${this.currentIndex + 1} / ${this.questions.length}`;
 
         // Determing Real Grade from ID for Footer
-        const idParts = q.id.split('-');
-        let realGrade = idParts[0];
-        if (realGrade === 'pre') realGrade = `pre-${idParts[1]}`;
+        const realGrade = this.gradeFromId(q.id);
         const realGradeDisplay = this.formatGrade(realGrade);
 
         // Recover Source if missing (for Review)
@@ -688,6 +692,8 @@ class App {
             case '3': return '3級';
             case 'pre-2': return '準2級';
             case 'pre2': return '準2級'; // Handle ID prefix
+            case 'pre-2-plus': return '準2級プラス';
+            case 'pre2plus': return '準2級プラス';
             case '2': return '2級';
             case 'pre-1': return '準1級';
             case 'pre1': return '準1級'; // Handle ID prefix

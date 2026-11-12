@@ -50890,9 +50890,3413 @@ const gradePre1Questions = [
     }
 ];
 
+const gradePre2PlusQuestions = [
+    {
+        "id": "pre2plus-001",
+        "question": "A: Excuse me. I wanted to buy a pair of tennis shoes, but I couldn’t find any on the shelf.\nB: Let me check our _____. One moment, please.",
+        "translation": "A：すみません。テニスシューズを買いたかったのですが、棚に見当たりませんでした。\nB：<b>在庫</b>を確認いたします。少々お待ちください。",
+        "options": [
+            "permission",
+            "audience",
+            "horizon",
+            "inventory"
+        ],
+        "optionMeanings": [
+            "許可",
+            "観客",
+            "地平線",
+            "在庫"
+        ],
+        "answer": "inventory",
+        "explanation": "<b>正解：inventory（在庫）</b><br><br>💡 着眼点：店員が「棚に見当たらない」商品について確認する場面なので、店の「在庫」を調べると考えるのが自然です。check our inventory（在庫を確認する）はお店でよく使われる表現です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-002",
+        "question": "Many people in Japan do not follow any _____, but they often take part in traditional festivals that come from the beliefs of ancient Japanese people.",
+        "translation": "日本では多くの人が特定の<b>宗教</b>を信仰していないが、古代日本人の信仰に由来する伝統的な祭りにはよく参加する。",
+        "options": [
+            "religion",
+            "condition",
+            "enthusiasm",
+            "progress"
+        ],
+        "optionMeanings": [
+            "宗教",
+            "状態",
+            "熱意",
+            "進歩"
+        ],
+        "answer": "religion",
+        "explanation": "<b>正解：religion（宗教）</b><br><br>💡 着眼点：後半の the beliefs of ancient Japanese people（古代日本人の信仰）がヒントです。follow a religion で「宗教を信仰する」という意味になります。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-003",
+        "question": "Scientists are worried about the _____ of gases from cars. They think that these gases are bad for the environment.",
+        "translation": "科学者たちは車からのガスの<b>排出</b>を心配している。彼らはこれらのガスが環境に悪いと考えている。",
+        "options": [
+            "principal",
+            "shortage",
+            "emission",
+            "custom"
+        ],
+        "optionMeanings": [
+            "校長；主要な",
+            "不足",
+            "排出",
+            "慣習"
+        ],
+        "answer": "emission",
+        "explanation": "<b>正解：emission（排出）</b><br><br>💡 着眼点：gases from cars（車からのガス）と bad for the environment（環境に悪い）から、排気ガスの「排出」が話題だとわかります。動詞 emit（排出する）とあわせて覚えておくと便利です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-004",
+        "question": "A: Did you buy batteries for the camera?\nB: Yes, and I also bought some extra ones to _____ that we don’t run out.",
+        "translation": "A：カメラ用の電池は買った？\nB：うん。それに、切らさないことを<b>確実にする</b>ために予備もいくつか買ったよ。",
+        "options": [
+            "express",
+            "stare",
+            "greet",
+            "ensure"
+        ],
+        "optionMeanings": [
+            "表現する",
+            "じっと見つめる",
+            "あいさつする",
+            "確実にする"
+        ],
+        "answer": "ensure",
+        "explanation": "<b>正解：ensure（確実にする）</b><br><br>💡 着眼点：空所の後ろの that we don't run out（切らさないこと）を目的語にとれる動詞を選びます。ensure that ～で「～を確実にする」という意味になり、予備を買った理由として自然につながります。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-005",
+        "question": "A: What are you going to do this weekend, Karen?\nB: I’m going to _____ some friends at my house. We’re going to have a party.",
+        "translation": "A：今週末は何をするの、カレン？\nB：家で友達を<b>もてなす</b>つもりよ。パーティーをするの。",
+        "options": [
+            "repair",
+            "wander",
+            "explain",
+            "entertain"
+        ],
+        "optionMeanings": [
+            "修理する",
+            "歩き回る",
+            "説明する",
+            "もてなす"
+        ],
+        "answer": "entertain",
+        "explanation": "<b>正解：entertain（もてなす）</b><br><br>💡 着眼点：some friends at my house（家で友達を）と have a party（パーティーをする）から、友達を家に招いて「もてなす」とわかります。entertain には「楽しませる」の意味もあり、名詞形は entertainment です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-006",
+        "question": "A: What did you do in your camping class today, Bill?\nB: We learned about the _____ skills needed for camping, like building a shelter and starting a fire.",
+        "translation": "A：今日のキャンプの授業では何をしたの、ビル？\nB：避難所を作ったり火を起こしたりといった、キャンプに必要な<b>サバイバル</b>技術について学んだよ。",
+        "options": [
+            "guarantee",
+            "wealth",
+            "affection",
+            "survival"
+        ],
+        "optionMeanings": [
+            "保証",
+            "富",
+            "愛情",
+            "生存"
+        ],
+        "answer": "survival",
+        "explanation": "<b>正解：survival（生存）</b><br><br>💡 着眼点：具体例の building a shelter（避難所を作る）や starting a fire（火を起こす）は、野外で生き延びるための技術です。survival skills で「サバイバル技術」というまとまりで覚えましょう。動詞は survive（生き残る）です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-007",
+        "question": "A: I’m going to go to Canada next month. I hope I don’t have any problems with the money.\nB: You should _____ some Japanese yen to Canadian dollars before you go.",
+        "translation": "A：来月カナダに行くの。お金のことで困らないといいんだけど。\nB：行く前に日本円をいくらかカナダドルに<b>両替し</b>ておいたほうがいいよ。",
+        "options": [
+            "protect",
+            "imagine",
+            "convert",
+            "detect"
+        ],
+        "optionMeanings": [
+            "守る",
+            "想像する",
+            "両替する；変換する",
+            "見つける"
+        ],
+        "answer": "convert",
+        "explanation": "<b>正解：convert（両替する；変換する）</b><br><br>💡 着眼点：Japanese yen to Canadian dollars（日本円をカナダドルに）という形がヒントです。convert A to B で「AをBに変える」という意味になり、お金の場合は「両替する」と訳せます。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-008",
+        "question": "Tom is very good at drawing people’s faces. He can _____ their emotions so well that it is easy to see how each person was feeling when Tom drew them.",
+        "translation": "トムは人の顔を描くのがとても上手だ。彼は人々の感情をとても上手に<b>描き表す</b>ので、トムが描いたときにそれぞれの人がどんな気持ちだったかが簡単にわかる。",
+        "options": [
+            "exclude",
+            "shoot",
+            "cure",
+            "portray"
+        ],
+        "optionMeanings": [
+            "除外する",
+            "撃つ；撮影する",
+            "治す",
+            "描写する"
+        ],
+        "answer": "portray",
+        "explanation": "<b>正解：portray（描写する）</b><br><br>💡 着眼点：drawing people's faces（人の顔を描くこと）と emotions（感情）から、絵で感情を「描写する」という意味の portray が合います。名詞形 portrait（肖像画）とあわせて覚えておくとよいでしょう。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-009",
+        "question": "A: Look at the man. He fell off his bicycle.\nB: He was going too fast. You have to go at a _____ pace, Mike.",
+        "translation": "A：あの男の人を見て。自転車から落ちたよ。\nB：スピードを出しすぎていたんだ。もっと<b>安定した</b>ペースで走らないといけないよ、マイク。",
+        "options": [
+            "steadier",
+            "braver",
+            "freer",
+            "politer"
+        ],
+        "optionMeanings": [
+            "より安定した",
+            "より勇敢な",
+            "より自由な",
+            "より礼儀正しい"
+        ],
+        "answer": "steadier",
+        "explanation": "<b>正解：steadier（より安定した）</b><br><br>💡 着眼点：He was going too fast（スピードを出しすぎていた）という転倒の原因に対して、「もっと安定したペースで」と助言する流れです。a steady pace で「一定の安定したペース」という意味になります。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-010",
+        "question": "The weather in Russia is _____ cold in winter. In Moscow, the average temperature in January is around −10 degrees Celsius.",
+        "translation": "ロシアの冬の天気は<b>非常に</b>寒い。モスクワでは、1月の平均気温は摂氏マイナス10度前後である。",
+        "options": [
+            "publicly",
+            "briefly",
+            "shortly",
+            "extremely"
+        ],
+        "optionMeanings": [
+            "公に",
+            "手短に",
+            "まもなく",
+            "非常に"
+        ],
+        "answer": "extremely",
+        "explanation": "<b>正解：extremely（非常に）</b><br><br>💡 着眼点：空所は形容詞 cold を強める副詞です。後半の around -10 degrees Celsius（摂氏マイナス10度前後）という具体的な数値から、「非常に」寒いとわかります。shortly は「まもなく」という時間の意味なので、程度を表す語としては使えません。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-011",
+        "question": "A: My computer is really old. I hope it doesn’t _____ before I finish my report.\nB: I hope so, too. It would be a disaster.",
+        "translation": "A：私のコンピューターは本当に古いの。レポートを終える前に<b>故障し</b>ないといいんだけど。\nB：私もそう願っているよ。そうなったら大変だからね。",
+        "options": [
+            "break down",
+            "dress up",
+            "look around",
+            "shake off"
+        ],
+        "optionMeanings": [
+            "故障する",
+            "着飾る",
+            "見て回る",
+            "振り払う"
+        ],
+        "answer": "break down",
+        "explanation": "<b>正解：break down（故障する）</b><br><br>💡 着眼点：My computer is really old（コンピューターがとても古い）と It would be a disaster（そうなったら大変だ）から、機械が「故障する」ことを心配しているとわかります。break down は車や機械の故障によく使われます。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-012",
+        "question": "Before writing his novel, Michael had to _____ a lot of research. He spent many hours reading books and searching on the Internet.",
+        "translation": "小説を書く前に、マイケルはたくさんの調査を<b>やり遂げ</b>なければならなかった。彼は何時間もかけて本を読んだり、インターネットで調べたりした。",
+        "options": [
+            "decide on",
+            "come up",
+            "go through",
+            "consent to"
+        ],
+        "optionMeanings": [
+            "～に決める",
+            "（話題などが）出る",
+            "～をやり遂げる；経験する",
+            "～に同意する"
+        ],
+        "answer": "go through",
+        "explanation": "<b>正解：go through（～をやり遂げる；経験する）</b><br><br>💡 着眼点：後半の spent many hours reading books and searching on the Internet（何時間も本を読みネットで調べた）から、大量の調査を「やり通した」ことがわかります。go through には「（困難などを）経験する」「詳しく調べる」の意味もあります。come up は自動詞なので、後ろに目的語をとれません。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-013",
+        "question": "The new president has made some changes to the way the company is run. _____, the changes seem to be working well.",
+        "translation": "新しい社長は会社の運営方法にいくつか変更を加えた。<b>今のところ</b>、その変更はうまくいっているようだ。",
+        "options": [
+            "So far",
+            "For free",
+            "As well",
+            "In vain"
+        ],
+        "optionMeanings": [
+            "今のところ",
+            "無料で",
+            "～もまた",
+            "むだに"
+        ],
+        "answer": "So far",
+        "explanation": "<b>正解：So far（今のところ）</b><br><br>💡 着眼点：変更を加えた後の様子を seem to be working well（うまくいっているようだ）と現在形で述べているので、「これまでのところ」を表す So far が合います。In vain（むだに）では内容が逆になります。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-014",
+        "question": "A: What will you do if your boss says no when you ask for time off?\nB: I’ll go to the beach _____ he says no. I need a break!",
+        "translation": "A：休みを頼んで上司にだめだと言われたらどうするの？\nB：だめだと言われ<b>たとしても</b>ビーチに行くよ。休みが必要なんだ。",
+        "options": [
+            "as though",
+            "only if",
+            "even if",
+            "only when"
+        ],
+        "optionMeanings": [
+            "まるで～かのように",
+            "～の場合に限り",
+            "たとえ～でも",
+            "～のときだけ"
+        ],
+        "answer": "even if",
+        "explanation": "<b>正解：even if（たとえ～でも）</b><br><br>💡 着眼点：I need a break（休みが必要だ）という強い気持ちから、上司に断られても行くという譲歩の意味が合います。even if ～で「たとえ～でも」です。only if（～の場合に限り）では、断られたときだけ行くことになり不自然です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-015",
+        "question": "The city of Ironton is not very big, but it is easy to get to _____ a new highway that connects it to the larger city of Winsterville.",
+        "translation": "アイアントン市はあまり大きくないが、より大きな都市であるウィンスタービルと結ぶ新しい高速道路<b>を経由して</b>簡単に行くことができる。",
+        "options": [
+            "for fear of",
+            "for the sake of",
+            "in case of",
+            "by way of"
+        ],
+        "optionMeanings": [
+            "～を恐れて",
+            "～のために",
+            "～の場合には",
+            "～を経由して"
+        ],
+        "answer": "by way of",
+        "explanation": "<b>正解：by way of（～を経由して）</b><br><br>💡 着眼点：a new highway that connects it to the larger city（大きな都市と結ぶ新しい高速道路）は、町へ行くための「経路」です。by way of ～で「～を経由して」という意味になります。in case of（～の場合には）と混同しないようにしましょう。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-016",
+        "question": "A: I’m sorry. I’m not very good at this game.\nB: It’s OK. Just sit _____ me, and I’ll show you how to play.",
+        "translation": "A：ごめんね。このゲームはあまり得意じゃないんだ。\nB：大丈夫だよ。私の<b>隣に</b>座って。やり方を教えてあげるから。",
+        "options": [
+            "aware of",
+            "apart of",
+            "next to",
+            "short of"
+        ],
+        "optionMeanings": [
+            "～に気づいている",
+            "（apart from で「〜から離れて」。apart of とは言わない）",
+            "～の隣に",
+            "～が不足して"
+        ],
+        "answer": "next to",
+        "explanation": "<b>正解：next to（～の隣に）</b><br><br>💡 着眼点：sit ( ) me と I'll show you how to play（やり方を教えてあげる）から、近くに座らせて教える場面だとわかります。next to ～で「～の隣に」です。aware of や short of は be 動詞と組み合わせて使う表現なので、sit の後には合いません。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-017",
+        "question": "A: I’m going to the supermarket. Do you need anything?\nB: No, thanks. But _____ to borrow my car if you want to.",
+        "translation": "A：スーパーに行くけど、何か必要なものはある？\nB：ううん、大丈夫。でも、よかったら私の車を<b>遠慮なく</b>使ってね。",
+        "options": [
+            "try hard",
+            "devote yourself",
+            "feel free",
+            "take turns"
+        ],
+        "optionMeanings": [
+            "一生懸命やってみる",
+            "専念する",
+            "遠慮なく～する",
+            "交代でする"
+        ],
+        "answer": "feel free",
+        "explanation": "<b>正解：feel free（遠慮なく～する）</b><br><br>💡 着眼点：空所の後ろの to borrow my car if you want to（よかったら車を借りる）から、相手に遠慮はいらないと伝える表現が合います。feel free to ～で「遠慮なく～してよい」という意味です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-018",
+        "question": "The teacher told the students to _____ their essays before they handed them in. They had made many mistakes.",
+        "translation": "先生は生徒たちに、提出する前に作文を<b>見直す</b>ように言った。彼らはたくさん間違いをしていたのだ。",
+        "options": [
+            "separate",
+            "revise",
+            "decrease",
+            "greet"
+        ],
+        "optionMeanings": [
+            "分ける",
+            "見直す；修正する",
+            "減らす",
+            "あいさつする"
+        ],
+        "answer": "revise",
+        "explanation": "<b>正解：revise（見直す；修正する）</b><br><br>💡 着眼点：They had made many mistakes（たくさん間違いをしていた）から、提出前に作文を「見直して直す」ように言われたとわかります。名詞形は revision（修正）です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-019",
+        "question": "When the teacher told the students that they had done a good job on their homework, she made sure to _____ the students who had worked especially hard.",
+        "translation": "先生は宿題がよくできていたと生徒たちに伝えたとき、特に一生懸命取り組んだ生徒たちのことを必ず<b>称える</b>ようにした。",
+        "options": [
+            "struggle",
+            "acknowledge",
+            "squeeze",
+            "publish"
+        ],
+        "optionMeanings": [
+            "奮闘する",
+            "認める；評価する",
+            "絞る",
+            "出版する"
+        ],
+        "answer": "acknowledge",
+        "explanation": "<b>正解：acknowledge（認める；評価する）</b><br><br>💡 着眼点：the students who had worked especially hard（特に頑張った生徒）に対して先生がすることなので、努力を「認めて称える」が合います。acknowledge は「（事実を）認める」のほか、「（人の功績を）評価する」という意味でも使われます。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-020",
+        "question": "The charity concert raised a lot of money to _____ the people affected by the earthquake. The concert organizers used the money to buy food and other supplies.",
+        "translation": "その慈善コンサートは、地震の被災者を<b>援助する</b>ために多くのお金を集めた。コンサートの主催者は、そのお金で食料やその他の物資を購入した。",
+        "options": [
+            "lie",
+            "reward",
+            "honor",
+            "aid"
+        ],
+        "optionMeanings": [
+            "横になる；うそをつく",
+            "報いる",
+            "敬意を表する",
+            "援助する"
+        ],
+        "answer": "aid",
+        "explanation": "<b>正解：aid（援助する）</b><br><br>💡 着眼点：charity concert（慈善コンサート）と the people affected by the earthquake（地震の被災者）、そして to buy food and other supplies（食料などの物資を買うため）から、被災者を「援助する」とわかります。aid は名詞で「援助」の意味もあります。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-021",
+        "question": "There is no _____ between the computers in the office. They all have the same software and hardware.",
+        "translation": "オフィスのコンピューターの間には何の<b>違い</b>もない。どれも同じソフトウェアとハードウェアを備えている。",
+        "options": [
+            "ratio",
+            "challenge",
+            "bargain",
+            "distinction"
+        ],
+        "optionMeanings": [
+            "比率",
+            "挑戦",
+            "お買い得品",
+            "違い；区別"
+        ],
+        "answer": "distinction",
+        "explanation": "<b>正解：distinction（違い；区別）</b><br><br>💡 着眼点：後半の They all have the same software and hardware（すべて同じソフトとハードを備えている）から、コンピューターの間に「違い」がないとわかります。distinction between A and B（AとBの区別）の形でよく使われます。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-022",
+        "question": "A: Who is your favorite _____, Maya?\nB: I really like the books by Kellan Storme. He wrote many interesting stories.",
+        "translation": "A：好きな<b>作家</b>は誰なの、マヤ？\nB：ケラン・ストームの本が大好きなの。彼は面白い物語をたくさん書いたのよ。",
+        "options": [
+            "officer",
+            "actor",
+            "author",
+            "engineer"
+        ],
+        "optionMeanings": [
+            "役人；警官",
+            "俳優",
+            "作家",
+            "技術者"
+        ],
+        "answer": "author",
+        "explanation": "<b>正解：author（作家）</b><br><br>💡 着眼点：B の the books by Kellan Storme（ケラン・ストームの本）と He wrote many interesting stories（面白い物語をたくさん書いた）から、本の書き手である「作家」について話していることがわかります。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-023",
+        "question": "A: I finished writing my report, but I don't have any pictures to go with it.\nB: You can _____ some pictures from the Internet. Just make sure to write where you found them.",
+        "translation": "A：レポートを書き終えたんだけど、添える写真が1枚もないんだ。\nB：インターネットから写真を何枚か<b>挿入し</b>たらいいよ。どこで見つけたのかを必ず書いておいてね。",
+        "options": [
+            "insert",
+            "melt",
+            "wander",
+            "fold"
+        ],
+        "optionMeanings": [
+            "挿入する",
+            "溶ける",
+            "歩き回る",
+            "折りたたむ"
+        ],
+        "answer": "insert",
+        "explanation": "<b>正解：insert（挿入する）</b><br><br>💡 着眼点：pictures to go with it（レポートに添える写真）が足りないという相談に対して、写真をレポートに「挿入する」と助言しています。insert A into B（AをBに差し込む）の形もよく使われます。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-024",
+        "question": "The _____ of students in the class thought that the history test was too difficult. Only a few students thought that it was easy.",
+        "translation": "クラスの生徒の<b>大多数</b>は、歴史のテストが難しすぎると思った。簡単だと思った生徒はほんの数人だけだった。",
+        "options": [
+            "manner",
+            "majority",
+            "relation",
+            "potential"
+        ],
+        "optionMeanings": [
+            "方法；態度",
+            "大多数",
+            "関係",
+            "可能性"
+        ],
+        "answer": "majority",
+        "explanation": "<b>正解：majority（大多数）</b><br><br>💡 着眼点：Only a few students thought that it was easy（簡単だと思ったのはほんの数人）と対比されているので、「大多数」の生徒が難しいと感じたとわかります。the majority of ～（～の大多数）という形で覚えましょう。反意語は minority（少数）です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-025",
+        "question": "A: You look really tired. Are you OK?\nB: Well, I couldn't sleep well because I had a horrible _____ about getting lost in a dark forest.",
+        "translation": "A：本当に疲れているみたいだね。大丈夫？\nB：うーん、暗い森で迷子になるというひどい<b>悪夢</b>を見て、よく眠れなかったの。",
+        "options": [
+            "citizen",
+            "nightmare",
+            "display",
+            "location"
+        ],
+        "optionMeanings": [
+            "市民",
+            "悪夢",
+            "展示",
+            "場所"
+        ],
+        "answer": "nightmare",
+        "explanation": "<b>正解：nightmare（悪夢）</b><br><br>💡 着眼点：couldn't sleep well（よく眠れなかった）と、about getting lost in a dark forest（暗い森で迷子になる）という内容から、怖い夢、つまり「悪夢」だとわかります。have a nightmare で「悪夢を見る」という意味です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-026",
+        "question": "A: Congratulations on your promotion! You must feel proud.\nB: Thank you, but I'm just doing my job. I try to stay _____ and focused on my work.",
+        "translation": "A：昇進おめでとう。誇らしいでしょうね。\nB：ありがとう。でも、自分の仕事をしているだけだよ。<b>謙虚</b>でいて、仕事に集中するように心がけているんだ。",
+        "options": [
+            "empty",
+            "sore",
+            "cruel",
+            "humble"
+        ],
+        "optionMeanings": [
+            "空の",
+            "痛い",
+            "残酷な",
+            "謙虚な"
+        ],
+        "answer": "humble",
+        "explanation": "<b>正解：humble（謙虚な）</b><br><br>💡 着眼点：I'm just doing my job（自分の仕事をしているだけ）と、ほめ言葉を控えめに受け止めていることから、「謙虚な」が合います。stay humble で「謙虚なままでいる」という意味になります。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-027",
+        "question": "A: What are the ingredients in the pumpkin pie you made?\nB: Pumpkin, of course, and spices that are _____ used in pumpkin pie, like cinnamon and nutmeg.",
+        "translation": "A：あなたが作ったかぼちゃのパイの材料は何？\nB：もちろんかぼちゃと、シナモンやナツメグのように、かぼちゃのパイに<b>よく</b>使われるスパイスよ。",
+        "options": [
+            "kindly",
+            "legally",
+            "commonly",
+            "professionally"
+        ],
+        "optionMeanings": [
+            "親切に",
+            "法的に",
+            "一般的に",
+            "職業的に"
+        ],
+        "answer": "commonly",
+        "explanation": "<b>正解：commonly（一般的に）</b><br><br>💡 着眼点：like cinnamon and nutmeg（シナモンやナツメグのような）は、かぼちゃパイの定番のスパイスです。そのため「一般的に使われる」という意味の commonly used が合います。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-028",
+        "question": "A: I think I'll go to the mall tomorrow.\nB: If you _____ the bookstore, could you get me a copy of this month's fashion magazine?",
+        "translation": "A：明日はショッピングモールに行こうと思うんだ。\nB：もし本屋に<b>立ち寄る</b>なら、今月号のファッション雑誌を1冊買ってきてくれない？",
+        "options": [
+            "give up",
+            "figure out",
+            "fall over",
+            "drop by"
+        ],
+        "optionMeanings": [
+            "あきらめる",
+            "理解する；解決する",
+            "転ぶ",
+            "～に立ち寄る"
+        ],
+        "answer": "drop by",
+        "explanation": "<b>正解：drop by（～に立ち寄る）</b><br><br>💡 着眼点：モールへ行くついでに the bookstore（本屋）で雑誌を買ってきてほしいと頼んでいるので、「～に立ち寄る」の drop by が合います。同じ意味の表現に stop by もあります。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-029",
+        "question": "A: Could you check the stationery cupboard? We might _____ some supplies.\nB: You're right. We need to order more pens and folders.",
+        "translation": "A：文房具の棚を確認してくれる？備品が<b>足りない</b>かもしれないの。\nB：そうだね。ペンとフォルダーをもっと注文する必要があるよ。",
+        "options": [
+            "be sure of",
+            "be short of",
+            "be free of",
+            "be kind of"
+        ],
+        "optionMeanings": [
+            "～を確信している",
+            "～が不足している",
+            "～がない",
+            "（kind of は「少し」。be kind of 〜 とは言わない）"
+        ],
+        "answer": "be short of",
+        "explanation": "<b>正解：be short of（～が不足している）</b><br><br>💡 着眼点：B の We need to order more pens and folders（ペンとフォルダーをもっと注文する必要がある）から、備品が「不足している」とわかります。be short of ～は「～が足りない」です。be free of ～も「～がない」という意味ですが、不要なものがない状態に使う表現です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-030",
+        "question": "A: I think we should take the squirrel back to its nest.\nB: No, _____. Its mother will come back for it.",
+        "translation": "A：あのリスを巣に戻してあげたほうがいいと思う。\nB：いや、<b>そっとしておこう</b>。母親が迎えに戻ってくるから。",
+        "options": [
+            "move it on",
+            "leave it alone",
+            "throw it away",
+            "take it over"
+        ],
+        "optionMeanings": [
+            "（それを）先へ進める",
+            "そっとしておく",
+            "捨てる",
+            "引き継ぐ"
+        ],
+        "answer": "leave it alone",
+        "explanation": "<b>正解：leave it alone（そっとしておく）</b><br><br>💡 着眼点：Its mother will come back for it（母親が迎えに戻ってくる）から、手を出さずに「そっとしておく」のがよいという流れです。leave ～ alone で「～に構わないでおく」という意味になります。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-031",
+        "question": "A: Thank you for coming to the airport to _____ my cousin.\nB: No problem. It's nice to have a chance to say goodbye in person.",
+        "translation": "A：いとこを<b>見送り</b>に空港まで来てくれてありがとう。\nB：どういたしまして。直接お別れを言える機会があってよかったよ。",
+        "options": [
+            "show off",
+            "hand out",
+            "bring in",
+            "see off"
+        ],
+        "optionMeanings": [
+            "見せびらかす",
+            "配る",
+            "持ち込む；導入する",
+            "見送る"
+        ],
+        "answer": "see off",
+        "explanation": "<b>正解：see off（見送る）</b><br><br>💡 着眼点：the airport（空港）と say goodbye in person（直接お別れを言う）から、出発する人を「見送る」場面だとわかります。see ～ off で「～を見送る」です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-032",
+        "question": "Harvey's family moved to a new town last month. _____, he made some new friends at school, and he started to enjoy living there.",
+        "translation": "ハーヴィーの家族は先月、新しい町に引っ越した。<b>まもなく</b>、彼は学校で新しい友達ができ、そこでの暮らしを楽しむようになった。",
+        "options": [
+            "For free",
+            "In demand",
+            "On average",
+            "Before long"
+        ],
+        "optionMeanings": [
+            "無料で",
+            "需要があって",
+            "平均して",
+            "まもなく"
+        ],
+        "answer": "Before long",
+        "explanation": "<b>正解：Before long（まもなく）</b><br><br>💡 着眼点：moved to a new town last month（先月新しい町に引っ越した）の後、友達ができて生活を楽しみ始めたという時間の流れがあります。そのため「まもなく」の Before long が合います。On average（平均して）は数量について述べるときの表現です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-033",
+        "question": "When Sarah was young, she lived next to a bakery. Now, the smell of fresh bread always _____ her childhood.",
+        "translation": "サラは幼い頃、パン屋の隣に住んでいた。今では、焼きたてのパンのにおいがいつも彼女に子ども時代を<b>思い出させる</b>。",
+        "options": [
+            "learns her from",
+            "hears her from",
+            "reminds her of",
+            "talks her into"
+        ],
+        "optionMeanings": [
+            "（この形では使わない）",
+            "（この形では使わない）",
+            "彼女に～を思い出させる",
+            "彼女を説得して～させる"
+        ],
+        "answer": "reminds her of",
+        "explanation": "<b>正解：reminds her of（彼女に～を思い出させる）</b><br><br>💡 着眼点：幼い頃パン屋の隣に住んでいたという過去と、the smell of fresh bread（焼きたてパンのにおい）が結びついています。remind A of B で「AにBを思い出させる」という意味で、物が主語になる形でよく使われます。talk A into ～は「Aを説得して～させる」です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-034",
+        "question": "The weather forecast said it was going to rain all day, but it _____ to be sunny. In fact, it was the hottest day of the year.",
+        "translation": "天気予報では一日中雨だと言っていたが、<b>結局は</b>晴れになった。実際、その日はその年で一番暑い日だった。",
+        "options": [
+            "ran out",
+            "put out",
+            "turned out",
+            "gave out"
+        ],
+        "optionMeanings": [
+            "尽きる",
+            "（火を）消す",
+            "結局～だとわかった",
+            "配る；尽きる"
+        ],
+        "answer": "turned out",
+        "explanation": "<b>正解：turned out（結局～だとわかった）</b><br><br>💡 着眼点：but（しかし）で予報の「雨」と反対の結果が続き、In fact, it was the hottest day（実際、一番暑い日だった）と補足されています。turn out to be ～で「結局～だとわかる」という意味です。run out は「尽きる」で、to be ～を続けることはできません。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-035",
+        "question": "A: The new project at work is really difficult. I’m glad you have a background in computer science.\nB: Thanks. I think it helps because the project is _____ related to computers.",
+        "translation": "A：職場の新しいプロジェクトがとても難しいんだ。君にコンピューター科学の経歴があってよかったよ。\nB：ありがとう。そのプロジェクトはコンピューターと<b>密接に</b>関係しているから、役に立つと思うよ。",
+        "options": [
+            "closely",
+            "negatively",
+            "easily",
+            "simply"
+        ],
+        "optionMeanings": [
+            "密接に",
+            "否定的に",
+            "簡単に",
+            "単に"
+        ],
+        "answer": "closely",
+        "explanation": "<b>正解：closely（密接に）</b><br><br>💡 着眼点：Bは「background in computer science（コンピューター科学の経歴）」が役立つ理由を述べています。直後の「related to computers（コンピューターに関係している）」と結びつけて、関係の深さを表す closely が自然です。closely related to ～（～と密接に関係している）はよく使われる組み合わせです。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-036",
+        "question": "Mr. and Mrs. Miller heard a loud argument coming from an apartment in their building last night. They were worried someone was involved in an _____, so they called the police.",
+        "translation": "ミラー夫妻は昨夜、同じ建物のアパートの一室から大きな言い争いの声を聞いた。誰かが<b>暴行</b>に巻き込まれているのではないかと心配になり、警察に通報した。",
+        "options": [
+            "exploration",
+            "attendance",
+            "assault",
+            "expectation"
+        ],
+        "optionMeanings": [
+            "探検",
+            "出席",
+            "暴行",
+            "期待"
+        ],
+        "answer": "assault",
+        "explanation": "<b>正解：assault（暴行）</b><br><br>💡 着眼点：「loud argument（大きな言い争い）」が聞こえ、「called the police（警察に通報した）」という流れから、事件性のある語が入ると考えます。assault は「暴行、襲撃」で、be involved in an assault（暴行に巻き込まれる）という形で使われます。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-037",
+        "question": "Professor Brown does not like giving written tests. Instead, she prefers to give her students _____ tests, in which they answer questions by speaking.",
+        "translation": "ブラウン教授は筆記試験を行うのが好きではない。その代わり、学生に<b>口頭</b>試験を受けさせることを好む。そこでは学生は話すことで質問に答える。",
+        "options": [
+            "gorgeous",
+            "grand",
+            "mass",
+            "oral"
+        ],
+        "optionMeanings": [
+            "豪華な",
+            "壮大な",
+            "大量の",
+            "口頭の"
+        ],
+        "answer": "oral",
+        "explanation": "<b>正解：oral（口頭の）</b><br><br>💡 着眼点：「written tests（筆記試験）」と対比され、後半で「answer questions by speaking（話すことで質問に答える）」と説明されています。この説明に合うのは oral（口頭の）です。oral test / oral exam（口頭試験）はセットで覚えておくとよいでしょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-038",
+        "question": "A: You need to _____ the floor. It’s very dirty.\nB: OK, Dad. I’ll do it after I finish eating.",
+        "translation": "A：床を<b>掃か</b>ないといけないよ。とても汚れているからね。\nB：わかったよ、お父さん。食べ終わったらやるね。",
+        "options": [
+            "reach",
+            "pull",
+            "sweep",
+            "fill"
+        ],
+        "optionMeanings": [
+            "～に届く",
+            "～を引く",
+            "～を掃く",
+            "～を満たす"
+        ],
+        "answer": "sweep",
+        "explanation": "<b>正解：sweep（～を掃く）</b><br><br>💡 着眼点：目的語が「the floor（床）」で、理由として「very dirty（とても汚れている）」と述べています。汚れた床に対してする動作として、sweep（～を掃く）が合います。sweep the floor（床を掃く）は家事を表す基本表現です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-039",
+        "question": "In Japan, it is common to _____ when meeting someone for the first time. However, in Western countries, it is more common to shake hands.",
+        "translation": "日本では、初めて人に会うときに<b>お辞儀をする</b>のが一般的だ。しかし、欧米の国々では握手をするほうが一般的である。",
+        "options": [
+            "bow",
+            "strike",
+            "wander",
+            "praise"
+        ],
+        "optionMeanings": [
+            "お辞儀をする",
+            "～を打つ",
+            "歩き回る",
+            "～をほめる"
+        ],
+        "answer": "bow",
+        "explanation": "<b>正解：bow（お辞儀をする）</b><br><br>💡 着眼点：「However（しかし）」の後で、欧米では「shake hands（握手する）」のが一般的だと対比されています。日本の初対面のあいさつとして対になる動作は bow（お辞儀をする）です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-040",
+        "question": "The company is going to _____ a new brand of shampoo next month. They hope that it will be very popular with customers.",
+        "translation": "その会社は来月、シャンプーの新しいブランドを<b>発売する</b>予定だ。その商品が客にとても人気になることを期待している。",
+        "options": [
+            "greet",
+            "launch",
+            "collect",
+            "repair"
+        ],
+        "optionMeanings": [
+            "～にあいさつする",
+            "～を発売する",
+            "～を集める",
+            "～を修理する"
+        ],
+        "answer": "launch",
+        "explanation": "<b>正解：launch（～を発売する）</b><br><br>💡 着眼点：目的語が「a new brand of shampoo（シャンプーの新ブランド）」で、「popular with customers（客に人気）」になることを期待しています。新商品を市場に出すことを表す launch（～を発売する）が適切です。launch は「（ロケットを）打ち上げる」「（事業を）始める」の意味でも使われます。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-041",
+        "question": "The children were very interested in the magic show. The magician did some tricks that really _____ them, such as making a lady disappear.",
+        "translation": "子どもたちはマジックショーにとても興味を持っていた。マジシャンは、女性を消すといった、子どもたちを本当に<b>驚かせる</b>手品をいくつか披露した。",
+        "options": [
+            "informed",
+            "chewed",
+            "amazed",
+            "folded"
+        ],
+        "optionMeanings": [
+            "～に知らせた",
+            "～をかんだ",
+            "～を驚かせた",
+            "～を折りたたんだ"
+        ],
+        "answer": "amazed",
+        "explanation": "<b>正解：amazed（～を驚かせた）</b><br><br>💡 着眼点：「magic show（マジックショー）」で「making a lady disappear（女性を消す）」ような手品が子どもたちに与える影響を考えます。amaze は「～をびっくりさせる、驚嘆させる」で、文脈に合います。形容詞 amazing（驚くべき）、amazed（驚いた）もあわせて確認しておきましょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-042",
+        "question": "A: How are the rehearsals for the school play going, Daniel?\nB: Not well. The actors still need to memorize their lines from the _____, and the play is in two days.",
+        "translation": "A：学校の劇のリハーサルはどう、ダニエル？\nB：うまくいってないよ。役者たちはまだ<b>台本</b>のせりふを覚えないといけないのに、劇は2日後なんだ。",
+        "options": [
+            "circle",
+            "script",
+            "separation",
+            "safety"
+        ],
+        "optionMeanings": [
+            "円",
+            "台本",
+            "分離",
+            "安全"
+        ],
+        "answer": "script",
+        "explanation": "<b>正解：script（台本）</b><br><br>💡 着眼点：「rehearsals for the school play（学校の劇のリハーサル）」と「memorize their lines（せりふを覚える）」がヒントです。せりふが書かれているものは script（台本）です。lines は「行」のほかに「（劇の）せりふ」という意味がある点にも注意しましょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-043",
+        "question": "A: There’s water on the floor in the bathroom. I think there’s a _____ in the sink.\nB: Oh, no! That’s terrible. We’ll have to call someone to fix it.",
+        "translation": "A：浴室の床に水があるよ。洗面台で<b>水漏れ</b>しているんだと思う。\nB：ああ、困った。ひどいね。誰かに修理を頼まないといけないね。",
+        "options": [
+            "leak",
+            "habit",
+            "spot",
+            "sound"
+        ],
+        "optionMeanings": [
+            "水漏れ",
+            "習慣",
+            "斑点、場所",
+            "音"
+        ],
+        "answer": "leak",
+        "explanation": "<b>正解：leak（水漏れ）</b><br><br>💡 着眼点：「water on the floor（床に水がある）」と、Bの「call someone to fix it（誰かに直してもらう）」から、修理が必要な不具合が入るとわかります。leak は名詞で「漏れ、漏れ口」、動詞で「漏れる」の意味です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-044",
+        "question": "After a long _____, the police finally caught the thief. He was trying to escape on a motorbike.",
+        "translation": "長い<b>追跡</b>の末、警察はついに泥棒を捕まえた。泥棒はバイクで逃げようとしていた。",
+        "options": [
+            "proverb",
+            "panel",
+            "pursuit",
+            "percentage"
+        ],
+        "optionMeanings": [
+            "ことわざ",
+            "委員会、パネル",
+            "追跡",
+            "割合"
+        ],
+        "answer": "pursuit",
+        "explanation": "<b>正解：pursuit（追跡）</b><br><br>💡 着眼点：「the police finally caught the thief（警察はついに泥棒を捕まえた）」と「trying to escape on a motorbike（バイクで逃げようとしていた）」から、追いかける場面だとわかります。pursuit は「追跡、追求」で、動詞 pursue（～を追う）の名詞形です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-045",
+        "question": "Mindy looked very sad after she lost her tennis match, so her father took her to the zoo. He thought that seeing the animals might help her to _____.",
+        "translation": "ミンディはテニスの試合に負けたあと、とても悲しそうだったので、父親は彼女を動物園に連れて行った。動物を見ることが彼女が<b>元気を出す</b>助けになるかもしれないと考えたのだ。",
+        "options": [
+            "lie down",
+            "find out",
+            "cheer up",
+            "run away"
+        ],
+        "optionMeanings": [
+            "横になる",
+            "～を見つけ出す",
+            "元気を出す",
+            "逃げる"
+        ],
+        "answer": "cheer up",
+        "explanation": "<b>正解：cheer up（元気を出す）</b><br><br>💡 着眼点：「looked very sad（とても悲しそうだった）」ので父親が動物園に連れて行った、という流れです。悲しい気持ちから立ち直ることを表す cheer up（元気を出す）が合います。help ～ to do（～が…するのを助ける）の形にも注目しましょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-046",
+        "question": "A: Where have you put my suitcases, Honey?\nB: I’ve put them in the spare room _____. I’ll move them into storage next week.",
+        "translation": "A：ねえ、私のスーツケースをどこに置いたの？\nB：<b>当分の間</b>、空き部屋に置いておいたよ。来週、物置に移すつもりだ。",
+        "options": [
+            "once in a while",
+            "for the time being",
+            "on the one hand",
+            "in case of emergency"
+        ],
+        "optionMeanings": [
+            "時々",
+            "当分の間",
+            "一方では",
+            "緊急の場合には"
+        ],
+        "answer": "for the time being",
+        "explanation": "<b>正解：for the time being（当分の間）</b><br><br>💡 着眼点：Bは「I'll move them into storage next week（来週物置に移す）」と言っており、空き部屋に置いたのは一時的な措置だとわかります。for the time being は「当分の間、さしあたり」という意味です。once in a while（時々）は頻度を表すので、ここでは合いません。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-047",
+        "question": "A: How will Emma get to the airport early tomorrow morning?\nB: Don’t worry. I’ll _____ so she won’t need to take a bus.",
+        "translation": "A：エマは明日の朝早く、どうやって空港に行くの？\nB：心配しないで。私が<b>彼女を車で送る</b>から、彼女はバスに乗る必要はないよ。",
+        "options": [
+            "give her a try",
+            "give her a chance",
+            "give her a ride",
+            "give her a call"
+        ],
+        "optionMeanings": [
+            "彼女に試させる",
+            "彼女にチャンスを与える",
+            "彼女を車で送る",
+            "彼女に電話する"
+        ],
+        "answer": "give her a ride",
+        "explanation": "<b>正解：give her a ride（彼女を車で送る）</b><br><br>💡 着眼点：Aは空港への行き方を尋ねており、Bは「so she won't need to take a bus（だからバスに乗る必要はない）」と続けています。バスの代わりになる移動手段として、give ～ a ride（～を車に乗せる、車で送る）が適切です。give ～ a call（～に電話する）と混同しないようにしましょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-048",
+        "question": "A: I love going to the World Festival. The city really _____ during the festival.\nB: Yes, the streets are full of people, and there are colorful decorations everywhere.",
+        "translation": "A：ワールド・フェスティバルに行くのが大好きなんだ。祭りの間、街は本当に<b>活気づく</b>よね。\nB：うん、通りは人でいっぱいで、どこもカラフルな飾りつけがされているよね。",
+        "options": [
+            "falls apart",
+            "fades away",
+            "comes alive",
+            "calms down"
+        ],
+        "optionMeanings": [
+            "ばらばらになる",
+            "次第に消える",
+            "活気づく",
+            "落ち着く"
+        ],
+        "answer": "comes alive",
+        "explanation": "<b>正解：comes alive（活気づく）</b><br><br>💡 着眼点：Bの「full of people（人でいっぱい）」「colorful decorations everywhere（どこもカラフルな飾りつけ）」から、街がにぎやかになる様子がわかります。come alive は「活気づく、生き生きする」という意味です。同じ意味の come to life も覚えておくとよいでしょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-049",
+        "question": "Sally has been very active since she was young. She _____ her mother, who is full of energy.",
+        "translation": "サリーは幼いころからとても活発だ。元気いっぱいの母親<b>に似ている</b>のだ。",
+        "options": [
+            "carries out",
+            "takes after",
+            "looks into",
+            "gives up"
+        ],
+        "optionMeanings": [
+            "～を実行する",
+            "～に似ている",
+            "～を調べる",
+            "～をあきらめる"
+        ],
+        "answer": "takes after",
+        "explanation": "<b>正解：takes after（～に似ている）</b><br><br>💡 着眼点：サリーが「very active（とても活発）」であることと、母親が「full of energy（元気いっぱい）」であることが重なっています。親子で性格が似ていることを表す take after ～（～に似ている）が合います。take after は主に血縁のある年長者に似ている場合に使います。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-050",
+        "question": "A: Did Mary buy that old house near the station?\nB: Yes, she thought it was beautiful _____, but now she wants to change the garden.",
+        "translation": "A：メアリーは駅の近くのあの古い家を買ったの？\nB：うん、<b>一目見て</b>美しいと思ったんだって。でも今は庭を変えたがっているよ。",
+        "options": [
+            "on second thought",
+            "by that time",
+            "by all means",
+            "at first sight"
+        ],
+        "optionMeanings": [
+            "考え直して",
+            "その時までに",
+            "ぜひとも",
+            "一目見て"
+        ],
+        "answer": "at first sight",
+        "explanation": "<b>正解：at first sight（一目見て）</b><br><br>💡 着眼点：「she thought it was beautiful（美しいと思った）」と「but now（でも今は）」が対比されています。最初に見たときの印象を表す at first sight（一目見て）が自然です。fall in love at first sight（一目ぼれする）という表現でもよく使われます。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-051",
+        "question": "Although scientists know that the dinosaurs _____ tens of millions of years ago, no one knows for sure what killed them.",
+        "translation": "科学者たちは恐竜が数千万年前に<b>絶滅した</b>ことを知っているが、何が恐竜を死に至らしめたのかは誰もはっきりとはわかっていない。",
+        "options": [
+            "messed up",
+            "died out",
+            "set aside",
+            "got together"
+        ],
+        "optionMeanings": [
+            "～を台無しにした",
+            "絶滅した",
+            "～を取っておいた",
+            "集まった"
+        ],
+        "answer": "died out",
+        "explanation": "<b>正解：died out（絶滅した）</b><br><br>💡 着眼点：主語が「the dinosaurs（恐竜）」で、「tens of millions of years ago（数千万年前）」や「what killed them（何が彼らを死なせたのか）」が続きます。種が完全にいなくなることを表す die out（絶滅する）が適切です。become extinct も同じ意味の表現です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-052",
+        "question": "A: What are your daily _____ at home? Do you often help your parents?\nB: Yes. I usually clean the bathroom and do the laundry on weekends.",
+        "translation": "A：家では毎日どんな<b>家事</b>をしているの？よく両親の手伝いをするの？\nB：うん。週末にはたいてい浴室を掃除して、洗濯をするよ。",
+        "options": [
+            "factors",
+            "chores",
+            "documents",
+            "mistakes"
+        ],
+        "optionMeanings": [
+            "要因",
+            "家事、雑用",
+            "書類",
+            "間違い"
+        ],
+        "answer": "chores",
+        "explanation": "<b>正解：chores（家事、雑用）</b><br><br>💡 着眼点：Aの「help your parents（両親を手伝う）」と、Bの「clean the bathroom（浴室を掃除する）」「do the laundry（洗濯をする）」から、家の仕事の話だとわかります。chore は「（日常の）雑用、家事」で、household chores（家事）の形でもよく使われます。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-053",
+        "question": "The library in the town is very old, so the city is planning to _____ it next year. They will make it bigger and more modern.",
+        "translation": "町の図書館はとても古いので、市は来年それを<b>改修する</b>予定だ。図書館をより大きく、より近代的にするつもりだ。",
+        "options": [
+            "reward",
+            "explain",
+            "annoy",
+            "renovate"
+        ],
+        "optionMeanings": [
+            "～に報酬を与える",
+            "～を説明する",
+            "～をいらいらさせる",
+            "～を改修する"
+        ],
+        "answer": "renovate",
+        "explanation": "<b>正解：renovate（～を改修する）</b><br><br>💡 着眼点：「very old（とても古い）」という理由と、「make it bigger and more modern（より大きく近代的にする）」という説明がヒントです。建物を新しくすることを表す renovate（～を改修する、リフォームする）が合います。名詞形は renovation（改修）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-054",
+        "question": "The weather report said that the mountains would be covered with snow, but when the hikers arrived, the mountains were _____ and there was no snow at all.",
+        "translation": "天気予報では山は雪に覆われているだろうと言っていたが、ハイカーたちが着いたとき、山は<b>むき出し</b>で、雪はまったくなかった。",
+        "options": [
+            "firm",
+            "dull",
+            "bare",
+            "late"
+        ],
+        "optionMeanings": [
+            "固い",
+            "退屈な、鈍い",
+            "むき出しの",
+            "遅れた"
+        ],
+        "answer": "bare",
+        "explanation": "<b>正解：bare（むき出しの）</b><br><br>💡 着眼点：「but（しかし）」で予報の「covered with snow（雪に覆われている）」と対比され、直後に「there was no snow at all（雪はまったくなかった）」と続きます。何も覆われていない状態を表す bare（むき出しの、裸の）が適切です。bare feet（素足）のような使い方も覚えておきましょう。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-055",
+        "question": "A: I'm so glad that summer vacation starts next week.\nB: Me, too. I'm really looking forward to having some _____ time.",
+        "translation": "A：来週から夏休みが始まるなんて、本当にうれしいよ。\nB：私も。<b>余暇の</b>時間を持てるのを本当に楽しみにしているんだ。",
+        "options": [
+            "honesty",
+            "fraction",
+            "leisure",
+            "currency"
+        ],
+        "optionMeanings": [
+            "正直",
+            "一部分",
+            "余暇",
+            "通貨"
+        ],
+        "answer": "leisure",
+        "explanation": "<b>正解：leisure（余暇）</b><br><br>💡 着眼点：話題は「summer vacation（夏休み）」で、空所の後に「time（時間）」が続きます。仕事や勉強から離れた自由な時間を表す leisure（余暇）が合います。leisure time（余暇の時間）や leisure activities（余暇の活動）はよく使われる組み合わせです。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-056",
+        "question": "In the new video game Conquest, players must _____ monsters to get gold stars. If they beat a boss monster, they get 100 stars.",
+        "translation": "新しいテレビゲーム『コンクエスト』では、プレーヤーは金の星を手に入れるためにモンスターと<b>戦わ</b>なければならない。ボスモンスターを倒すと、星を100個もらえる。",
+        "options": [
+            "filter",
+            "spread",
+            "battle",
+            "glance"
+        ],
+        "optionMeanings": [
+            "～をろ過する",
+            "～を広げる",
+            "～と戦う",
+            "ちらっと見る"
+        ],
+        "answer": "battle",
+        "explanation": "<b>正解：battle（～と戦う）</b><br><br>💡 着眼点：目的語が「monsters（モンスター）」で、次の文に「beat a boss monster（ボスモンスターを倒す）」とあります。モンスターを相手にする行為として battle（～と戦う）が適切です。battle は名詞「戦い」としても使われます。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-057",
+        "question": "A: How much will you pay me if I work at your restaurant?\nB: We will give you a _____ of $1,500 a month.",
+        "translation": "A：あなたのレストランで働いたら、いくら払ってくれますか。\nB：月に1,500ドルの<b>給料</b>を支払います。",
+        "options": [
+            "shame",
+            "gift",
+            "record",
+            "salary"
+        ],
+        "optionMeanings": [
+            "恥",
+            "贈り物",
+            "記録",
+            "給料"
+        ],
+        "answer": "salary",
+        "explanation": "<b>正解：salary（給料）</b><br><br>💡 着眼点：Aは「How much will you pay me（いくら払ってくれますか）」と働いた場合の報酬を尋ね、Bは「$1,500 a month（月に1,500ドル）」と答えています。働いた対価として定期的に支払われるお金は salary（給料）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-058",
+        "question": "The teacher told her students that they should not have any _____ against people from different countries. They should be friendly to everyone.",
+        "translation": "先生は生徒たちに、異なる国の出身の人々に対して<b>偏見</b>を持ってはいけないと話した。誰に対しても親しくするべきなのだ。",
+        "options": [
+            "envelope",
+            "desert",
+            "prejudice",
+            "surgery"
+        ],
+        "optionMeanings": [
+            "封筒",
+            "砂漠",
+            "偏見",
+            "手術"
+        ],
+        "answer": "prejudice",
+        "explanation": "<b>正解：prejudice（偏見）</b><br><br>💡 着眼点：空所の後の「against people from different countries（異なる国の人々に対して）」と、「be friendly to everyone（誰にでも親しく）」がヒントです。prejudice against ～（～に対する偏見）という形で覚えておきましょう。desert（砂漠）と dessert（デザート）のつづりの違いにも注意が必要です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-059",
+        "question": "A: Hello. I'd like to buy a new computer.\nB: Sure. I'd be happy to _____ you with your choice if you could tell me what you need it for.",
+        "translation": "A：こんにちは。新しいコンピューターを買いたいのですが。\nB：かしこまりました。何に使うのか教えていただければ、喜んでお選びするのを<b>お手伝い</b>いたします。",
+        "options": [
+            "attach",
+            "assist",
+            "happen",
+            "demand"
+        ],
+        "optionMeanings": [
+            "～を取りつける",
+            "～を手伝う",
+            "起こる",
+            "～を要求する"
+        ],
+        "answer": "assist",
+        "explanation": "<b>正解：assist（～を手伝う）</b><br><br>💡 着眼点：店員のBが「if you could tell me what you need it for（何に使うのか教えていただければ）」と言っており、商品選びを手伝う場面です。assist ～ with ...（…について～を手伝う）の形に合う assist が適切です。help ～ with ... と同じ使い方をします。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-060",
+        "question": "The volcano in the national park _____ last year. It sent a lot of smoke and rocks into the sky.",
+        "translation": "国立公園の火山が昨年<b>噴火した</b>。大量の煙と岩を空に噴き上げた。",
+        "options": [
+            "promised",
+            "repaired",
+            "erupted",
+            "explored"
+        ],
+        "optionMeanings": [
+            "約束した",
+            "修理した",
+            "噴火した",
+            "探検した"
+        ],
+        "answer": "erupted",
+        "explanation": "<b>正解：erupted（噴火した）</b><br><br>💡 着眼点：主語が「The volcano（火山）」で、「sent a lot of smoke and rocks into the sky（大量の煙と岩を空に噴き上げた）」と続きます。火山の活動を表す erupt（噴火する）が適切です。名詞形は eruption（噴火）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-061",
+        "question": "Takeshi did not get home until after midnight. He tried to move _____ so as not to wake up his wife.",
+        "translation": "タケシは真夜中を過ぎるまで帰宅しなかった。妻を起こさないように、彼は<b>静かに</b>動こうとした。",
+        "options": [
+            "silently",
+            "eagerly",
+            "firmly",
+            "honestly"
+        ],
+        "optionMeanings": [
+            "静かに",
+            "熱心に",
+            "しっかりと",
+            "正直に"
+        ],
+        "answer": "silently",
+        "explanation": "<b>正解：silently（静かに）</b><br><br>💡 着眼点：「so as not to wake up his wife（妻を起こさないように）」という目的がヒントです。音を立てずに動く様子を表す silently（静かに、黙って）が合います。so as not to do（～しないように）は目的を表す重要な表現です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-062",
+        "question": "A: Why did you stop working at the bookstore, Jenny?\nB: I wanted to keep working there, but my parents made me quit _____.",
+        "translation": "A：どうして本屋で働くのをやめたの、ジェニー？\nB：そこで働き続けたかったんだけど、両親に<b>意に反して</b>やめさせられたの。",
+        "options": [
+            "in the air",
+            "in a hurry",
+            "against my will",
+            "with a smile"
+        ],
+        "optionMeanings": [
+            "未決定で、漂って",
+            "急いで",
+            "意に反して",
+            "笑顔で"
+        ],
+        "answer": "against my will",
+        "explanation": "<b>正解：against my will（意に反して）</b><br><br>💡 着眼点：Bは「I wanted to keep working there（働き続けたかった）」のに「my parents made me quit（両親にやめさせられた）」と言っています。本人の希望と逆であることを表す against my will（意に反して）が適切です。will には名詞で「意志」という意味があります。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-063",
+        "question": "A: What did you have for Christmas dinner?\nB: We had roast beef, mashed potatoes, and green beans. The whole meal _____ traditional Christmas foods.",
+        "translation": "A：クリスマスのディナーには何を食べたの？\nB：ローストビーフとマッシュポテトとサヤインゲンを食べたよ。食事全体が伝統的なクリスマス料理<b>から成っていた</b>んだ。",
+        "options": [
+            "spoke about",
+            "stared at",
+            "consisted of",
+            "worried about"
+        ],
+        "optionMeanings": [
+            "～について話した",
+            "～をじっと見た",
+            "～から成っていた",
+            "～について心配した"
+        ],
+        "answer": "consisted of",
+        "explanation": "<b>正解：consisted of（～から成っていた）</b><br><br>💡 着眼点：Bは料理を具体的に挙げた後、「The whole meal（食事全体）」が「traditional Christmas foods（伝統的なクリスマス料理）」でできていたとまとめています。構成要素を表す consist of ～（～から成る）が適切です。be made up of ～ も同じ意味で使えます。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-064",
+        "question": "A: Why is Tom still so upset after class today?\nB: His classmate _____ breaking the window during lunch.",
+        "translation": "A：トムはどうして今日の授業の後もまだあんなに怒っているの？\nB：昼休みに窓を割ったことで、クラスメートが<b>彼を責めた</b>んだ。",
+        "options": [
+            "advised him of",
+            "accused him of",
+            "warned him of",
+            "convinced him of"
+        ],
+        "optionMeanings": [
+            "彼に～を知らせた",
+            "彼を～で責めた",
+            "彼に～を警告した",
+            "彼に～を納得させた"
+        ],
+        "answer": "accused him of",
+        "explanation": "<b>正解：accused him of（彼を～で責めた）</b><br><br>💡 着眼点：Aは「so upset（とても怒っている、動揺している）」理由を尋ねています。「breaking the window（窓を割ったこと）」を理由に人を責める場面なので、accuse ～ of ...（…のことで～を責める、告発する）が適切です。前置詞 of と結びつく動詞として、warn ～ of ...（～に…を警告する）などとあわせて区別しておきましょう。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-065",
+        "question": "The town of Westport _____ after the summer festival started. People filled the streets, music played from loudspeakers, and there were smiles everywhere.",
+        "translation": "夏祭りが始まると、ウェストポートの町は<b>活気づいた</b>。人々が通りを埋め尽くし、スピーカーから音楽が流れ、あちこちに笑顔があった。",
+        "options": [
+            "fell into silence",
+            "came to mind",
+            "took a chance",
+            "came to life"
+        ],
+        "optionMeanings": [
+            "静まり返った",
+            "思い浮かんだ",
+            "思い切ってやってみた",
+            "活気づいた"
+        ],
+        "answer": "came to life",
+        "explanation": "<b>正解：came to life（活気づいた）</b><br><br>💡 着眼点：後の文の「People filled the streets（人々が通りを埋め尽くした）」「music played（音楽が流れた）」「smiles everywhere（あちこちに笑顔）」から、町がにぎやかになったことがわかります。come to life は「活気づく、生き生きとする」という意味です。fell into silence（静まり返った）は正反対の内容です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-066",
+        "question": "Many animals are _____ of becoming extinct because of environmental changes. Conservation groups are trying to protect them.",
+        "translation": "多くの動物が環境の変化によって絶滅の<b>危機にさらされている</b>。自然保護団体はそれらの動物を守ろうとしている。",
+        "options": [
+            "on board",
+            "in charge",
+            "by force",
+            "at risk"
+        ],
+        "optionMeanings": [
+            "乗車して",
+            "担当して",
+            "力ずくで",
+            "危険にさらされて"
+        ],
+        "answer": "at risk",
+        "explanation": "<b>正解：at risk（危険にさらされて）</b><br><br>💡 着眼点：空所の後に「of becoming extinct（絶滅すること）」が続き、次の文で「trying to protect them（守ろうとしている）」とあります。be at risk of ～（～の危険にさらされている）の形に合う at risk が適切です。in charge of ～（～を担当して）も of を伴いますが、意味が合いません。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-067",
+        "question": "A: Are you ready to leave for school now? Have you tidied up your room?\nB: Almost. I just need to _____ and grab my bag.",
+        "translation": "A：もう学校に出かける準備はできた？部屋は片付けたの？\nB：だいたいね。あとは<b>ベッドを整えて</b>、かばんを持つだけだよ。",
+        "options": [
+            "make my bed",
+            "close my eyes",
+            "read a book",
+            "wash the car"
+        ],
+        "optionMeanings": [
+            "ベッドを整える",
+            "目を閉じる",
+            "本を読む",
+            "車を洗う"
+        ],
+        "answer": "make my bed",
+        "explanation": "<b>正解：make my bed（ベッドを整える）</b><br><br>💡 着眼点：Aの「Have you tidied up your room?（部屋を片付けた？）」に対し、Bは「Almost（だいたい）」と答えています。部屋の片付けの残りの作業として、make my bed（ベッドを整える）が合います。make the bed は「ベッドを作る」ではなく「寝床を整える」という意味です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-068",
+        "question": "The new president of the company does not _____ many of the other employees. He has his own office at the top of the building.",
+        "translation": "その会社の新しい社長は、他の社員の多くと<b>接触する</b>ことがない。彼は建物の最上階に自分の部屋を持っている。",
+        "options": [
+            "take the place of",
+            "take full advantage of",
+            "come into contact with",
+            "fall in love with"
+        ],
+        "optionMeanings": [
+            "～の代わりをする",
+            "～を最大限に利用する",
+            "～と接触する",
+            "～に恋をする"
+        ],
+        "answer": "come into contact with",
+        "explanation": "<b>正解：come into contact with（～と接触する）</b><br><br>💡 着眼点：次の文の「has his own office at the top of the building（建物の最上階に自分の部屋を持っている）」から、社長が他の社員と顔を合わせる機会が少ないことがわかります。come into contact with ～（～と接触する、関わりを持つ）が適切です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-069",
+        "question": "Justin’s mother became angry because he _____ to wash the dishes after dinner. She said to him that he could not watch TV that evening.",
+        "translation": "ジャスティンは夕食後に皿洗いをするのを<b>拒んだ</b>ので、母親は怒った。母親は彼に、その晩はテレビを見てはいけないと言った。",
+        "options": [
+            "gained",
+            "chased",
+            "seated",
+            "refused"
+        ],
+        "optionMeanings": [
+            "〜を得た",
+            "〜を追いかけた",
+            "〜を座らせた",
+            "〜するのを拒んだ"
+        ],
+        "answer": "refused",
+        "explanation": "<b>正解：refused（〜するのを拒んだ）</b><br><br>💡 着眼点：空所の後の「to wash the dishes（皿を洗うこと）」と、母親が「became angry（怒った）」ことが手がかりです。refuse to do で「〜するのを拒む」という意味になり、母親が怒った理由として自然につながります。gain や chase は to 不定詞を続ける形では使いません。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-070",
+        "question": "The rain _____ for over one week, and the level of water in the river became higher and higher.",
+        "translation": "雨が1週間以上<b>降り続き</b>、川の水位はどんどん高くなった。",
+        "options": [
+            "continued",
+            "noticed",
+            "judged",
+            "searched"
+        ],
+        "optionMeanings": [
+            "続いた",
+            "〜に気づいた",
+            "〜を判断した",
+            "〜を探した"
+        ],
+        "answer": "continued",
+        "explanation": "<b>正解：continued（続いた）</b><br><br>💡 着眼点：「for over one week（1週間以上）」という期間の表現と、川の水位が「higher and higher（どんどん高く）」なったという結果が手がかりです。雨が長い間降り続いた様子を表す continue「続く」が適切です。continue は自動詞としても他動詞としても使えます。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-071",
+        "question": "A: Mom, I have a bad headache.\nB: Well, go and look in the cabinet in the bathroom. You’ll find some _____ there.",
+        "translation": "A：お母さん、頭がすごく痛いの。\nB：それなら、浴室の戸棚を見てごらん。そこに<b>薬</b>があるわよ。",
+        "options": [
+            "silver",
+            "traffic",
+            "medicine",
+            "evidence"
+        ],
+        "optionMeanings": [
+            "銀",
+            "交通",
+            "薬",
+            "証拠"
+        ],
+        "answer": "medicine",
+        "explanation": "<b>正解：medicine（薬）</b><br><br>💡 着眼点：Aの「a bad headache（ひどい頭痛）」が手がかりです。頭痛に対して戸棚で見つかるものとしては medicine「薬」が自然です。evidence「証拠」は事件や主張の裏づけに使う語なので、ここでは合いません。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-072",
+        "question": "Jiro broke an expensive vase, but when his mother asked him about it, he _____ that he had done it. He was afraid she would be mad.",
+        "translation": "次郎は高価な花瓶を割ってしまったが、母親にそのことを聞かれると、自分がやったことを<b>否定した</b>。母親が怒るのではないかと怖かったのだ。",
+        "options": [
+            "denied",
+            "required",
+            "traded",
+            "greeted"
+        ],
+        "optionMeanings": [
+            "〜を否定した",
+            "〜を必要とした",
+            "〜を交換した",
+            "〜にあいさつした"
+        ],
+        "answer": "denied",
+        "explanation": "<b>正解：denied（〜を否定した）</b><br><br>💡 着眼点：実際には花瓶を割ったのに、「He was afraid she would be mad（母親が怒るのが怖かった）」と書かれている点が手がかりです。怒られたくないので「やっていない」と言ったと考えられ、deny「〜を否定する」が適切です。deny that ～ や deny doing の形で使います。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-073",
+        "question": "Mr. Kimura told his staff members to put more information into their sales reports. He said they should _____ graphs and charts in each report.",
+        "translation": "木村さんは部下たちに、営業報告書にもっと情報を盛り込むように言った。各報告書にグラフや図表を<b>入れる</b>べきだと彼は言った。",
+        "options": [
+            "expect",
+            "claim",
+            "compete",
+            "include"
+        ],
+        "optionMeanings": [
+            "〜を予想する",
+            "〜を主張する",
+            "競争する",
+            "〜を含める"
+        ],
+        "answer": "include",
+        "explanation": "<b>正解：include（〜を含める）</b><br><br>💡 着眼点：前の文の「put more information into（もっと情報を入れる）」が手がかりです。報告書にグラフや図表を「入れる」という意味の include「〜を含める」が合います。compete は「競争する」という自動詞で、目的語を直接とりません。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-074",
+        "question": "Matt went to the hospital to see his new baby brother. He was surprised at how _____ the baby’s hands were.",
+        "translation": "マットは生まれたばかりの弟に会いに病院へ行った。彼は赤ちゃんの手がとても<b>小さい</b>ことに驚いた。",
+        "options": [
+            "deep",
+            "global",
+            "tiny",
+            "safe"
+        ],
+        "optionMeanings": [
+            "深い",
+            "世界的な",
+            "とても小さい",
+            "安全な"
+        ],
+        "answer": "tiny",
+        "explanation": "<b>正解：tiny（とても小さい）</b><br><br>💡 着眼点：「new baby brother（生まれたばかりの弟）」と「the baby's hands（赤ちゃんの手）」が手がかりです。生まれたばかりの赤ちゃんの手について驚く点としては、tiny「とても小さい」が自然です。how tiny ～ were で「どれほど小さいか」という意味になります。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-075",
+        "question": "A: Which subject is more important for you to pass, English or math?\nB: I think they are _____ important. I spend the same amount of time studying for both.",
+        "translation": "A：英語と数学では、どちらに合格することのほうが大事なの。\nB：<b>同じくらい</b>大事だと思う。どちらにも同じだけの時間をかけて勉強しているよ。",
+        "options": [
+            "equally",
+            "lastly",
+            "correctly",
+            "sincerely"
+        ],
+        "optionMeanings": [
+            "同じくらいに",
+            "最後に",
+            "正しく",
+            "心から"
+        ],
+        "answer": "equally",
+        "explanation": "<b>正解：equally（同じくらいに）</b><br><br>💡 着眼点：Bの「I spend the same amount of time（同じだけの時間をかけている）」が手がかりです。どちらか一方ではなく両方が同じように大事だと答えているので、equally「同じくらいに」が適切です。equal「等しい」の副詞形として覚えておきましょう。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-076",
+        "question": "Liz was the _____ of a robbery last week. She had her handbag stolen when she was on the train.",
+        "translation": "リズは先週、強盗の<b>被害</b>にあった。電車に乗っているときにハンドバッグを盗まれたのだ。",
+        "options": [
+            "dealer",
+            "candidate",
+            "judge",
+            "victim"
+        ],
+        "optionMeanings": [
+            "販売業者",
+            "候補者",
+            "裁判官",
+            "被害者"
+        ],
+        "answer": "victim",
+        "explanation": "<b>正解：victim（被害者）</b><br><br>💡 着眼点：後の文の「had her handbag stolen（ハンドバッグを盗まれた）」が手がかりです。盗まれた側の人なので、victim「被害者」が適切です。the victim of ～ で「〜の被害者」という形でよく使われます。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-077",
+        "question": "A: How is your business going?\nB: It was a tough year, but we still managed to make a higher _____ than last year.",
+        "translation": "A：お仕事の調子はどう。\nB：厳しい1年だったけど、それでも去年より多くの<b>利益</b>を出すことができたよ。",
+        "options": [
+            "policy",
+            "contract",
+            "capture",
+            "profit"
+        ],
+        "optionMeanings": [
+            "方針",
+            "契約",
+            "捕獲",
+            "利益"
+        ],
+        "answer": "profit",
+        "explanation": "<b>正解：profit（利益）</b><br><br>💡 着眼点：「business（仕事、商売）」の話題で、「make a higher ～ than last year（去年より高い～を出す）」という表現が手がかりです。make a profit で「利益を出す」というよく使う組み合わせになります。contract「契約」は make ではなく sign などと結びつくのが一般的です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-078",
+        "question": "Charles bought a new car last week. It was the biggest _____ he had made in five years.",
+        "translation": "チャールズは先週、新車を買った。それはこの5年間で彼がした一番大きな<b>買い物</b>だった。",
+        "options": [
+            "purchase",
+            "custom",
+            "voyage",
+            "fund"
+        ],
+        "optionMeanings": [
+            "購入（品）",
+            "習慣",
+            "航海",
+            "資金"
+        ],
+        "answer": "purchase",
+        "explanation": "<b>正解：purchase（購入（品））</b><br><br>💡 着眼点：前の文の「bought a new car（新車を買った）」が手がかりです。車を買ったことを言いかえているので、purchase「購入、買い物」が適切です。make a purchase で「買い物をする」という意味になり、空所後の he had made ともつながります。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-079",
+        "question": "A: It’s already ten o’clock, and David is still not here.\nB: It looks like he’s going to be late _____. He never worries about the time.",
+        "translation": "A：もう10時なのに、デイビッドがまだ来ていないよ。\nB：<b>いつものように</b>遅れて来るみたいだね。彼は時間のことをまったく気にしないから。",
+        "options": [
+            "at most",
+            "as usual",
+            "by chance",
+            "in return"
+        ],
+        "optionMeanings": [
+            "多くても",
+            "いつものように",
+            "偶然に",
+            "お返しに"
+        ],
+        "answer": "as usual",
+        "explanation": "<b>正解：as usual（いつものように）</b><br><br>💡 着眼点：Bの「He never worries about the time（彼は時間のことをまったく気にしない）」が手がかりです。普段から時間を気にしない人なので、今回も遅刻するという意味の as usual「いつものように」が合います。by chance「偶然に」では、普段の習慣という内容とかみ合いません。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-080",
+        "question": "Melissa will volunteer at a charity this summer. The charity _____ clothing and food to anybody who needs them.",
+        "translation": "メリッサはこの夏、ある慈善団体でボランティアをする予定だ。その団体は、衣類や食料を必要としている人なら誰にでも<b>無料で配っている</b>。",
+        "options": [
+            "puts off",
+            "gives away",
+            "fills up",
+            "tells on"
+        ],
+        "optionMeanings": [
+            "〜を延期する",
+            "〜を無料で配る",
+            "〜をいっぱいにする",
+            "〜を告げ口する"
+        ],
+        "answer": "gives away",
+        "explanation": "<b>正解：gives away（〜を無料で配る）</b><br><br>💡 着眼点：「charity（慈善団体）」と「to anybody who needs them（それらを必要とする人なら誰にでも）」が手がかりです。慈善団体が衣類や食料を人々に渡す活動なので、give away「〜を無料で配る」が適切です。put off は「〜を延期する」という意味です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-081",
+        "question": "A: How’s your new math teacher, Catherine?\nB: Well, most of my classmates think he’s too strict, but _____ my opinion, he’s a great teacher.",
+        "translation": "A：キャサリン、新しい数学の先生はどう。\nB：そうね、クラスメートのほとんどは厳しすぎると思っているけど、<b>私の考えでは</b>、すばらしい先生よ。",
+        "options": [
+            "in",
+            "at",
+            "with",
+            "under"
+        ],
+        "optionMeanings": [
+            "〜において",
+            "〜で",
+            "〜と一緒に",
+            "〜の下で"
+        ],
+        "answer": "in",
+        "explanation": "<b>正解：in（〜において）</b><br><br>💡 着眼点：空所の後の「my opinion（私の意見）」が手がかりです。in my opinion で「私の考えでは」という決まった表現になります。クラスメートの意見と自分の意見を but で対比している流れにも合っています。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-082",
+        "question": "When the two business partners met for the first time, they _____ with each other, then they went into the meeting room.",
+        "translation": "2人のビジネスパートナーは初めて会ったとき、互いに<b>握手をして</b>から、会議室に入った。",
+        "options": [
+            "gave way",
+            "took turns",
+            "shook hands",
+            "showed signs"
+        ],
+        "optionMeanings": [
+            "譲歩した",
+            "交代でした",
+            "握手した",
+            "兆候を見せた"
+        ],
+        "answer": "shook hands",
+        "explanation": "<b>正解：shook hands（握手した）</b><br><br>💡 着眼点：「met for the first time（初めて会った）」と「with each other（互いに）」が手がかりです。初対面のあいさつとして自然なのは shake hands with ～「〜と握手する」です。take turns は「交代でする」という意味で、場面に合いません。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-083",
+        "question": "A: Matthew has been eating a lot of fast food lately.\nB: Yeah, I noticed. If he isn’t careful, he’ll start _____ weight.",
+        "translation": "A：マシューは最近、ファストフードをたくさん食べているね。\nB：うん、気づいていたよ。気をつけないと、<b>太り</b>始めるよ。",
+        "options": [
+            "showing up",
+            "giving up",
+            "trying on",
+            "putting on"
+        ],
+        "optionMeanings": [
+            "現れる",
+            "あきらめる",
+            "〜を試着する",
+            "（体重）を増やす"
+        ],
+        "answer": "putting on",
+        "explanation": "<b>正解：putting on（（体重）を増やす）</b><br><br>💡 着眼点：「a lot of fast food（たくさんのファストフード）」と、空所の後の「weight（体重）」が手がかりです。put on weight で「体重が増える、太る」という意味になります。反対の「やせる」は lose weight です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-084",
+        "question": "A: Jonathan isn’t sure if he should hire Gina Adams or Andy Burton. They both have a lot of experience.\nB: Well, in _____, I hope he hires someone soon. We’re really busy.",
+        "translation": "A：ジョナサンは、ジーナ・アダムズとアンディ・バートンのどちらを雇うべきか迷っているんだ。2人とも経験が豊富だからね。\nB：まあ、<b>いずれにしても</b>、早く誰かを雇ってほしいわ。本当に忙しいから。",
+        "options": [
+            "a row",
+            "the past",
+            "any case",
+            "other words"
+        ],
+        "optionMeanings": [
+            "連続して",
+            "過去に",
+            "いずれにしても",
+            "言いかえれば"
+        ],
+        "answer": "any case",
+        "explanation": "<b>正解：any case（いずれにしても）</b><br><br>💡 着眼点：Aはどちらを雇うか迷っていると話していますが、Bは「どちらでもいいので早く雇ってほしい」と話を切りかえています。この流れに合うのが in any case「いずれにしても」です。in other words「言いかえれば」は前の内容を別の言葉で説明するときに使います。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-085",
+        "question": "No _____ how hard he tried, William wasn’t able to find the courage to ask Melanie on a date.",
+        "translation": "<b>どんなに</b>頑張っても、ウィリアムはメラニーをデートに誘う勇気を出すことができなかった。",
+        "options": [
+            "chance",
+            "matter",
+            "question",
+            "wonder"
+        ],
+        "optionMeanings": [
+            "機会",
+            "問題",
+            "質問",
+            "驚き"
+        ],
+        "answer": "matter",
+        "explanation": "<b>正解：matter（どんなに〜しても）</b><br><br>💡 着眼点：空所の前の「No」と後の「how hard he tried」が手がかりです。no matter how ～ で「どんなに～しても」という譲歩の表現になります。no matter what「何を～しても」、no matter where「どこで～しても」も一緒に覚えておきましょう。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "pre2plus-086",
+        "question": "A: Mom, can I eat the last piece of cake?\nB: No. Let's _____ it for your father. He hasn't had any yet.",
+        "translation": "A：お母さん、最後のケーキを食べてもいい。\nB：だめよ。お父さんのために<b>とっておき</b>ましょう。まだ一切れも食べていないから。",
+        "options": [
+            "save",
+            "publish",
+            "reduce",
+            "type"
+        ],
+        "optionMeanings": [
+            "〜をとっておく",
+            "〜を出版する",
+            "〜を減らす",
+            "〜を入力する"
+        ],
+        "answer": "save",
+        "explanation": "<b>正解：save（〜をとっておく）</b><br><br>💡 着眼点：空所の後の「for your father（お父さんのために）」と「He hasn't had any yet（まだ食べていない）」が手がかりです。食べずに残しておくという意味の save「〜をとっておく」が適切です。save には「〜を救う」「〜を節約する」という意味もあります。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-087",
+        "question": "Brad's teacher saw that Brad could throw a ball very hard. She said that he should join the baseball team and use this _____.",
+        "translation": "ブラッドの先生は、ブラッドがとても力強くボールを投げられることに気づいた。先生は、彼が野球部に入ってこの<b>能力</b>を生かすべきだと言った。",
+        "options": [
+            "ability",
+            "medal",
+            "stage",
+            "layer"
+        ],
+        "optionMeanings": [
+            "能力",
+            "メダル",
+            "舞台",
+            "層"
+        ],
+        "answer": "ability",
+        "explanation": "<b>正解：ability（能力）</b><br><br>💡 着眼点：前の文の「could throw a ball very hard（とても力強くボールを投げられる）」が手がかりです。this ～ はこの「できること」を指しているので、ability「能力」が合います。形容詞 able「〜できる」と関連づけて覚えておきましょう。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-088",
+        "question": "A: James was rude to me today. When I said hello, he _____ me.\nB: He didn't talk to me, either. But I think that he's just nervous about today's test.",
+        "translation": "A：今日ジェームズが失礼だったの。私があいさつしたのに、彼は私を<b>無視した</b>のよ。\nB：ぼくにも話しかけてこなかったよ。でも、今日のテストのことで緊張しているだけだと思うな。",
+        "options": [
+            "ignored",
+            "performed",
+            "folded",
+            "divided"
+        ],
+        "optionMeanings": [
+            "〜を無視した",
+            "〜を演じた",
+            "〜を折りたたんだ",
+            "〜を分けた"
+        ],
+        "answer": "ignored",
+        "explanation": "<b>正解：ignored（〜を無視した）</b><br><br>💡 着眼点：Aの「rude（失礼な）」と、Bの「He didn't talk to me, either（ぼくにも話しかけなかった）」が手がかりです。あいさつしたのに反応しなかったという意味で、ignore「〜を無視する」が適切です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-089",
+        "question": "Matt's parents always fight when they talk about _____. His father likes the president, but his mother does not.",
+        "translation": "マットの両親は<b>政治</b>について話すと、いつもけんかになる。父親は大統領を支持しているが、母親はそうではないのだ。",
+        "options": [
+            "experiments",
+            "meals",
+            "politics",
+            "sports"
+        ],
+        "optionMeanings": [
+            "実験",
+            "食事",
+            "政治",
+            "スポーツ"
+        ],
+        "answer": "politics",
+        "explanation": "<b>正解：politics（政治）</b><br><br>💡 着眼点：後の文の「the president（大統領）」が手がかりです。大統領についての意見が分かれていることから、話題は politics「政治」だとわかります。political「政治の」、politician「政治家」もあわせて覚えておきましょう。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-090",
+        "question": "Lisa's father works in a car factory. He _____ a machine that moves car parts around the factory.",
+        "translation": "リサの父親は自動車工場で働いている。彼は、工場内で車の部品を運ぶ機械を<b>操作している</b>。",
+        "options": [
+            "argues",
+            "believes",
+            "controls",
+            "folds"
+        ],
+        "optionMeanings": [
+            "議論する",
+            "〜を信じる",
+            "〜を操作する",
+            "〜を折りたたむ"
+        ],
+        "answer": "controls",
+        "explanation": "<b>正解：controls（〜を操作する）</b><br><br>💡 着眼点：「works in a car factory（自動車工場で働いている）」と、目的語の「a machine（機械）」が手がかりです。工場で働く人が機械に対してすることとして、control「〜を操作する、制御する」が自然です。control は名詞として「管理、制御」の意味でも使います。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-091",
+        "question": "Rachel bought a night-light for her son's bedroom. Her son is afraid when the room is _____ dark.",
+        "translation": "レイチェルは息子の寝室用に常夜灯を買った。息子は部屋が<b>真っ暗に</b>なると怖がるのだ。",
+        "options": [
+            "patiently",
+            "completely",
+            "greatly",
+            "briefly"
+        ],
+        "optionMeanings": [
+            "辛抱強く",
+            "完全に",
+            "大いに",
+            "短く"
+        ],
+        "answer": "completely",
+        "explanation": "<b>正解：completely（完全に）</b><br><br>💡 着眼点：「night-light（常夜灯）」を買ったことが手がかりです。小さな明かりをつけておくのは、部屋が完全に暗くなるのを怖がるからだと考えられるので、completely「完全に」が適切です。completely dark で「真っ暗な」という意味になります。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-092",
+        "question": "Bob _____ to take Diane out to dinner, but she wasn't very hungry, so they went to a movie instead.",
+        "translation": "ボブはダイアンを夕食に連れて行こうと<b>申し出た</b>が、彼女はあまりおなかがすいていなかったので、代わりに2人は映画を見に行った。",
+        "options": [
+            "reacted",
+            "offered",
+            "trusted",
+            "paused"
+        ],
+        "optionMeanings": [
+            "反応した",
+            "〜を申し出た",
+            "〜を信頼した",
+            "一時停止した"
+        ],
+        "answer": "offered",
+        "explanation": "<b>正解：offered（〜を申し出た）</b><br><br>💡 着眼点：空所の後の「to take Diane out to dinner（ダイアンを夕食に連れて行くこと）」が手がかりです。offer to do で「〜しようと申し出る」という意味になり、相手の都合で予定が変わったという後半の流れにも合います。react や pause は to 不定詞を続けて使いません。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-093",
+        "question": "At a few companies, it is _____ to take an afternoon nap. But most bosses would be unhappy to find a worker sleeping in the office.",
+        "translation": "いくつかの会社では、午後に昼寝をすることが<b>認められている</b>。しかし、たいていの上司は、社員が職場で寝ているのを見つけたら不満に思うだろう。",
+        "options": [
+            "independent",
+            "acceptable",
+            "careless",
+            "honest"
+        ],
+        "optionMeanings": [
+            "独立した",
+            "受け入れられる",
+            "不注意な",
+            "正直な"
+        ],
+        "answer": "acceptable",
+        "explanation": "<b>正解：acceptable（受け入れられる）</b><br><br>💡 着眼点：後の文が「But（しかし）」で始まり、多くの上司は社員が寝ていると不満に思うと述べている点が手がかりです。それと対比して「一部の会社では昼寝が認められている」という意味になる acceptable「受け入れられる」が適切です。accept「〜を受け入れる」に -able がついた形です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-094",
+        "question": "The size of a family usually _____ the size of its refrigerator. Big families need big refrigerators to keep all their food and drinks cool.",
+        "translation": "家族の人数は、たいていその家の冷蔵庫の大きさを<b>決める</b>。大家族には、すべての食べ物や飲み物を冷やしておくために大きな冷蔵庫が必要だ。",
+        "options": [
+            "refuses",
+            "impresses",
+            "admires",
+            "determines"
+        ],
+        "optionMeanings": [
+            "〜を拒む",
+            "〜に感銘を与える",
+            "〜を称賛する",
+            "〜を決定する"
+        ],
+        "answer": "determines",
+        "explanation": "<b>正解：determines（〜を決定する）</b><br><br>💡 着眼点：後の文の「Big families need big refrigerators（大家族には大きな冷蔵庫が必要だ）」が手がかりです。家族の人数によって冷蔵庫の大きさが決まるという関係なので、determine「〜を決定する」が合います。名詞形は determination「決心、決定」です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-095",
+        "question": "Ayaka was too busy to clean her big house by herself. She _____ the problem by paying for a cleaning service, and now, she has more free time to go shopping.",
+        "translation": "アヤカは忙しすぎて、自分ひとりで大きな家を掃除することができなかった。彼女は清掃サービスにお金を払うことでその問題を<b>解決し</b>、今では買い物に行く自由な時間が増えた。",
+        "options": [
+            "advanced",
+            "preserved",
+            "trimmed",
+            "overcame"
+        ],
+        "optionMeanings": [
+            "〜を進めた",
+            "〜を保存した",
+            "〜を切りそろえた",
+            "〜を克服した"
+        ],
+        "answer": "overcame",
+        "explanation": "<b>正解：overcame（〜を克服した）</b><br><br>💡 着眼点：目的語の「the problem（その問題）」と、「now, she has more free time（今では自由な時間が増えた）」という結果が手がかりです。問題を乗り越えたという意味で、overcome「〜を克服する」が適切です。overcome は overcome - overcame - overcome と変化します。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-096",
+        "question": "Sally has studied hard in all of her classes this year. _____ a result, she has done well on all of her tests.",
+        "translation": "サリーは今年、すべての授業で一生懸命勉強してきた。<b>その結果</b>、彼女はすべてのテストでよい成績をとった。",
+        "options": [
+            "With",
+            "In",
+            "As",
+            "For"
+        ],
+        "optionMeanings": [
+            "〜と一緒に",
+            "〜の中で",
+            "〜として",
+            "〜のために"
+        ],
+        "answer": "As",
+        "explanation": "<b>正解：As（その結果）</b><br><br>💡 着眼点：空所の後の「a result（結果）」が手がかりです。as a result で「その結果」という決まった表現になります。前の文の「一生懸命勉強した」が原因、後の「テストでよい成績をとった」が結果という関係にも合っています。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-097",
+        "question": "A: Is Mark going to bring his girlfriend to your party on Saturday?\nB: Haven't you heard? They had a fight last week and _____. So I think Mark will be coming by himself.",
+        "translation": "A：マークは土曜日のあなたのパーティーにガールフレンドを連れてくるの。\nB：聞いていないの。2人は先週けんかをして<b>別れた</b>のよ。だから、マークは1人で来ると思うわ。",
+        "options": [
+            "stood by",
+            "sat down",
+            "took over",
+            "broke up"
+        ],
+        "optionMeanings": [
+            "〜を支持した",
+            "座った",
+            "〜を引き継いだ",
+            "別れた"
+        ],
+        "answer": "broke up",
+        "explanation": "<b>正解：broke up（別れた）</b><br><br>💡 着眼点：「had a fight（けんかをした）」と、Bの最後の「Mark will be coming by himself（マークは1人で来る）」が手がかりです。けんかの結果、交際をやめたという意味の break up「別れる」が適切です。break up with ～ で「〜と別れる」と言います。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-098",
+        "question": "A: I'd like to visit you sometime this summer, Keiko. When will you be _____ your summer plans?\nB: I'll decide on them this week.",
+        "translation": "A：ケイコ、この夏のどこかであなたのところを訪ねたいの。夏の予定はいつ<b>はっきりする</b>の。\nB：今週中に決めるわ。",
+        "options": [
+            "eager for",
+            "open to",
+            "fond of",
+            "sure about"
+        ],
+        "optionMeanings": [
+            "〜を熱望して",
+            "〜を受け入れる余地がある",
+            "〜が好きで",
+            "〜について確信して"
+        ],
+        "answer": "sure about",
+        "explanation": "<b>正解：sure about（〜について確信して）</b><br><br>💡 着眼点：Bの「I'll decide on them this week（今週中に決める）」が手がかりです。Aは予定がいつ決まるのかを聞いていると考えられるので、be sure about ～「〜について確信している、はっきりわかっている」が合います。be fond of ～ は「〜が好きだ」という意味です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-099",
+        "question": "The soccer match was called _____ due to the heavy snow. The teams agreed to play the match the next weekend instead.",
+        "translation": "大雪のため、そのサッカーの試合は<b>中止された</b>。両チームは代わりに翌週末に試合をすることで合意した。",
+        "options": [
+            "along",
+            "under",
+            "out",
+            "off"
+        ],
+        "optionMeanings": [
+            "〜に沿って",
+            "〜の下に",
+            "外へ",
+            "離れて"
+        ],
+        "answer": "off",
+        "explanation": "<b>正解：off（中止される）</b><br><br>💡 着眼点：「due to the heavy snow（大雪のため）」と、「play the match the next weekend instead（代わりに翌週末に試合をする）」が手がかりです。call off ～ で「〜を中止する」という意味で、ここでは受け身の was called off「中止された」になっています。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-100",
+        "question": "A: My wedding starts in half an hour, and my brother isn't here yet. Why is he always late for everything?\nB: He'll be here soon. He wouldn't let you _____ on your big day.",
+        "translation": "A：私の結婚式があと30分で始まるのに、兄がまだ来ていないの。どうして彼はいつも何にでも遅れるのかしら。\nB：もうすぐ来るよ。君の大切な日に君を<b>がっかりさせる</b>ようなことはしないさ。",
+        "options": [
+            "through",
+            "out",
+            "down",
+            "back"
+        ],
+        "optionMeanings": [
+            "〜を通り抜けて",
+            "外へ",
+            "下へ",
+            "後ろへ"
+        ],
+        "answer": "down",
+        "explanation": "<b>正解：down（〜をがっかりさせる）</b><br><br>💡 着眼点：空所の前の「let you（あなたを～させる）」と、「on your big day（あなたの大切な日に）」が手がかりです。let ～ down で「〜をがっかりさせる、期待を裏切る」という意味になり、大事な結婚式に遅れるはずはないと励ましている流れに合います。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-101",
+        "question": "A: Mr. Watson, I got the new schedule for the ski trip, but I can't see how it _____ the schedule you gave us yesterday.\nB: Oh, we just changed the restaurant we'll be eating at.",
+        "translation": "A：ワトソン先生、スキー旅行の新しい予定表をもらったのですが、昨日いただいた予定表とどこが<b>違う</b>のかわかりません。\nB：ああ、食事をするレストランを変えただけなんだ。",
+        "options": [
+            "checks out",
+            "gets over",
+            "differs from",
+            "puts away"
+        ],
+        "optionMeanings": [
+            "〜を調べる",
+            "〜から回復する",
+            "〜と異なる",
+            "〜を片づける"
+        ],
+        "answer": "differs from",
+        "explanation": "<b>正解：differs from（〜と異なる）</b><br><br>💡 着眼点：「the new schedule（新しい予定表）」と「the schedule you gave us yesterday（昨日もらった予定表）」を比べている点が手がかりです。2つの違いがわからないという内容なので、differ from ～「〜と異なる」が適切です。Bもレストランを変えたと違いを説明しています。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-102",
+        "question": "These _____, most people choose to fly from Japan to Korea. But Takahiro wants to go there by ship.",
+        "translation": "<b>最近では</b>、日本から韓国へ行くのにほとんどの人が飛行機を選ぶ。しかし、タカヒロは船でそこへ行きたいと思っている。",
+        "options": [
+            "days",
+            "moments",
+            "times",
+            "hours"
+        ],
+        "optionMeanings": [
+            "日々",
+            "瞬間",
+            "時代、時",
+            "時間"
+        ],
+        "answer": "days",
+        "explanation": "<b>正解：days（最近は）</b><br><br>💡 着眼点：空所の前の「These」と、「most people choose to fly（ほとんどの人が飛行機を選ぶ）」という現在の傾向が手がかりです。these days で「最近では」という決まった表現になります。in those days「当時は」と区別して覚えておきましょう。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "pre2plus-103",
+        "question": "Risako’s parents spent a lot of money on her _____. They sent her to a private high school and paid for her to take extra English lessons outside of school.",
+        "translation": "リサコの両親は彼女の<b>教育</b>に多くのお金をかけた。私立高校に通わせ、学校の外で英語の追加レッスンを受ける費用も払ったのだ。",
+        "options": [
+            "audience",
+            "pleasure",
+            "wealth",
+            "education"
+        ],
+        "optionMeanings": [
+            "聴衆",
+            "楽しみ",
+            "富",
+            "教育"
+        ],
+        "answer": "education",
+        "explanation": "<b>正解：education（教育）</b><br><br>💡 着眼点：2文目の「sent her to a private high school（私立高校に通わせた）」「extra English lessons（追加の英語レッスン）」が具体例になっています。学校や習い事にお金をかけたことをまとめる語として education が合います。spend money on ～（～にお金を使う）の形も確認しておきましょう。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-104",
+        "question": "I wrote to Jennifer three months ago, but she still hasn’t _____ to me. I think she must be very busy.",
+        "translation": "3か月前にジェニファーに手紙を書いたが、彼女はまだ私に<b>返事をくれて</b>いない。きっととても忙しいのだろう。",
+        "options": [
+            "replied",
+            "argued",
+            "explained",
+            "questioned"
+        ],
+        "optionMeanings": [
+            "返事をした",
+            "言い争った",
+            "説明した",
+            "質問した"
+        ],
+        "answer": "replied",
+        "explanation": "<b>正解：replied（返事をした）</b><br><br>💡 着眼点：「I wrote to Jennifer（ジェニファーに手紙を書いた）」のに「she still hasn't ～ to me（まだ～していない）」という流れです。reply to ～（～に返事をする）の形で to me とつながる replied が正解です。explain は「説明する」で、相手に返信するという意味にはなりません。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-105",
+        "question": "Brett wanted to marry his girlfriend and start a family, but he thought his _____ was too low to support one. He started looking for another job with a better salary.",
+        "translation": "ブレットは恋人と結婚して家庭を持ちたかったが、自分の<b>収入</b>は家族を養うには低すぎると思った。彼はもっと給料のよい別の仕事を探し始めた。",
+        "options": [
+            "income",
+            "injury",
+            "regret",
+            "review"
+        ],
+        "optionMeanings": [
+            "収入",
+            "けが",
+            "後悔",
+            "批評"
+        ],
+        "answer": "income",
+        "explanation": "<b>正解：income（収入）</b><br><br>💡 着眼点：「too low to support one（家族を養うには低すぎる）」と、後ろの「a better salary（もっとよい給料）」が手がかりです。「低い」と言えて家族を養うのに関わるのはお金なので income が合います。high / low income（高い・低い収入）の組み合わせで覚えておきましょう。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-106",
+        "question": "John loves the singer Ann May, and he cannot wait until her new CD is _____ next week. He has been waiting for it since her last CD came out two years ago.",
+        "translation": "ジョンは歌手のアン・メイが大好きで、来週彼女の新しいCDが<b>発売される</b>のが待ちきれない。2年前に前のCDが出て以来、ずっと待っているのだ。",
+        "options": [
+            "released",
+            "trapped",
+            "divided",
+            "invented"
+        ],
+        "optionMeanings": [
+            "発売される",
+            "閉じ込められる",
+            "分けられる",
+            "発明される"
+        ],
+        "answer": "released",
+        "explanation": "<b>正解：released（発売される）</b><br><br>💡 着眼点：主語が「her new CD（彼女の新しいCD）」で、後ろに「since her last CD came out（前のCDが出て以来）」とあります。CD や映画などが「発売・公開される」は be released で表します。release は「解放する」のほかに「発表する、発売する」の意味でよく使われます。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-107",
+        "question": "Some universities _____ all of their students with laptop computers so that students can use the Internet in class.",
+        "translation": "一部の大学では、授業中にインターネットを使えるように、全学生にノートパソコンを<b>提供して</b>いる。",
+        "options": [
+            "solve",
+            "elect",
+            "raise",
+            "provide"
+        ],
+        "optionMeanings": [
+            "解決する",
+            "選挙で選ぶ",
+            "上げる",
+            "提供する"
+        ],
+        "answer": "provide",
+        "explanation": "<b>正解：provide（提供する）</b><br><br>💡 着眼点：空所の後ろが「all of their students with laptop computers（全学生にノートパソコンを）」という形になっています。provide A with B（AにBを提供する）の型に当てはまるので provide が正解です。同じ意味で provide B for A とも言えます。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-108",
+        "question": "A: This skirt is too _____. Do you have one in a larger size?\nB: I’ll just have a look for you, ma’am.",
+        "translation": "A：このスカートは<b>きつ</b>すぎます。もっと大きいサイズのものはありますか。\nB：お探ししますね、お客様。",
+        "options": [
+            "near",
+            "fair",
+            "tight",
+            "thick"
+        ],
+        "optionMeanings": [
+            "近い",
+            "公平な",
+            "きつい",
+            "厚い"
+        ],
+        "answer": "tight",
+        "explanation": "<b>正解：tight（きつい）</b><br><br>💡 着眼点：「Do you have one in a larger size?（もっと大きいサイズはありますか）」と言っているので、今のスカートは小さくて体に合わないことがわかります。衣服が「きつい」は tight で表します。反対に「ゆるい」は loose です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-109",
+        "question": "A: Have you been to the restaurant on the corner of Silver Street and Western Avenue?\nB: No, but I saw a story about it on the news. _____, a lot of people got sick from eating the grilled fish there.",
+        "translation": "A：シルバー通りとウェスタン通りの角にあるレストランに行ったことはある？\nB：ないけど、ニュースでその店の話を見たよ。<b>どうやら</b>、そこで焼き魚を食べてたくさんの人が具合が悪くなったらしいんだ。",
+        "options": [
+            "Seldom",
+            "Finally",
+            "Apparently",
+            "Otherwise"
+        ],
+        "optionMeanings": [
+            "めったに～ない",
+            "ついに",
+            "聞いたところでは",
+            "さもなければ"
+        ],
+        "answer": "Apparently",
+        "explanation": "<b>正解：Apparently（どうやら～らしい）</b><br><br>💡 着眼点：直前の「I saw a story about it on the news（ニュースでその店の話を見た）」から、Bは聞いた情報を伝えていることがわかります。apparently は「（見聞きしたところでは）どうやら～らしい」と伝聞を表す副詞です。Finally（ついに）では話の流れに合いません。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-110",
+        "question": "The Lions played well in the basketball game, but their _____ were much stronger. The Lions lost by 12 points.",
+        "translation": "ライオンズはバスケットボールの試合でよいプレーをしたが、<b>対戦相手</b>のほうがずっと強かった。ライオンズは12点差で負けた。",
+        "options": [
+            "passengers",
+            "devices",
+            "ceremonies",
+            "opponents"
+        ],
+        "optionMeanings": [
+            "乗客",
+            "装置",
+            "式典",
+            "対戦相手"
+        ],
+        "answer": "opponents",
+        "explanation": "<b>正解：opponents（対戦相手）</b><br><br>💡 着眼点：「basketball game（バスケットボールの試合）」で「much stronger（ずっと強かった）」、そして「lost by 12 points（12点差で負けた）」とあります。試合で比べられる相手なので opponents（対戦相手）が合います。動詞 oppose（反対する）と関連づけて覚えましょう。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-111",
+        "question": "Mr. Morris told his history class that many _____ in American cities had electric power by the 1930s. This made life for people much more convenient.",
+        "translation": "モリス先生は歴史の授業で、1930年代までにはアメリカの都市の多くの<b>家庭</b>で電気が使えるようになっていたと話した。これによって人々の生活はずっと便利になった。",
+        "options": [
+            "alternatives",
+            "opportunities",
+            "households",
+            "philosophies"
+        ],
+        "optionMeanings": [
+            "代わりのもの",
+            "機会",
+            "世帯",
+            "哲学"
+        ],
+        "answer": "households",
+        "explanation": "<b>正解：households（世帯、家庭）</b><br><br>💡 着眼点：「had electric power（電気が通っていた）」「life for people（人々の生活）」が手がかりです。電気が使える場所として、人が暮らす単位を表す households（世帯、家庭）が合います。household は「家族全体、家庭」を表し、household goods（家庭用品）などの形でも使われます。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-112",
+        "question": "A: We could go to the Indigo Grill or the Green Wall for dinner tonight. What’s your _____?\nB: Let’s go to the Indigo Grill. I’ve been there once before, and the food was great.",
+        "translation": "A：今夜の夕食はインディゴ・グリルかグリーン・ウォールに行けるよ。あなたの<b>好み</b>はどっち？\nB：インディゴ・グリルにしましょう。前に一度行ったことがあって、料理がとてもおいしかったの。",
+        "options": [
+            "description",
+            "competition",
+            "preference",
+            "monument"
+        ],
+        "optionMeanings": [
+            "説明",
+            "競争",
+            "好み",
+            "記念碑"
+        ],
+        "answer": "preference",
+        "explanation": "<b>正解：preference（好み）</b><br><br>💡 着眼点：Aは2つの店を挙げて「What's your ～?」と尋ね、Bは一方を選んでいます。2つのうちどちらがよいかという「好み」を表す preference が正解です。動詞 prefer（～のほうを好む）の名詞形です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-113",
+        "question": "A: Why did you bring your umbrella, Jessica? It’s such a beautiful day today.\nB: This morning’s weather forecast said it might rain, so I brought it just _____.",
+        "translation": "A：どうして傘を持ってきたの、ジェシカ。今日はこんなにいい天気なのに。\nB：今朝の天気予報で雨が降るかもしれないと言っていたから、<b>念のため</b>持ってきたの。",
+        "options": [
+            "on foot",
+            "in case",
+            "with care",
+            "for help"
+        ],
+        "optionMeanings": [
+            "徒歩で",
+            "念のため",
+            "注意して",
+            "助けを求めて"
+        ],
+        "answer": "in case",
+        "explanation": "<b>正解：in case（念のため）</b><br><br>💡 着眼点：「it might rain（雨が降るかもしれない）」という予報を聞いて傘を持ってきた、という流れです。文末に置く just in case は「念のため、万一に備えて」という意味です。in case S V（～するといけないから）の形もよく出ます。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-114",
+        "question": "Peter often makes _____ of his younger brother, but they actually get along well.",
+        "translation": "ピーターはよく弟を<b>からかう</b>が、実は2人は仲がよい。",
+        "options": [
+            "sure",
+            "fun",
+            "way",
+            "sense"
+        ],
+        "optionMeanings": [
+            "確かな",
+            "からかい",
+            "方法",
+            "意味"
+        ],
+        "answer": "fun",
+        "explanation": "<b>正解：fun（make fun of ～：～をからかう）</b><br><br>💡 着眼点：「but they actually get along well（でも実は仲がよい）」と逆接になっているので、前半は仲が悪そうに見える行動が入ります。make fun of ～ で「～をからかう」という意味になります。make sure（確かめる）や make sense（意味が通る）は of ～ と続かず、文意にも合いません。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-115",
+        "question": "There is a big rock music festival in Allenville this summer. The main event will _____ in the city stadium.",
+        "translation": "今年の夏、アレンビルで大きなロック音楽祭がある。メインイベントは市のスタジアムで<b>行われる</b>予定だ。",
+        "options": [
+            "look up",
+            "take part",
+            "look after",
+            "take place"
+        ],
+        "optionMeanings": [
+            "調べる",
+            "参加する",
+            "世話をする",
+            "行われる"
+        ],
+        "answer": "take place",
+        "explanation": "<b>正解：take place（行われる、開催される）</b><br><br>💡 着眼点：主語が「The main event（メインイベント）」で、後ろに「in the city stadium（市のスタジアムで）」と場所が続きます。行事が「行われる」は take place です。take part は in をともなって「参加する」の意味になるので、主語がイベントのこの文には合いません。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-116",
+        "question": "A: Derrick is late.\nB: I know. He should have been here _____. I’ll call him on his cell phone.",
+        "translation": "A：デリックが遅れているね。\nB：そうだね。<b>今ごろはもう</b>ここに着いているはずなのに。携帯に電話してみるよ。",
+        "options": [
+            "under control",
+            "at times",
+            "by now",
+            "in return"
+        ],
+        "optionMeanings": [
+            "制御されて",
+            "時々",
+            "今ごろはもう",
+            "お返しに"
+        ],
+        "answer": "by now",
+        "explanation": "<b>正解：by now（今ごろはもう）</b><br><br>💡 着眼点：「Derrick is late（デリックが遅れている）」に対して「He should have been here ～」と言っています。should have been here by now で「今ごろはもうここにいるはずだった」となり、遅れている状況に合います。by now は完了の意味を含む文でよく使われます。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-117",
+        "question": "A: What are you doing this afternoon? Do you have any plans?\nB: Nothing _____. I thought I’d just walk around downtown and look at the stores.",
+        "translation": "A：今日の午後は何をするの？何か予定はある？\nB：<b>特に</b>何もないよ。ダウンタウンをぶらぶらしてお店を見ようかと思っていたんだ。",
+        "options": [
+            "at random",
+            "in particular",
+            "by accident",
+            "for granted"
+        ],
+        "optionMeanings": [
+            "無作為に",
+            "特に",
+            "偶然に",
+            "当然のことと"
+        ],
+        "answer": "in particular",
+        "explanation": "<b>正解：in particular（特に）</b><br><br>💡 着眼点：「Do you have any plans?（何か予定はある？）」に対し、Bは「just walk around（ぶらぶらする）」と答えています。Nothing in particular で「特に何もない」という決まった言い方になります。take ～ for granted（～を当然と思う）と混同しないようにしましょう。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-118",
+        "question": "Mark has found that his new cell phone is _____ his old one. He cannot hear people’s voices as well with it, and the battery dies very quickly.",
+        "translation": "マークは、新しい携帯電話が古いものより<b>劣っている</b>とわかった。新しいほうは人の声がよく聞こえないし、バッテリーもすぐに切れてしまうのだ。",
+        "options": [
+            "grateful for",
+            "suitable for",
+            "inferior to",
+            "accustomed to"
+        ],
+        "optionMeanings": [
+            "～に感謝して",
+            "～に適して",
+            "～より劣って",
+            "～に慣れて"
+        ],
+        "answer": "inferior to",
+        "explanation": "<b>正解：inferior to（～より劣っている）</b><br><br>💡 着眼点：2文目の「cannot hear people's voices as well（声がよく聞こえない）」「the battery dies very quickly（バッテリーがすぐ切れる）」から、新しい携帯は古いものより性能が悪いとわかります。be inferior to ～ は「～より劣っている」で、比較の対象に than ではなく to を使う点に注意しましょう。反対は superior to ～（～よりすぐれている）です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-119",
+        "question": "Tracy’s friends told her that Professor Smith’s class was very hard. However, she decided to take it in _____ what they had said, and it turned out to be very interesting.",
+        "translation": "トレーシーの友達は、スミス教授の授業はとても難しいと彼女に言った。しかし、彼女は友達の言葉<b>にもかかわらず</b>その授業を取ることにし、結果的にとてもおもしろい授業だった。",
+        "options": [
+            "spite of",
+            "respect to",
+            "addition to",
+            "search of"
+        ],
+        "optionMeanings": [
+            "～にもかかわらず",
+            "～に関して",
+            "～に加えて",
+            "～を探して"
+        ],
+        "answer": "spite of",
+        "explanation": "<b>正解：spite of（in spite of ～：～にもかかわらず）</b><br><br>💡 着眼点：「However（しかし）」があり、友達が「very hard（とても難しい）」と言ったのに授業を取った、という逆接の流れです。in spite of ～ で「～にもかかわらず」となり、despite と同じ意味です。in addition to（～に加えて）では逆接になりません。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "pre2plus-120",
+        "question": "In many countries, family members often _____ for holidays like Christmas. Families enjoy having the chance to spend time together.",
+        "translation": "多くの国では、クリスマスのような祝日に家族がよく<b>集まる</b>。家族は一緒に過ごす機会を楽しむのだ。",
+        "options": [
+            "chew",
+            "gather",
+            "shake",
+            "dig"
+        ],
+        "optionMeanings": [
+            "かむ",
+            "集まる",
+            "振る",
+            "掘る"
+        ],
+        "answer": "gather",
+        "explanation": "<b>正解：gather（集まる）</b><br><br>💡 着眼点：2文目の「spend time together（一緒に時間を過ごす）」が手がかりです。家族が祝日に一か所に「集まる」と考えると gather が合います。gather は「（物を）集める」の意味でも使われます。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-121",
+        "question": "Mr. Burton has been working at his company for eight years, and he will _____ next month. He will be sad to leave, but he is looking forward to having more free time.",
+        "translation": "バートンさんは8年間会社で働いてきて、来月<b>退職する</b>。会社を去るのは寂しいが、自由な時間が増えるのを楽しみにしている。",
+        "options": [
+            "retire",
+            "operate",
+            "broadcast",
+            "connect"
+        ],
+        "optionMeanings": [
+            "退職する",
+            "操作する",
+            "放送する",
+            "つなぐ"
+        ],
+        "answer": "retire",
+        "explanation": "<b>正解：retire（退職する）</b><br><br>💡 着眼点：「He will be sad to leave（去るのは寂しい）」「having more free time（自由な時間が増える）」から、会社を辞めることがわかります。仕事を「退職する」は retire です。名詞形 retirement（退職）もあわせて覚えましょう。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-122",
+        "question": "Although Kumi lives with her family in Japan, her brother lives _____. He's studying at a university in France.",
+        "translation": "クミは日本で家族と暮らしているが、兄は<b>海外で</b>暮らしている。彼はフランスの大学で勉強しているのだ。",
+        "options": [
+            "instead",
+            "abroad",
+            "upstairs",
+            "seldom"
+        ],
+        "optionMeanings": [
+            "その代わりに",
+            "海外に",
+            "上の階に",
+            "めったに～ない"
+        ],
+        "answer": "abroad",
+        "explanation": "<b>正解：abroad（海外に、外国で）</b><br><br>💡 着眼点：「Although（～だけれども）」で「in Japan（日本で）」と対比され、2文目に「in France（フランスで）」とあります。外国で暮らしていることを表す abroad が正解です。abroad は副詞なので、live abroad や go abroad のように前置詞をつけずに使います。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-123",
+        "question": "A: Don't touch that plate, Ruth. It's really hot.\nB: Thanks for _____ me, Mom. I was going to pick it up.",
+        "translation": "A：そのお皿に触らないで、ルース。すごく熱いのよ。\nB：<b>注意してくれて</b>ありがとう、お母さん。持ち上げようとしていたところだったの。",
+        "options": [
+            "opening",
+            "removing",
+            "warning",
+            "borrowing"
+        ],
+        "optionMeanings": [
+            "開けること",
+            "取り除くこと",
+            "注意すること",
+            "借りること"
+        ],
+        "answer": "warning",
+        "explanation": "<b>正解：warning（警告すること、注意すること）</b><br><br>💡 着眼点：Aは「Don't touch that plate（そのお皿に触らないで）」「It's really hot（すごく熱い）」と危険を知らせています。危険を前もって知らせることは warn で、Thanks for warning me で「注意してくれてありがとう」となります。名詞形 warning は「警告」です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-124",
+        "question": "Bob Davidson is the coach of the local high school's basketball team. This year, the team lost a lot of games, and fans _____ him for making too many coaching mistakes.",
+        "translation": "ボブ・デイビッドソンは地元の高校のバスケットボールチームのコーチだ。今年はチームが多くの試合に負け、ファンは指導上のミスが多すぎると彼を<b>批判した</b>。",
+        "options": [
+            "criticized",
+            "matched",
+            "hosted",
+            "shared"
+        ],
+        "optionMeanings": [
+            "批判した",
+            "合わせた",
+            "主催した",
+            "共有した"
+        ],
+        "answer": "criticized",
+        "explanation": "<b>正解：criticized（批判した）</b><br><br>💡 着眼点：「lost a lot of games（多くの試合に負けた）」「for making too many coaching mistakes（指導のミスが多すぎるので）」が手がかりです。criticize A for B で「BのことでAを批判する」という形になります。名詞形 criticism（批判）も覚えておきましょう。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-125",
+        "question": "When Gina makes sandwiches, she spreads the butter _____. She likes its taste when it is on bread.",
+        "translation": "ジーナはサンドイッチを作るとき、バターを<b>厚く</b>塗る。パンにのったバターの味が好きなのだ。",
+        "options": [
+            "thickly",
+            "nearly",
+            "frankly",
+            "quietly"
+        ],
+        "optionMeanings": [
+            "厚く",
+            "ほとんど",
+            "率直に",
+            "静かに"
+        ],
+        "answer": "thickly",
+        "explanation": "<b>正解：thickly（厚く）</b><br><br>💡 着眼点：2文目の「She likes its taste（その味が好き）」から、バターをたっぷり塗ることがわかります。spread（塗る）を修飾する語として thickly（厚く）が合います。形容詞 thick（厚い）に -ly がついた形です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-126",
+        "question": "A: How do you like your new job at Sunshine Computers?\nB: I love it. My new _____ are so kind and helpful that I feel very comfortable working there.",
+        "translation": "A：サンシャイン・コンピューターズでの新しい仕事はどう？\nB：とても気に入っているよ。新しい<b>同僚</b>がとても親切で助けてくれるから、すごく居心地よく働けているんだ。",
+        "options": [
+            "relatives",
+            "colleagues",
+            "librarians",
+            "infants"
+        ],
+        "optionMeanings": [
+            "親戚",
+            "同僚",
+            "図書館員",
+            "乳児"
+        ],
+        "answer": "colleagues",
+        "explanation": "<b>正解：colleagues（同僚）</b><br><br>💡 着眼点：話題は「your new job（新しい仕事）」で、Bは「working there（そこで働くこと）」が心地よいと言っています。職場で一緒に働く人を表す colleagues（同僚）が正解です。coworker もほぼ同じ意味です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-127",
+        "question": "Every day last week, it rained heavily in the area around Lake Banthom. _____, the water level in the lake is much higher than usual.",
+        "translation": "先週は毎日、バンソム湖の周辺で大雨が降った。<b>その結果</b>、湖の水位はいつもよりずっと高くなっている。",
+        "options": [
+            "Brightly",
+            "Personally",
+            "Consequently",
+            "Willingly"
+        ],
+        "optionMeanings": [
+            "明るく",
+            "個人的には",
+            "その結果",
+            "進んで"
+        ],
+        "answer": "Consequently",
+        "explanation": "<b>正解：Consequently（その結果）</b><br><br>💡 着眼点：前の文「it rained heavily（大雨が降った）」が原因、後ろの「the water level ... is much higher（水位がずっと高い）」が結果になっています。原因と結果をつなぐ副詞 consequently（その結果）が合います。as a result や therefore も同じ働きをします。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-128",
+        "question": "Saya only spent six months studying in Australia, but she made _____ progress in English. She even started speaking with an Australian accent.",
+        "translation": "サヤはオーストラリアで6か月しか勉強しなかったが、英語で<b>目覚ましい</b>進歩をとげた。オーストラリアなまりで話すようにさえなった。",
+        "options": [
+            "traditional",
+            "remarkable",
+            "harmful",
+            "avoidable"
+        ],
+        "optionMeanings": [
+            "伝統的な",
+            "目覚ましい",
+            "有害な",
+            "避けられる"
+        ],
+        "answer": "remarkable",
+        "explanation": "<b>正解：remarkable（目覚ましい、注目すべき）</b><br><br>💡 着眼点：「only six months（わずか6か月）」だったのに「but（しかし）」と続き、2文目でなまりまで身についたとあります。短期間で大きく上達したことを表す remarkable が正解です。make progress in ～（～が上達する）の形もあわせて確認しておきましょう。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-129",
+        "question": "Before getting onto an international flight, all passengers must show a passport as proof of their _____.",
+        "translation": "国際線に搭乗する前に、乗客は全員<b>身元</b>の証明としてパスポートを見せなければならない。",
+        "options": [
+            "reunion",
+            "emotion",
+            "blame",
+            "identity"
+        ],
+        "optionMeanings": [
+            "再会",
+            "感情",
+            "非難",
+            "身元"
+        ],
+        "answer": "identity",
+        "explanation": "<b>正解：identity（身元、本人であること）</b><br><br>💡 着眼点：「show a passport as proof of ～（～の証明としてパスポートを見せる）」とあります。パスポートが証明するのは本人であることなので identity が正解です。ID（身分証明書）は identification の略で、identity とつながりのある語です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-130",
+        "question": "Mariko went to the library to research her family history. She _____ out that she was related to a famous samurai.",
+        "translation": "マリコは家族の歴史を調べるために図書館へ行った。彼女は自分が有名な侍と血縁関係にあることを<b>知った</b>。",
+        "options": [
+            "came",
+            "took",
+            "found",
+            "put"
+        ],
+        "optionMeanings": [
+            "来た",
+            "取った",
+            "見つけた",
+            "置いた"
+        ],
+        "answer": "found",
+        "explanation": "<b>正解：found（find out：～を知る、わかる）</b><br><br>💡 着眼点：「to research her family history（家族の歴史を調べるために）」図書館へ行き、その結果として新しい事実がわかった、という流れです。find out that ～ で「～ということを知る、突き止める」となります。came out（世に出た）や put out（消した）では意味が通りません。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-131",
+        "question": "Sarah did not want to make dinner yesterday, so she bought a pizza _____ the way home from work.",
+        "translation": "サラは昨日夕食を作りたくなかったので、仕事から家に帰る<b>途中で</b>ピザを買った。",
+        "options": [
+            "of",
+            "at",
+            "on",
+            "in"
+        ],
+        "optionMeanings": [
+            "～の",
+            "～で",
+            "～の途中で",
+            "～の中に"
+        ],
+        "answer": "on",
+        "explanation": "<b>正解：on（on the way home：家に帰る途中で）</b><br><br>💡 着眼点：空所の後ろの「the way home from work（仕事から家に帰る道）」とつながる前置詞を考えます。on the way home（帰る途中で）は決まった言い方です。on the way to ～（～へ行く途中で）の形もよく使われます。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-132",
+        "question": "Jeremy told his wife that he was going to the library. He said that he would do the laundry when he got _____.",
+        "translation": "ジェレミーは妻に図書館へ行くと言った。<b>帰ってきたら</b>洗濯をすると彼は言った。",
+        "options": [
+            "under",
+            "along",
+            "back",
+            "down"
+        ],
+        "optionMeanings": [
+            "下に",
+            "沿って",
+            "戻って",
+            "下へ"
+        ],
+        "answer": "back",
+        "explanation": "<b>正解：back（get back：戻る、帰る）</b><br><br>💡 着眼点：「he was going to the library（図書館へ行くところだった）」とあるので、図書館から戻ったあとに洗濯をするという流れです。get back で「戻る、帰ってくる」という意味になります。come back や be back も近い意味です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-133",
+        "question": "A: Mom, I'm going out to play with Andy.\nB: OK, but be _____ to come home by six o'clock. Your grandmother is coming over for dinner.",
+        "translation": "A：お母さん、アンディと遊びに出かけてくるね。\nB：いいわよ、でも6時までには<b>必ず</b>帰ってきてね。おばあちゃんが夕食に来るから。",
+        "options": [
+            "sure",
+            "afraid",
+            "proud",
+            "open"
+        ],
+        "optionMeanings": [
+            "確かな",
+            "恐れて",
+            "誇りに思って",
+            "開いた"
+        ],
+        "answer": "sure",
+        "explanation": "<b>正解：sure（be sure to ～：必ず～する）</b><br><br>💡 着眼点：「Your grandmother is coming over for dinner（おばあちゃんが夕食に来る）」ので、時間までに帰ることを念押ししています。be sure to ～ は「必ず～する」で、命令文の be sure to ～ は「必ず～してね」という意味になります。be afraid to ～ は「怖くて～できない」なので合いません。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-134",
+        "question": "A: Mom, do you think it's going to rain all day? I want to play baseball with my friends later.\nB: Well, _____ the weather forecast, it's going to be sunny later this afternoon.",
+        "translation": "A：お母さん、一日中雨が降ると思う？あとで友達と野球をしたいんだ。\nB：そうね、天気予報<b>によると</b>、今日の午後遅くには晴れるそうよ。",
+        "options": [
+            "according to",
+            "instead of",
+            "except for",
+            "along with"
+        ],
+        "optionMeanings": [
+            "～によると",
+            "～の代わりに",
+            "～を除いて",
+            "～と一緒に"
+        ],
+        "answer": "according to",
+        "explanation": "<b>正解：according to（～によると）</b><br><br>💡 着眼点：空所の後ろに「the weather forecast（天気予報）」があり、その内容として「it's going to be sunny（晴れるそうだ）」と続きます。情報の出どころを示す according to ～（～によると）が正解です。instead of ～（～の代わりに）では意味がつながりません。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-135",
+        "question": "Rob was _____ out of class because he would not stop talking to the other students. His teacher said he could come back in 20 minutes if he promised to be quiet.",
+        "translation": "ロブは他の生徒に話しかけるのをやめようとしなかったので、教室から<b>追い出された</b>。先生は、静かにすると約束すれば20分後に戻ってきてよいと言った。",
+        "options": [
+            "clapped",
+            "worn",
+            "kicked",
+            "stolen"
+        ],
+        "optionMeanings": [
+            "拍手された",
+            "すり減った",
+            "追い出された",
+            "盗まれた"
+        ],
+        "answer": "kicked",
+        "explanation": "<b>正解：kicked（kick ～ out of ...：…から～を追い出す）</b><br><br>💡 着眼点：「because he would not stop talking（おしゃべりをやめようとしなかったので）」と、2文目の「could come back（戻ってきてよい）」から、教室の外に出されたことがわかります。be kicked out of ～ で「～から追い出される」となります。would not は「どうしても～しようとしなかった」という強い拒絶を表します。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-136",
+        "question": "Last week, Tony's sister helped him move into his new apartment. _____, he bought her a new scarf and took her out for dinner.",
+        "translation": "先週、トニーの姉は彼が新しいアパートに引っ越すのを手伝ってくれた。<b>そのお返しに</b>、彼は姉に新しいスカーフを買い、夕食に連れて行った。",
+        "options": [
+            "On time",
+            "In return",
+            "On target",
+            "In vain"
+        ],
+        "optionMeanings": [
+            "時間どおりに",
+            "お返しに",
+            "的を射て",
+            "無駄に"
+        ],
+        "answer": "In return",
+        "explanation": "<b>正解：In return（お返しに）</b><br><br>💡 着眼点：前の文で姉が「helped him move（引っ越しを手伝った）」とあり、後ろでトニーが姉にプレゼントや食事をしています。してもらったことへの「お返しに」を表す in return が正解です。in vain（無駄に）は努力が報われない場面で使います。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "pre2plus-137",
+        "question": "Mrs. Andrews told John’s parents that she was worried about John’s _____ in class. She said that he talked to his friends too much instead of studying.",
+        "translation": "アンドリュース先生は、授業中のジョンの<b>態度</b>が心配だとジョンの両親に伝えた。彼は勉強せずに友達とおしゃべりしすぎていると言った。",
+        "options": [
+            "reason",
+            "design",
+            "behavior",
+            "convenience"
+        ],
+        "optionMeanings": [
+            "理由",
+            "デザイン、設計",
+            "振る舞い、態度",
+            "便利さ"
+        ],
+        "answer": "behavior",
+        "explanation": "<b>正解：behavior（振る舞い、態度）</b><br><br>💡 着眼点：後の文の \"talked to his friends too much instead of studying\"（勉強せずに友達としゃべりすぎた）は、授業中の行動についての説明です。こうした「行い・態度」を表すのが behavior です。動詞 behave（振る舞う）とあわせて覚えておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-138",
+        "question": "Leo’s mother told him to take an umbrella with him to school because it would rain _____ in the afternoon.",
+        "translation": "午後には<b>激しく</b>雨が降るだろうから、レオの母親は彼に傘を持って学校へ行くように言った。",
+        "options": [
+            "heavily",
+            "socially",
+            "sincerely",
+            "proudly"
+        ],
+        "optionMeanings": [
+            "激しく、大量に",
+            "社会的に",
+            "心から",
+            "誇らしげに"
+        ],
+        "answer": "heavily",
+        "explanation": "<b>正解：heavily（激しく）</b><br><br>💡 着眼点：\"rain\"（雨が降る）を修飾する副詞を選びます。「雨が激しく降る」は rain heavily と表します。名詞を使った heavy rain（大雨）という形もよく出るので、セットで押さえておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-139",
+        "question": "A: Dad, when are we going to get to Grandma’s house?\nB: We’re _____ there, Beth. It’s about 10 minutes away.",
+        "translation": "A：お父さん、おばあちゃんの家にはいつ着くの？\nB：<b>もうすぐ</b>着くよ、ベス。あと10分くらいだ。",
+        "options": [
+            "seriously",
+            "nearly",
+            "lately",
+            "honestly"
+        ],
+        "optionMeanings": [
+            "真剣に",
+            "ほとんど、もう少しで",
+            "最近",
+            "正直に"
+        ],
+        "answer": "nearly",
+        "explanation": "<b>正解：nearly（ほとんど、もう少しで）</b><br><br>💡 着眼点：Bの \"It's about 10 minutes away\"（あと10分くらいだ）から、目的地に近づいていることがわかります。We're nearly there. で「もうすぐ着く」という決まった言い方になります。lately（最近）は late と形が似ていますが意味が異なるので注意しましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-140",
+        "question": "Rachel bought a new bookshelf yesterday. When she got home, she read the _____ carefully so that she would not make any mistakes while putting it together.",
+        "translation": "レイチェルは昨日、新しい本棚を買った。家に帰ると、組み立てる途中で間違えないように<b>説明書</b>を注意深く読んだ。",
+        "options": [
+            "instructions",
+            "campaigns",
+            "lifestyles",
+            "stocks"
+        ],
+        "optionMeanings": [
+            "説明書、指示",
+            "運動、キャンペーン",
+            "生活様式",
+            "在庫、株"
+        ],
+        "answer": "instructions",
+        "explanation": "<b>正解：instructions（説明書、指示）</b><br><br>💡 着眼点：\"so that she would not make any mistakes while putting it together\"（組み立てる間に間違えないように）がヒントです。組み立ての前に読むものは「説明書」で、この意味では複数形 instructions で使います。動詞 instruct（指示する）も関連語として覚えておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-141",
+        "question": "Although the _____ of tennis are not clear, some people believe the game was invented by a British army officer in 1873.",
+        "translation": "テニスの<b>起源</b>ははっきりしていないが、1873年にイギリスの陸軍将校によって考案されたと考える人もいる。",
+        "options": [
+            "origins",
+            "memories",
+            "signs",
+            "causes"
+        ],
+        "optionMeanings": [
+            "起源",
+            "記憶、思い出",
+            "しるし、標識",
+            "原因"
+        ],
+        "answer": "origins",
+        "explanation": "<b>正解：origins（起源）</b><br><br>💡 着眼点：後半の \"the game was invented by a British army officer in 1873\"（1873年にイギリスの陸軍将校によって考案された）は、テニスの始まりについての説です。物事の「起源」を表す origin が合います。causes（原因）は出来事が起こった理由を指すので、競技の始まりには合いません。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-142",
+        "question": "The _____ of Helen’s exams were so good that her parents decided to take her to dinner at a nice restaurant to celebrate.",
+        "translation": "ヘレンの試験の<b>結果</b>がとても良かったので、両親はお祝いに彼女をすてきなレストランへ夕食に連れて行くことにした。",
+        "options": [
+            "habits",
+            "plans",
+            "results",
+            "customs"
+        ],
+        "optionMeanings": [
+            "習慣、癖",
+            "計画",
+            "結果",
+            "慣習、風習"
+        ],
+        "answer": "results",
+        "explanation": "<b>正解：results（結果）</b><br><br>💡 着眼点：\"so good that ... to celebrate\"（とても良かったのでお祝いに…）から、良かったのは試験の「結果」だとわかります。the results of exams（試験の結果）はよく使われる組み合わせです。habits（個人の習慣）と customs（社会の慣習）の違いも整理しておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-143",
+        "question": "The actress’s fans waited outside until she _____ from the theater. Then they crowded around her to take pictures and shake her hand.",
+        "translation": "その女優のファンたちは、彼女が劇場から<b>出てくる</b>まで外で待っていた。そして彼女を取り囲んで写真を撮ったり握手をしたりした。",
+        "options": [
+            "emerged",
+            "translated",
+            "aimed",
+            "protested"
+        ],
+        "optionMeanings": [
+            "現れた、出てきた",
+            "翻訳した",
+            "狙った、目指した",
+            "抗議した"
+        ],
+        "answer": "emerged",
+        "explanation": "<b>正解：emerged（現れた、出てきた）</b><br><br>💡 着眼点：\"waited outside until she ___ from the theater\"（劇場から＿＿まで外で待っていた）という流れから、建物の中から「出てきた」ことを表す語が入ります。emerge from ～ で「～から現れる、出てくる」という意味です。その後の \"crowded around her\"（彼女を取り囲んだ）とも自然につながります。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-144",
+        "question": "Hank asked his sister to stop calling him every day. He said that her _____ calls were taking too much of his time.",
+        "translation": "ハンクは姉に毎日電話してくるのをやめるよう頼んだ。彼女からの<b>頻繁な</b>電話に時間を取られすぎていると言ったのだ。",
+        "options": [
+            "urban",
+            "ancient",
+            "senior",
+            "frequent"
+        ],
+        "optionMeanings": [
+            "都市の",
+            "古代の",
+            "年上の、上級の",
+            "頻繁な"
+        ],
+        "answer": "frequent",
+        "explanation": "<b>正解：frequent（頻繁な）</b><br><br>💡 着眼点：前の文の \"calling him every day\"（毎日電話してくる）がヒントです。毎日かかってくる電話は「頻繁な」電話なので frequent が合います。副詞 frequently（頻繁に）、名詞 frequency（頻度）もあわせて覚えておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-145",
+        "question": "Joseph chose to study chemistry at college, but his classes were so difficult that he quickly began to _____ his decision.",
+        "translation": "ジョセフは大学で化学を学ぶことを選んだが、授業がとても難しかったので、すぐに自分の決断を<b>後悔し</b>始めた。",
+        "options": [
+            "regret",
+            "harm",
+            "exhibit",
+            "outline"
+        ],
+        "optionMeanings": [
+            "後悔する",
+            "害する",
+            "展示する",
+            "概要を述べる"
+        ],
+        "answer": "regret",
+        "explanation": "<b>正解：regret（後悔する）</b><br><br>💡 着眼点：\"his classes were so difficult\"（授業がとても難しかった）という状況から、化学を選んだ決断を「後悔する」流れになります。regret one's decision は「決断を後悔する」というよく使われる表現です。regret doing（～したことを後悔する）の形も覚えておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-146",
+        "question": "People all over the world use hand gestures to communicate. For example, the thumbs-up sign is often used to _____ that something is OK.",
+        "translation": "世界中の人々が、意思を伝えるために手のジェスチャーを使う。例えば、親指を立てるサインは、何かが大丈夫だということを<b>示す</b>ためによく使われる。",
+        "options": [
+            "breathe",
+            "whistle",
+            "threaten",
+            "indicate"
+        ],
+        "optionMeanings": [
+            "呼吸する",
+            "口笛を吹く",
+            "脅す",
+            "示す"
+        ],
+        "answer": "indicate",
+        "explanation": "<b>正解：indicate（示す）</b><br><br>💡 着眼点：\"hand gestures to communicate\"（意思を伝えるための手のジェスチャー）の例として、サインが何を表すかを述べています。indicate that ～ で「～ということを示す」という意味になります。名詞 indication（しるし、兆候）も関連語として押さえておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-147",
+        "question": "A: David, could you _____ after my goldfish when I go on vacation next month?\nB: Sure, Stacy. I’ll feed it every day.",
+        "translation": "A：デイヴィッド、来月私が休暇で出かけている間、金魚の<b>世話をして</b>くれない？\nB：いいよ、ステイシー。毎日えさをあげるね。",
+        "options": [
+            "run",
+            "look",
+            "jump",
+            "sing"
+        ],
+        "optionMeanings": [
+            "走る",
+            "見る（look after で「世話をする」）",
+            "跳ぶ",
+            "歌う"
+        ],
+        "answer": "look",
+        "explanation": "<b>正解：look（look after で「世話をする」）</b><br><br>💡 着眼点：空所の後の \"after my goldfish\" に注目します。look after ～ で「～の世話をする」という意味になり、Bの \"I'll feed it every day\"（毎日えさをあげるね）とも合います。同じ意味の take care of ～ も覚えておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-148",
+        "question": "A: I go running every day before work, Stan. It’s really fun.\nB: That sounds like a good way to stay _____.",
+        "translation": "A：スタン、私は毎日仕事の前にランニングをしているの。本当に楽しいよ。\nB：それは<b>健康</b>を保つのにいい方法だね。",
+        "options": [
+            "in shape",
+            "at attention",
+            "with luck",
+            "on board"
+        ],
+        "optionMeanings": [
+            "体調が良い、健康で",
+            "気をつけの姿勢で",
+            "運よく",
+            "乗船・乗車して"
+        ],
+        "answer": "in shape",
+        "explanation": "<b>正解：in shape（体調が良い、健康で）</b><br><br>💡 着眼点：Aの \"I go running every day\"（毎日ランニングしている）を受けて、Bは運動の効果について話しています。stay in shape で「健康を保つ、体型を維持する」という意味です。反対の out of shape（体調が悪い、運動不足で）もセットで覚えておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-149",
+        "question": "Scientists carried _____ an experiment to see if the plant would grow in the desert.",
+        "translation": "科学者たちは、その植物が砂漠で育つかどうかを確かめるために実験を<b>行った</b>。",
+        "options": [
+            "with",
+            "by",
+            "until",
+            "out"
+        ],
+        "optionMeanings": [
+            "～と一緒に",
+            "～によって",
+            "～まで",
+            "外へ（carry out で「実行する」）"
+        ],
+        "answer": "out",
+        "explanation": "<b>正解：out（carry out で「実行する」）</b><br><br>💡 着眼点：前の \"carried\" と後ろの \"an experiment\"（実験）がヒントです。carry out ～ で「～を実行する、行う」という意味になり、carry out an experiment（実験を行う）はよく使われる組み合わせです。carry out a plan（計画を実行する）なども覚えておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-150",
+        "question": "A: Mike, is it OK to turn on the TV?\nB: Sure, _____. I’ve finished studying.",
+        "translation": "A：マイク、テレビをつけてもいい？\nB：もちろん、<b>どうぞ</b>。勉強は終わったから。",
+        "options": [
+            "go ahead",
+            "give up",
+            "watch out",
+            "take care"
+        ],
+        "optionMeanings": [
+            "どうぞ、さあやって",
+            "あきらめる",
+            "気をつける",
+            "気をつけて、じゃあね"
+        ],
+        "answer": "go ahead",
+        "explanation": "<b>正解：go ahead（どうぞ）</b><br><br>💡 着眼点：Aの \"is it OK to turn on the TV?\"（テレビをつけてもいい？）という許可を求める質問に対し、Bは \"Sure\"（もちろん）と答えています。相手の行動を許可するときの決まり文句が Go ahead.（どうぞ）です。watch out（気をつけて）は危険を知らせるときに使うので合いません。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-151",
+        "question": "When Jocelyn graduates from college, she wants to work for a volunteer organization. She wants to spend her time working _____ other people.",
+        "translation": "ジョスリンは大学を卒業したら、ボランティア団体で働きたいと思っている。彼女は他の人々の<b>ために</b>働くことに時間を使いたいのだ。",
+        "options": [
+            "at the sight of",
+            "for a change of",
+            "for the benefit of",
+            "at the thought of"
+        ],
+        "optionMeanings": [
+            "～を見て",
+            "～の気分転換に",
+            "～のために、～の利益のために",
+            "～のことを考えて"
+        ],
+        "answer": "for the benefit of",
+        "explanation": "<b>正解：for the benefit of（～のために）</b><br><br>💡 着眼点：前の文の \"work for a volunteer organization\"（ボランティア団体で働く）から、他の人の役に立つ仕事をしたいという内容だとわかります。for the benefit of ～ で「～の利益のために、～のために」という意味です。at the thought of ～（～のことを考えると）は気持ちの変化を表すときに使います。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-152",
+        "question": "Sarah spent the summer traveling in Europe with her friends. It was a lot of fun, so she was very sad when it _____ an end.",
+        "translation": "サラは友達とヨーロッパを旅行して夏を過ごした。とても楽しかったので、旅行が<b>終わった</b>とき、彼女はとても悲しかった。",
+        "options": [
+            "dug up",
+            "came to",
+            "took over",
+            "fell on"
+        ],
+        "optionMeanings": [
+            "掘り起こした",
+            "やって来た（come to an end で「終わる」）",
+            "引き継いだ",
+            "（日付などが）～に当たった"
+        ],
+        "answer": "came to",
+        "explanation": "<b>正解：came to（come to an end で「終わる」）</b><br><br>💡 着眼点：空所の後の \"an end\" と組み合わせて、come to an end で「終わる」という意味になります。\"she was very sad\"（とても悲しかった）とあるので、楽しい旅行が終わったときの気持ちだとわかります。似た表現に put an end to ～（～を終わらせる）があります。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-153",
+        "question": "Kazue will study abroad for two months in Australia this summer. She is anxious _____ being away from her family for such a long time.",
+        "translation": "カズエはこの夏、オーストラリアに2か月間留学する予定だ。彼女はそんなに長い間家族と離れることが<b>不安</b>だ。",
+        "options": [
+            "about",
+            "on",
+            "by",
+            "below"
+        ],
+        "optionMeanings": [
+            "～について",
+            "～の上に",
+            "～によって",
+            "～の下に"
+        ],
+        "answer": "about",
+        "explanation": "<b>正解：about（～について）</b><br><br>💡 着眼点：前の \"anxious\"（不安な）がヒントです。be anxious about ～ で「～について不安だ、心配している」という意味になります。be anxious for ～ / to do は「～を切望する」という別の意味になるので区別しておきましょう。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "pre2plus-154",
+        "question": "Martha is a tour guide in a museum. She _____ groups of tourists around the museum and shows them famous paintings.",
+        "translation": "マーサは美術館のツアーガイドだ。彼女は観光客のグループを<b>案内して</b>美術館を回り、有名な絵画を見せている。",
+        "options": [
+            "develops",
+            "leads",
+            "escapes",
+            "freezes"
+        ],
+        "optionMeanings": [
+            "開発する、発達させる",
+            "導く、案内する",
+            "逃げる",
+            "凍る"
+        ],
+        "answer": "leads",
+        "explanation": "<b>正解：leads（導く、案内する）</b><br><br>💡 着眼点：\"tour guide\"（ツアーガイド）の仕事として、\"groups of tourists around the museum\"（観光客のグループを館内で）と続きます。lead ～ around … で「～を連れて…を回る、案内する」という意味になります。名詞 leader（指導者）も同じ仲間の語です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-155",
+        "question": "Thomas is a farmer, and he works very hard. Unfortunately, the _____ this year was quite small because of bad weather, so he did not make much money.",
+        "translation": "トーマスは農家で、とても一生懸命働いている。残念なことに、今年は天候不良のため<b>収穫</b>がかなり少なかったので、彼はあまりお金を稼げなかった。",
+        "options": [
+            "service",
+            "recipe",
+            "fever",
+            "harvest"
+        ],
+        "optionMeanings": [
+            "サービス",
+            "調理法",
+            "熱",
+            "収穫、収穫高"
+        ],
+        "answer": "harvest",
+        "explanation": "<b>正解：harvest（収穫）</b><br><br>💡 着眼点：\"farmer\"（農家）と \"because of bad weather\"（天候不良のため）がヒントです。天気が悪いと少なくなるのは農作物の「収穫」なので harvest が合います。harvest は動詞で「収穫する」という意味でも使われます。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-156",
+        "question": "A: Excuse me, I'd like to read the original French version of this book. Do you have it here?\nB: Sorry, ma'am, we don't. We only have the English _____.",
+        "translation": "A：すみません、この本のフランス語の原書を読みたいのですが、こちらにありますか。\nB：申し訳ございません、お客様、ございません。英語の<b>翻訳版</b>しか置いていないのです。",
+        "options": [
+            "translation",
+            "advantage",
+            "chemical",
+            "failure"
+        ],
+        "optionMeanings": [
+            "翻訳、翻訳版",
+            "利点",
+            "化学物質",
+            "失敗"
+        ],
+        "answer": "translation",
+        "explanation": "<b>正解：translation（翻訳、翻訳版）</b><br><br>💡 着眼点：Aの \"the original French version\"（フランス語の原書）と対比して、Bは \"the English ___\" と答えています。原書に対するものは「英語の翻訳版」なので translation が合います。動詞 translate（翻訳する）とあわせて覚えておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-157",
+        "question": "A: Look, Jim. You can see a ship on the ocean.\nB: Oh, yeah. It's really far away. It's right on the _____.",
+        "translation": "A：見て、ジム。海に船が見えるよ。\nB：ああ、本当だ。ずいぶん遠くにあるね。ちょうど<b>水平線</b>の上にいるよ。",
+        "options": [
+            "summary",
+            "horizon",
+            "emotion",
+            "demand"
+        ],
+        "optionMeanings": [
+            "要約",
+            "水平線、地平線",
+            "感情",
+            "需要、要求"
+        ],
+        "answer": "horizon",
+        "explanation": "<b>正解：horizon（水平線、地平線）</b><br><br>💡 着眼点：\"a ship on the ocean\"（海の上の船）と \"really far away\"（ずいぶん遠い）がヒントです。海の遠くに見える船の位置を表すのは「水平線」なので horizon が入ります。形容詞 horizontal（水平の）も関連語として押さえておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-158",
+        "question": "A: Hello. I'd like to see the dentist. Can I make an _____ for tomorrow at 2 p.m., please?\nB: He's busy then, but you can come at 3:30.",
+        "translation": "A：こんにちは。歯医者さんに診てもらいたいのですが。明日の午後2時に<b>予約</b>を取れますか。\nB：その時間は先生の手がふさがっていますが、3時30分なら来ていただけます。",
+        "options": [
+            "organization",
+            "envelope",
+            "image",
+            "appointment"
+        ],
+        "optionMeanings": [
+            "組織、団体",
+            "封筒",
+            "画像、印象",
+            "予約、約束"
+        ],
+        "answer": "appointment",
+        "explanation": "<b>正解：appointment（予約）</b><br><br>💡 着眼点：\"see the dentist\"（歯医者に診てもらう）と \"for tomorrow at 2 p.m.\"（明日の午後2時に）から、診察の予約を取ろうとしているとわかります。make an appointment で「（面会・診察の）予約をする」という決まった表現です。レストランやホテルの予約には reservation を使うことが多い点も覚えておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-159",
+        "question": "The library was _____ after it was destroyed in a fire. The work took a long time, but people were pleased when they could use it again.",
+        "translation": "その図書館は火事で焼失した後、<b>再建された</b>。工事には長い時間がかかったが、人々は再び図書館を利用できるようになって喜んだ。",
+        "options": [
+            "rebuilt",
+            "translated",
+            "entertained",
+            "forgiven"
+        ],
+        "optionMeanings": [
+            "再建された",
+            "翻訳された",
+            "楽しませられた",
+            "許された"
+        ],
+        "answer": "rebuilt",
+        "explanation": "<b>正解：rebuilt（再建された）</b><br><br>💡 着眼点：\"after it was destroyed in a fire\"（火事で焼失した後）と \"could use it again\"（再び利用できた）がヒントです。壊れた建物を建て直すことを表す rebuild（再建する）の過去分詞 rebuilt が入ります。re- は「再び」を表す接頭辞で、build に付いて「建て直す」という意味になります。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-160",
+        "question": "A: I just read a newspaper article about a man who told people he was collecting money for charity but kept it all for himself.\nB: How terrible! I hate it when people do _____ things like that.",
+        "translation": "A：慈善のためにお金を集めていると人々に言いながら、全部自分のものにしていた男についての新聞記事を読んだところだよ。\nB：なんてひどい。人がそういう<b>不正な</b>ことをするのは本当に嫌だわ。",
+        "options": [
+            "lively",
+            "global",
+            "dishonest",
+            "vertical"
+        ],
+        "optionMeanings": [
+            "活発な、生き生きとした",
+            "世界的な",
+            "不正直な、不正な",
+            "垂直の"
+        ],
+        "answer": "dishonest",
+        "explanation": "<b>正解：dishonest（不正直な、不正な）</b><br><br>💡 着眼点：Aの話は、慈善のためと言ってお金を集め \"kept it all for himself\"（全部自分のものにした）という内容です。人をだます行為なので「不正直な」を表す dishonest が合います。honest（正直な）に否定の dis- が付いた形です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-161",
+        "question": "At the audition for the dance show, the students first had to perform _____. Then, they were asked to dance together as a group.",
+        "translation": "ダンスショーのオーディションで、生徒たちはまず<b>一人ずつ</b>演技をしなければならなかった。その後、グループとして一緒に踊るよう求められた。",
+        "options": [
+            "financially",
+            "individually",
+            "legally",
+            "magnetically"
+        ],
+        "optionMeanings": [
+            "財政的に",
+            "個別に、一人ずつ",
+            "法的に",
+            "磁気によって"
+        ],
+        "answer": "individually",
+        "explanation": "<b>正解：individually（個別に、一人ずつ）</b><br><br>💡 着眼点：後の文の \"Then, they were asked to dance together as a group\"（その後、グループで一緒に踊るよう求められた）と対比されています。グループで踊る前の段階なので「一人ずつ」を表す individually が入ります。名詞 individual（個人）や形容詞 individual（個々の）も覚えておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-162",
+        "question": "Bill was a tour guide for many years, so no one was surprised when his son Greg decided to work in the travel _____, too.",
+        "translation": "ビルは長年ツアーガイドをしていたので、息子のグレッグも旅行<b>業界</b>で働くことに決めたとき、誰も驚かなかった。",
+        "options": [
+            "custom",
+            "industry",
+            "exhibit",
+            "product"
+        ],
+        "optionMeanings": [
+            "慣習",
+            "産業、業界",
+            "展示品",
+            "製品"
+        ],
+        "answer": "industry",
+        "explanation": "<b>正解：industry（業界）</b><br><br>💡 着眼点：\"tour guide\"（ツアーガイド）をしていた父と同じ分野で働くという流れで、\"the travel ___\" は「旅行業界」を表します。industry は「産業、業界」という意味で、the car industry（自動車産業）のようにも使います。形容詞 industrial（産業の）もあわせて覚えておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-163",
+        "question": "Since Nancy moved back home from Japan, she and her Japanese friends have _____ by e-mail. They enjoy hearing each other's news.",
+        "translation": "ナンシーが日本から故郷に戻ってからずっと、彼女と日本の友人たちはメールで<b>やり取りしている</b>。彼女たちはお互いの近況を聞くのを楽しんでいる。",
+        "options": [
+            "convinced",
+            "estimated",
+            "explored",
+            "corresponded"
+        ],
+        "optionMeanings": [
+            "説得した",
+            "見積もった",
+            "探検した",
+            "文通した、やり取りした"
+        ],
+        "answer": "corresponded",
+        "explanation": "<b>正解：corresponded（やり取りした、文通した）</b><br><br>💡 着眼点：\"by e-mail\"（メールで）と \"enjoy hearing each other's news\"（お互いの近況を聞くのを楽しむ）がヒントです。手紙やメールでやり取りすることを表す correspond の過去分詞が入ります。名詞 correspondence（通信、文通）も関連語として覚えておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-164",
+        "question": "A: Dad, could you please _____ the volume of the TV? I'm trying to study for a test.\nB: Oh, I'm sorry.",
+        "translation": "A：お父さん、テレビの音量を<b>下げて</b>くれない？テスト勉強をしようとしているの。\nB：ああ、ごめんね。",
+        "options": [
+            "look up",
+            "turn down",
+            "fill out",
+            "drop by"
+        ],
+        "optionMeanings": [
+            "（辞書などで）調べる",
+            "（音量などを）下げる",
+            "（書類に）記入する",
+            "立ち寄る"
+        ],
+        "answer": "turn down",
+        "explanation": "<b>正解：turn down（（音量などを）下げる）</b><br><br>💡 着眼点：\"the volume of the TV\"（テレビの音量）と \"I'm trying to study\"（勉強しようとしている）がヒントです。勉強の邪魔にならないよう音量を「下げる」ので turn down が合います。反対の turn up（上げる）もセットで覚えておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-165",
+        "question": "A: Henry, can you do me a _____? Will you go to the store and buy some eggs?\nB: Sure, Mom. I'll go there right now.",
+        "translation": "A：ヘンリー、<b>お願い</b>を聞いてくれる？お店に行って卵を買ってきてくれないかしら。\nB：いいよ、お母さん。今すぐ行ってくるね。",
+        "options": [
+            "policy",
+            "favor",
+            "license",
+            "space"
+        ],
+        "optionMeanings": [
+            "方針、政策",
+            "親切な行為、お願い",
+            "免許",
+            "空間、場所"
+        ],
+        "answer": "favor",
+        "explanation": "<b>正解：favor（お願い）</b><br><br>💡 着眼点：空所の後で \"Will you go to the store and buy some eggs?\"（お店に行って卵を買ってきてくれない？）と頼みごとをしています。do ～ a favor で「～の頼みを聞く」という意味になり、Can you do me a favor? は「お願いがあるのですが」という決まった言い方です。May I ask you a favor? も同じ場面で使えます。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-166",
+        "question": "Joe thought that the Eagles had probably won last night's football game, but he wanted to know _____, so he checked the score online.",
+        "translation": "ジョーは昨夜のフットボールの試合ではイーグルスがおそらく勝ったと思っていたが、<b>確実に</b>知りたかったので、オンラインでスコアを確認した。",
+        "options": [
+            "at present",
+            "in part",
+            "by chance",
+            "for sure"
+        ],
+        "optionMeanings": [
+            "現在は",
+            "部分的に",
+            "偶然に",
+            "確かに、確実に"
+        ],
+        "answer": "for sure",
+        "explanation": "<b>正解：for sure（確かに、確実に）</b><br><br>💡 着眼点：\"probably won\"（おそらく勝った）と思っていたものの、\"checked the score online\"（オンラインでスコアを確認した）とあります。推測ではなく「確実に」知りたかったという流れなので for sure が合います。by chance（偶然に）は意図せずに起こることを表すので合いません。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-167",
+        "question": "A: I heard you caught a cold last week, Steve.\nB: Yes, it was pretty bad. It took me a few days to _____ it.",
+        "translation": "A：スティーブ、先週風邪をひいたんだってね。\nB：うん、かなりひどかったよ。<b>治る</b>までに数日かかったんだ。",
+        "options": [
+            "fall through",
+            "reach for",
+            "get over",
+            "take after"
+        ],
+        "optionMeanings": [
+            "（計画などが）失敗に終わる",
+            "～に手を伸ばす",
+            "～から回復する、～を乗り越える",
+            "～に似ている"
+        ],
+        "answer": "get over",
+        "explanation": "<b>正解：get over（～から回復する）</b><br><br>💡 着眼点：Aの \"caught a cold\"（風邪をひいた）と、Bの \"It took me a few days\"（数日かかった）がヒントです。病気から「回復する」ことを表す get over が合います。recover from ～ も同じ意味で使えるので、あわせて覚えておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-168",
+        "question": "A: How's it going with your wedding invitations?\nB: Well, I have to make 100 _____, and I've made 80 already. Only 20 more to go!",
+        "translation": "A：結婚式の招待状はどんな具合？\nB：そうね、<b>全部で</b>100通作らなきゃいけなくて、もう80通作ったわ。あと20通だけよ。",
+        "options": [
+            "in all",
+            "by far",
+            "on loan",
+            "for ages"
+        ],
+        "optionMeanings": [
+            "全部で、合計で",
+            "はるかに、断然",
+            "貸し出し中で",
+            "長い間"
+        ],
+        "answer": "in all",
+        "explanation": "<b>正解：in all（全部で）</b><br><br>💡 着眼点：\"make 100\"（100通作る）、\"made 80 already\"（もう80通作った）、\"Only 20 more\"（あと20通だけ）と数の話が続いています。作るべき「合計」を表す in all が合います。by far（はるかに）は最上級や比較級を強めるときに使う表現です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-169",
+        "question": "Kenji was born in Okinawa. He saw snow _____ the first time when he went on a school trip to Hokkaido.",
+        "translation": "ケンジは沖縄で生まれた。北海道への修学旅行に行ったとき、彼は<b>初めて</b>雪を見た。",
+        "options": [
+            "at",
+            "on",
+            "for",
+            "in"
+        ],
+        "optionMeanings": [
+            "～に（時点）",
+            "～の上に",
+            "～のために（for the first time で「初めて」）",
+            "～の中に"
+        ],
+        "answer": "for",
+        "explanation": "<b>正解：for（for the first time で「初めて」）</b><br><br>💡 着眼点：空所の後の \"the first time\" と組み合わせて、for the first time で「初めて」という意味になります。\"born in Okinawa\"（沖縄で生まれた）ので、北海道で初めて雪を見たという流れです。at first（最初は）とは意味が異なるので区別しておきましょう。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "pre2plus-170",
+        "question": "Jim recently bought an environmentally friendly electric car. The car is very small, and it has an electric motor in _____ of a gasoline engine.",
+        "translation": "ジムは最近、環境に優しい電気自動車を買った。その車はとても小さく、ガソリンエンジンの<b>代わりに</b>電気モーターが付いている。",
+        "options": [
+            "light",
+            "turn",
+            "place",
+            "order"
+        ],
+        "optionMeanings": [
+            "光",
+            "順番",
+            "場所（in place of で「～の代わりに」）",
+            "順序、注文"
+        ],
+        "answer": "place",
+        "explanation": "<b>正解：place（in place of で「～の代わりに」）</b><br><br>💡 着眼点：\"in ___ of\" の形と、\"electric motor\"（電気モーター）と \"gasoline engine\"（ガソリンエンジン）の対比がヒントです。in place of ～ で「～の代わりに」という意味になります。instead of ～ も同じ意味です。in order to（～するために）や in turn（順番に）と混同しないようにしましょう。",
+        "source": "2025年第3回(準会場)"
+    }
+];
+
 window.questionsMap = {
     "3": grade3Questions,
     "pre-2": gradePre2Questions,
+    "pre-2-plus": gradePre2PlusQuestions,
     "2": grade2Questions,
     "pre-1": gradePre1Questions
 };

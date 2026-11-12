@@ -54,6 +54,9 @@ button:disabled { opacity: .4; cursor: not-allowed; }
 .grade-card:nth-child(2) { background: linear-gradient(140deg,rgba(195,217,190,.22),rgba(195,217,190,.05)); }
 .grade-card:nth-child(3) { background: linear-gradient(140deg,rgba(190,216,213,.22),rgba(190,216,213,.05)); }
 .grade-card:nth-child(4) { background: linear-gradient(140deg,rgba(232,216,184,.22),rgba(232,216,184,.05)); }
+.grade-card:nth-child(5) { background: linear-gradient(140deg,rgba(214,200,226,.22),rgba(214,200,226,.05)); }
+.grade-card:last-child:nth-child(odd) { grid-column: 1 / -1; min-height: 104px; }
+.grade-label-long small { font-size: .62em; font-weight: 600; margin-left: 2px; letter-spacing: 0; }
 .grade-label { font-size: 29px; line-height: 1.25; font-weight: 600; letter-spacing: -.03em; }
 .grade-sub { display: flex; align-items: center; justify-content: space-between; width: 100%; color: #dce5db; font-size: 10px; }
 .grade-sub span { font-size: 20px; line-height: 1; }
