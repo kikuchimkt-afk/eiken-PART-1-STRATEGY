@@ -689,6 +689,7 @@ class App {
 
     formatGrade(g) {
         switch (g) {
+            case '5': return '5級';
             case '4': return '4級';
             case '3': return '3級';
             case 'pre-2': return '準2級';

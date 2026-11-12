@@ -69596,7 +69596,12011 @@ const grade4Questions = [
     }
 ];
 
+const grade5Questions = [
+    {
+        "id": "5-001",
+        "question": "A: What do you do in your free time, John?\nB: I read a _____ every day.",
+        "translation": "A：ジョン、ひまな 時は 何を して いますか。\nB：ぼくは 毎日 <b>しんぶん</b>を 読みます。",
+        "options": [
+            "music",
+            "paint",
+            "newspaper",
+            "lunch"
+        ],
+        "optionMeanings": [
+            "おんがく",
+            "えを かく",
+            "しんぶん",
+            "ひるごはん"
+        ],
+        "answer": "newspaper",
+        "explanation": "<b>こたえ：newspaper（しんぶん）</b><br><br>💡 ヒント：\"read\"（読む）と 言って います。毎日 読む ものは newspaper（しんぶん）です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-002",
+        "question": "Many _____ are waiting for the new pink train. It’s very popular.",
+        "translation": "たくさんの <b>人</b>が、ピンクの 新しい 電車を まって います。とても 人気が あります。",
+        "options": [
+            "books",
+            "teeth",
+            "fruits",
+            "people"
+        ],
+        "optionMeanings": [
+            "本",
+            "は（口の 中の）",
+            "くだもの",
+            "人びと"
+        ],
+        "answer": "people",
+        "explanation": "<b>こたえ：people（人びと）</b><br><br>💡 ヒント：\"are waiting\"（まって いる）と あります。電車を まって いるのは people（人びと）です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-003",
+        "question": "A: Where is your tennis _____, Hiroki?\nB: It’s in my bag, Mom.",
+        "translation": "A：ヒロキ、テニスの <b>ラケット</b>は どこ？\nB：ぼくの かばんの 中だよ、お母さん。",
+        "options": [
+            "fork",
+            "dictionary",
+            "kite",
+            "racket"
+        ],
+        "optionMeanings": [
+            "フォーク",
+            "じしょ",
+            "たこ",
+            "ラケット"
+        ],
+        "answer": "racket",
+        "explanation": "<b>こたえ：racket（ラケット）</b><br><br>💡 ヒント：\"tennis\"（テニス）と 言って います。テニスで つかうのは racket（ラケット）です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-004",
+        "question": "A: Mike, please _____ your coffee before you go to school.\nB: OK, Mom.",
+        "translation": "A：マイク、学校に 行く 前に コーヒーを <b>のみ</b>なさい。\nB：わかったよ、お母さん。",
+        "options": [
+            "sleep",
+            "drink",
+            "arrive",
+            "talk"
+        ],
+        "optionMeanings": [
+            "ねる",
+            "のむ",
+            "つく",
+            "話す"
+        ],
+        "answer": "drink",
+        "explanation": "<b>こたえ：drink（のむ）</b><br><br>💡 ヒント：\"coffee\"（コーヒー）と あります。コーヒーは drink（のむ）ものです。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-005",
+        "question": "Taro likes skiing. He goes to the _____ near his house every winter.",
+        "translation": "タロウは スキーが すきです。毎年 冬に、家の 近くの <b>山</b>へ 行きます。",
+        "options": [
+            "pool",
+            "station",
+            "library",
+            "mountain"
+        ],
+        "optionMeanings": [
+            "プール",
+            "えき",
+            "としょかん",
+            "山"
+        ],
+        "answer": "mountain",
+        "explanation": "<b>こたえ：mountain（山）</b><br><br>💡 ヒント：\"skiing\"（スキー）と あります。スキーを するのは mountain（山）です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-006",
+        "question": "A: Mike, how _____ is that building?\nB: It’s 200 meters.",
+        "translation": "A：マイク、あの たてものは どのくらい <b>高い</b>の？\nB：200メートルだよ。",
+        "options": [
+            "fast",
+            "cold",
+            "young",
+            "tall"
+        ],
+        "optionMeanings": [
+            "はやい",
+            "つめたい",
+            "わかい",
+            "高い"
+        ],
+        "answer": "tall",
+        "explanation": "<b>こたえ：tall（高い）</b><br><br>💡 ヒント：\"200 meters\"（200メートル）と こたえて います。how tall で「どのくらい 高い」です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-007",
+        "question": "A: Excuse me, Ms. Brown. Can I go home now?\nB: Yes, John. You can _____ now.",
+        "translation": "A：すみません、ブラウン先生。もう 家に 帰っても いいですか。\nB：ええ、ジョン。もう <b>帰って</b> いいですよ。",
+        "options": [
+            "know",
+            "leave",
+            "take",
+            "eat"
+        ],
+        "optionMeanings": [
+            "しって いる",
+            "出る",
+            "とる",
+            "食べる"
+        ],
+        "answer": "leave",
+        "explanation": "<b>こたえ：leave（出る）</b><br><br>💡 ヒント：\"go home\"（家に 帰る）と 聞いて います。leave は「その ばしょを 出る」と いう いみです。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-008",
+        "question": "A: Sorry, Mike. I can’t go to the movie with you today.\nB: Oh, I _____.",
+        "translation": "A：ごめんね、マイク。今日は いっしょに えいがに 行けないんだ。\nB：あ、<b>そうなんだ</b>。",
+        "options": [
+            "look",
+            "see",
+            "play",
+            "stand"
+        ],
+        "optionMeanings": [
+            "見る",
+            "わかる",
+            "あそぶ",
+            "立つ"
+        ],
+        "answer": "see",
+        "explanation": "<b>こたえ：see（わかる）</b><br><br>💡 ヒント：「I see.」で「そうなんだ」「わかった」と いう いみです。あいづちの ことばとして おぼえましょう。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-009",
+        "question": "A: Do you often eat fruit _____ home?\nB: No.",
+        "translation": "A：家<b>で</b> よく くだものを 食べますか。\nB：いいえ。",
+        "options": [
+            "under",
+            "with",
+            "about",
+            "at"
+        ],
+        "optionMeanings": [
+            "下に",
+            "いっしょに",
+            "〜について",
+            "〜で"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜で）</b><br><br>💡 ヒント：「at home」で「家で」と いう いみです。ひとまとまりで おぼえましょう。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-010",
+        "question": "A: Dad, can we _____ hiking tomorrow?\nB: Sure.",
+        "translation": "A：お父さん、明日 ハイキングに <b>行って</b>も いい？\nB：いいよ。",
+        "options": [
+            "go",
+            "want",
+            "close",
+            "play"
+        ],
+        "optionMeanings": [
+            "行く",
+            "ほしい",
+            "しめる",
+            "あそぶ"
+        ],
+        "answer": "go",
+        "explanation": "<b>こたえ：go（行く）</b><br><br>💡 ヒント：go の あとに hiking を つけると「ハイキングに 行く」です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-011",
+        "question": "Taro goes to the swimming pool _____ school.",
+        "translation": "タロウは 学校の <b>あとで</b>、プールに 行きます。",
+        "options": [
+            "after",
+            "about",
+            "down",
+            "on"
+        ],
+        "optionMeanings": [
+            "〜の あとで",
+            "〜について",
+            "下へ",
+            "〜の 上に"
+        ],
+        "answer": "after",
+        "explanation": "<b>こたえ：after（〜の あとで）</b><br><br>💡 ヒント：「after school」で「学校の あと」と いう いみです。ひとまとまりで おぼえましょう。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-012",
+        "question": "I _____ up at seven every morning. Then, I have breakfast with my mother.",
+        "translation": "わたしは 毎朝 7時に <b>おきます</b>。それから 母と 朝ごはんを 食べます。",
+        "options": [
+            "sing",
+            "talk",
+            "close",
+            "wake"
+        ],
+        "optionMeanings": [
+            "歌う",
+            "話す",
+            "しめる",
+            "目が さめる"
+        ],
+        "answer": "wake",
+        "explanation": "<b>こたえ：wake（目が さめる）</b><br><br>💡 ヒント：「wake up」で「おきる」です。up と セットで おぼえましょう。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-013",
+        "question": "Mr. Ford teaches English. We like _____ class very much.",
+        "translation": "フォード先生は えいごを 教えて います。わたしたちは <b>先生の</b> じゅぎょうが 大すきです。",
+        "options": [
+            "his",
+            "he",
+            "him",
+            "us"
+        ],
+        "optionMeanings": [
+            "かれの",
+            "かれは",
+            "かれを",
+            "わたしたちを"
+        ],
+        "answer": "his",
+        "explanation": "<b>こたえ：his（かれの）</b><br><br>💡 ヒント：class（じゅぎょう）の 前なので「〜の」の かたちです。男の 人の「かれの」は his です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-014",
+        "question": "A: Nancy, I can’t find my eraser. Can I use yours?\nB: Yes. You can use _____.",
+        "translation": "A：ナンシー、けしゴムが 見つからないの。あなたのを つかっても いい？\nB：うん。<b>わたしの</b>を つかって いいよ。",
+        "options": [
+            "I",
+            "my",
+            "me",
+            "mine"
+        ],
+        "optionMeanings": [
+            "わたしは",
+            "わたしの",
+            "わたしを",
+            "わたしの もの"
+        ],
+        "answer": "mine",
+        "explanation": "<b>こたえ：mine（わたしの もの）</b><br><br>💡 ヒント：\"use\"（つかう）の あとに「わたしの もの」が 入ります。mine 一つで「わたしの もの」です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-015",
+        "question": "A: Is Kent in the library?\nB: Yes, he _____ there.",
+        "translation": "A：ケントは としょかんに いるの？\nB：うん、そこで <b>べんきょうして いる</b>よ。",
+        "options": [
+            "is studying",
+            "are studying",
+            "am studying",
+            "studying"
+        ],
+        "optionMeanings": [
+            "（he の ときの かたち）",
+            "（you の ときの かたち）",
+            "（I の ときの かたち）",
+            "（この かたちは ここでは つかわない）"
+        ],
+        "answer": "is studying",
+        "explanation": "<b>こたえ：is studying（べんきょうして いる）</b><br><br>💡 ヒント：he の ときは is を つかいます。「今 〜して いる」は is studying です。",
+        "source": "2026年第1回(本会場)"
+    },
+    {
+        "id": "5-016",
+        "question": "A: This baseball game is great.\nB: I _____ so, too.",
+        "translation": "A：この やきゅうの しあい、すごいね。\nB：ぼくも そう <b>思う</b>よ。",
+        "options": [
+            "speak",
+            "think",
+            "live",
+            "sing"
+        ],
+        "optionMeanings": [
+            "話す",
+            "思う",
+            "すむ",
+            "歌う"
+        ],
+        "answer": "think",
+        "explanation": "<b>こたえ：think（思う）</b><br><br>💡 ヒント：「I think so, too.」で「わたしも そう 思う」です。会話で よく つかいます。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-017",
+        "question": "Dan's mother is a _____. She works at the hospital from Monday to Friday.",
+        "translation": "ダンの お母さんは <b>おいしゃさん</b>です。月曜日から 金曜日まで びょういんで はたらいて います。",
+        "options": [
+            "doctor",
+            "player",
+            "king",
+            "farmer"
+        ],
+        "optionMeanings": [
+            "いしゃ",
+            "せんしゅ",
+            "おうさま",
+            "のうか"
+        ],
+        "answer": "doctor",
+        "explanation": "<b>こたえ：doctor（いしゃ）</b><br><br>💡 ヒント：\"hospital\"（びょういん）で はたらいて います。だから doctor（おいしゃさん）です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-018",
+        "question": "I put my books in my _____ before I go to class.",
+        "translation": "わたしは じゅぎょうに 行く 前に、本を <b>ロッカー</b>に 入れます。",
+        "options": [
+            "locker",
+            "drink",
+            "dictionary",
+            "chopsticks"
+        ],
+        "optionMeanings": [
+            "ロッカー",
+            "のみもの",
+            "じしょ",
+            "はし"
+        ],
+        "answer": "locker",
+        "explanation": "<b>こたえ：locker（ロッカー）</b><br><br>💡 ヒント：\"put my books in\"（本を 入れる）と あります。本を 入れる ばしょは locker（ロッカー）です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-019",
+        "question": "A: Your sister's dress is very _____.\nB: Yes. She likes it very much.",
+        "translation": "A：あなたの お姉さんの ドレス、とても <b>かわいい</b>ね。\nB：うん。姉も とても 気に 入って いるよ。",
+        "options": [
+            "rainy",
+            "cute",
+            "tall",
+            "fast"
+        ],
+        "optionMeanings": [
+            "雨の",
+            "かわいい",
+            "せが 高い",
+            "はやい"
+        ],
+        "answer": "cute",
+        "explanation": "<b>こたえ：cute（かわいい）</b><br><br>💡 ヒント：\"dress\"（ドレス）の ことを ほめて います。ドレスに 合うのは cute（かわいい）です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-020",
+        "question": "A: When does your summer _____ start?\nB: On July 20.",
+        "translation": "A：夏<b>休み</b>は いつ はじまるの？\nB：7月20日だよ。",
+        "options": [
+            "newspaper",
+            "song",
+            "vacation",
+            "candy"
+        ],
+        "optionMeanings": [
+            "しんぶん",
+            "歌",
+            "休み",
+            "あめ（おかし）"
+        ],
+        "answer": "vacation",
+        "explanation": "<b>こたえ：vacation（休み）</b><br><br>💡 ヒント：「summer vacation」で「夏休み」です。\"July 20\"（7月20日）とも 合います。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-021",
+        "question": "A: What do you do after school, Cindy?\nB: I play _____.",
+        "translation": "A：シンディ、学校の あとは 何を するの？\nB：<b>バスケットボール</b>を するよ。",
+        "options": [
+            "bike",
+            "book",
+            "strawberry",
+            "basketball"
+        ],
+        "optionMeanings": [
+            "自てん車",
+            "本",
+            "いちご",
+            "バスケットボール"
+        ],
+        "answer": "basketball",
+        "explanation": "<b>こたえ：basketball（バスケットボール）</b><br><br>💡 ヒント：\"play\"（スポーツを する）と あります。スポーツは basketball（バスケットボール）だけです。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-022",
+        "question": "Kengo usually watches the news on TV after dinner, but tonight he is watching a _____ TV show.",
+        "translation": "ケンゴは ふだん、夕ごはんの あと テレビで ニュースを 見ます。でも 今夜は <b>ちがう</b> ばんぐみを 見て います。",
+        "options": [
+            "same",
+            "different",
+            "high",
+            "young"
+        ],
+        "optionMeanings": [
+            "おなじ",
+            "ちがう",
+            "高い",
+            "わかい"
+        ],
+        "answer": "different",
+        "explanation": "<b>こたえ：different（ちがう）</b><br><br>💡 ヒント：\"but tonight\"（でも 今夜は）と あります。いつもと ちがうので different（ちがう）です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-023",
+        "question": "A: Can you come _____ my house at three this afternoon?\nB: Sorry, I can't.",
+        "translation": "A：今日の 午後 3時に、ぼくの 家<b>に</b> 来られる？\nB：ごめん、行けないんだ。",
+        "options": [
+            "of",
+            "for",
+            "to",
+            "out"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜の ために",
+            "〜へ",
+            "外へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：「come to 〜」で「〜に 来る」です。to は 行く先を あらわします。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-024",
+        "question": "A: Do you wash the dishes every _____, Tim?\nB: No, only on weekends.",
+        "translation": "A：ティム、<b>夜</b>は 毎日 おさらを あらうの？\nB：ううん、週まつだけだよ。",
+        "options": [
+            "night",
+            "cup",
+            "hand",
+            "coin"
+        ],
+        "optionMeanings": [
+            "夜",
+            "カップ",
+            "手",
+            "コイン"
+        ],
+        "answer": "night",
+        "explanation": "<b>こたえ：night（夜）</b><br><br>💡 ヒント：「every night」で「毎ばん」です。\"only on weekends\"（週まつだけ）とも 合います。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-025",
+        "question": "A: Can I have a _____ of apple juice, Mom?\nB: Yes. Here you are.",
+        "translation": "A：お母さん、りんごジュースを <b>1ぱい</b> もらえる？\nB：いいよ。はい、どうぞ。",
+        "options": [
+            "glass",
+            "plate",
+            "knife",
+            "fork"
+        ],
+        "optionMeanings": [
+            "コップ",
+            "おさら",
+            "ナイフ",
+            "フォーク"
+        ],
+        "answer": "glass",
+        "explanation": "<b>こたえ：glass（コップ）</b><br><br>💡 ヒント：「a glass of 〜」で「コップ 1ぱいの 〜」です。ジュースは glass で かぞえます。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-026",
+        "question": "A: That doll is very nice. How _____ is it?\nB: It's only $5.",
+        "translation": "A：あの にんぎょう、とても すてきだね。<b>いくら</b>？\nB：たった 5ドルだよ。",
+        "options": [
+            "short",
+            "young",
+            "much",
+            "sad"
+        ],
+        "optionMeanings": [
+            "みじかい",
+            "わかい",
+            "たくさん",
+            "かなしい"
+        ],
+        "answer": "much",
+        "explanation": "<b>こたえ：much（たくさん）</b><br><br>💡 ヒント：\"$5\"（5ドル）と こたえて います。ねだんを 聞く ときは How much です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-027",
+        "question": "A: Jenny is a new student. She is _____ France.\nB: That's great. I love France.",
+        "translation": "A：ジェニーは 新しく 来た 子だよ。フランス<b>から</b> 来たんだ。\nB：いいね。ぼく、フランスが 大すきなんだ。",
+        "options": [
+            "from",
+            "in",
+            "of",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜から",
+            "〜の 中に",
+            "〜の",
+            "〜で"
+        ],
+        "answer": "from",
+        "explanation": "<b>こたえ：from（〜から）</b><br><br>💡 ヒント：「She is from 〜」で「かのじょは 〜から 来た」と いう いみです。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-028",
+        "question": "A: I like this movie.\nB: _____, too.",
+        "translation": "A：わたし、この えいがが すき。\nB：<b>ぼくも</b>。",
+        "options": [
+            "He",
+            "Them",
+            "Me",
+            "We"
+        ],
+        "optionMeanings": [
+            "かれは",
+            "かれらを",
+            "わたしを",
+            "わたしたちは"
+        ],
+        "answer": "Me",
+        "explanation": "<b>こたえ：Me（わたしを）</b><br><br>💡 ヒント：「Me, too.」で「わたしも」と いう いみです。会話で よく つかいます。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-029",
+        "question": "A: Alice, _____ quiet!\nB: Sorry, Dad.",
+        "translation": "A：アリス、<b>しずかに しなさい</b>。\nB：ごめんなさい、お父さん。",
+        "options": [
+            "am",
+            "are",
+            "be",
+            "is"
+        ],
+        "optionMeanings": [
+            "（I の ときの かたち）",
+            "（you の ときの かたち）",
+            "（もとの かたち）",
+            "（he, she の ときの かたち）"
+        ],
+        "answer": "be",
+        "explanation": "<b>こたえ：be（もとの かたち）</b><br><br>💡 ヒント：「〜しなさい」と 言う ときは、文の はじめに もとの かたちを おきます。だから be です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-030",
+        "question": "A: _____ phone is this?\nB: It's Bill's.",
+        "translation": "A：これは <b>だれの</b> 電話？\nB：ビルのだよ。",
+        "options": [
+            "When",
+            "Where",
+            "Whose",
+            "How"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "どこ",
+            "だれの",
+            "どう"
+        ],
+        "answer": "Whose",
+        "explanation": "<b>こたえ：Whose（だれの）</b><br><br>💡 ヒント：\"Bill's\"（ビルの）と こたえて います。「だれの」と 聞くのは Whose です。",
+        "source": "2026年第1回(準会場)"
+    },
+    {
+        "id": "5-031",
+        "question": "A: Look! This is my new jacket.\nB: Oh, it’s very _____. I like it very much.",
+        "translation": "A：見て。これ、ぼくの 新しい ジャケットだよ。\nB：わあ、とても <b>すてき</b>ね。すごく 気に 入ったよ。",
+        "options": [
+            "nice",
+            "late",
+            "sorry",
+            "early"
+        ],
+        "optionMeanings": [
+            "すてきな",
+            "おそい",
+            "すまなく 思う",
+            "はやい"
+        ],
+        "answer": "nice",
+        "explanation": "<b>こたえ：nice（すてきな）</b><br><br>💡 ヒント：\"I like it very much\"（とても 気に 入った）と あります。ほめる ことばは nice（すてきな）です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-032",
+        "question": "A: Look at the _____! We have a lot of snow.\nB: Yes, it’s so beautiful. Let’s play outside.",
+        "translation": "A：<b>にわ</b>を 見て。雪が たくさん つもって いるよ。\nB：うん、とても きれい。外で あそぼう。",
+        "options": [
+            "drink",
+            "garden",
+            "food",
+            "cook"
+        ],
+        "optionMeanings": [
+            "のみもの",
+            "にわ",
+            "食べもの",
+            "りょうりする"
+        ],
+        "answer": "garden",
+        "explanation": "<b>こたえ：garden（にわ）</b><br><br>💡 ヒント：\"snow\"（雪）が 見える ばしょです。家の 外に ある garden（にわ）です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-033",
+        "question": "My brother plays the _____ well. He practices every day.",
+        "translation": "ぼくの 兄は <b>ギター</b>が 上手です。毎日 れんしゅうして います。",
+        "options": [
+            "guitar",
+            "book",
+            "desk",
+            "pencil"
+        ],
+        "optionMeanings": [
+            "ギター",
+            "本",
+            "つくえ",
+            "えんぴつ"
+        ],
+        "answer": "guitar",
+        "explanation": "<b>こたえ：guitar（ギター）</b><br><br>💡 ヒント：「play the 〜」で「（がっきを）ひく」です。がっきは guitar（ギター）だけです。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-034",
+        "question": "A: Julia, today is too _____.\nB: Right. We need some drinks.",
+        "translation": "A：ジュリア、今日は <b>あつ</b>すぎるね。\nB：そうね。のみものが ほしいね。",
+        "options": [
+            "hot",
+            "tall",
+            "kind",
+            "sweet"
+        ],
+        "optionMeanings": [
+            "あつい",
+            "高い",
+            "やさしい",
+            "あまい"
+        ],
+        "answer": "hot",
+        "explanation": "<b>こたえ：hot（あつい）</b><br><br>💡 ヒント：\"We need some drinks\"（のみものが いる）と あります。のどが かわくのは hot（あつい）日です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-035",
+        "question": "Mary lives with her _____. They always eat dinner together at the table.",
+        "translation": "メアリーは <b>むすめ</b>と いっしょに くらして います。二人は いつも テーブルで 夕ごはんを 食べます。",
+        "options": [
+            "food",
+            "table",
+            "house",
+            "daughter"
+        ],
+        "optionMeanings": [
+            "食べもの",
+            "テーブル",
+            "家",
+            "むすめ"
+        ],
+        "answer": "daughter",
+        "explanation": "<b>こたえ：daughter（むすめ）</b><br><br>💡 ヒント：\"They\"（二人は）が いっしょに 食べて います。人を あらわすのは daughter（むすめ）です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-036",
+        "question": "Tom likes animals and often goes to the _____.",
+        "translation": "トムは どうぶつが すきで、よく <b>どうぶつえん</b>に 行きます。",
+        "options": [
+            "restaurant",
+            "zoo",
+            "bus stop",
+            "bathroom"
+        ],
+        "optionMeanings": [
+            "レストラン",
+            "どうぶつえん",
+            "バスてい",
+            "おふろば"
+        ],
+        "answer": "zoo",
+        "explanation": "<b>こたえ：zoo（どうぶつえん）</b><br><br>💡 ヒント：\"likes animals\"（どうぶつが すき）と あります。だから zoo（どうぶつえん）です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-037",
+        "question": "A: Where’s the music room?\nB: It’s on the _____ floor.",
+        "translation": "A：音楽室は どこですか。\nB：<b>2かい</b>です。",
+        "options": [
+            "second",
+            "angry",
+            "young",
+            "easy"
+        ],
+        "optionMeanings": [
+            "2ばんめの",
+            "おこった",
+            "わかい",
+            "かんたんな"
+        ],
+        "answer": "second",
+        "explanation": "<b>こたえ：second（2ばんめの）</b><br><br>💡 ヒント：\"floor\"（〜かい）と あります。second floor で「2かい」です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-038",
+        "question": "A: Do you like English?\nB: Yes, _____ course.",
+        "translation": "A：えいごは すき？\nB：うん、<b>もちろん</b>。",
+        "options": [
+            "in",
+            "out",
+            "on",
+            "of"
+        ],
+        "optionMeanings": [
+            "〜の 中に",
+            "外に",
+            "〜の 上に",
+            "〜の"
+        ],
+        "answer": "of",
+        "explanation": "<b>こたえ：of（〜の）</b><br><br>💡 ヒント：「of course」で「もちろん」です。ひとまとまりで おぼえましょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-039",
+        "question": "A: James, please _____ down.\nB: OK, Ms. Williams.",
+        "translation": "A：ジェームズ、<b>すわって</b> ください。\nB：はい、ウィリアムズ先生。",
+        "options": [
+            "do",
+            "be",
+            "sit",
+            "speak"
+        ],
+        "optionMeanings": [
+            "する",
+            "〜で ある",
+            "すわる",
+            "話す"
+        ],
+        "answer": "sit",
+        "explanation": "<b>こたえ：sit（すわる）</b><br><br>💡 ヒント：「sit down」で「すわる」です。down と セットで おぼえましょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-040",
+        "question": "A: Tom, _____ up and answer this question.\nB: OK.",
+        "translation": "A：トム、<b>立って</b>、この しつもんに こたえて。\nB：はい。",
+        "options": [
+            "watch",
+            "stand",
+            "see",
+            "take"
+        ],
+        "optionMeanings": [
+            "見る",
+            "立つ",
+            "見える",
+            "とる"
+        ],
+        "answer": "stand",
+        "explanation": "<b>こたえ：stand（立つ）</b><br><br>💡 ヒント：「stand up」で「立つ」です。sit down（すわる）の はんたいです。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-041",
+        "question": "A: Where’s Mark?\nB: He’s _____ there by the tree.",
+        "translation": "A：マークは どこ？\nB：<b>あそこ</b>の 木の そばに いるよ。",
+        "options": [
+            "of",
+            "on",
+            "with",
+            "over"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜の 上に",
+            "いっしょに",
+            "むこうに"
+        ],
+        "answer": "over",
+        "explanation": "<b>こたえ：over（むこうに）</b><br><br>💡 ヒント：「over there」で「あそこに」です。ひとまとまりで おぼえましょう。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-042",
+        "question": "A: Mr. James, what _____ is the next train?\nB: It comes at 10:30 a.m.",
+        "translation": "A：ジェームズさん、つぎの 電車は <b>何時</b>ですか。\nB：午前 10時30分に 来ますよ。",
+        "options": [
+            "time",
+            "day",
+            "month",
+            "week"
+        ],
+        "optionMeanings": [
+            "時こく",
+            "日",
+            "月",
+            "週"
+        ],
+        "answer": "time",
+        "explanation": "<b>こたえ：time（時こく）</b><br><br>💡 ヒント：\"10:30\"（10時30分）と こたえて います。時こくを 聞くのは what time（何時）です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-043",
+        "question": "A: Does Emily like skiing?\nB: No, she _____. She likes swimming.",
+        "translation": "A：エミリーは スキーが すき？\nB：ううん、<b>すきじゃない</b>よ。水えいが すきなんだ。",
+        "options": [
+            "aren’t",
+            "doesn’t",
+            "don’t",
+            "isn’t"
+        ],
+        "optionMeanings": [
+            "（you, they の ときの「〜では ない」）",
+            "（he, she の ときの「〜しない」）",
+            "（I, you の ときの「〜しない」）",
+            "（he, she の ときの「〜では ない」）"
+        ],
+        "answer": "doesn’t",
+        "explanation": "<b>こたえ：doesn’t（〜しない）</b><br><br>💡 ヒント：\"Does 〜?\" と 聞かれたら、doesn’t で こたえます。she の ときも doesn’t です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-044",
+        "question": "A: What is your brother doing now, Jack?\nB: He is _____ lunch.",
+        "translation": "A：ジャック、お兄さんは 今 何を して いるの？\nB：ひるごはんを <b>食べて いる</b>よ。",
+        "options": [
+            "eating",
+            "ate",
+            "eat",
+            "eats"
+        ],
+        "optionMeanings": [
+            "食べて いる",
+            "食べた",
+            "食べる",
+            "食べる（s が つく かたち）"
+        ],
+        "answer": "eating",
+        "explanation": "<b>こたえ：eating（食べて いる）</b><br><br>💡 ヒント：\"He is\" の あとに くる かたちです。「今 〜して いる」は is eating です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-045",
+        "question": "A: Hi, Kate. _____ are you today?\nB: I’m fine, thank you.",
+        "translation": "A：こんにちは、ケイト。今日は <b>ちょうしは どう</b>？\nB：元気よ、ありがとう。",
+        "options": [
+            "When",
+            "How",
+            "What",
+            "Whose"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "どう",
+            "何",
+            "だれの"
+        ],
+        "answer": "How",
+        "explanation": "<b>こたえ：How（どう）</b><br><br>💡 ヒント：\"I'm fine\"（元気です）と こたえて います。ちょうしを 聞くのは How are you? です。",
+        "source": "2026年第2回(本会場)"
+    },
+    {
+        "id": "5-046",
+        "question": "Tom likes _____ very much. He drinks it every morning at breakfast.",
+        "translation": "トムは <b>ミルク</b>が 大すきです。毎朝、朝ごはんの 時に のみます。",
+        "options": [
+            "bag",
+            "dog",
+            "school",
+            "milk"
+        ],
+        "optionMeanings": [
+            "かばん",
+            "犬",
+            "学校",
+            "ミルク"
+        ],
+        "answer": "milk",
+        "explanation": "<b>こたえ：milk（ミルク）</b><br><br>💡 ヒント：\"drinks it\"（それを のむ）と あります。のめるのは milk（ミルク）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-047",
+        "question": "I like this park. Many _____ come here.",
+        "translation": "わたしは この 公園が すきです。たくさんの <b>人</b>が ここに 来ます。",
+        "options": [
+            "people",
+            "desks",
+            "pencils",
+            "trees"
+        ],
+        "optionMeanings": [
+            "人びと",
+            "つくえ",
+            "えんぴつ",
+            "木"
+        ],
+        "answer": "people",
+        "explanation": "<b>こたえ：people（人びと）</b><br><br>💡 ヒント：\"come here\"（ここに 来る）と あります。来るのは people（人びと）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-048",
+        "question": "A: Oh no! I can't open this box.\nB: Please _____ again, Anna.",
+        "translation": "A：あれ、この はこが あかないよ。\nB：もう 一ど <b>やって みて</b>、アンナ。",
+        "options": [
+            "wash",
+            "meet",
+            "dance",
+            "try"
+        ],
+        "optionMeanings": [
+            "あらう",
+            "会う",
+            "おどる",
+            "やって みる"
+        ],
+        "answer": "try",
+        "explanation": "<b>こたえ：try（やって みる）</b><br><br>💡 ヒント：\"again\"（もう 一ど）と あります。try は「やって みる」です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-049",
+        "question": "A: When does your math _____ start?\nB: It starts at 9:30.",
+        "translation": "A：算数の <b>じゅぎょう</b>は いつ はじまるの？\nB：9時30分だよ。",
+        "options": [
+            "water",
+            "map",
+            "desk",
+            "class"
+        ],
+        "optionMeanings": [
+            "水",
+            "ちず",
+            "つくえ",
+            "じゅぎょう"
+        ],
+        "answer": "class",
+        "explanation": "<b>こたえ：class（じゅぎょう）</b><br><br>💡 ヒント：\"start\"（はじまる）と あります。9時30分に はじまるのは class（じゅぎょう）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-050",
+        "question": "A: Ted, can you _____ the dog under the tree?\nB: Yes. It's very big.",
+        "translation": "A：テッド、木の 下の 犬が <b>見える</b>？\nB：うん。とても 大きいね。",
+        "options": [
+            "see",
+            "open",
+            "sing",
+            "write"
+        ],
+        "optionMeanings": [
+            "見える",
+            "あける",
+            "歌う",
+            "書く"
+        ],
+        "answer": "see",
+        "explanation": "<b>こたえ：see（見える）</b><br><br>💡 ヒント：\"very big\"（とても 大きい）と 犬の ようすを 言って います。だから see（見える）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-051",
+        "question": "A: Are you writing a letter?\nB: No. I'm _____ a picture.",
+        "translation": "A：手紙を 書いて いるの？\nB：ううん。絵を <b>かいて いる</b>んだ。",
+        "options": [
+            "singing",
+            "saying",
+            "jumping",
+            "drawing"
+        ],
+        "optionMeanings": [
+            "歌って いる",
+            "言って いる",
+            "とんで いる",
+            "かいて いる"
+        ],
+        "answer": "drawing",
+        "explanation": "<b>こたえ：drawing（かいて いる）</b><br><br>💡 ヒント：\"a picture\"（絵）と あります。絵を かくのは drawing です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-052",
+        "question": "A: Cindy, please close the _____.\nB: Sure.",
+        "translation": "A：シンディ、<b>ドア</b>を しめて ちょうだい。\nB：いいよ。",
+        "options": [
+            "door",
+            "singer",
+            "eraser",
+            "T-shirt"
+        ],
+        "optionMeanings": [
+            "ドア",
+            "歌手",
+            "けしゴム",
+            "Tシャツ"
+        ],
+        "answer": "door",
+        "explanation": "<b>こたえ：door（ドア）</b><br><br>💡 ヒント：\"close\"（しめる）と あります。しめる ものは door（ドア）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-053",
+        "question": "A: Can I use your computer, Lisa?\nB: All _____. You can.",
+        "translation": "A：リサ、あなたの コンピューターを つかっても いい？\nB：<b>いいよ</b>。つかって いいよ。",
+        "options": [
+            "easy",
+            "right",
+            "cute",
+            "new"
+        ],
+        "optionMeanings": [
+            "かんたんな",
+            "よい",
+            "かわいい",
+            "新しい"
+        ],
+        "answer": "right",
+        "explanation": "<b>こたえ：right（よい）</b><br><br>💡 ヒント：「All right.」で「いいよ」です。おねがいに こたえる ことばです。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-054",
+        "question": "My sister lives in Osaka. I often go from Tokyo _____ Osaka by train and visit her.",
+        "translation": "姉は おおさかに すんで います。わたしは よく 電車で 東京から おおさか<b>まで</b> 行き、姉に 会います。",
+        "options": [
+            "to",
+            "under",
+            "down",
+            "up"
+        ],
+        "optionMeanings": [
+            "〜まで",
+            "下に",
+            "下へ",
+            "上へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜まで）</b><br><br>💡 ヒント：「from 〜 to …」で「〜から …まで」です。セットで おぼえましょう。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-055",
+        "question": "I _____ up at seven o'clock every morning and go to school.",
+        "translation": "わたしは 毎朝 7時に <b>おきて</b>、学校へ 行きます。",
+        "options": [
+            "get",
+            "look",
+            "come",
+            "make"
+        ],
+        "optionMeanings": [
+            "おきる（get up で）",
+            "見る",
+            "来る",
+            "作る"
+        ],
+        "answer": "get",
+        "explanation": "<b>こたえ：get（おきる）</b><br><br>💡 ヒント：「get up」で「おきる」です。up と セットで おぼえましょう。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-056",
+        "question": "A: How _____ is your guitar lesson today, Kana?\nB: It is thirty minutes. Let's play in the park after that.",
+        "translation": "A：カナ、今日の ギターの レッスンは どのくらい <b>長い</b>の？\nB：30分だよ。その あと、公園で あそぼう。",
+        "options": [
+            "old",
+            "long",
+            "high",
+            "sunny"
+        ],
+        "optionMeanings": [
+            "古い",
+            "長い",
+            "高い",
+            "はれた"
+        ],
+        "answer": "long",
+        "explanation": "<b>こたえ：long（長い）</b><br><br>💡 ヒント：\"thirty minutes\"（30分）と こたえて います。時間の 長さを 聞くのは How long です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-057",
+        "question": "A: I like Japanese music. _____ about you?\nB: I like it, too.",
+        "translation": "A：わたしは 日本の 音楽が すき。あなたは <b>どう</b>？\nB：ぼくも すきだよ。",
+        "options": [
+            "Who",
+            "What",
+            "Where",
+            "Which"
+        ],
+        "optionMeanings": [
+            "だれ",
+            "何",
+            "どこ",
+            "どちら"
+        ],
+        "answer": "What",
+        "explanation": "<b>こたえ：What（何）</b><br><br>💡 ヒント：「What about you?」で「あなたは どう？」です。会話で よく つかいます。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-058",
+        "question": "A: This video camera is very nice. _____ is it?\nB: It's Ted's.",
+        "translation": "A：この ビデオカメラ、とても すてきだね。<b>だれの</b>？\nB：テッドのだよ。",
+        "options": [
+            "When",
+            "Where",
+            "How",
+            "Whose"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "どこ",
+            "どう",
+            "だれの"
+        ],
+        "answer": "Whose",
+        "explanation": "<b>こたえ：Whose（だれの）</b><br><br>💡 ヒント：\"Ted's\"（テッドの）と こたえて います。だから Whose（だれの）です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-059",
+        "question": "This notebook isn't yours. It's _____.",
+        "translation": "この ノートは あなたのでは ありません。<b>わたしの</b>です。",
+        "options": [
+            "he",
+            "they",
+            "I",
+            "mine"
+        ],
+        "optionMeanings": [
+            "かれは",
+            "かれらは",
+            "わたしは",
+            "わたしの もの"
+        ],
+        "answer": "mine",
+        "explanation": "<b>こたえ：mine（わたしの もの）</b><br><br>💡 ヒント：\"yours\"（あなたの もの）と くらべて います。「わたしの もの」は mine です。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-060",
+        "question": "A: Emily, please don't talk in the library. Just _____ quiet.\nB: OK, sorry.",
+        "translation": "A：エミリー、としょかんでは 話さないで。<b>しずかに して</b> いてね。\nB：うん、ごめんね。",
+        "options": [
+            "am",
+            "be",
+            "is",
+            "are"
+        ],
+        "optionMeanings": [
+            "（I の ときの かたち）",
+            "（もとの かたち）",
+            "（he, she の ときの かたち）",
+            "（you の ときの かたち）"
+        ],
+        "answer": "be",
+        "explanation": "<b>こたえ：be（もとの かたち）</b><br><br>💡 ヒント：「〜して いなさい」と 言う ときは、もとの かたちの be を つかいます。",
+        "source": "2026年第2回(準会場)"
+    },
+    {
+        "id": "5-061",
+        "question": "A: What’s Mike doing now?\nB: He’s _____ his dog in the garden.",
+        "translation": "A：マイクは 今 何を して いますか。\nB：にわで 犬を <b>あらって</b> います。",
+        "options": [
+            "reading",
+            "washing",
+            "making",
+            "sitting"
+        ],
+        "optionMeanings": [
+            "よんで いる",
+            "あらって いる",
+            "作って いる",
+            "すわって いる"
+        ],
+        "answer": "washing",
+        "explanation": "<b>こたえ：washing（あらって いる）</b><br><br>💡 ヒント：dog（犬）と garden（にわ）が ヒントです。にわで 犬に する ことは「あらう」です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-062",
+        "question": "A: It’s very cold, Billy. _____ a coat today.\nB: OK, Mom.",
+        "translation": "A：とても さむいよ、ビリー。今日は コートを <b>きなさい</b>。\nB：わかったよ、お母さん。",
+        "options": [
+            "Listen",
+            "Wear",
+            "See",
+            "Watch"
+        ],
+        "optionMeanings": [
+            "聞きなさい",
+            "きなさい",
+            "見なさい",
+            "じっと 見なさい"
+        ],
+        "answer": "Wear",
+        "explanation": "<b>こたえ：Wear（きる）</b><br><br>💡 ヒント：cold（さむい）と coat（コート）が ヒントです。コートは「きる」もの なので Wear です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-063",
+        "question": "A: What’s your favorite color, Amy?\nB: It’s _____.",
+        "translation": "A：エイミー、すきな 色は 何ですか。\nB：<b>茶色</b>です。",
+        "options": [
+            "clean",
+            "brown",
+            "tall",
+            "hard"
+        ],
+        "optionMeanings": [
+            "きれいな",
+            "茶色",
+            "せが 高い",
+            "かたい"
+        ],
+        "answer": "brown",
+        "explanation": "<b>こたえ：brown（茶色）</b><br><br>💡 ヒント：color（色）を 聞いて います。色の 名前は brown（茶色）だけです。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-064",
+        "question": "I have a photo _____. I have many pictures of my family in it.",
+        "translation": "わたしは しゃしんの <b>アルバム</b>を もって います。中に かぞくの しゃしんが たくさん あります。",
+        "options": [
+            "album",
+            "pen",
+            "sun",
+            "dog"
+        ],
+        "optionMeanings": [
+            "アルバム",
+            "ペン",
+            "太よう",
+            "犬"
+        ],
+        "answer": "album",
+        "explanation": "<b>こたえ：album（アルバム）</b><br><br>💡 ヒント：photo と pictures（しゃしん）が ヒントです。しゃしんを 入れる ものは album（アルバム）です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-065",
+        "question": "My brother and I _____ to school by bus every day.",
+        "translation": "ぼくと 弟は 毎日 バスで 学校に <b>来ます</b>。",
+        "options": [
+            "talk",
+            "eat",
+            "see",
+            "come"
+        ],
+        "optionMeanings": [
+            "話す",
+            "食べる",
+            "見る",
+            "来る"
+        ],
+        "answer": "come",
+        "explanation": "<b>こたえ：come（来る）</b><br><br>💡 ヒント：to school（学校へ）と by bus（バスで）が ヒントです。学校へ「来る」と いう いみの come です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-066",
+        "question": "Henry is a _____. He plays the guitar and the piano.",
+        "translation": "ヘンリーは <b>音楽家</b>です。ギターと ピアノを ひきます。",
+        "options": [
+            "rabbit",
+            "musician",
+            "jacket",
+            "team"
+        ],
+        "optionMeanings": [
+            "ウサギ",
+            "音楽家",
+            "ジャケット",
+            "チーム"
+        ],
+        "answer": "musician",
+        "explanation": "<b>こたえ：musician（音楽家）</b><br><br>💡 ヒント：guitar（ギター）と piano（ピアノ）を ひく 人です。だから musician（音楽家）です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-067",
+        "question": "A: Hi, Jane. Where is Ken?\nB: He’s in the _____.",
+        "translation": "A：こんにちは、ジェーン。ケンは どこですか。\nB：<b>体いくかん</b>に います。",
+        "options": [
+            "watch",
+            "gym",
+            "banana",
+            "night"
+        ],
+        "optionMeanings": [
+            "うで時計",
+            "体いくかん",
+            "バナナ",
+            "夜"
+        ],
+        "answer": "gym",
+        "explanation": "<b>こたえ：gym（体いくかん）</b><br><br>💡 ヒント：Where（どこ）と 聞いて います。ばしょを あらわす ことばは gym（体いくかん）です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-068",
+        "question": "I love basketball. I often watch basketball games _____ TV with my brother.",
+        "translation": "わたしは バスケットボールが 大すきです。よく 兄と <b>テレビで</b> しあいを 見ます。",
+        "options": [
+            "of",
+            "on",
+            "at",
+            "in"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜で（テレビで）",
+            "〜で（ばしょ）",
+            "〜の 中で"
+        ],
+        "answer": "on",
+        "explanation": "<b>こたえ：on（〜で）</b><br><br>💡 ヒント：「テレビで」は on TV と 言います。on と TV を セットで おぼえましょう。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-069",
+        "question": "Tom has a _____ of coffee every morning before he goes to school.",
+        "translation": "トムは 毎朝 学校に 行く 前に、コーヒーを <b>カップ 1ぱい</b> のみます。",
+        "options": [
+            "corn",
+            "floor",
+            "window",
+            "cup"
+        ],
+        "optionMeanings": [
+            "とうもろこし",
+            "ゆか",
+            "まど",
+            "カップ"
+        ],
+        "answer": "cup",
+        "explanation": "<b>こたえ：cup（カップ）</b><br><br>💡 ヒント：coffee（コーヒー）が ヒントです。a cup of coffee で「カップ 1ぱいの コーヒー」です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-070",
+        "question": "A: Do you play basketball, Bob?\nB: Yes, a _____.",
+        "translation": "A：ボブ、バスケットボールを しますか。\nB：はい、<b>少し</b> します。",
+        "options": [
+            "little",
+            "beautiful",
+            "fast",
+            "much"
+        ],
+        "optionMeanings": [
+            "少し",
+            "うつくしい",
+            "はやい",
+            "たくさん"
+        ],
+        "answer": "little",
+        "explanation": "<b>こたえ：little（少し）</b><br><br>💡 ヒント：a little で「少し」と いう いみです。Yes, a little.（はい、少し）と おぼえましょう。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-071",
+        "question": "I get _____ early every morning and go to the park.",
+        "translation": "わたしは 毎朝 早く <b>おきて</b>、公園へ 行きます。",
+        "options": [
+            "on",
+            "up",
+            "over",
+            "right"
+        ],
+        "optionMeanings": [
+            "〜の 上に",
+            "上へ",
+            "〜を こえて",
+            "右・正しい"
+        ],
+        "answer": "up",
+        "explanation": "<b>こたえ：up（get up で おきる）</b><br><br>💡 ヒント：get up で「おきる」と いう いみです。early（早く）とも よく いっしょに つかいます。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-072",
+        "question": "Janet _____ swimming every Sunday with her sister.",
+        "translation": "ジャネットは 毎週 日曜日に、お姉さんと <b>およぎに 行きます</b>。",
+        "options": [
+            "goes",
+            "asks",
+            "buys",
+            "drinks"
+        ],
+        "optionMeanings": [
+            "行く（s が つく かたち）",
+            "たずねる",
+            "買う",
+            "のむ"
+        ],
+        "answer": "goes",
+        "explanation": "<b>こたえ：goes（行く）</b><br><br>💡 ヒント：go swimming で「およぎに 行く」です。Janet は 1人 なので goes に なります。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-073",
+        "question": "A: Mom, can I _____ a letter to Uncle Rob this afternoon?\nB: Of course, Kenji.",
+        "translation": "A：お母さん、今日の 午後、ロブおじさんに 手紙を <b>書いても</b> いい？\nB：もちろんよ、ケンジ。",
+        "options": [
+            "writes",
+            "wrote",
+            "write",
+            "writing"
+        ],
+        "optionMeanings": [
+            "書く（s が つく かたち）",
+            "write の 前の かたち（書いた）",
+            "書く（もとの かたち）",
+            "書いて いる"
+        ],
+        "answer": "write",
+        "explanation": "<b>こたえ：write（書く）</b><br><br>💡 ヒント：can の あとは、うごきの ことばを もとの かたちに します。だから write です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-074",
+        "question": "I know Tim and Lucy. _____ are Canadian.",
+        "translation": "わたしは ティムと ルーシーを 知って います。<b>2人</b>は カナダ人です。",
+        "options": [
+            "He",
+            "They",
+            "It",
+            "You"
+        ],
+        "optionMeanings": [
+            "かれは",
+            "かれらは",
+            "それは",
+            "あなたは"
+        ],
+        "answer": "They",
+        "explanation": "<b>こたえ：They（かれらは）</b><br><br>💡 ヒント：Tim と Lucy の 2人の ことです。2人 いじょうの ときは They を つかいます。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-075",
+        "question": "A: It’s hot. Please _____ the window.\nB: OK, Mom.",
+        "translation": "A：あついわね。まどを <b>あけて</b> ちょうだい。\nB：わかったよ、お母さん。",
+        "options": [
+            "opens",
+            "open",
+            "opening",
+            "opened"
+        ],
+        "optionMeanings": [
+            "あける（s が つく かたち）",
+            "あける（もとの かたち）",
+            "あけて いる",
+            "open の 前の かたち（あけた）"
+        ],
+        "answer": "open",
+        "explanation": "<b>こたえ：open（あける）</b><br><br>💡 ヒント：Please の あとは、うごきの ことばを もとの かたちに します。だから open です。",
+        "source": "2025年第1回(本会場)"
+    },
+    {
+        "id": "5-076",
+        "question": "A: Is that your brother?\nB: No, that's my _____. He's my uncle Bob's son.",
+        "translation": "A：あれは あなたの お兄さんですか。\nB：いいえ、<b>いとこ</b>です。ボブおじさんの むすこです。",
+        "options": [
+            "stadium",
+            "apron",
+            "street",
+            "cousin"
+        ],
+        "optionMeanings": [
+            "スタジアム",
+            "エプロン",
+            "道",
+            "いとこ"
+        ],
+        "answer": "cousin",
+        "explanation": "<b>こたえ：cousin（いとこ）</b><br><br>💡 ヒント：uncle Bob's son（ボブおじさんの むすこ）と 言って います。おじさんの 子どもは cousin（いとこ）です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-077",
+        "question": "A: Let's have a _____ in the park today.\nB: OK.",
+        "translation": "A：今日は 公園で <b>ピクニック</b>を しよう。\nB：いいよ。",
+        "options": [
+            "math",
+            "teacher",
+            "train",
+            "picnic"
+        ],
+        "optionMeanings": [
+            "数学",
+            "先生",
+            "電車",
+            "ピクニック"
+        ],
+        "answer": "picnic",
+        "explanation": "<b>こたえ：picnic（ピクニック）</b><br><br>💡 ヒント：in the park（公園で）が ヒントです。Let's have a picnic. で「ピクニックを しよう」です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-078",
+        "question": "A: Your sister isn't here. Can you _____ the phone, please?\nB: OK.",
+        "translation": "A：お姉さんが いないの。電話に <b>出て</b> くれる？\nB：いいよ。",
+        "options": [
+            "answer",
+            "cook",
+            "drink",
+            "go"
+        ],
+        "optionMeanings": [
+            "こたえる・（電話に）出る",
+            "りょうりする",
+            "のむ",
+            "行く"
+        ],
+        "answer": "answer",
+        "explanation": "<b>こたえ：answer（電話に 出る）</b><br><br>💡 ヒント：the phone（電話）が ヒントです。answer the phone で「電話に 出る」です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-079",
+        "question": "My brother likes volleyball very much. He can _____ very high.",
+        "translation": "兄は バレーボールが 大すきです。とても 高く <b>とぶ</b> ことが できます。",
+        "options": [
+            "jump",
+            "write",
+            "drink",
+            "run"
+        ],
+        "optionMeanings": [
+            "とぶ・ジャンプする",
+            "書く",
+            "のむ",
+            "走る"
+        ],
+        "answer": "jump",
+        "explanation": "<b>こたえ：jump（とぶ）</b><br><br>💡 ヒント：volleyball（バレーボール）と very high（とても 高く）が ヒントです。高く する ことは jump（とぶ）です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-080",
+        "question": "A: Do you have a pet, Hiroko?\nB: Yes. I have a _____.",
+        "translation": "A：ヒロコ、ペットを かって いますか。\nB：はい。<b>ウサギ</b>を かって います。",
+        "options": [
+            "map",
+            "soda",
+            "rabbit",
+            "pen"
+        ],
+        "optionMeanings": [
+            "ちず",
+            "ソーダ",
+            "ウサギ",
+            "ペン"
+        ],
+        "answer": "rabbit",
+        "explanation": "<b>こたえ：rabbit（ウサギ）</b><br><br>💡 ヒント：pet（ペット）を 聞いて います。どうぶつは rabbit（ウサギ）だけです。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-081",
+        "question": "A: What time is it now?\nB: Sorry, I don't know. Let's check the _____ on the wall.",
+        "translation": "A：今 何時ですか。\nB：ごめんなさい、わかりません。かべの <b>時計</b>を 見て みましょう。",
+        "options": [
+            "table",
+            "cup",
+            "pen",
+            "clock"
+        ],
+        "optionMeanings": [
+            "テーブル",
+            "カップ",
+            "ペン",
+            "時計"
+        ],
+        "answer": "clock",
+        "explanation": "<b>こたえ：clock（時計）</b><br><br>💡 ヒント：What time（何時）と on the wall（かべの）が ヒントです。かべに かける 時計は clock です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-082",
+        "question": "A: Tom, you're _____. I can't wait.\nB: I'm sorry, Dad. I'm coming right now.",
+        "translation": "A：トム、<b>おそい</b>よ。もう まてないよ。\nB：ごめんなさい、お父さん。すぐ 行くよ。",
+        "options": [
+            "short",
+            "late",
+            "hard",
+            "fast"
+        ],
+        "optionMeanings": [
+            "みじかい",
+            "おそい・ちこくした",
+            "かたい",
+            "はやい"
+        ],
+        "answer": "late",
+        "explanation": "<b>こたえ：late（おそい）</b><br><br>💡 ヒント：I can't wait.（もう まてない）と I'm sorry（ごめんなさい）が ヒントです。おくれて いるので late（おそい）です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-083",
+        "question": "A: Can I have a _____ of orange juice, Mom?\nB: Yes, here you are.",
+        "translation": "A：お母さん、オレンジジュースを <b>コップ 1ぱい</b> もらえる？\nB：ええ、はい どうぞ。",
+        "options": [
+            "glass",
+            "coin",
+            "camera",
+            "mouth"
+        ],
+        "optionMeanings": [
+            "コップ",
+            "コイン",
+            "カメラ",
+            "口"
+        ],
+        "answer": "glass",
+        "explanation": "<b>こたえ：glass（コップ）</b><br><br>💡 ヒント：orange juice（オレンジジュース）が ヒントです。a glass of で「コップ 1ぱいの」と いう いみです。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-084",
+        "question": "My sister is always _____ home in the morning. She doesn't go out.",
+        "translation": "姉は 朝は いつも <b>家に</b> います。外に 出かけません。",
+        "options": [
+            "of",
+            "on",
+            "from",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜の 上に",
+            "〜から",
+            "〜に・〜で"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜に）</b><br><br>💡 ヒント：at home で「家に（いる）」と いう いみです。She doesn't go out.（出かけない）とも 合います。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-085",
+        "question": "Helen has a _____ of comic books.",
+        "translation": "ヘレンは まんがの 本を <b>たくさん</b> もって います。",
+        "options": [
+            "some",
+            "much",
+            "lot",
+            "many"
+        ],
+        "optionMeanings": [
+            "いくつかの",
+            "たくさん（数えない もの）",
+            "（a lot of で）たくさんの",
+            "たくさんの（数える もの）"
+        ],
+        "answer": "lot",
+        "explanation": "<b>こたえ：lot（a lot of で たくさんの）</b><br><br>💡 ヒント：a の あとに 入るのは lot だけです。a lot of で「たくさんの」と いう いみです。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-086",
+        "question": "Lucy plays tennis _____ school every day.",
+        "translation": "ルーシーは 毎日、学校の <b>あとに</b> テニスを します。",
+        "options": [
+            "with",
+            "after",
+            "on",
+            "about"
+        ],
+        "optionMeanings": [
+            "〜と いっしょに",
+            "〜の あとに",
+            "〜の 上に",
+            "〜に ついて"
+        ],
+        "answer": "after",
+        "explanation": "<b>こたえ：after（〜の あとに）</b><br><br>💡 ヒント：after school で「学校の あと（ほうかご）」と いう いみです。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-087",
+        "question": "A: George, please _____ up and sing.\nB: OK, Ms. Clark.",
+        "translation": "A：ジョージ、<b>立って</b> 歌って ください。\nB：はい、クラーク先生。",
+        "options": [
+            "study",
+            "smile",
+            "stand",
+            "see"
+        ],
+        "optionMeanings": [
+            "べんきょうする",
+            "ほほえむ",
+            "立つ",
+            "見る"
+        ],
+        "answer": "stand",
+        "explanation": "<b>こたえ：stand（立つ）</b><br><br>💡 ヒント：stand up で「立つ」と いう いみです。up が ヒントです。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-088",
+        "question": "I have one sister. _____ can dance very well.",
+        "translation": "わたしには 姉が 1人 います。<b>姉</b>は ダンスが とても じょうずです。",
+        "options": [
+            "They",
+            "It",
+            "She",
+            "He"
+        ],
+        "optionMeanings": [
+            "かれらは",
+            "それは",
+            "かのじょは",
+            "かれは"
+        ],
+        "answer": "She",
+        "explanation": "<b>こたえ：She（かのじょは）</b><br><br>💡 ヒント：sister（姉・妹）は 女の人です。1人の 女の人は She（かのじょは）です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-089",
+        "question": "A: Tom, please _____ quiet here.\nB: Sorry, Mr. Smith.",
+        "translation": "A：トム、ここでは <b>しずかに して</b> ください。\nB：ごめんなさい、スミス先生。",
+        "options": [
+            "is",
+            "are",
+            "be",
+            "am"
+        ],
+        "optionMeanings": [
+            "〜だ（1人・1つの とき）",
+            "〜だ（you や 2人 いじょう）",
+            "〜だ（もとの かたち）",
+            "〜だ（I の とき）"
+        ],
+        "answer": "be",
+        "explanation": "<b>こたえ：be（もとの かたち）</b><br><br>💡 ヒント：please の あとは、もとの かたちに します。is, are, am の もとの かたちは be です。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-090",
+        "question": "A: Good morning, Neil. _____ are you?\nB: Good, thank you, Maria.",
+        "translation": "A：おはよう、ニール。<b>げんき</b>ですか。\nB：げんきです。ありがとう、マリア。",
+        "options": [
+            "Where",
+            "When",
+            "What",
+            "How"
+        ],
+        "optionMeanings": [
+            "どこ",
+            "いつ",
+            "何",
+            "どう・どんな"
+        ],
+        "answer": "How",
+        "explanation": "<b>こたえ：How（どう）</b><br><br>💡 ヒント：How are you? は「げんきですか」と いう あいさつです。Good（げんき）と こたえて います。",
+        "source": "2025年第1回(準会場)"
+    },
+    {
+        "id": "5-091",
+        "question": "A: Yuka, let’s sit down on the _____ and watch TV.\nB: OK.",
+        "translation": "A：ユカ、<b>ゆか</b>に すわって テレビを 見よう。\nB：いいよ。",
+        "options": [
+            "drink",
+            "floor",
+            "jump",
+            "breakfast"
+        ],
+        "optionMeanings": [
+            "のみもの",
+            "ゆか",
+            "とぶ",
+            "朝ごはん"
+        ],
+        "answer": "floor",
+        "explanation": "<b>こたえ：floor（ゆか）</b><br><br>💡 ヒント：sit down on the（〜に すわる）が ヒントです。すわる ばしょは floor（ゆか）です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-092",
+        "question": "Mr. Hara has a big _____ in his garden. It has many oranges.",
+        "translation": "原さんの にわには 大きな <b>木</b>が あります。オレンジが たくさん なって います。",
+        "options": [
+            "plate",
+            "fork",
+            "kitchen",
+            "tree"
+        ],
+        "optionMeanings": [
+            "おさら",
+            "フォーク",
+            "だいどころ",
+            "木"
+        ],
+        "answer": "tree",
+        "explanation": "<b>こたえ：tree（木）</b><br><br>💡 ヒント：in his garden（にわに）と many oranges（オレンジが たくさん）が ヒントです。オレンジが なるのは tree（木）です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-093",
+        "question": "A: Mom, I don’t know this word. Can you help me?\nB: No, I can’t. Use your _____, Tom.",
+        "translation": "A：お母さん、この ことばが わからないの。手つだって くれる？\nB：だめよ。自分の <b>じしょ</b>を つかいなさい、トム。",
+        "options": [
+            "page",
+            "cup",
+            "dictionary",
+            "story"
+        ],
+        "optionMeanings": [
+            "ページ",
+            "カップ",
+            "じしょ",
+            "お話"
+        ],
+        "answer": "dictionary",
+        "explanation": "<b>こたえ：dictionary（じしょ）</b><br><br>💡 ヒント：I don't know this word.（この ことばが わからない）が ヒントです。ことばを しらべる ものは dictionary（じしょ）です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-094",
+        "question": "Mr. Brown is a music teacher. He plays the _____ very well.",
+        "translation": "ブラウン先生は 音楽の 先生です。<b>トランペット</b>を とても じょうずに ふきます。",
+        "options": [
+            "trumpet",
+            "cup",
+            "clock",
+            "pencil"
+        ],
+        "optionMeanings": [
+            "トランペット",
+            "カップ",
+            "時計",
+            "えんぴつ"
+        ],
+        "answer": "trumpet",
+        "explanation": "<b>こたえ：trumpet（トランペット）</b><br><br>💡 ヒント：music teacher（音楽の 先生）と plays the（〜を えんそうする）が ヒントです。がっきは trumpet だけです。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-095",
+        "question": "A: This is my new computer.\nB: It’s _____. I want one, too.",
+        "translation": "A：これ、ぼくの 新しい コンピューターだよ。\nB：<b>すごいね</b>。ぼくも ほしいな。",
+        "options": [
+            "great",
+            "cloudy",
+            "sure",
+            "delicious"
+        ],
+        "optionMeanings": [
+            "すばらしい",
+            "くもりの",
+            "もちろん",
+            "おいしい"
+        ],
+        "answer": "great",
+        "explanation": "<b>こたえ：great（すばらしい）</b><br><br>💡 ヒント：I want one, too.（ぼくも ほしい）と 言って います。よい ものを ほめる ことばは great（すごい）です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-096",
+        "question": "Sally has a smart dog. He can stand and _____ a ball.",
+        "translation": "サリーは かしこい 犬を かって います。その 犬は 立って、ボールを <b>キャッチ</b> できます。",
+        "options": [
+            "eat",
+            "catch",
+            "cook",
+            "buy"
+        ],
+        "optionMeanings": [
+            "食べる",
+            "キャッチする",
+            "りょうりする",
+            "買う"
+        ],
+        "answer": "catch",
+        "explanation": "<b>こたえ：catch（キャッチする）</b><br><br>💡 ヒント：a ball（ボール）が ヒントです。犬が ボールに する ことは catch（キャッチする）です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-097",
+        "question": "A: Mom, please _____ sandwiches for lunch.\nB: OK, John.",
+        "translation": "A：お母さん、おひるごはんに サンドイッチを <b>作って</b>。\nB：いいわよ、ジョン。",
+        "options": [
+            "know",
+            "make",
+            "sit",
+            "study"
+        ],
+        "optionMeanings": [
+            "知って いる",
+            "作る",
+            "すわる",
+            "べんきょうする"
+        ],
+        "answer": "make",
+        "explanation": "<b>こたえ：make（作る）</b><br><br>💡 ヒント：sandwiches（サンドイッチ）と lunch（おひるごはん）が ヒントです。ごはんは make（作る）ものです。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-098",
+        "question": "A: I have a cold, so I can’t play soccer with you today.\nB: I _____. That’s OK.",
+        "translation": "A：かぜを ひいたから、今日は いっしょに サッカーが できないんだ。\nB：<b>わかった</b>。だいじょうぶだよ。",
+        "options": [
+            "am",
+            "do",
+            "see",
+            "love"
+        ],
+        "optionMeanings": [
+            "〜です",
+            "する",
+            "見る・わかる",
+            "大すき"
+        ],
+        "answer": "see",
+        "explanation": "<b>こたえ：see（わかる）</b><br><br>💡 ヒント：I see. で「わかった」と いう いみです。話を 聞いて、なっとくした ときに つかいます。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-099",
+        "question": "A: _____ me. Where’s the bathroom?\nB: It’s over there.",
+        "translation": "A：<b>すみません</b>。トイレは どこですか。\nB：あそこです。",
+        "options": [
+            "Begin",
+            "Know",
+            "Call",
+            "Excuse"
+        ],
+        "optionMeanings": [
+            "はじめる",
+            "知って いる",
+            "よぶ",
+            "ゆるす"
+        ],
+        "answer": "Excuse",
+        "explanation": "<b>こたえ：Excuse（すみません）</b><br><br>💡 ヒント：Excuse me. は「すみません」と 人に 話しかける ことばです。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-100",
+        "question": "A: Goodbye, David.\nB: Bye, Sam. _____ a good day.",
+        "translation": "A：さようなら、デイビッド。\nB：またね、サム。<b>よい 一日を</b>。",
+        "options": [
+            "Help",
+            "Take",
+            "Have",
+            "Hear"
+        ],
+        "optionMeanings": [
+            "手つだう",
+            "とる",
+            "もつ・すごす",
+            "聞こえる"
+        ],
+        "answer": "Have",
+        "explanation": "<b>こたえ：Have（すごす）</b><br><br>💡 ヒント：Have a good day. で「よい 一日を」と いう わかれの あいさつです。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-101",
+        "question": "A: Welcome _____ our sports club, Paul.\nB: Thank you, Mr. Johnson.",
+        "translation": "A：ポール、わたしたちの スポーツクラブ<b>へ</b> ようこそ。\nB：ありがとうございます、ジョンソンさん。",
+        "options": [
+            "on",
+            "of",
+            "for",
+            "to"
+        ],
+        "optionMeanings": [
+            "〜の 上に",
+            "〜の",
+            "〜の ために",
+            "〜へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：Welcome to 〜. で「〜へ ようこそ」と いう いみです。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-102",
+        "question": "I play basketball _____ school. My brother and my friend play, too.",
+        "translation": "わたしは 学校<b>で</b> バスケットボールを します。兄と 友だちも します。",
+        "options": [
+            "from",
+            "at",
+            "of",
+            "with"
+        ],
+        "optionMeanings": [
+            "〜から",
+            "〜で",
+            "〜の",
+            "〜と いっしょに"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜で）</b><br><br>💡 ヒント：at school で「学校で」と いう いみです。ばしょの 前に at を つかいます。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-103",
+        "question": "Jack _____ a junior high school student. He goes to a high school.",
+        "translation": "ジャックは 中学生<b>では ありません</b>。高校に かよって います。",
+        "options": [
+            "aren’t",
+            "doesn’t",
+            "isn’t",
+            "don’t"
+        ],
+        "optionMeanings": [
+            "〜では ない（you や 2人 いじょう）",
+            "〜しない（1人の とき）",
+            "〜では ない（1人の とき）",
+            "〜しない（I や you の とき）"
+        ],
+        "answer": "isn’t",
+        "explanation": "<b>こたえ：isn’t（〜では ない）</b><br><br>💡 ヒント：「中学生 では ない」と いう 文です。Jack は 1人 なので isn't を つかいます。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-104",
+        "question": "A: This dress is very nice. _____ is it?\nB: It’s my mother’s.",
+        "translation": "A：この ドレス、とても すてきね。<b>だれの</b> ものですか。\nB：わたしの 母の ものです。",
+        "options": [
+            "Who",
+            "Where",
+            "Whose",
+            "When"
+        ],
+        "optionMeanings": [
+            "だれ",
+            "どこ",
+            "だれの",
+            "いつ"
+        ],
+        "answer": "Whose",
+        "explanation": "<b>こたえ：Whose（だれの）</b><br><br>💡 ヒント：It's my mother's.（母の ものです）と こたえて います。「だれの」は Whose です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-105",
+        "question": "A: Bill, let’s _____ the homework together.\nB: OK, Maria.",
+        "translation": "A：ビル、いっしょに しゅくだいを <b>たしかめよう</b>。\nB：いいよ、マリア。",
+        "options": [
+            "check",
+            "checked",
+            "checks",
+            "checking"
+        ],
+        "optionMeanings": [
+            "たしかめる（もとの かたち）",
+            "check の 前の かたち（たしかめた）",
+            "たしかめる（s が つく かたち）",
+            "たしかめて いる"
+        ],
+        "answer": "check",
+        "explanation": "<b>こたえ：check（たしかめる）</b><br><br>💡 ヒント：let's の あとは、うごきの ことばを もとの かたちに します。だから check です。",
+        "source": "2025年第2回(本会場)"
+    },
+    {
+        "id": "5-106",
+        "question": "A: Do you have a dog _____ a cat?\nB: I have a dog.",
+        "translation": "A：犬<b>か</b> ねこを かって いますか。\nB：犬を かって います。",
+        "options": [
+            "to",
+            "or",
+            "so",
+            "but"
+        ],
+        "optionMeanings": [
+            "〜へ",
+            "または",
+            "だから",
+            "でも"
+        ],
+        "answer": "or",
+        "explanation": "<b>こたえ：or（または）</b><br><br>💡 ヒント：a dog と a cat の どちらかを 聞いて います。「〜か 〜」は or です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-107",
+        "question": "A: What do you eat for breakfast on _____?\nB: Cereal and milk.",
+        "translation": "A：<b>月曜日</b>には、朝ごはんに 何を 食べますか。\nB：シリアルと 牛にゅうです。",
+        "options": [
+            "sun",
+            "June",
+            "egg",
+            "Monday"
+        ],
+        "optionMeanings": [
+            "太よう",
+            "6月",
+            "たまご",
+            "月曜日"
+        ],
+        "answer": "Monday",
+        "explanation": "<b>こたえ：Monday（月曜日）</b><br><br>💡 ヒント：on の あとに 曜日が 来ます。曜日は Monday（月曜日）だけです。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-108",
+        "question": "A: What color is your pencil, Tom?\nB: It's _____.",
+        "translation": "A：トム、きみの えんぴつは 何色？\nB：<b>黄色</b>だよ。",
+        "options": [
+            "hungry",
+            "good",
+            "yellow",
+            "big"
+        ],
+        "optionMeanings": [
+            "おなかが すいた",
+            "よい",
+            "黄色",
+            "大きい"
+        ],
+        "answer": "yellow",
+        "explanation": "<b>こたえ：yellow（黄色）</b><br><br>💡 ヒント：What color（何色）と 聞いて います。色の 名前は yellow（黄色）だけです。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-109",
+        "question": "I want a new _____. My old one is too small, so I can't sleep well.",
+        "translation": "新しい <b>ベッド</b>が ほしいです。古いのは 小さすぎて、よく ねむれません。",
+        "options": [
+            "bag",
+            "tree",
+            "cup",
+            "bed"
+        ],
+        "optionMeanings": [
+            "かばん",
+            "木",
+            "カップ",
+            "ベッド"
+        ],
+        "answer": "bed",
+        "explanation": "<b>こたえ：bed（ベッド）</b><br><br>💡 ヒント：I can't sleep well.（よく ねむれない）が ヒントです。ねる ための ものは bed（ベッド）です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-110",
+        "question": "Peter's favorite month is _____. It is the third month of the year.",
+        "translation": "ピーターの すきな 月は <b>3月</b>です。1年の 3番目の 月です。",
+        "options": [
+            "December",
+            "March",
+            "August",
+            "February"
+        ],
+        "optionMeanings": [
+            "12月",
+            "3月",
+            "8月",
+            "2月"
+        ],
+        "answer": "March",
+        "explanation": "<b>こたえ：March（3月）</b><br><br>💡 ヒント：the third month（3番目の 月）と 言って います。3番目の 月は March（3月）です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-111",
+        "question": "Many _____ in Japan like sushi. It is a popular food.",
+        "translation": "日本の 多くの <b>人</b>は、すしが すきです。人気の 食べものです。",
+        "options": [
+            "books",
+            "towers",
+            "bags",
+            "people"
+        ],
+        "optionMeanings": [
+            "本",
+            "タワー",
+            "かばん",
+            "人々"
+        ],
+        "answer": "people",
+        "explanation": "<b>こたえ：people（人々）</b><br><br>💡 ヒント：like sushi（すしが すき）なのは 人です。だから people（人々）です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-112",
+        "question": "Mr. Brown's son is 15 years old. He has _____ hair.",
+        "translation": "ブラウンさんの むすこは 15才です。かみが <b>長い</b>です。",
+        "options": [
+            "long",
+            "delicious",
+            "sunny",
+            "early"
+        ],
+        "optionMeanings": [
+            "長い",
+            "おいしい",
+            "はれた",
+            "早い"
+        ],
+        "answer": "long",
+        "explanation": "<b>こたえ：long（長い）</b><br><br>💡 ヒント：hair（かみの毛）に 合う ことばは long（長い）です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-113",
+        "question": "I have a math test every Friday. The questions are always a _____ difficult.",
+        "translation": "毎週 金曜日に 数学の テストが あります。もんだいは いつも <b>少し</b> むずかしいです。",
+        "options": [
+            "low",
+            "most",
+            "many",
+            "little"
+        ],
+        "optionMeanings": [
+            "ひくい",
+            "いちばん",
+            "たくさんの",
+            "少し"
+        ],
+        "answer": "little",
+        "explanation": "<b>こたえ：little（少し）</b><br><br>💡 ヒント：a little で「少し」と いう いみです。a little difficult で「少し むずかしい」です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-114",
+        "question": "A: What do you do _____ school, Charlie?\nB: I usually play tennis.",
+        "translation": "A：チャーリー、学校の <b>あとに</b> 何を するの？\nB：たいてい テニスを するよ。",
+        "options": [
+            "after",
+            "into",
+            "down",
+            "on"
+        ],
+        "optionMeanings": [
+            "〜の あとに",
+            "〜の 中へ",
+            "下へ",
+            "〜の 上に"
+        ],
+        "answer": "after",
+        "explanation": "<b>こたえ：after（〜の あとに）</b><br><br>💡 ヒント：after school で「学校の あと（ほうかご）」と いう いみです。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-115",
+        "question": "Kenta likes jazz music. He often _____ to it in his room.",
+        "translation": "ケンタは ジャズが すきです。よく 自分の へやで ジャズを <b>聞きます</b>。",
+        "options": [
+            "looks",
+            "opens",
+            "listens",
+            "watches"
+        ],
+        "optionMeanings": [
+            "見る",
+            "あける",
+            "聞く",
+            "（テレビなどを）見る"
+        ],
+        "answer": "listens",
+        "explanation": "<b>こたえ：listens（聞く）</b><br><br>💡 ヒント：music（音楽）が ヒントです。listen to で「〜を 聞く」と いう いみです。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-116",
+        "question": "A: It's time for lunch. How _____ pizza?\nB: Good idea. I want one with cheese.",
+        "translation": "A：おひるごはんの 時間だね。ピザは <b>どう</b>？\nB：いいね。チーズの ピザが いいな。",
+        "options": [
+            "about",
+            "for",
+            "with",
+            "from"
+        ],
+        "optionMeanings": [
+            "（How about で）〜は どう？",
+            "〜の ために",
+            "〜と いっしょに",
+            "〜から"
+        ],
+        "answer": "about",
+        "explanation": "<b>こたえ：about（〜は どう？）</b><br><br>💡 ヒント：How about 〜? で「〜は どう？」と さそう ことばです。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-117",
+        "question": "This flower is very beautiful. Let's take a _____ of it.",
+        "translation": "この 花は とても きれいです。<b>しゃしん</b>を とりましょう。",
+        "options": [
+            "hand",
+            "store",
+            "town",
+            "picture"
+        ],
+        "optionMeanings": [
+            "手",
+            "店",
+            "町",
+            "しゃしん"
+        ],
+        "answer": "picture",
+        "explanation": "<b>こたえ：picture（しゃしん）</b><br><br>💡 ヒント：take a picture で「しゃしんを とる」と いう いみです。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-118",
+        "question": "A: _____ quiet, everyone. Let's start the meeting.\nB: OK.",
+        "translation": "A：みなさん、<b>しずかに して</b> ください。会ぎを はじめましょう。\nB：はい。",
+        "options": [
+            "Is",
+            "Am",
+            "Are",
+            "Be"
+        ],
+        "optionMeanings": [
+            "〜だ（1人・1つの とき）",
+            "〜だ（I の とき）",
+            "〜だ（you や 2人 いじょう）",
+            "〜だ（もとの かたち）"
+        ],
+        "answer": "Be",
+        "explanation": "<b>こたえ：Be（もとの かたち）</b><br><br>💡 ヒント：「〜して ください」と 言う 文は、もとの かたちで はじめます。is, am, are の もとの かたちは Be です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-119",
+        "question": "A: Whose textbook is this? Is it yours?\nB: It's not _____. It's John's.",
+        "translation": "A：これは だれの きょうかしょ？あなたの？\nB：<b>わたしの もの</b>では ないよ。ジョンの だよ。",
+        "options": [
+            "mine",
+            "my",
+            "I",
+            "me"
+        ],
+        "optionMeanings": [
+            "わたしの もの",
+            "わたしの",
+            "わたしは",
+            "わたしを"
+        ],
+        "answer": "mine",
+        "explanation": "<b>こたえ：mine（わたしの もの）</b><br><br>💡 ヒント：It's John's.（ジョンの もの）と 同じ 形です。「わたしの もの」は mine です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-120",
+        "question": "A: _____ does Kate live?\nB: In Los Angeles.",
+        "translation": "A：ケイトは <b>どこ</b>に すんで いますか。\nB：ロサンゼルスです。",
+        "options": [
+            "When",
+            "How",
+            "Who",
+            "Where"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "どう",
+            "だれ",
+            "どこ"
+        ],
+        "answer": "Where",
+        "explanation": "<b>こたえ：Where（どこ）</b><br><br>💡 ヒント：In Los Angeles（ロサンゼルスに）と ばしょを こたえて います。ばしょを 聞く ことばは Where（どこ）です。",
+        "source": "2025年第2回(準会場)"
+    },
+    {
+        "id": "5-121",
+        "question": "Mr. Yamada is an art teacher. He _____ pictures of flowers in his free time.",
+        "translation": "山田先生は 図工の 先生です。ひまな 時に、花の 絵を <b>かきます</b>。",
+        "options": [
+            "plays",
+            "draws",
+            "speaks",
+            "reads"
+        ],
+        "optionMeanings": [
+            "する・ひく",
+            "（絵を）かく",
+            "話す",
+            "読む"
+        ],
+        "answer": "draws",
+        "explanation": "<b>こたえ：draws（絵を かく）</b><br><br>💡 ヒント：art teacher（図工の 先生）と pictures（絵）が ヒントです。絵を「かく」は draw です。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-122",
+        "question": "It’s _____, so we can’t have a picnic now. Let’s eat lunch at home.",
+        "translation": "<b>雨が ふって いる</b>ので、今は ピクニックが できません。家で おひるを 食べましょう。",
+        "options": [
+            "cooking",
+            "raining",
+            "washing",
+            "sleeping"
+        ],
+        "optionMeanings": [
+            "りょうりして いる",
+            "雨が ふって いる",
+            "あらって いる",
+            "ねて いる"
+        ],
+        "answer": "raining",
+        "explanation": "<b>こたえ：raining（雨が ふって いる）</b><br><br>💡 ヒント：can't have a picnic（ピクニックが できない）が ヒントです。外で できない わけは raining（雨）です。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-123",
+        "question": "I’m very busy from Monday to Friday. I always go shopping on _____.",
+        "translation": "わたしは 月曜日から 金曜日まで とても いそがしいです。いつも <b>日曜日</b>に 買いものに 行きます。",
+        "options": [
+            "Sunday",
+            "month",
+            "calendar",
+            "minute"
+        ],
+        "optionMeanings": [
+            "日曜日",
+            "月（1か月）",
+            "カレンダー",
+            "分"
+        ],
+        "answer": "Sunday",
+        "explanation": "<b>こたえ：Sunday（日曜日）</b><br><br>💡 ヒント：on の あとに 来る 曜日は Sunday（日曜日）だけです。いそがしくない 日に 買いものを します。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-124",
+        "question": "A: Is it hot today?\nB: No. It is cloudy and _____ today.",
+        "translation": "A：今日は あついですか。\nB：いいえ。今日は くもりで <b>すずしい</b>です。",
+        "options": [
+            "cool",
+            "young",
+            "easy",
+            "happy"
+        ],
+        "optionMeanings": [
+            "すずしい",
+            "わかい",
+            "かんたんな",
+            "うれしい"
+        ],
+        "answer": "cool",
+        "explanation": "<b>こたえ：cool（すずしい）</b><br><br>💡 ヒント：Is it hot?（あつい？）に No と こたえて います。天気を あらわす cool（すずしい）が 入ります。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-125",
+        "question": "A: Do you have any _____, John?\nB: Yes, I have a cat. She is very cute.",
+        "translation": "A：ジョン、何か <b>ペット</b>を かって いますか。\nB：はい、ねこを かって います。とても かわいいです。",
+        "options": [
+            "cups",
+            "hats",
+            "cars",
+            "pets"
+        ],
+        "optionMeanings": [
+            "カップ",
+            "ぼうし",
+            "車",
+            "ペット"
+        ],
+        "answer": "pets",
+        "explanation": "<b>こたえ：pets（ペット）</b><br><br>💡 ヒント：I have a cat.（ねこを かって いる）が ヒントです。ねこは pet（ペット）です。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-126",
+        "question": "A: Dad, please _____ this wall.\nB: OK. But first, let’s wash it.",
+        "translation": "A：お父さん、この かべに <b>ペンキを ぬって</b>。\nB：いいよ。でも まず、かべを あらおう。",
+        "options": [
+            "swim",
+            "sleep",
+            "paint",
+            "play"
+        ],
+        "optionMeanings": [
+            "およぐ",
+            "ねむる",
+            "（ペンキを）ぬる",
+            "あそぶ"
+        ],
+        "answer": "paint",
+        "explanation": "<b>こたえ：paint（ペンキを ぬる）</b><br><br>💡 ヒント：this wall（この かべ）が ヒントです。かべに する ことは paint（ペンキを ぬる）です。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-127",
+        "question": "A: Excuse me. I want some _____ in my coffee.\nB: Sure.",
+        "translation": "A：すみません。コーヒーに <b>さとう</b>を 入れたいのですが。\nB：かしこまりました。",
+        "options": [
+            "paper",
+            "sun",
+            "light",
+            "sugar"
+        ],
+        "optionMeanings": [
+            "紙",
+            "太よう",
+            "明かり",
+            "さとう"
+        ],
+        "answer": "sugar",
+        "explanation": "<b>こたえ：sugar（さとう）</b><br><br>💡 ヒント：in my coffee（コーヒーに）が ヒントです。コーヒーに 入れる ものは sugar（さとう）です。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-128",
+        "question": "A: Fred, is your brother on the volleyball team?\nB: Yes, _____ right.",
+        "translation": "A：フレッド、きみの お兄さんは バレーボールの チームに 入って いるの？\nB：うん、<b>その とおり</b>だよ。",
+        "options": [
+            "we’re",
+            "that’s",
+            "she’s",
+            "I’m"
+        ],
+        "optionMeanings": [
+            "わたしたちは 〜だ",
+            "それは 〜だ",
+            "かのじょは 〜だ",
+            "わたしは 〜だ"
+        ],
+        "answer": "that’s",
+        "explanation": "<b>こたえ：that’s（その とおり）</b><br><br>💡 ヒント：That's right. で「その とおり」と いう いみです。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-129",
+        "question": "A: Steve, are you Canadian?\nB: No. I’m _____ America.",
+        "translation": "A：スティーブ、あなたは カナダ人ですか。\nB：いいえ。わたしは アメリカ<b>から 来ました</b>。",
+        "options": [
+            "to",
+            "from",
+            "under",
+            "by"
+        ],
+        "optionMeanings": [
+            "〜へ",
+            "〜から",
+            "〜の 下に",
+            "〜の そばに"
+        ],
+        "answer": "from",
+        "explanation": "<b>こたえ：from（〜から）</b><br><br>💡 ヒント：I'm from 〜. で「〜から 来ました」と いう いみです。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-130",
+        "question": "Julia likes her camera. She often _____ pictures.",
+        "translation": "ジュリアは 自分の カメラが すきです。よく しゃしんを <b>とります</b>。",
+        "options": [
+            "tells",
+            "does",
+            "takes",
+            "sings"
+        ],
+        "optionMeanings": [
+            "話す",
+            "する",
+            "とる",
+            "歌う"
+        ],
+        "answer": "takes",
+        "explanation": "<b>こたえ：takes（とる）</b><br><br>💡 ヒント：camera（カメラ）と pictures（しゃしん）が ヒントです。take pictures で「しゃしんを とる」です。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-131",
+        "question": "A: I like tennis. What _____ you, Rachel?\nB: I do, too.",
+        "translation": "A：わたしは テニスが すき。レイチェル、あなたは <b>どう</b>？\nB：わたしも すきよ。",
+        "options": [
+            "over",
+            "about",
+            "down",
+            "after"
+        ],
+        "optionMeanings": [
+            "〜の 上に",
+            "（What about で）〜は どう？",
+            "下へ",
+            "〜の あとに"
+        ],
+        "answer": "about",
+        "explanation": "<b>こたえ：about（〜は どう？）</b><br><br>💡 ヒント：What about you? で「あなたは どう？」と 聞く ことばです。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-132",
+        "question": "Yuki’s father often goes jogging _____ the morning.",
+        "translation": "ユキの お父さんは よく <b>朝に</b> ジョギングに 行きます。",
+        "options": [
+            "on",
+            "in",
+            "out",
+            "down"
+        ],
+        "optionMeanings": [
+            "〜に（曜日など）",
+            "〜に・〜の 中に",
+            "外へ",
+            "下へ"
+        ],
+        "answer": "in",
+        "explanation": "<b>こたえ：in（〜に）</b><br><br>💡 ヒント：in the morning で「朝に」と いう いみです。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-133",
+        "question": "Keiko and Megumi are good friends. _____ like tennis.",
+        "translation": "ケイコと メグミは なかよしです。<b>2人</b>は テニスが すきです。",
+        "options": [
+            "They",
+            "He",
+            "She",
+            "You"
+        ],
+        "optionMeanings": [
+            "かのじょたちは",
+            "かれは",
+            "かのじょは",
+            "あなたは"
+        ],
+        "answer": "They",
+        "explanation": "<b>こたえ：They（かのじょたちは）</b><br><br>💡 ヒント：Keiko と Megumi の 2人の ことです。2人 いじょうの ときは They を つかいます。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-134",
+        "question": "A: Everyone, let’s clean _____ classroom.\nB: OK, Mr. White.",
+        "translation": "A：みなさん、<b>わたしたちの</b> 教室を そうじしましょう。\nB：はい、ホワイト先生。",
+        "options": [
+            "we",
+            "our",
+            "us",
+            "ours"
+        ],
+        "optionMeanings": [
+            "わたしたちは",
+            "わたしたちの",
+            "わたしたちを",
+            "わたしたちの もの"
+        ],
+        "answer": "our",
+        "explanation": "<b>こたえ：our（わたしたちの）</b><br><br>💡 ヒント：classroom（教室）の 前なので、「わたしたちの」の our が 入ります。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-135",
+        "question": "A: What is Scott doing now?\nB: He is _____ a doghouse.",
+        "translation": "A：スコットは 今 何を して いますか。\nB：犬小やを <b>作って</b> います。",
+        "options": [
+            "make",
+            "making",
+            "makes",
+            "made"
+        ],
+        "optionMeanings": [
+            "作る（もとの かたち）",
+            "作って いる",
+            "作る（s が つく かたち）",
+            "make の 前の かたち（作った）"
+        ],
+        "answer": "making",
+        "explanation": "<b>こたえ：making（作って いる）</b><br><br>💡 ヒント：He is の あとで「今 〜して いる」と 言う ときは、ing の かたちに します。だから making です。",
+        "source": "2025年第3回(本会場)"
+    },
+    {
+        "id": "5-136",
+        "question": "Now it's winter. I ski every weekend during this _____.",
+        "translation": "今は 冬です。この <b>きせつ</b>は、毎週 休みの 日に スキーを します。",
+        "options": [
+            "door",
+            "season",
+            "picture",
+            "word"
+        ],
+        "optionMeanings": [
+            "ドア",
+            "きせつ",
+            "絵・しゃしん",
+            "ことば"
+        ],
+        "answer": "season",
+        "explanation": "<b>こたえ：season（きせつ）</b><br><br>💡 ヒント：winter（冬）が ヒントです。冬は season（きせつ）の 1つです。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-137",
+        "question": "My family often goes to a _____. I like the elephants and monkeys there.",
+        "translation": "わたしの かぞくは よく <b>どうぶつ園</b>に 行きます。わたしは そこの ゾウと サルが すきです。",
+        "options": [
+            "zoo",
+            "library",
+            "cafeteria",
+            "station"
+        ],
+        "optionMeanings": [
+            "どうぶつ園",
+            "としょかん",
+            "食どう",
+            "えき"
+        ],
+        "answer": "zoo",
+        "explanation": "<b>こたえ：zoo（どうぶつ園）</b><br><br>💡 ヒント：elephants（ゾウ）と monkeys（サル）が ヒントです。ゾウや サルが いるのは zoo（どうぶつ園）です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-138",
+        "question": "The sky is very clear today. You can _____ the birds in the sky.",
+        "translation": "今日は 空が とても はれて います。空の 鳥が <b>見えます</b>。",
+        "options": [
+            "see",
+            "want",
+            "dance",
+            "play"
+        ],
+        "optionMeanings": [
+            "見る・見える",
+            "ほしい",
+            "おどる",
+            "あそぶ"
+        ],
+        "answer": "see",
+        "explanation": "<b>こたえ：see（見る）</b><br><br>💡 ヒント：clear（はれた）と the birds（鳥）が ヒントです。鳥を「見る」は see です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-139",
+        "question": "Some birds are _____ in the sky. They are looking for food in the trees.",
+        "translation": "何わかの 鳥が 空を <b>とんで</b> います。木の 中で 食べものを さがして います。",
+        "options": [
+            "cooking",
+            "drinking",
+            "catching",
+            "flying"
+        ],
+        "optionMeanings": [
+            "りょうりして いる",
+            "のんで いる",
+            "つかまえて いる",
+            "とんで いる"
+        ],
+        "answer": "flying",
+        "explanation": "<b>こたえ：flying（とんで いる）</b><br><br>💡 ヒント：birds（鳥）と in the sky（空を）が ヒントです。鳥が 空で する ことは fly（とぶ）です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-140",
+        "question": "A: What time do you get up on weekends, Ken?\nB: Usually at 7:00. But sometimes I get up _____.",
+        "translation": "A：ケン、休みの 日は 何時に おきるの？\nB：ふつうは 7時。でも ときどき <b>早く</b> おきるよ。",
+        "options": [
+            "early",
+            "well",
+            "high",
+            "fast"
+        ],
+        "optionMeanings": [
+            "早く",
+            "じょうずに",
+            "高く",
+            "はやく（スピード）"
+        ],
+        "answer": "early",
+        "explanation": "<b>こたえ：early（早く）</b><br><br>💡 ヒント：get up early で「早く おきる」です。時こくが 早い ときは early を つかいます。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-141",
+        "question": "A: What color do you like, Alice?\nB: I like _____. My brother likes blue.",
+        "translation": "A：アリス、何色が すき？\nB：<b>黒</b>が すき。兄は 青が すきなの。",
+        "options": [
+            "door",
+            "school",
+            "history",
+            "black"
+        ],
+        "optionMeanings": [
+            "ドア",
+            "学校",
+            "れきし",
+            "黒"
+        ],
+        "answer": "black",
+        "explanation": "<b>こたえ：black（黒）</b><br><br>💡 ヒント：What color（何色）と 聞いて います。色の 名前は black（黒）だけです。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-142",
+        "question": "My brother and I usually _____ to the station after school.",
+        "translation": "兄と わたしは たいてい、学校の あと えきまで <b>歩いて 行きます</b>。",
+        "options": [
+            "watch",
+            "walk",
+            "study",
+            "sit"
+        ],
+        "optionMeanings": [
+            "見る",
+            "歩く",
+            "べんきょうする",
+            "すわる"
+        ],
+        "answer": "walk",
+        "explanation": "<b>こたえ：walk（歩く）</b><br><br>💡 ヒント：to the station（えきまで）が ヒントです。walk to 〜 で「〜まで 歩いて 行く」です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-143",
+        "question": "Miki's grandparents _____ in Nagoya.",
+        "translation": "ミキの おじいさんと おばあさんは、なごやに <b>すんで</b> います。",
+        "options": [
+            "stand",
+            "live",
+            "know",
+            "get"
+        ],
+        "optionMeanings": [
+            "立つ",
+            "すむ",
+            "知って いる",
+            "手に 入れる"
+        ],
+        "answer": "live",
+        "explanation": "<b>こたえ：live（すむ）</b><br><br>💡 ヒント：in Nagoya（なごやに）が ヒントです。ある ばしょに「すむ」は live です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-144",
+        "question": "A: How _____ are these apples?\nB: 400 yen.",
+        "translation": "A：この りんごは <b>いくら</b>ですか。\nB：400円です。",
+        "options": [
+            "about",
+            "much",
+            "fast",
+            "well"
+        ],
+        "optionMeanings": [
+            "〜に ついて",
+            "（How much で）いくら",
+            "はやく",
+            "じょうずに"
+        ],
+        "answer": "much",
+        "explanation": "<b>こたえ：much（いくら）</b><br><br>💡 ヒント：400 yen（400円）と こたえて います。ねだんを 聞く ときは How much を つかいます。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-145",
+        "question": "A: Olivia, can I use your eraser?\nB: _____ course.",
+        "translation": "A：オリビア、あなたの けしゴムを つかっても いい？\nB：<b>もちろん</b>。",
+        "options": [
+            "With",
+            "By",
+            "In",
+            "Of"
+        ],
+        "optionMeanings": [
+            "〜と いっしょに",
+            "〜に よって",
+            "〜の 中に",
+            "〜の"
+        ],
+        "answer": "Of",
+        "explanation": "<b>こたえ：Of（もちろん）</b><br><br>💡 ヒント：Of course. で「もちろん」と いう いみです。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-146",
+        "question": "A: Yoko, how _____ do you study English every day?\nB: For two hours.",
+        "translation": "A：ヨウコ、毎日 <b>どのくらい</b> えいごを べんきょうするの？\nB：2時間だよ。",
+        "options": [
+            "cute",
+            "long",
+            "nice",
+            "tall"
+        ],
+        "optionMeanings": [
+            "かわいい",
+            "（How long で）どのくらい",
+            "すてきな",
+            "せが 高い"
+        ],
+        "answer": "long",
+        "explanation": "<b>こたえ：long（どのくらい）</b><br><br>💡 ヒント：For two hours.（2時間）と こたえて います。時間の 長さを 聞く ときは How long です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-147",
+        "question": "A: Helen, please answer this question.\nB: All _____, Mr. Johnson.",
+        "translation": "A：ヘレン、この しつもんに こたえて ください。\nB：<b>わかりました</b>、ジョンソン先生。",
+        "options": [
+            "next",
+            "cold",
+            "right",
+            "blue"
+        ],
+        "optionMeanings": [
+            "つぎの",
+            "さむい",
+            "（All right で）わかりました",
+            "青い"
+        ],
+        "answer": "right",
+        "explanation": "<b>こたえ：right（わかりました）</b><br><br>💡 ヒント：All right. で「わかりました」と いう いみです。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-148",
+        "question": "A: Hiroko, do you play tennis every day?\nB: Yes, I _____.",
+        "translation": "A：ヒロコ、毎日 テニスを するの？\nB：うん、<b>するよ</b>。",
+        "options": [
+            "does",
+            "do",
+            "are",
+            "is"
+        ],
+        "optionMeanings": [
+            "する（s が つく かたち）",
+            "する",
+            "〜だ（you や 2人 いじょう）",
+            "〜だ（1人・1つの とき）"
+        ],
+        "answer": "do",
+        "explanation": "<b>こたえ：do（する）</b><br><br>💡 ヒント：Do you 〜? と 聞かれたら、Yes, I do. と こたえます。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-149",
+        "question": "A: _____ is your father's birthday, Tom?\nB: It's April 5.",
+        "translation": "A：トム、お父さんの たんじょう日は <b>いつ</b>？\nB：4月5日だよ。",
+        "options": [
+            "Where",
+            "Who",
+            "How",
+            "When"
+        ],
+        "optionMeanings": [
+            "どこ",
+            "だれ",
+            "どう",
+            "いつ"
+        ],
+        "answer": "When",
+        "explanation": "<b>こたえ：When（いつ）</b><br><br>💡 ヒント：It's April 5.（4月5日）と 日にちを こたえて います。「いつ」は When です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-150",
+        "question": "A: Dad, please help _____. Today's homework is very hard.\nB: OK.",
+        "translation": "A：お父さん、<b>ぼくを</b> 手つだって。今日の しゅくだいは とても むずかしいんだ。\nB：いいよ。",
+        "options": [
+            "I",
+            "my",
+            "me",
+            "mine"
+        ],
+        "optionMeanings": [
+            "わたしは",
+            "わたしの",
+            "わたしを",
+            "わたしの もの"
+        ],
+        "answer": "me",
+        "explanation": "<b>こたえ：me（わたしを）</b><br><br>💡 ヒント：help の あとは「〜を」の かたちです。「わたしを」は me です。",
+        "source": "2025年第3回(準会場)"
+    },
+    {
+        "id": "5-151",
+        "question": "Ms. Marley’s favorite season is winter. She likes the beautiful Christmas _____ at the station.",
+        "translation": "マーリー先生の すきな きせつは 冬です。えきの きれいな クリスマス<b>ツリー</b>が すきです。",
+        "options": [
+            "summer",
+            "nose",
+            "tree",
+            "ear"
+        ],
+        "optionMeanings": [
+            "なつ",
+            "はな",
+            "き（ツリー）",
+            "耳"
+        ],
+        "answer": "tree",
+        "explanation": "<b>こたえ：tree（き（ツリー））</b><br><br>💡 ヒント：\"Christmas\"（クリスマス）の あとに くる ことばです。クリスマスツリーの tree です。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-152",
+        "question": "A: Are you on the soccer _____?\nB: No, I play baseball.",
+        "translation": "A：サッカー<b>チーム</b>に 入って いますか。\nB：いいえ、ぼくは やきゅうを します。",
+        "options": [
+            "team",
+            "town",
+            "card",
+            "concert"
+        ],
+        "optionMeanings": [
+            "チーム",
+            "まち",
+            "カード",
+            "コンサート"
+        ],
+        "answer": "team",
+        "explanation": "<b>こたえ：team（チーム）</b><br><br>💡 ヒント：\"soccer\"（サッカー）の あとに あう ことばを さがします。サッカーチームの team です。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-153",
+        "question": "A: What color is your new car, Olivia?\nB: It’s _____ and really nice.",
+        "translation": "A：オリビア、あたらしい 車は 何色ですか。\nB：<b>くろ</b>で、とても すてきです。",
+        "options": [
+            "black",
+            "big",
+            "cute",
+            "tall"
+        ],
+        "optionMeanings": [
+            "くろ",
+            "大きい",
+            "かわいい",
+            "せが 高い"
+        ],
+        "answer": "black",
+        "explanation": "<b>こたえ：black（くろ）</b><br><br>💡 ヒント：\"What color\"（何色）と きいて います。色の ことばは black（くろ）だけです。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-154",
+        "question": "Carol lives in a new _____. It has a garden and big windows.",
+        "translation": "キャロルは あたらしい <b>いえ</b>に すんで います。にわと 大きな まどが あります。",
+        "options": [
+            "wall",
+            "river",
+            "house",
+            "chair"
+        ],
+        "optionMeanings": [
+            "かべ",
+            "川",
+            "いえ",
+            "いす"
+        ],
+        "answer": "house",
+        "explanation": "<b>こたえ：house（いえ）</b><br><br>💡 ヒント：\"lives in\"（すんで いる）と あります。にわや まどが あるのは house（いえ）です。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-155",
+        "question": "Beth has a birthday party next week. She _____ a dress for it.",
+        "translation": "ベスは 来週 たんじょう日の パーティーが あります。そのための ドレスが <b>ひつようです</b>。",
+        "options": [
+            "sings",
+            "needs",
+            "helps",
+            "stops"
+        ],
+        "optionMeanings": [
+            "歌う",
+            "ひつようだ",
+            "手つだう",
+            "とまる"
+        ],
+        "answer": "needs",
+        "explanation": "<b>こたえ：needs（ひつようだ）</b><br><br>💡 ヒント：パーティーに きて いく \"a dress\"（ドレス）の 話です。needs は「ひつようだ」と いう いみです。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-156",
+        "question": "At night, Andy usually looks at the _____ in the sky.",
+        "translation": "夜、アンディは たいてい 空の <b>星</b>を 見ます。",
+        "options": [
+            "stars",
+            "carrots",
+            "hours",
+            "seasons"
+        ],
+        "optionMeanings": [
+            "星",
+            "にんじん",
+            "1時間",
+            "きせつ"
+        ],
+        "answer": "stars",
+        "explanation": "<b>こたえ：stars（星）</b><br><br>💡 ヒント：\"at night\"（夜）と \"in the sky\"（空の）が ヒントです。夜の 空に 見えるのは stars（星）です。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-157",
+        "question": "Students play the piano and the guitar in Ms. Suzuki’s _____ class.",
+        "translation": "生とたちは すずき先生の <b>音楽</b>の じゅぎょうで ピアノと ギターを ひきます。",
+        "options": [
+            "gym",
+            "pizza",
+            "train",
+            "music"
+        ],
+        "optionMeanings": [
+            "たいいくかん",
+            "ピザ",
+            "電車",
+            "音楽"
+        ],
+        "answer": "music",
+        "explanation": "<b>こたえ：music（音楽）</b><br><br>💡 ヒント：\"piano\"（ピアノ）と \"guitar\"（ギター）が 出て います。だから music（音楽）です。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-158",
+        "question": "Mr. Smith comes _____ school early in the morning.",
+        "translation": "スミス先生は 朝 早く 学校<b>へ</b> 来ます。",
+        "options": [
+            "as",
+            "up",
+            "under",
+            "to"
+        ],
+        "optionMeanings": [
+            "〜として",
+            "上へ",
+            "〜の下に",
+            "〜へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：\"comes to school\" で「学校へ 来る」です。行く さきの 前には to を つかいます。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-159",
+        "question": "A: How _____ is your cat?\nB: She’s three.",
+        "translation": "A：あなたの ねこは <b>何さい</b>ですか。\nB：3さいです。",
+        "options": [
+            "old",
+            "many",
+            "fast",
+            "soft"
+        ],
+        "optionMeanings": [
+            "年を とった（〜さい）",
+            "いくつ（かず）",
+            "はやい",
+            "やわらかい"
+        ],
+        "answer": "old",
+        "explanation": "<b>こたえ：old（How old ＝ 何さい）</b><br><br>💡 ヒント：\"She's three\"（3さいです）と こたえて います。年を きく ときは How old と 言います。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-160",
+        "question": "A: Do you like ice cream, David?\nB: _____ course! It’s delicious!",
+        "translation": "A：デイビッド、アイスクリームは すき？\nB：<b>もちろん</b>。とても おいしいよ。",
+        "options": [
+            "On",
+            "To",
+            "By",
+            "Of"
+        ],
+        "optionMeanings": [
+            "〜の上に",
+            "〜へ",
+            "〜の そばに",
+            "〜の"
+        ],
+        "answer": "Of",
+        "explanation": "<b>こたえ：Of（Of course ＝ もちろん）</b><br><br>💡 ヒント：\"Of course\" で「もちろん」と いう ひとまとまりの ことばです。すきか きかれて、つよく こたえて います。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-161",
+        "question": "A: Bye, Victor! Have a good day!\nB: _____ you tomorrow, Paula!",
+        "translation": "A：バイバイ、ビクター。よい 一日を。\nB：<b>また あした</b>ね、ポーラ。",
+        "options": [
+            "See",
+            "Say",
+            "Sing",
+            "Start"
+        ],
+        "optionMeanings": [
+            "見る・会う",
+            "言う",
+            "歌う",
+            "はじめる"
+        ],
+        "answer": "See",
+        "explanation": "<b>こたえ：See（See you ＝ またね）</b><br><br>💡 ヒント：\"See you tomorrow\" で「また あした」と いう あいさつです。わかれる ときに つかいます。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-162",
+        "question": "A: It’s time for lunch. How _____ pizza?\nB: Good idea. I want one with cheese.",
+        "translation": "A：お昼ごはんの 時間です。ピザは <b>どう</b>？\nB：いいね。チーズの ピザが いいな。",
+        "options": [
+            "about",
+            "for",
+            "with",
+            "from"
+        ],
+        "optionMeanings": [
+            "〜について",
+            "〜のために",
+            "〜と いっしょに",
+            "〜から"
+        ],
+        "answer": "about",
+        "explanation": "<b>こたえ：about（How about 〜? ＝ 〜は どう？）</b><br><br>💡 ヒント：\"How about 〜?\" で「〜は どう？」と さそう 言い方です。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-163",
+        "question": "A: _____ is your notebook, the red one or the green one?\nB: The green one is.",
+        "translation": "A：あなたの ノートは <b>どちら</b>ですか。赤いの、それとも みどりの？\nB：みどりのです。",
+        "options": [
+            "Why",
+            "Where",
+            "How",
+            "Which"
+        ],
+        "optionMeanings": [
+            "なぜ",
+            "どこ",
+            "どのように",
+            "どちら"
+        ],
+        "answer": "Which",
+        "explanation": "<b>こたえ：Which（どちら）</b><br><br>💡 ヒント：\"the red one or the green one\"（赤いの か、みどりの か）から えらんで います。「どちら」は Which です。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-164",
+        "question": "Narumi and I are classmates, and Mr. Iwata is _____ teacher.",
+        "translation": "なるみと わたしは クラスメートで、いわた先生は <b>わたしたちの</b> 先生です。",
+        "options": [
+            "we",
+            "our",
+            "ours",
+            "us"
+        ],
+        "optionMeanings": [
+            "わたしたちは",
+            "わたしたちの",
+            "わたしたちの もの",
+            "わたしたちを"
+        ],
+        "answer": "our",
+        "explanation": "<b>こたえ：our（わたしたちの）</b><br><br>💡 ヒント：あとに \"teacher\"（先生）が きます。「わたしたちの 先生」なので our です。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-165",
+        "question": "A: Cindy, _____ eat that ice cream! It’s mine.\nB: Oh, I’m sorry.",
+        "translation": "A：シンディ、その アイスクリームを <b>食べないで</b>。わたしのだよ。\nB：あ、ごめんね。",
+        "options": [
+            "doesn’t",
+            "don’t",
+            "isn’t",
+            "aren’t"
+        ],
+        "optionMeanings": [
+            "〜しない（he や she の とき）",
+            "〜しないで",
+            "〜では ない（is）",
+            "〜では ない（are）"
+        ],
+        "answer": "don’t",
+        "explanation": "<b>こたえ：don’t（〜しないで）</b><br><br>💡 ヒント：\"It's mine\"（わたしのだよ）と 言って います。「〜しないで」と 言う ときは don't の あとに うごきの ことばを つづけます。",
+        "source": "2024年第1回(本会場)"
+    },
+    {
+        "id": "5-166",
+        "question": "A: Where's your math _____?\nB: It's in my bag.",
+        "translation": "A：さんすうの <b>きょうかしょ</b>は どこ？\nB：わたしの かばんの 中だよ。",
+        "options": [
+            "country",
+            "textbook",
+            "station",
+            "cap"
+        ],
+        "optionMeanings": [
+            "国",
+            "きょうかしょ",
+            "えき",
+            "ぼうし"
+        ],
+        "answer": "textbook",
+        "explanation": "<b>こたえ：textbook（きょうかしょ）</b><br><br>💡 ヒント：\"math\"（さんすう）の あとに あう ものです。かばんに 入るのは textbook（きょうかしょ）です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-167",
+        "question": "A: When is your birthday, Yoko?\nB: It's _____ 25.",
+        "translation": "A：ようこ、たんじょう日は いつ？\nB：<b>12月</b>25日だよ。",
+        "options": [
+            "month",
+            "week",
+            "date",
+            "December"
+        ],
+        "optionMeanings": [
+            "月（つき）",
+            "週",
+            "日づけ",
+            "12月"
+        ],
+        "answer": "December",
+        "explanation": "<b>こたえ：December（12月）</b><br><br>💡 ヒント：\"When is your birthday?\"（たんじょう日は いつ）と きいて います。25 の 前には 月の 名前の December（12月）が きます。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-168",
+        "question": "A: Where are you going, Tim?\nB: To bed, Mom. I'm very _____.",
+        "translation": "A：どこへ 行くの、ティム？\nB：ねるんだよ、お母さん。とても <b>ねむい</b>んだ。",
+        "options": [
+            "sleepy",
+            "simple",
+            "cloudy",
+            "clean"
+        ],
+        "optionMeanings": [
+            "ねむい",
+            "かんたんな",
+            "くもりの",
+            "きれいな"
+        ],
+        "answer": "sleepy",
+        "explanation": "<b>こたえ：sleepy（ねむい）</b><br><br>💡 ヒント：\"To bed\"（ねる ところへ）と 言って います。だから sleepy（ねむい）です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-169",
+        "question": "A: Ted, what do you _____ for your birthday?\nB: A new bike.",
+        "translation": "A：テッド、たんじょう日に 何が <b>ほしい</b>？\nB：あたらしい 自てん車。",
+        "options": [
+            "want",
+            "meet",
+            "stop",
+            "start"
+        ],
+        "optionMeanings": [
+            "ほしい",
+            "会う",
+            "とまる",
+            "はじめる"
+        ],
+        "answer": "want",
+        "explanation": "<b>こたえ：want（ほしい）</b><br><br>💡 ヒント：\"A new bike\"（あたらしい 自てん車）と こたえて います。ほしい ものを きくので want です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-170",
+        "question": "A: Mom, it's snowing.\nB: Yes. It's very _____ today.",
+        "translation": "A：お母さん、雪が ふって いるよ。\nB：そうね。今日は とても <b>さむい</b>わね。",
+        "options": [
+            "easy",
+            "cold",
+            "short",
+            "sweet"
+        ],
+        "optionMeanings": [
+            "かんたんな",
+            "さむい",
+            "みじかい",
+            "あまい"
+        ],
+        "answer": "cold",
+        "explanation": "<b>こたえ：cold（さむい）</b><br><br>💡 ヒント：\"snowing\"（雪が ふって いる）と 言って います。だから cold（さむい）です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-171",
+        "question": "A: Do you have any _____, Paul?\nB: Yes. I have two cats.",
+        "translation": "A：ポール、<b>ペット</b>を かって いる？\nB：うん。ねこを 2ひき かって いるよ。",
+        "options": [
+            "sports",
+            "pets",
+            "fruits",
+            "songs"
+        ],
+        "optionMeanings": [
+            "スポーツ",
+            "ペット",
+            "くだもの",
+            "歌"
+        ],
+        "answer": "pets",
+        "explanation": "<b>こたえ：pets（ペット）</b><br><br>💡 ヒント：\"two cats\"（2ひきの ねこ）と こたえて います。ねこは pets（ペット）です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-172",
+        "question": "My mother _____ Japanese and English.",
+        "translation": "わたしの 母は 日本ごと えいごを <b>話します</b>。",
+        "options": [
+            "lives",
+            "speaks",
+            "washes",
+            "sees"
+        ],
+        "optionMeanings": [
+            "すむ",
+            "話す",
+            "あらう",
+            "見る"
+        ],
+        "answer": "speaks",
+        "explanation": "<b>こたえ：speaks（話す）</b><br><br>💡 ヒント：\"Japanese and English\"（日本ごと えいご）が ヒントです。ことばは speaks（話す）です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-173",
+        "question": "Mr. James King is a teacher at my school. He _____ from Honolulu, Hawaii.",
+        "translation": "ジェームズ・キングさんは わたしの 学校の 先生です。ハワイの ホノルル<b>から 来ました</b>。",
+        "options": [
+            "sees",
+            "gets",
+            "comes",
+            "makes"
+        ],
+        "optionMeanings": [
+            "見る",
+            "手に 入れる",
+            "来る",
+            "作る"
+        ],
+        "answer": "comes",
+        "explanation": "<b>こたえ：comes（来る）</b><br><br>💡 ヒント：\"comes from 〜\" で「〜から 来た（〜の 出しん）」と いう いみです。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-174",
+        "question": "A: I'm hungry.\nB: _____, too. Let's eat lunch now.",
+        "translation": "A：おなかが すいたよ。\nB：<b>わたしも</b>。お昼ごはんを 食べよう。",
+        "options": [
+            "We",
+            "I",
+            "Me",
+            "Her"
+        ],
+        "optionMeanings": [
+            "わたしたちは",
+            "わたしは",
+            "わたし（を）",
+            "かのじょの"
+        ],
+        "answer": "Me",
+        "explanation": "<b>こたえ：Me（Me, too. ＝ わたしも）</b><br><br>💡 ヒント：\"too\"（〜も）と いっしょに「わたしも」と 言う ときは、Me, too. と 言います。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-175",
+        "question": "John _____ fishing every Sunday with his father.",
+        "translation": "ジョンは 毎週 日曜日に お父さんと つりに <b>行きます</b>。",
+        "options": [
+            "meets",
+            "makes",
+            "goes",
+            "walks"
+        ],
+        "optionMeanings": [
+            "会う",
+            "作る",
+            "行く",
+            "歩く"
+        ],
+        "answer": "goes",
+        "explanation": "<b>こたえ：goes（行く）</b><br><br>💡 ヒント：\"fishing\"（つり）の 前に goes を おくと「つりに 行く」です。go fishing で おぼえましょう。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-176",
+        "question": "A: Who's the girl in the red dress over _____?\nB: Oh, that's my sister.",
+        "translation": "A：<b>あそこ</b>に いる 赤い ドレスの 女の子は だれ？\nB：ああ、わたしの いもうとだよ。",
+        "options": [
+            "there",
+            "now",
+            "too",
+            "just"
+        ],
+        "optionMeanings": [
+            "そこに",
+            "今",
+            "〜も",
+            "ちょうど"
+        ],
+        "answer": "there",
+        "explanation": "<b>こたえ：there（over there ＝ あそこに）</b><br><br>💡 ヒント：\"over there\" で「あそこに」と いう いみです。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-177",
+        "question": "Mari has a little brother. He's three years _____.",
+        "translation": "まりには 小さな 弟が います。<b>3さい</b>です。",
+        "options": [
+            "short",
+            "new",
+            "old",
+            "tall"
+        ],
+        "optionMeanings": [
+            "みじかい",
+            "あたらしい",
+            "年を とった（〜さい）",
+            "せが 高い"
+        ],
+        "answer": "old",
+        "explanation": "<b>こたえ：old（〜さい）</b><br><br>💡 ヒント：\"three years old\" で「3さい」です。年を 言う ときは old を つかいます。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-178",
+        "question": "John likes Ms. Miller's English class. _____ class is very interesting.",
+        "translation": "ジョンは ミラー先生の えいごの じゅぎょうが すきです。<b>かのじょの</b> じゅぎょうは とても おもしろいです。",
+        "options": [
+            "Her",
+            "She",
+            "Hers",
+            "Him"
+        ],
+        "optionMeanings": [
+            "かのじょの",
+            "かのじょは",
+            "かのじょの もの",
+            "かれを"
+        ],
+        "answer": "Her",
+        "explanation": "<b>こたえ：Her（かのじょの）</b><br><br>💡 ヒント：あとに \"class\"（じゅぎょう）が きます。ミラー先生は 女の人なので「かのじょの」の Her です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-179",
+        "question": "I know Sally and Bob. They _____ good friends.",
+        "translation": "わたしは サリーと ボブを しって います。2人は よい 友だち<b>です</b>。",
+        "options": [
+            "be",
+            "am",
+            "are",
+            "is"
+        ],
+        "optionMeanings": [
+            "〜で ある（もとの かたち）",
+            "〜です（I の とき）",
+            "〜です（they の とき）",
+            "〜です（he や she の とき）"
+        ],
+        "answer": "are",
+        "explanation": "<b>こたえ：are（〜です）</b><br><br>💡 ヒント：\"They\"（かれら）の あとは are を つかいます。I は am、he や she は is です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-180",
+        "question": "A: _____ lunch is this, George?\nB: I don't know. It's not mine.",
+        "translation": "A：これは <b>だれの</b> お昼ごはん、ジョージ？\nB：わからないよ。ぼくのじゃ ないよ。",
+        "options": [
+            "Whose",
+            "When",
+            "How",
+            "What"
+        ],
+        "optionMeanings": [
+            "だれの",
+            "いつ",
+            "どのように",
+            "何"
+        ],
+        "answer": "Whose",
+        "explanation": "<b>こたえ：Whose（だれの）</b><br><br>💡 ヒント：\"It's not mine\"（ぼくのじゃ ない）と こたえて います。「だれの」と きく ときは Whose です。",
+        "source": "2024年第1回(準会場)"
+    },
+    {
+        "id": "5-181",
+        "question": "A: My birthday _____ is next Saturday. Can you come?\nB: Yes!",
+        "translation": "A：来週の 土曜日は わたしの たんじょう日<b>パーティー</b>だよ。来られる？\nB：うん。",
+        "options": [
+            "test",
+            "box",
+            "party",
+            "bike"
+        ],
+        "optionMeanings": [
+            "テスト",
+            "はこ",
+            "パーティー",
+            "自てん車"
+        ],
+        "answer": "party",
+        "explanation": "<b>こたえ：party（パーティー）</b><br><br>💡 ヒント：\"Can you come?\"（来られる？）と さそって います。たんじょう日の party（パーティー）です。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-182",
+        "question": "Mike likes basketball. He can _____ very high.",
+        "translation": "マイクは バスケットボールが すきです。とても 高く <b>ジャンプ</b>できます。",
+        "options": [
+            "make",
+            "jump",
+            "open",
+            "drink"
+        ],
+        "optionMeanings": [
+            "作る",
+            "ジャンプする",
+            "あける",
+            "のむ"
+        ],
+        "answer": "jump",
+        "explanation": "<b>こたえ：jump（ジャンプする）</b><br><br>💡 ヒント：\"very high\"（とても 高く）と あります。高く とぶのは jump（ジャンプする）です。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-183",
+        "question": "Beth goes to the zoo every month. She sees many _____ there.",
+        "translation": "ベスは 毎月 どうぶつえんに 行きます。そこで たくさんの <b>どうぶつ</b>を 見ます。",
+        "options": [
+            "songs",
+            "animals",
+            "dances",
+            "days"
+        ],
+        "optionMeanings": [
+            "歌",
+            "どうぶつ",
+            "ダンス",
+            "日"
+        ],
+        "answer": "animals",
+        "explanation": "<b>こたえ：animals（どうぶつ）</b><br><br>💡 ヒント：\"zoo\"（どうぶつえん）で 見るのは animals（どうぶつ）です。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-184",
+        "question": "A: You need an umbrella. Which color do you want?\nB: I want a _____ one.",
+        "translation": "A：かさが いるね。何色が いい？\nB：<b>赤い</b>のが いいな。",
+        "options": [
+            "red",
+            "heavy",
+            "large",
+            "long"
+        ],
+        "optionMeanings": [
+            "赤い",
+            "おもい",
+            "大きい",
+            "ながい"
+        ],
+        "answer": "red",
+        "explanation": "<b>こたえ：red（赤い）</b><br><br>💡 ヒント：\"Which color\"（どの 色）と きいて います。色の ことばは red（赤い）だけです。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-185",
+        "question": "A: The soup is ready, Paul. Let’s _____ lunch.\nB: OK, Mom.",
+        "translation": "A：ポール、スープが できたよ。お昼ごはんを <b>食べましょう</b>。\nB：うん、お母さん。",
+        "options": [
+            "eat",
+            "read",
+            "know",
+            "need"
+        ],
+        "optionMeanings": [
+            "食べる",
+            "読む",
+            "しって いる",
+            "ひつようだ"
+        ],
+        "answer": "eat",
+        "explanation": "<b>こたえ：eat（食べる）</b><br><br>💡 ヒント：\"soup\"（スープ）と \"lunch\"（お昼ごはん）が ヒントです。お昼ごはんは eat（食べる）です。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-186",
+        "question": "A: What are you reading?\nB: It’s a _____ about two girls. They are best friends.",
+        "translation": "A：何を 読んで いるの？\nB：2人の 女の子の <b>本</b>だよ。2人は 一番の なかよしなんだ。",
+        "options": [
+            "shop",
+            "team",
+            "class",
+            "book"
+        ],
+        "optionMeanings": [
+            "店",
+            "チーム",
+            "じゅぎょう",
+            "本"
+        ],
+        "answer": "book",
+        "explanation": "<b>こたえ：book（本）</b><br><br>💡 ヒント：\"reading\"（読んで いる）と きいて います。読む ものは book（本）です。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-187",
+        "question": "Keiko likes music. She can _____ very well.",
+        "translation": "けいこは 音楽が すきです。とても 上手に <b>歌えます</b>。",
+        "options": [
+            "look",
+            "run",
+            "sing",
+            "swim"
+        ],
+        "optionMeanings": [
+            "見る",
+            "走る",
+            "歌う",
+            "およぐ"
+        ],
+        "answer": "sing",
+        "explanation": "<b>こたえ：sing（歌う）</b><br><br>💡 ヒント：\"music\"（音楽）が すきと あります。音楽に あうのは sing（歌う）です。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-188",
+        "question": "Lisa lives _____ a big house. It has a pool.",
+        "translation": "リサは 大きな 家<b>に</b> すんで います。その 家には プールが あります。",
+        "options": [
+            "out",
+            "in",
+            "with",
+            "to"
+        ],
+        "optionMeanings": [
+            "外へ",
+            "〜の中に",
+            "〜と いっしょに",
+            "〜へ"
+        ],
+        "answer": "in",
+        "explanation": "<b>こたえ：in（〜の中に）</b><br><br>💡 ヒント：\"lives in 〜\" で「〜に すんで いる」です。家の 中に すむので in です。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-189",
+        "question": "A: Do you have your history notebook, Mark?\nB: No, Scott. It’s _____ home.",
+        "translation": "A：マーク、れきしの ノートを もって いる？\nB：ううん、スコット。<b>家に</b> あるよ。",
+        "options": [
+            "with",
+            "at",
+            "of",
+            "to"
+        ],
+        "optionMeanings": [
+            "〜と いっしょに",
+            "〜に（ばしょ）",
+            "〜の",
+            "〜へ"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（at home ＝ 家に）</b><br><br>💡 ヒント：\"at home\" で「家に」と いう いみです。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-190",
+        "question": "A: Kenji, do you want some orange juice?\nB: Yes, _____ little.",
+        "translation": "A：けんじ、オレンジジュースを のむ？\nB：うん、<b>少し</b> ちょうだい。",
+        "options": [
+            "a",
+            "the",
+            "any",
+            "much"
+        ],
+        "optionMeanings": [
+            "1つの",
+            "その",
+            "いくらか",
+            "たくさんの"
+        ],
+        "answer": "a",
+        "explanation": "<b>こたえ：a（a little ＝ 少し）</b><br><br>💡 ヒント：\"a little\" で「少し」と いう いみです。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-191",
+        "question": "A: Welcome _____ Cate’s Café.\nB: Hello. I want some chocolate cake and orange juice, please.",
+        "translation": "A：ケイトズ・カフェ<b>へ</b> ようこそ。\nB：こんにちは。チョコレートケーキと オレンジジュースを ください。",
+        "options": [
+            "off",
+            "on",
+            "as",
+            "to"
+        ],
+        "optionMeanings": [
+            "はなれて",
+            "〜の上に",
+            "〜として",
+            "〜へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：\"Welcome to 〜\" で「〜へ ようこそ」と いう いみです。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-192",
+        "question": "Roger _____ to bed at 10:00 p.m. every night and wakes up at 6:00 a.m. every morning.",
+        "translation": "ロジャーは 毎ばん 夜10時に <b>ねて</b>、毎朝 6時に おきます。",
+        "options": [
+            "hears",
+            "buys",
+            "cuts",
+            "goes"
+        ],
+        "optionMeanings": [
+            "聞く",
+            "買う",
+            "切る",
+            "行く"
+        ],
+        "answer": "goes",
+        "explanation": "<b>こたえ：goes（go to bed ＝ ねる）</b><br><br>💡 ヒント：\"goes to bed\" で「ねる」と いう いみです。\"wakes up\"（おきる）と セットで おぼえましょう。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-193",
+        "question": "A: Tom, please _____ the window.\nB: Yes, Mom.",
+        "translation": "A：トム、まどを <b>あけて</b>ね。\nB：うん、お母さん。",
+        "options": [
+            "open",
+            "opens",
+            "opening",
+            "to open"
+        ],
+        "optionMeanings": [
+            "あける",
+            "あける（s が つく かたち）",
+            "あけて いる（ing の かたち）",
+            "あける こと（to が つく かたち）"
+        ],
+        "answer": "open",
+        "explanation": "<b>こたえ：open（あける）</b><br><br>💡 ヒント：\"please\" の あとに たのみごとを 言います。うごきの ことばは もとの かたちに します。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-194",
+        "question": "A: Are you and Tim from Canada?\nB: Yes, _____ are.",
+        "translation": "A：あなたと ティムは カナダから 来たの？\nB：うん、<b>わたしたちは</b> そうだよ。",
+        "options": [
+            "I",
+            "we",
+            "our",
+            "ours"
+        ],
+        "optionMeanings": [
+            "わたしは",
+            "わたしたちは",
+            "わたしたちの",
+            "わたしたちの もの"
+        ],
+        "answer": "we",
+        "explanation": "<b>こたえ：we（わたしたちは）</b><br><br>💡 ヒント：\"you and Tim\"（あなたと ティム）と きかれました。じぶんたちの ことなので we（わたしたちは）で こたえます。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-195",
+        "question": "A: Do you know that girl?\nB: Yes, I _____. She’s John’s sister.",
+        "translation": "A：あの 女の子を しって いる？\nB：うん、<b>しって いるよ</b>。ジョンの いもうとだよ。",
+        "options": [
+            "do",
+            "does",
+            "am",
+            "is"
+        ],
+        "optionMeanings": [
+            "する（I や you の とき）",
+            "する（he や she の とき）",
+            "〜です（I の とき）",
+            "〜です（he や she の とき）"
+        ],
+        "answer": "do",
+        "explanation": "<b>こたえ：do（Yes, I do. ＝ うん、そうだよ）</b><br><br>💡 ヒント：\"Do you know 〜?\" と きかれたら、Yes, I do. と こたえます。",
+        "source": "2024年第2回(本会場)"
+    },
+    {
+        "id": "5-196",
+        "question": "A: Ben, can I use your _____?\nB: No. I'm drawing a picture in it now.",
+        "translation": "A：ベン、きみの <b>ノート</b>を つかっても いい？\nB：だめ。今 その 中に 絵を かいて いるんだ。",
+        "options": [
+            "notebook",
+            "flower",
+            "bag",
+            "camera"
+        ],
+        "optionMeanings": [
+            "ノート",
+            "花",
+            "かばん",
+            "カメラ"
+        ],
+        "answer": "notebook",
+        "explanation": "<b>こたえ：notebook（ノート）</b><br><br>💡 ヒント：\"drawing a picture in it\"（その 中に 絵を かいて いる）と あります。中に 絵を かくのは notebook（ノート）です。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-197",
+        "question": "A: Do you _____ that man?\nB: Yes. He's Mr. Green.",
+        "translation": "A：あの 男の人を <b>しって いる</b>？\nB：うん。グリーンさんだよ。",
+        "options": [
+            "sit",
+            "live",
+            "know",
+            "begin"
+        ],
+        "optionMeanings": [
+            "すわる",
+            "すむ",
+            "しって いる",
+            "はじめる"
+        ],
+        "answer": "know",
+        "explanation": "<b>こたえ：know（しって いる）</b><br><br>💡 ヒント：\"He's Mr. Green\"（グリーンさんだよ）と こたえて います。だから know（しって いる）です。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-198",
+        "question": "A: Karen, do you have a _____ at school?\nB: Yes. I keep my coat and books in it.",
+        "translation": "A：カレン、学校に <b>ロッカー</b>は ある？\nB：うん。コートと 本を その 中に 入れて いるよ。",
+        "options": [
+            "locker",
+            "bicycle",
+            "friend",
+            "pool"
+        ],
+        "optionMeanings": [
+            "ロッカー",
+            "自てん車",
+            "友だち",
+            "プール"
+        ],
+        "answer": "locker",
+        "explanation": "<b>こたえ：locker（ロッカー）</b><br><br>💡 ヒント：\"keep my coat and books in it\"（コートと 本を 入れる）と あります。ものを 入れるのは locker（ロッカー）です。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-199",
+        "question": "A: Mom, do you have any _____ now? I want some ice cream.\nB: Sorry, Kevin, I don't.",
+        "translation": "A：お母さん、今 <b>お金</b> もってる？ アイスクリームが ほしいの。\nB：ごめんね、ケビン、もって いないわ。",
+        "options": [
+            "money",
+            "paper",
+            "fish",
+            "music"
+        ],
+        "optionMeanings": [
+            "お金",
+            "紙",
+            "魚",
+            "音楽"
+        ],
+        "answer": "money",
+        "explanation": "<b>こたえ：money（お金）</b><br><br>💡 ヒント：\"ice cream\"（アイスクリーム）を 買いたいのです。買うには money（お金）が いります。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-200",
+        "question": "A: Bob, are you doing your math _____?\nB: Yes, I am.",
+        "translation": "A：ボブ、さんすうの <b>しゅくだい</b>を して いるの？\nB：うん、して いるよ。",
+        "options": [
+            "desk",
+            "homework",
+            "train",
+            "fruits"
+        ],
+        "optionMeanings": [
+            "つくえ",
+            "しゅくだい",
+            "電車",
+            "くだもの"
+        ],
+        "answer": "homework",
+        "explanation": "<b>こたえ：homework（しゅくだい）</b><br><br>💡 ヒント：\"doing your math\"（さんすうの 〜を して いる）と あります。する ものは homework（しゅくだい）です。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-201",
+        "question": "A: Steve, where's Dad?\nB: He's making lunch in the _____.",
+        "translation": "A：スティーブ、お父さんは どこ？\nB：<b>だいどころ</b>で お昼ごはんを 作って いるよ。",
+        "options": [
+            "sofa",
+            "floor",
+            "picture",
+            "kitchen"
+        ],
+        "optionMeanings": [
+            "ソファー",
+            "ゆか",
+            "絵",
+            "だいどころ"
+        ],
+        "answer": "kitchen",
+        "explanation": "<b>こたえ：kitchen（だいどころ）</b><br><br>💡 ヒント：\"making lunch\"（お昼ごはんを 作って いる）と あります。りょうりを する ばしょは kitchen（だいどころ）です。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-202",
+        "question": "A: What are you doing, Emma?\nB: I'm _____ an e-mail to my friend.",
+        "translation": "A：何を して いるの、エマ？\nB：友だちに メールを <b>書いて いる</b>の。",
+        "options": [
+            "seeing",
+            "washing",
+            "eating",
+            "writing"
+        ],
+        "optionMeanings": [
+            "見て いる",
+            "あらって いる",
+            "食べて いる",
+            "書いて いる"
+        ],
+        "answer": "writing",
+        "explanation": "<b>こたえ：writing（書いて いる）</b><br><br>💡 ヒント：\"an e-mail\"（メール）が ヒントです。メールは writing（書いて いる）です。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-203",
+        "question": "A: That doll is very nice. How _____ is it?\nB: It's only $5.",
+        "translation": "A：あの 人形は とても すてきね。<b>いくら</b>ですか。\nB：たった 5ドルです。",
+        "options": [
+            "short",
+            "young",
+            "much",
+            "sad"
+        ],
+        "optionMeanings": [
+            "みじかい",
+            "わかい",
+            "たくさん",
+            "かなしい"
+        ],
+        "answer": "much",
+        "explanation": "<b>こたえ：much（How much ＝ いくら）</b><br><br>💡 ヒント：\"$5\"（5ドル）と ねだんを こたえて います。ねだんを きく ときは How much と 言います。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-204",
+        "question": "A: Hi. Can I help you?\nB: I want a cookie and a _____ of coffee, please.",
+        "translation": "A：いらっしゃいませ。\nB：クッキーと コーヒー<b>1ぱい</b>を ください。",
+        "options": [
+            "cup",
+            "team",
+            "name",
+            "fork"
+        ],
+        "optionMeanings": [
+            "カップ",
+            "チーム",
+            "名前",
+            "フォーク"
+        ],
+        "answer": "cup",
+        "explanation": "<b>こたえ：cup（a cup of ＝ 1ぱいの）</b><br><br>💡 ヒント：\"a cup of coffee\" で「コーヒー 1ぱい」です。のみものは cup で かぞえます。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-205",
+        "question": "Yuko _____ a bath every night before bedtime.",
+        "translation": "ゆうこは 毎ばん ねる 前に おふろに <b>入ります</b>。",
+        "options": [
+            "takes",
+            "reads",
+            "cooks",
+            "feels"
+        ],
+        "optionMeanings": [
+            "とる",
+            "読む",
+            "りょうりする",
+            "かんじる"
+        ],
+        "answer": "takes",
+        "explanation": "<b>こたえ：takes（take a bath ＝ おふろに 入る）</b><br><br>💡 ヒント：\"take a bath\" で「おふろに 入る」と いう いみです。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-206",
+        "question": "Look _____ the robot on TV. It's dancing!",
+        "translation": "テレビの ロボットを <b>見て</b>。おどって いるよ。",
+        "options": [
+            "at",
+            "of",
+            "with",
+            "in"
+        ],
+        "optionMeanings": [
+            "〜を（見る）",
+            "〜の",
+            "〜と いっしょに",
+            "〜の中に"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（Look at ＝ 〜を 見て）</b><br><br>💡 ヒント：\"Look at 〜\" で「〜を 見て」と いう いみです。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-207",
+        "question": "A: Billy, are you on the baseball team?\nB: That's _____. I love baseball!",
+        "translation": "A：ビリー、やきゅうチームに 入って いるの？\nB：<b>そうだよ</b>。やきゅうが 大すきなんだ。",
+        "options": [
+            "old",
+            "right",
+            "ready",
+            "free"
+        ],
+        "optionMeanings": [
+            "古い",
+            "正しい",
+            "じゅんびが できた",
+            "ひまな"
+        ],
+        "answer": "right",
+        "explanation": "<b>こたえ：right（That's right. ＝ そうだよ）</b><br><br>💡 ヒント：\"That's right.\" で「そうだよ」と いう いみです。\"I love baseball\"（やきゅうが 大すき）とも 言って います。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-208",
+        "question": "Jane's brothers like swimming. Jane sometimes goes to the pool with _____ on weekends.",
+        "translation": "ジェーンの きょうだいは すいえいが すきです。ジェーンは 週まつに ときどき <b>かれら</b>と プールへ 行きます。",
+        "options": [
+            "they",
+            "we",
+            "them",
+            "their"
+        ],
+        "optionMeanings": [
+            "かれらは",
+            "わたしたちは",
+            "かれらと（かれらを）",
+            "かれらの"
+        ],
+        "answer": "them",
+        "explanation": "<b>こたえ：them（かれら（と））</b><br><br>💡 ヒント：\"with\"（〜と いっしょに）の あとなので、them の かたちを つかいます。they（かれらは）は ここでは つかいません。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-209",
+        "question": "A: _____ does the bicycle race start, Dad?\nB: It starts at 3:00 p.m.",
+        "translation": "A：お父さん、自てん車レースは <b>いつ</b> はじまるの？\nB：午後3時に はじまるよ。",
+        "options": [
+            "When",
+            "Which",
+            "Who",
+            "Where"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "どちら",
+            "だれ",
+            "どこ"
+        ],
+        "answer": "When",
+        "explanation": "<b>こたえ：When（いつ）</b><br><br>💡 ヒント：\"at 3:00 p.m.\"（午後3時に）と 時間を こたえて います。時間を きくのは When（いつ）です。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-210",
+        "question": "A: Mom, can I ride my bike to the park today?\nB: OK, Kelly. Please _____ careful.",
+        "translation": "A：お母さん、今日 自てん車で 公園に 行っても いい？\nB：いいわよ、ケリー。<b>気を つけて</b>ね。",
+        "options": [
+            "be",
+            "am",
+            "are",
+            "is"
+        ],
+        "optionMeanings": [
+            "〜で いる（もとの かたち）",
+            "〜です（I の とき）",
+            "〜です（you の とき）",
+            "〜です（he や she の とき）"
+        ],
+        "answer": "be",
+        "explanation": "<b>こたえ：be（be careful ＝ 気を つけて）</b><br><br>💡 ヒント：\"Please\" の あとは もとの かたちに します。am、are、is の もとの かたちは be です。",
+        "source": "2024年第2回(準会場)"
+    },
+    {
+        "id": "5-211",
+        "question": "Hiroko always has candy in her _____. She gives it to her friend.",
+        "translation": "ひろこは いつも <b>ポケット</b>に あめを 入れて います。それを 友だちに あげます。",
+        "options": [
+            "pencil",
+            "knife",
+            "pocket",
+            "sea"
+        ],
+        "optionMeanings": [
+            "えんぴつ",
+            "ナイフ",
+            "ポケット",
+            "海"
+        ],
+        "answer": "pocket",
+        "explanation": "<b>こたえ：pocket（ポケット）</b><br><br>💡 ヒント：\"in her\"（かのじょの 〜の中に）と あります。あめを 入れて おけるのは pocket（ポケット）です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-212",
+        "question": "Please _____ a glass of milk for me, Mom. I’m thirsty.",
+        "translation": "お母さん、牛にゅうを 1ぱい <b>もって きて</b>。のどが かわいたの。",
+        "options": [
+            "bring",
+            "want",
+            "sing",
+            "know"
+        ],
+        "optionMeanings": [
+            "もって くる",
+            "ほしい",
+            "歌う",
+            "しって いる"
+        ],
+        "answer": "bring",
+        "explanation": "<b>こたえ：bring（もって くる）</b><br><br>💡 ヒント：\"for me\"（わたしに）と \"thirsty\"（のどが かわいた）が ヒントです。もって きて ほしいので bring です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-213",
+        "question": "I like baseball, but I don’t play it in bad _____.",
+        "translation": "わたしは やきゅうが すきですが、わるい <b>天気</b>の 日には しません。",
+        "options": [
+            "soda",
+            "animal",
+            "train",
+            "weather"
+        ],
+        "optionMeanings": [
+            "ソーダ",
+            "どうぶつ",
+            "電車",
+            "天気"
+        ],
+        "answer": "weather",
+        "explanation": "<b>こたえ：weather（天気）</b><br><br>💡 ヒント：\"bad\"（わるい）の あとに あう ことばです。わるい weather（天気）は 雨の 日などです。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-214",
+        "question": "Shuhei loves music. He plays the _____ in the music club.",
+        "translation": "しゅうへいは 音楽が 大すきです。音楽クラブで <b>トランペット</b>を ふきます。",
+        "options": [
+            "trumpet",
+            "curry",
+            "desk",
+            "monkey"
+        ],
+        "optionMeanings": [
+            "トランペット",
+            "カレー",
+            "つくえ",
+            "さる"
+        ],
+        "answer": "trumpet",
+        "explanation": "<b>こたえ：trumpet（トランペット）</b><br><br>💡 ヒント：\"plays the\"（〜を えんそうする）と \"music club\"（音楽クラブ）が ヒントです。がっきは trumpet だけです。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-215",
+        "question": "A: What color is your bag, Ben?\nB: It’s _____.",
+        "translation": "A：ベン、きみの かばんは 何色？\nB：<b>はい色</b>だよ。",
+        "options": [
+            "badminton",
+            "gray",
+            "family",
+            "math"
+        ],
+        "optionMeanings": [
+            "バドミントン",
+            "はい色",
+            "かぞく",
+            "さんすう"
+        ],
+        "answer": "gray",
+        "explanation": "<b>こたえ：gray（はい色）</b><br><br>💡 ヒント：\"What color\"（何色）と きいて います。色の ことばは gray（はい色）です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-216",
+        "question": "A: Do you like animals?\nB: Yes, I like lions and _____.",
+        "translation": "A：どうぶつは すき？\nB：うん、ライオンと <b>ぞう</b>が すき。",
+        "options": [
+            "textbooks",
+            "elephants",
+            "salads",
+            "mountains"
+        ],
+        "optionMeanings": [
+            "きょうかしょ",
+            "ぞう",
+            "サラダ",
+            "山"
+        ],
+        "answer": "elephants",
+        "explanation": "<b>こたえ：elephants（ぞう）</b><br><br>💡 ヒント：\"lions\"（ライオン）と ならべて いるので、どうぶつを えらびます。elephants（ぞう）です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-217",
+        "question": "After school, I often have a tennis _____ at the park.",
+        "translation": "学校の 後、わたしは よく 公園で テニスの <b>レッスン</b>を うけます。",
+        "options": [
+            "lesson",
+            "eraser",
+            "door",
+            "tree"
+        ],
+        "optionMeanings": [
+            "レッスン",
+            "けしゴム",
+            "ドア",
+            "木"
+        ],
+        "answer": "lesson",
+        "explanation": "<b>こたえ：lesson（レッスン）</b><br><br>💡 ヒント：\"tennis\"（テニス）の あとに あう ことばです。tennis lesson で「テニスの レッスン」です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-218",
+        "question": "A: Dad, can we go on a picnic this Sunday?\nB: All _____. That’s a good idea.",
+        "translation": "A：お父さん、今週の 日曜日に ピクニックに 行ける？\nB：<b>いいよ</b>。いい 考えだね。",
+        "options": [
+            "bad",
+            "cute",
+            "nice",
+            "right"
+        ],
+        "optionMeanings": [
+            "わるい",
+            "かわいい",
+            "すてきな",
+            "正しい"
+        ],
+        "answer": "right",
+        "explanation": "<b>こたえ：right（All right. ＝ いいよ）</b><br><br>💡 ヒント：\"All right.\" で「いいよ」と いう いみです。\"good idea\"（いい 考え）とも 言って います。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-219",
+        "question": "A: Is Lisa in your class, Kate?\nB: Yes, she is. She is _____ Australia.",
+        "translation": "A：リサは きみの クラスに いるの、ケイト？\nB：うん、いるよ。オーストラリア<b>から</b> 来たのよ。",
+        "options": [
+            "from",
+            "under",
+            "next",
+            "over"
+        ],
+        "optionMeanings": [
+            "〜から",
+            "〜の下に",
+            "となりの",
+            "〜の上に"
+        ],
+        "answer": "from",
+        "explanation": "<b>こたえ：from（〜から）</b><br><br>💡 ヒント：\"be from 〜\" で「〜から 来た（〜の 出しん）」と いう いみです。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-220",
+        "question": "A: Let’s go to the shopping mall _____ the afternoon.\nB: That’s a good idea.",
+        "translation": "A：<b>午後に</b> ショッピングモールへ 行こう。\nB：いい 考えだね。",
+        "options": [
+            "at",
+            "up",
+            "in",
+            "under"
+        ],
+        "optionMeanings": [
+            "〜に（時こく）",
+            "上へ",
+            "〜の中に",
+            "〜の下に"
+        ],
+        "answer": "in",
+        "explanation": "<b>こたえ：in（in the afternoon ＝ 午後に）</b><br><br>💡 ヒント：\"in the afternoon\" で「午後に」と いう いみです。朝は in the morning です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-221",
+        "question": "I usually _____ up at six and study English for 30 minutes.",
+        "translation": "わたしは たいてい 6時に <b>おきて</b>、30分 えいごを べんきょうします。",
+        "options": [
+            "do",
+            "cut",
+            "wake",
+            "have"
+        ],
+        "optionMeanings": [
+            "する",
+            "切る",
+            "目が さめる",
+            "もって いる"
+        ],
+        "answer": "wake",
+        "explanation": "<b>こたえ：wake（wake up ＝ おきる）</b><br><br>💡 ヒント：\"wake up\" で「おきる」と いう いみです。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-222",
+        "question": "Katie is _____ her homework now. After that, she can play games.",
+        "translation": "ケイティは 今 しゅくだいを <b>して います</b>。その 後で ゲームが できます。",
+        "options": [
+            "doing",
+            "dancing",
+            "eating",
+            "drinking"
+        ],
+        "optionMeanings": [
+            "して いる",
+            "おどって いる",
+            "食べて いる",
+            "のんで いる"
+        ],
+        "answer": "doing",
+        "explanation": "<b>こたえ：doing（して いる）</b><br><br>💡 ヒント：\"homework\"（しゅくだい）には do を つかいます。do my homework で「しゅくだいを する」です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-223",
+        "question": "A: Ted! _____ read comic books in the classroom.\nB: Sorry, Mr. Brown.",
+        "translation": "A：テッド。きょうしつで まんがを <b>読まないで</b>。\nB：ごめんなさい、ブラウン先生。",
+        "options": [
+            "Don’t",
+            "Aren’t",
+            "Isn’t",
+            "Doesn’t"
+        ],
+        "optionMeanings": [
+            "〜しないで",
+            "〜では ない（are）",
+            "〜では ない（is）",
+            "〜しない（he や she の とき）"
+        ],
+        "answer": "Don’t",
+        "explanation": "<b>こたえ：Don’t（〜しないで）</b><br><br>💡 ヒント：\"Sorry\"（ごめんなさい）と あやまって います。「〜しないで」と 言う ときは、Don't で 文を はじめます。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-224",
+        "question": "A: Is that Ms. White’s textbook?\nB: No, it isn’t _____. It’s mine.",
+        "translation": "A：あれは ホワイト先生の きょうかしょ？\nB：ううん、<b>かのじょの もの</b>では ないよ。わたしのだよ。",
+        "options": [
+            "its",
+            "hers",
+            "ours",
+            "his"
+        ],
+        "optionMeanings": [
+            "それの",
+            "かのじょの もの",
+            "わたしたちの もの",
+            "かれの（もの）"
+        ],
+        "answer": "hers",
+        "explanation": "<b>こたえ：hers（かのじょの もの）</b><br><br>💡 ヒント：\"Ms. White\"（ホワイト先生）は 女の人です。「かのじょの もの」は hers です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-225",
+        "question": "A: _____ postcards are so cute.\nB: Thanks. I often buy them at the shopping mall.",
+        "translation": "A：<b>これらの</b> はがきは とても かわいいね。\nB：ありがとう。よく ショッピングモールで 買うんだ。",
+        "options": [
+            "This",
+            "These",
+            "That",
+            "It"
+        ],
+        "optionMeanings": [
+            "この",
+            "これらの",
+            "あの",
+            "それ"
+        ],
+        "answer": "These",
+        "explanation": "<b>こたえ：These（これらの）</b><br><br>💡 ヒント：\"postcards\"（はがき）は s が ついて いて、2まい いじょうです。だから These（これらの）です。",
+        "source": "2024年第3回(本会場)"
+    },
+    {
+        "id": "5-226",
+        "question": "Tom likes music. He _____ the guitar every day.",
+        "translation": "トムは 音楽が すきです。毎日 ギターを <b>れんしゅうします</b>。",
+        "options": [
+            "practices",
+            "meets",
+            "closes",
+            "drinks"
+        ],
+        "optionMeanings": [
+            "れんしゅうする",
+            "会う",
+            "しめる",
+            "のむ"
+        ],
+        "answer": "practices",
+        "explanation": "<b>こたえ：practices（れんしゅうする）</b><br><br>💡 ヒント：\"the guitar every day\"（毎日 ギターを）と あります。毎日 するのは practices（れんしゅうする）です。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-227",
+        "question": "I often write _____ to my friends. I love my pink pen.",
+        "translation": "わたしは よく 友だちに <b>手紙</b>を 書きます。ピンクの ペンが 大すきです。",
+        "options": [
+            "sports",
+            "letters",
+            "tables",
+            "moons"
+        ],
+        "optionMeanings": [
+            "スポーツ",
+            "手紙",
+            "テーブル",
+            "月（つき）"
+        ],
+        "answer": "letters",
+        "explanation": "<b>こたえ：letters（手紙）</b><br><br>💡 ヒント：\"write\"（書く）と \"pen\"（ペン）が ヒントです。書いて 友だちに おくるのは letters（手紙）です。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-228",
+        "question": "A: What's in that big _____?\nB: It's my computer.",
+        "translation": "A：あの 大きな <b>はこ</b>には 何が 入って いるの？\nB：ぼくの コンピューターだよ。",
+        "options": [
+            "box",
+            "spoon",
+            "bird",
+            "sugar"
+        ],
+        "optionMeanings": [
+            "はこ",
+            "スプーン",
+            "鳥",
+            "さとう"
+        ],
+        "answer": "box",
+        "explanation": "<b>こたえ：box（はこ）</b><br><br>💡 ヒント：\"What's in\"（中に 何が ある）と きいて います。コンピューターが 入るのは box（はこ）です。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-229",
+        "question": "Bob likes art. He _____ pictures every weekend.",
+        "translation": "ボブは 図工が すきです。毎週まつ 絵を <b>かきます</b>。",
+        "options": [
+            "cooks",
+            "listens",
+            "draws",
+            "eats"
+        ],
+        "optionMeanings": [
+            "りょうりする",
+            "聞く",
+            "（絵を）かく",
+            "食べる"
+        ],
+        "answer": "draws",
+        "explanation": "<b>こたえ：draws（（絵を）かく）</b><br><br>💡 ヒント：\"art\"（図工）と \"pictures\"（絵）が ヒントです。絵を かくのは draws です。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-230",
+        "question": "Mai loves music. She plays the guitar and the _____.",
+        "translation": "まいは 音楽が 大すきです。ギターと <b>バイオリン</b>を ひきます。",
+        "options": [
+            "violin",
+            "pool",
+            "bag",
+            "fork"
+        ],
+        "optionMeanings": [
+            "バイオリン",
+            "プール",
+            "かばん",
+            "フォーク"
+        ],
+        "answer": "violin",
+        "explanation": "<b>こたえ：violin（バイオリン）</b><br><br>💡 ヒント：\"plays the guitar\"（ギターを ひく）と あります。がっきは violin（バイオリン）だけです。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-231",
+        "question": "Kenta's sister is on a volleyball _____. Kenta likes volleyball, too.",
+        "translation": "けんたの お姉さんは バレーボール<b>チーム</b>に 入って います。けんたも バレーボールが すきです。",
+        "options": [
+            "kitchen",
+            "clock",
+            "team",
+            "cap"
+        ],
+        "optionMeanings": [
+            "だいどころ",
+            "とけい",
+            "チーム",
+            "ぼうし"
+        ],
+        "answer": "team",
+        "explanation": "<b>こたえ：team（チーム）</b><br><br>💡 ヒント：\"on a volleyball\"（バレーボールの 〜に 入って いる）と あります。入るのは team（チーム）です。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-232",
+        "question": "Science is my favorite subject. It's _____.",
+        "translation": "りかは わたしの 一番 すきな 教科です。<b>わくわくします</b>。",
+        "options": [
+            "sunny",
+            "exciting",
+            "high",
+            "near"
+        ],
+        "optionMeanings": [
+            "はれの",
+            "わくわくする",
+            "高い",
+            "近い"
+        ],
+        "answer": "exciting",
+        "explanation": "<b>こたえ：exciting（わくわくする）</b><br><br>💡 ヒント：\"favorite subject\"（一番 すきな 教科）と あります。すきな わけは exciting（わくわくする）です。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-233",
+        "question": "A: I'm going to school now, Mom.\nB: OK, Ben. _____ a good day.",
+        "translation": "A：お母さん、今から 学校に 行くね。\nB：わかったわ、ベン。<b>いい 一日を すごしてね</b>。",
+        "options": [
+            "Take",
+            "Have",
+            "See",
+            "Go"
+        ],
+        "optionMeanings": [
+            "とる",
+            "もつ",
+            "見る",
+            "行く"
+        ],
+        "answer": "Have",
+        "explanation": "<b>こたえ：Have（Have a good day. ＝ いい 一日を）</b><br><br>💡 ヒント：\"Have a good day.\" で「いい 一日を」と いう あいさつです。出かける 人に 言います。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-234",
+        "question": "I like tennis. I play it _____ the morning every weekend.",
+        "translation": "わたしは テニスが すきです。毎週まつ <b>朝に</b> します。",
+        "options": [
+            "in",
+            "of",
+            "at",
+            "on"
+        ],
+        "optionMeanings": [
+            "〜の中に",
+            "〜の",
+            "〜に（時こく）",
+            "〜に（曜日）"
+        ],
+        "answer": "in",
+        "explanation": "<b>こたえ：in（in the morning ＝ 朝に）</b><br><br>💡 ヒント：\"in the morning\" で「朝に」です。朝や 午後には in を つかいます。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-235",
+        "question": "Yoko and Kenji study Japanese _____ school. Their Japanese teacher is Ms. Nakamura.",
+        "translation": "ようこと けんじは 学校<b>で</b> 日本ごを べんきょうします。2人の 日本ごの 先生は 中村先生です。",
+        "options": [
+            "to",
+            "on",
+            "up",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜へ",
+            "〜の上に",
+            "上へ",
+            "〜で"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜で）</b><br><br>💡 ヒント：\"at school\" で「学校で」と いう いみです。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-236",
+        "question": "A: Kate, please _____ up and come to the blackboard.\nB: Yes, Ms. Sullivan.",
+        "translation": "A：ケイト、<b>立って</b>、こくばんの ところへ 来てください。\nB：はい、サリバン先生。",
+        "options": [
+            "cook",
+            "do",
+            "be",
+            "stand"
+        ],
+        "optionMeanings": [
+            "りょうりする",
+            "する",
+            "〜で いる",
+            "立つ"
+        ],
+        "answer": "stand",
+        "explanation": "<b>こたえ：stand（stand up ＝ 立つ）</b><br><br>💡 ヒント：\"stand up\" で「立つ」と いう いみです。\"come to the blackboard\"（こくばんへ 来て）とも 言って います。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-237",
+        "question": "Ken likes English. He studies it _____ 7 p.m. to 9 p.m. every day.",
+        "translation": "ケンは えいごが すきです。毎日 夜7時<b>から</b> 9時まで べんきょうします。",
+        "options": [
+            "from",
+            "for",
+            "on",
+            "in"
+        ],
+        "optionMeanings": [
+            "〜から",
+            "〜の あいだ",
+            "〜に（曜日）",
+            "〜の中に"
+        ],
+        "answer": "from",
+        "explanation": "<b>こたえ：from（〜から）</b><br><br>💡 ヒント：\"from 〜 to …\" で「〜から …まで」です。\"to 9 p.m.\"（9時まで）が ヒントです。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-238",
+        "question": "A: _____ your father play golf?\nB: Yes, sometimes.",
+        "translation": "A：きみの お父さんは ゴルフを <b>しますか</b>。\nB：うん、ときどきね。",
+        "options": [
+            "Is",
+            "Are",
+            "Does",
+            "Do"
+        ],
+        "optionMeanings": [
+            "〜ですか（he や she の とき）",
+            "〜ですか（you や they の とき）",
+            "〜しますか（he や she の とき）",
+            "〜しますか（I や you の とき）"
+        ],
+        "answer": "Does",
+        "explanation": "<b>こたえ：Does（〜しますか（he や she の とき））</b><br><br>💡 ヒント：\"your father\"（きみの お父さん）は 1人です。play と いっしょに きく ときは Does を つかいます。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-239",
+        "question": "Kaito loves English. He can _____ English very well.",
+        "translation": "かいとは えいごが 大すきです。えいごを とても 上手に <b>話せます</b>。",
+        "options": [
+            "speak",
+            "speaking",
+            "speaks",
+            "spoke"
+        ],
+        "optionMeanings": [
+            "話す（もとの かたち）",
+            "話して いる（ing の かたち）",
+            "話す（s が つく かたち）",
+            "話した（前の かたち）"
+        ],
+        "answer": "speak",
+        "explanation": "<b>こたえ：speak（話す）</b><br><br>💡 ヒント：can の あとは、うごきの ことばを もとの かたちに します。だから speak です。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-240",
+        "question": "A: _____ do you play baseball? Is it on Monday or Friday?\nB: On Friday.",
+        "translation": "A：<b>いつ</b> やきゅうを するの？ 月曜日、それとも 金曜日？\nB：金曜日だよ。",
+        "options": [
+            "How",
+            "What",
+            "Who",
+            "When"
+        ],
+        "optionMeanings": [
+            "どのように",
+            "何",
+            "だれ",
+            "いつ"
+        ],
+        "answer": "When",
+        "explanation": "<b>こたえ：When（いつ）</b><br><br>💡 ヒント：\"Monday or Friday\"（月曜日か 金曜日か）と 日を きいて います。「いつ」は When です。",
+        "source": "2024年第3回(準会場)"
+    },
+    {
+        "id": "5-241",
+        "question": "A: Please write your _____ and telephone number here.\nB: OK.",
+        "translation": "A：ここに あなたの <b>名前</b>と 電話ばんごうを 書いて ください。\nB：わかりました。",
+        "options": [
+            "bird",
+            "name",
+            "door",
+            "watch"
+        ],
+        "optionMeanings": [
+            "鳥",
+            "名前",
+            "ドア",
+            "うでどけい"
+        ],
+        "answer": "name",
+        "explanation": "<b>こたえ：name（名前）</b><br><br>💡 ヒント：\"write your ___ and telephone number\"（あなたの ＿と 電話ばんごうを 書く）と あります。電話ばんごうと いっしょに 書くのは name（名前）です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-242",
+        "question": "A: Kyoko, which _____ do you like at school, science or math?\nB: Math.",
+        "translation": "A：キョウコ、学校では どの <b>きょうか</b>が すき？ 理科と 算数、どっち？\nB：算数です。",
+        "options": [
+            "team",
+            "window",
+            "subject",
+            "place"
+        ],
+        "optionMeanings": [
+            "チーム",
+            "まど",
+            "きょうか",
+            "ばしょ"
+        ],
+        "answer": "subject",
+        "explanation": "<b>こたえ：subject（きょうか）</b><br><br>💡 ヒント：science（理科）と math（算数）を くらべて います。どちらも 学校の きょうかです。だから subject です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-243",
+        "question": "A: Let’s go to a new cake _____, Tina.\nB: That’s a good idea.",
+        "translation": "A：ティナ、新しい ケーキ<b>やさん</b>に 行こう。\nB：いい 考えだね。",
+        "options": [
+            "shop",
+            "bike",
+            "egg",
+            "chair"
+        ],
+        "optionMeanings": [
+            "お店",
+            "じてんしゃ",
+            "たまご",
+            "いす"
+        ],
+        "answer": "shop",
+        "explanation": "<b>こたえ：shop（お店）</b><br><br>💡 ヒント：\"Let's go to\"（～に 行こう）と さそって います。ケーキを 売って いる ところは shop（お店）です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-244",
+        "question": "Students often play _____ in Mr. Brown’s English class.",
+        "translation": "子どもたちは ブラウン先生の えいごの じゅぎょうで、よく <b>ゲーム</b>を します。",
+        "options": [
+            "games",
+            "phones",
+            "clocks",
+            "cameras"
+        ],
+        "optionMeanings": [
+            "ゲーム",
+            "でんわ",
+            "時計",
+            "カメラ"
+        ],
+        "answer": "games",
+        "explanation": "<b>こたえ：games（ゲーム）</b><br><br>💡 ヒント：play games で「ゲームを する」です。じゅぎょうで みんなで する ものは games です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-245",
+        "question": "Alice eats toast for _____.",
+        "translation": "アリスは <b>朝ごはん</b>に トーストを 食べます。",
+        "options": [
+            "newspaper",
+            "breakfast",
+            "music",
+            "snow"
+        ],
+        "optionMeanings": [
+            "しんぶん",
+            "朝ごはん",
+            "音楽",
+            "雪"
+        ],
+        "answer": "breakfast",
+        "explanation": "<b>こたえ：breakfast（朝ごはん）</b><br><br>💡 ヒント：toast（トースト）は 朝に よく 食べます。for breakfast で「朝ごはんに」です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-246",
+        "question": "Jessica is a big _____ of her hometown’s soccer team.",
+        "translation": "ジェシカは 自分の 町の サッカーチームの 大<b>ファン</b>です。",
+        "options": [
+            "fan",
+            "table",
+            "mountain",
+            "box"
+        ],
+        "optionMeanings": [
+            "ファン",
+            "テーブル",
+            "山",
+            "はこ"
+        ],
+        "answer": "fan",
+        "explanation": "<b>こたえ：fan（ファン）</b><br><br>💡 ヒント：a big fan of ～ で「～の 大ファン」です。チームを おうえんする 人の ことです。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-247",
+        "question": "Look at that red _____. It’s swimming very fast.",
+        "translation": "あの 赤い <b>魚</b>を 見て。とても はやく およいで いるよ。",
+        "options": [
+            "ball",
+            "flower",
+            "fish",
+            "river"
+        ],
+        "optionMeanings": [
+            "ボール",
+            "花",
+            "魚",
+            "川"
+        ],
+        "answer": "fish",
+        "explanation": "<b>こたえ：fish（魚）</b><br><br>💡 ヒント：\"It's swimming\"（およいで いる）と あります。およぐのは fish（魚）です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-248",
+        "question": "A: Bye, Brenda. _____ a nice day.\nB: Thanks.",
+        "translation": "A：バイバイ、ブレンダ。いい 一日を <b>すごしてね</b>。\nB：ありがとう。",
+        "options": [
+            "Eat",
+            "Go",
+            "Come",
+            "Have"
+        ],
+        "optionMeanings": [
+            "食べる",
+            "行く",
+            "来る",
+            "もつ・すごす"
+        ],
+        "answer": "Have",
+        "explanation": "<b>こたえ：Have（すごす）</b><br><br>💡 ヒント：Have a nice day. で「いい 一日を」です。わかれる ときの あいさつです。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-249",
+        "question": "A: Are you from England, Katie?\nB: That’s _____. I’m from London.",
+        "translation": "A：ケイティ、あなたは イギリスから 来たの？\nB：<b>そのとおり</b>。ロンドンから 来たの。",
+        "options": [
+            "well",
+            "little",
+            "right",
+            "happy"
+        ],
+        "optionMeanings": [
+            "よく",
+            "小さい",
+            "正しい",
+            "うれしい"
+        ],
+        "answer": "right",
+        "explanation": "<b>こたえ：right（正しい）</b><br><br>💡 ヒント：That's right. で「そのとおり」です。London（ロンドン）は イギリスの 町です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-250",
+        "question": "Kelly often talks _____ her future dream.",
+        "translation": "ケリーは よく しょうらいの ゆめ<b>について</b> 話します。",
+        "options": [
+            "about",
+            "by",
+            "from",
+            "under"
+        ],
+        "optionMeanings": [
+            "～について",
+            "～の そばに",
+            "～から",
+            "～の 下に"
+        ],
+        "answer": "about",
+        "explanation": "<b>こたえ：about（～について）</b><br><br>💡 ヒント：talk about ～ で「～について 話す」です。セットで おぼえましょう。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-251",
+        "question": "Yoshiko sometimes does her homework _____ night.",
+        "translation": "ヨシコは ときどき <b>夜に</b> しゅくだいを します。",
+        "options": [
+            "at",
+            "off",
+            "for",
+            "to"
+        ],
+        "optionMeanings": [
+            "～に（時）",
+            "はなれて",
+            "～の ために",
+            "～へ"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（～に）</b><br><br>💡 ヒント：at night で「夜に」です。セットで おぼえましょう。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-252",
+        "question": "Megumi is 13 _____ old. She’s a junior high school student.",
+        "translation": "メグミは 13<b>さい</b>です。中学生です。",
+        "options": [
+            "fruits",
+            "years",
+            "hands",
+            "girls"
+        ],
+        "optionMeanings": [
+            "くだもの",
+            "年",
+            "手",
+            "女の子"
+        ],
+        "answer": "years",
+        "explanation": "<b>こたえ：years（年）</b><br><br>💡 ヒント：～ years old で「～さい」です。年れいを 言う ときの 言い方です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-253",
+        "question": "A: Dad, please help _____. Today’s homework is very hard.\nB: OK.",
+        "translation": "A：お父さん、<b>わたしを</b> 手つだって。今日の しゅくだいは とても むずかしいの。\nB：いいよ。",
+        "options": [
+            "I",
+            "my",
+            "me",
+            "mine"
+        ],
+        "optionMeanings": [
+            "わたしは",
+            "わたしの",
+            "わたしを",
+            "わたしの もの"
+        ],
+        "answer": "me",
+        "explanation": "<b>こたえ：me（わたしを）</b><br><br>💡 ヒント：help の あとは「～を」の かたちが 来ます。「わたしを」は me です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-254",
+        "question": "A: Cathy, _____ are you doing?\nB: I’m writing a letter to my friend.",
+        "translation": "A：キャシー、<b>何を</b> して いるの？\nB：友だちに 手紙を 書いて いるの。",
+        "options": [
+            "whose",
+            "what",
+            "when",
+            "who"
+        ],
+        "optionMeanings": [
+            "だれの",
+            "何",
+            "いつ",
+            "だれ"
+        ],
+        "answer": "what",
+        "explanation": "<b>こたえ：what（何）</b><br><br>💡 ヒント：B は「手紙を 書いて いる」と こたえて います。何を して いるか きいて いるので what です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-255",
+        "question": "My sister and I _____ dinner every Sunday.",
+        "translation": "姉と わたしは 毎週 日曜日に 夕ごはんを <b>作ります</b>。",
+        "options": [
+            "cook",
+            "cooks",
+            "cooking",
+            "to cook"
+        ],
+        "optionMeanings": [
+            "りょうりする",
+            "cook に s が ついた かたち",
+            "cook に ing が ついた かたち",
+            "to が ついた かたち"
+        ],
+        "answer": "cook",
+        "explanation": "<b>こたえ：cook（りょうりする）</b><br><br>💡 ヒント：\"My sister and I\" は 2人です。2人の ときは s を つけません。だから もとの かたちの cook です。",
+        "source": "2023年第1回(本会場)"
+    },
+    {
+        "id": "5-256",
+        "question": "A: It's too _____ today.\nB: Yes. Let's stay at home.",
+        "translation": "A：今日は <b>あつ</b>すぎるね。\nB：うん。家に いよう。",
+        "options": [
+            "hot",
+            "many",
+            "pretty",
+            "slow"
+        ],
+        "optionMeanings": [
+            "あつい",
+            "たくさんの",
+            "かわいい",
+            "おそい"
+        ],
+        "answer": "hot",
+        "explanation": "<b>こたえ：hot（あつい）</b><br><br>💡 ヒント：\"stay at home\"（家に いよう）と 言って います。外に 出たくない 天気なので hot（あつい）です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-257",
+        "question": "A: Mom, please _____ sandwiches for lunch.\nB: OK, John.",
+        "translation": "A：お母さん、昼ごはんに サンドイッチを <b>作って</b> ください。\nB：いいわよ、ジョン。",
+        "options": [
+            "know",
+            "make",
+            "sit",
+            "study"
+        ],
+        "optionMeanings": [
+            "知って いる",
+            "作る",
+            "すわる",
+            "べんきょうする"
+        ],
+        "answer": "make",
+        "explanation": "<b>こたえ：make（作る）</b><br><br>💡 ヒント：sandwiches（サンドイッチ）は 作る ものです。make で「作る」です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-258",
+        "question": "A: Kumiko, where do you usually swim?\nB: I sometimes go to the _____ by the park.",
+        "translation": "A：クミコ、ふだん どこで およぐの？\nB：ときどき 公園の そばの <b>プール</b>に 行くよ。",
+        "options": [
+            "computer",
+            "library",
+            "pool",
+            "chair"
+        ],
+        "optionMeanings": [
+            "コンピューター",
+            "としょかん",
+            "プール",
+            "いす"
+        ],
+        "answer": "pool",
+        "explanation": "<b>こたえ：pool（プール）</b><br><br>💡 ヒント：swim（およぐ）と きかれて います。およぐ ところは pool（プール）です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-259",
+        "question": "A: Dad, I want a _____ for tomorrow's history class.\nB: OK, let's get one at the store.",
+        "translation": "A：お父さん、明日の れきしの じゅぎょうに <b>ノート</b>が ほしいな。\nB：いいよ、お店で 買おう。",
+        "options": [
+            "fish",
+            "bike",
+            "sport",
+            "notebook"
+        ],
+        "optionMeanings": [
+            "魚",
+            "じてんしゃ",
+            "スポーツ",
+            "ノート"
+        ],
+        "answer": "notebook",
+        "explanation": "<b>こたえ：notebook（ノート）</b><br><br>💡 ヒント：class（じゅぎょう）で つかう ものです。お店で 買えるのは notebook（ノート）です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-260",
+        "question": "A: When is Mary's birthday _____?\nB: Next Friday.",
+        "translation": "A：メアリーの たんじょう日<b>パーティー</b>は いつ？\nB：来週の 金曜日だよ。",
+        "options": [
+            "cake",
+            "party",
+            "dress",
+            "park"
+        ],
+        "optionMeanings": [
+            "ケーキ",
+            "パーティー",
+            "ドレス",
+            "公園"
+        ],
+        "answer": "party",
+        "explanation": "<b>こたえ：party（パーティー）</b><br><br>💡 ヒント：\"Next Friday\"（来週の 金曜日）と こたえて います。birthday party で「たんじょう日パーティー」です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-261",
+        "question": "Nancy gets on the train at this _____.",
+        "translation": "ナンシーは この <b>えき</b>で 電車に のります。",
+        "options": [
+            "cup",
+            "clock",
+            "station",
+            "movie"
+        ],
+        "optionMeanings": [
+            "カップ",
+            "時計",
+            "えき",
+            "えいが"
+        ],
+        "answer": "station",
+        "explanation": "<b>こたえ：station（えき）</b><br><br>💡 ヒント：train（電車）に のる ところです。だから station（えき）です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-262",
+        "question": "A: What do we _____ for the next English class, Mr. Smith?\nB: A dictionary.",
+        "translation": "A：スミス先生、つぎの えいごの じゅぎょうには 何が <b>いります</b>か。\nB：じしょです。",
+        "options": [
+            "help",
+            "need",
+            "go",
+            "teach"
+        ],
+        "optionMeanings": [
+            "手つだう",
+            "ひつようと する",
+            "行く",
+            "教える"
+        ],
+        "answer": "need",
+        "explanation": "<b>こたえ：need（ひつようと する）</b><br><br>💡 ヒント：\"A dictionary\"（じしょ）と こたえて います。もって くる ものを きいて いるので need（ひつようと する）です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-263",
+        "question": "A: Can I _____ a picture in this museum?\nB: No, you can't.",
+        "translation": "A：この びじゅつかんで しゃしんを <b>とって</b>も いいですか。\nB：いいえ、だめです。",
+        "options": [
+            "take",
+            "jump",
+            "swim",
+            "speak"
+        ],
+        "optionMeanings": [
+            "とる",
+            "とぶ",
+            "およぐ",
+            "話す"
+        ],
+        "answer": "take",
+        "explanation": "<b>こたえ：take（とる）</b><br><br>💡 ヒント：take a picture で「しゃしんを とる」です。セットで おぼえましょう。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-264",
+        "question": "A: Let's start our singing lesson, Noriko. _____ up, please.\nB: OK, Ms. White.",
+        "translation": "A：歌の レッスンを はじめましょう、ノリコさん。<b>立って</b> ください。\nB：はい、ホワイト先生。",
+        "options": [
+            "Stand",
+            "Cook",
+            "Go",
+            "Find"
+        ],
+        "optionMeanings": [
+            "立つ",
+            "りょうりする",
+            "行く",
+            "見つける"
+        ],
+        "answer": "Stand",
+        "explanation": "<b>こたえ：Stand（立つ）</b><br><br>💡 ヒント：Stand up で「立つ」です。歌う 前に 立つように 言って います。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-265",
+        "question": "A: Excuse _____. Can I sit here?\nB: Of course.",
+        "translation": "A：<b>すみません</b>。ここに すわっても いいですか。\nB：もちろん。",
+        "options": [
+            "him",
+            "me",
+            "her",
+            "you"
+        ],
+        "optionMeanings": [
+            "かれを",
+            "わたしを",
+            "かのじょを",
+            "あなたを"
+        ],
+        "answer": "me",
+        "explanation": "<b>こたえ：me（わたしを）</b><br><br>💡 ヒント：Excuse me. で「すみません」です。人に 話しかける ときの ことばです。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-266",
+        "question": "A: My father likes baseball. How _____ your father, Ann?\nB: My father does, too.",
+        "translation": "A：ぼくの 父は やきゅうが すきです。アン、きみの お父さん<b>は どう</b>？\nB：わたしの 父も すきよ。",
+        "options": [
+            "to",
+            "for",
+            "at",
+            "about"
+        ],
+        "optionMeanings": [
+            "～へ",
+            "～の ために",
+            "～で",
+            "～について"
+        ],
+        "answer": "about",
+        "explanation": "<b>こたえ：about（～について）</b><br><br>💡 ヒント：How about ～? で「～は どう？」です。同じ ことを きき かえす 言い方です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-267",
+        "question": "Welcome _____ our school festival. Please enjoy it.",
+        "translation": "わたしたちの 学校の おまつり<b>へ</b> ようこそ。楽しんで ください。",
+        "options": [
+            "on",
+            "down",
+            "to",
+            "under"
+        ],
+        "optionMeanings": [
+            "～の 上に",
+            "下へ",
+            "～へ",
+            "～の 下に"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（～へ）</b><br><br>💡 ヒント：Welcome to ～. で「～へ ようこそ」です。セットで おぼえましょう。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-268",
+        "question": "Mr. Ford teaches English. We like _____ class very much.",
+        "translation": "フォード先生は えいごを 教えて います。わたしたちは <b>先生の</b> じゅぎょうが 大すきです。",
+        "options": [
+            "his",
+            "he",
+            "him",
+            "us"
+        ],
+        "optionMeanings": [
+            "かれの",
+            "かれは",
+            "かれを",
+            "わたしたちを"
+        ],
+        "answer": "his",
+        "explanation": "<b>こたえ：his（かれの）</b><br><br>💡 ヒント：class（じゅぎょう）の 前なので「かれの」が 入ります。「かれの」は his です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-269",
+        "question": "A: Megumi, _____ is the weather today?\nB: It's sunny, Ms. Green.",
+        "translation": "A：メグミさん、今日の 天気は <b>どう</b>ですか。\nB：晴れて います、グリーン先生。",
+        "options": [
+            "how",
+            "whose",
+            "who",
+            "where"
+        ],
+        "optionMeanings": [
+            "どう",
+            "だれの",
+            "だれ",
+            "どこ"
+        ],
+        "answer": "how",
+        "explanation": "<b>こたえ：how（どう）</b><br><br>💡 ヒント：weather（天気）を きいて います。How is the weather? で「天気は どう？」です。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-270",
+        "question": "A: Carol, _____ your sister work at a hospital?\nB: Yes. She's a doctor.",
+        "translation": "A：キャロル、あなたの おねえさんは びょういんで <b>はたらいて いるの</b>？\nB：うん。いしゃだよ。",
+        "options": [
+            "do",
+            "does",
+            "is",
+            "are"
+        ],
+        "optionMeanings": [
+            "（I・you の しつもん）",
+            "（he・she の しつもん）",
+            "～です（he・she の とき）",
+            "～です（you・we の とき）"
+        ],
+        "answer": "does",
+        "explanation": "<b>こたえ：does（he・she の しつもん）</b><br><br>💡 ヒント：your sister（あなたの おねえさん）は 1人です。work（はたらく）と いう うごきの ことばが あるので、Does で ききます。",
+        "source": "2023年第1回(準会場)"
+    },
+    {
+        "id": "5-271",
+        "question": "A: Does Alice have any _____?\nB: Yes. She has three dogs.",
+        "translation": "A：アリスは <b>ペット</b>を かって いますか。\nB：はい。犬を 3びき かって います。",
+        "options": [
+            "videos",
+            "pets",
+            "songs",
+            "classes"
+        ],
+        "optionMeanings": [
+            "ビデオ",
+            "ペット",
+            "歌",
+            "じゅぎょう"
+        ],
+        "answer": "pets",
+        "explanation": "<b>こたえ：pets（ペット）</b><br><br>💡 ヒント：\"three dogs\"（3びきの 犬）と こたえて います。犬は pets（ペット）です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-272",
+        "question": "A: Look! That cat is very _____.\nB: Yes. It’s very cute.",
+        "translation": "A：見て。あの ねこは とても <b>小さい</b>ね。\nB：うん。とても かわいいね。",
+        "options": [
+            "small",
+            "rainy",
+            "high",
+            "cloudy"
+        ],
+        "optionMeanings": [
+            "小さい",
+            "雨の",
+            "高い",
+            "くもりの"
+        ],
+        "answer": "small",
+        "explanation": "<b>こたえ：small（小さい）</b><br><br>💡 ヒント：B は cute（かわいい）と 言って います。ねこの ようすに 合うのは small（小さい）です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-273",
+        "question": "Kenji can _____ English very well. He likes English very much.",
+        "translation": "ケンジは えいごを とても じょうずに <b>話せます</b>。えいごが 大すきです。",
+        "options": [
+            "see",
+            "eat",
+            "live",
+            "speak"
+        ],
+        "optionMeanings": [
+            "見る",
+            "食べる",
+            "すむ",
+            "話す"
+        ],
+        "answer": "speak",
+        "explanation": "<b>こたえ：speak（話す）</b><br><br>💡 ヒント：speak English で「えいごを 話す」です。can の あとは、うごきの ことばを もとの かたちに します。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-274",
+        "question": "A: What _____ do you like?\nB: I like green.",
+        "translation": "A：何<b>色</b>が すき？\nB：みどりが すき。",
+        "options": [
+            "year",
+            "song",
+            "color",
+            "movie"
+        ],
+        "optionMeanings": [
+            "年",
+            "歌",
+            "色",
+            "えいが"
+        ],
+        "answer": "color",
+        "explanation": "<b>こたえ：color（色）</b><br><br>💡 ヒント：\"I like green\"（みどりが すき）と こたえて います。みどりは color（色）です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-275",
+        "question": "A: Hiroshi, which season do you like?\nB: I like spring. We can _____ new friends in April.",
+        "translation": "A：ヒロシ、どの きせつが すき？\nB：春が すき。4月には 新しい 友だちに <b>会える</b>から。",
+        "options": [
+            "meet",
+            "go",
+            "close",
+            "cook"
+        ],
+        "optionMeanings": [
+            "会う",
+            "行く",
+            "しめる",
+            "りょうりする"
+        ],
+        "answer": "meet",
+        "explanation": "<b>こたえ：meet（会う）</b><br><br>💡 ヒント：new friends（新しい 友だち）と あります。友だちに「会う」は meet です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-276",
+        "question": "A: Everyone, open your _____ to page 35.\nB: OK, Ms. Brown.",
+        "translation": "A：みなさん、<b>きょうかしょ</b>の 35ページを ひらいて ください。\nB：はい、ブラウン先生。",
+        "options": [
+            "apples",
+            "trains",
+            "trees",
+            "textbooks"
+        ],
+        "optionMeanings": [
+            "りんご",
+            "電車",
+            "木",
+            "きょうかしょ"
+        ],
+        "answer": "textbooks",
+        "explanation": "<b>こたえ：textbooks（きょうかしょ）</b><br><br>💡 ヒント：\"to page 35\"（35ページを）と あります。ページを ひらく ものは textbooks（きょうかしょ）です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-277",
+        "question": "A: Does Linda _____ very well?\nB: Yes. She takes lessons on Mondays and Tuesdays.",
+        "translation": "A：リンダは とても じょうずに <b>おどります</b>か。\nB：はい。月曜日と 火曜日に レッスンを うけて います。",
+        "options": [
+            "make",
+            "dance",
+            "want",
+            "open"
+        ],
+        "optionMeanings": [
+            "作る",
+            "おどる",
+            "ほしい",
+            "あける"
+        ],
+        "answer": "dance",
+        "explanation": "<b>こたえ：dance（おどる）</b><br><br>💡 ヒント：very well（とても じょうずに）と lessons（レッスン）が ヒントです。じょうずに できる ことは dance（おどる）です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-278",
+        "question": "I study in the library _____ 9:30 a.m. to 11:30 a.m. every Sunday.",
+        "translation": "わたしは 毎週 日曜日、午前 9時30分<b>から</b> 11時30分まで、としょかんで べんきょうします。",
+        "options": [
+            "of",
+            "with",
+            "under",
+            "from"
+        ],
+        "optionMeanings": [
+            "～の",
+            "～と いっしょに",
+            "～の 下に",
+            "～から"
+        ],
+        "answer": "from",
+        "explanation": "<b>こたえ：from（～から）</b><br><br>💡 ヒント：\"to 11:30\"（11時30分まで）と あります。from ～ to … で「～から …まで」です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-279",
+        "question": "A: I want this notebook. How _____ is it?\nB: It’s 100 yen.",
+        "translation": "A：この ノートが ほしいです。<b>いくら</b>ですか。\nB：100円です。",
+        "options": [
+            "old",
+            "much",
+            "long",
+            "many"
+        ],
+        "optionMeanings": [
+            "古い",
+            "たくさん（りょう）",
+            "長い",
+            "たくさん（かず）"
+        ],
+        "answer": "much",
+        "explanation": "<b>こたえ：much（たくさん）</b><br><br>💡 ヒント：\"It's 100 yen\"（100円です）と こたえて います。ねだんを きく ときは How much です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-280",
+        "question": "My father always eats eggs for breakfast _____ the morning.",
+        "translation": "父は いつも <b>朝に</b>、朝ごはんで たまごを 食べます。",
+        "options": [
+            "on",
+            "by",
+            "in",
+            "of"
+        ],
+        "optionMeanings": [
+            "～の 上に",
+            "～の そばに",
+            "～の 中に・～に",
+            "～の"
+        ],
+        "answer": "in",
+        "explanation": "<b>こたえ：in（～に）</b><br><br>💡 ヒント：in the morning で「朝に」です。セットで おぼえましょう。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-281",
+        "question": "A: Do you know the boy over _____, Jane?\nB: Yes, Ken. That’s my brother.",
+        "translation": "A：ジェーン、<b>あそこに</b> いる 男の子を 知って いる？\nB：うん、ケン。あれは わたしの きょうだいだよ。",
+        "options": [
+            "that",
+            "there",
+            "too",
+            "then"
+        ],
+        "optionMeanings": [
+            "あれ",
+            "そこに・あそこに",
+            "～も",
+            "その とき"
+        ],
+        "answer": "there",
+        "explanation": "<b>こたえ：there（あそこに）</b><br><br>💡 ヒント：over there で「あそこに」です。はなれた ところを さす 言い方です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-282",
+        "question": "Hiroshi always _____ to bed at 9 p.m. and gets up at 6 a.m.",
+        "translation": "ヒロシは いつも 夜 9時に <b>ねて</b>、朝 6時に おきます。",
+        "options": [
+            "goes",
+            "plays",
+            "does",
+            "sits"
+        ],
+        "optionMeanings": [
+            "行く",
+            "あそぶ",
+            "する",
+            "すわる"
+        ],
+        "answer": "goes",
+        "explanation": "<b>こたえ：goes（行く）</b><br><br>💡 ヒント：go to bed で「ねる」です。to bed と いっしょに つかうのは goes です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-283",
+        "question": "A: Kanako, are you a baseball fan?\nB: Yes, I _____.",
+        "translation": "A：カナコ、あなたは やきゅうの ファンなの？\nB：はい、<b>そうです</b>。",
+        "options": [
+            "am",
+            "is",
+            "are",
+            "does"
+        ],
+        "optionMeanings": [
+            "～です（I の とき）",
+            "～です（he・she の とき）",
+            "～です（you・we の とき）",
+            "する（he・she の とき）"
+        ],
+        "answer": "am",
+        "explanation": "<b>こたえ：am（～です）</b><br><br>💡 ヒント：\"are you ～?\" と きかれたら、I am で こたえます。Yes, I am. で「はい、そうです」です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-284",
+        "question": "A: Who are the girls in this picture, Jack?\nB: _____ are my sisters.",
+        "translation": "A：ジャック、この しゃしんの 女の子たちは だれ？\nB：<b>その子たち</b>は わたしの しまいだよ。",
+        "options": [
+            "She",
+            "They",
+            "He",
+            "I"
+        ],
+        "optionMeanings": [
+            "かのじょは",
+            "かれらは",
+            "かれは",
+            "わたしは"
+        ],
+        "answer": "They",
+        "explanation": "<b>こたえ：They（かれらは）</b><br><br>💡 ヒント：the girls（女の子たち）は 2人 いじょうです。2人 いじょうを さす ことばは They です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-285",
+        "question": "A: I can’t find my pen. Julia, can I use _____?\nB: Yes.",
+        "translation": "A：ペンが 見つからないの。ジュリア、<b>あなたのを</b> つかっても いい？\nB：いいよ。",
+        "options": [
+            "you",
+            "your",
+            "our",
+            "yours"
+        ],
+        "optionMeanings": [
+            "あなたは・あなたを",
+            "あなたの",
+            "わたしたちの",
+            "あなたの もの"
+        ],
+        "answer": "yours",
+        "explanation": "<b>こたえ：yours（あなたの もの）</b><br><br>💡 ヒント：「あなたの ペン」の ことを 言って います。「あなたの もの」は 1つの ことばで yours です。",
+        "source": "2023年第2回(本会場)"
+    },
+    {
+        "id": "5-286",
+        "question": "I _____ cooking. I often make lunch on Sundays.",
+        "translation": "わたしは りょうりが <b>大すき</b>です。日曜日に よく 昼ごはんを 作ります。",
+        "options": [
+            "love",
+            "wash",
+            "drink",
+            "eat"
+        ],
+        "optionMeanings": [
+            "大すき",
+            "あらう",
+            "のむ",
+            "食べる"
+        ],
+        "answer": "love",
+        "explanation": "<b>こたえ：love（大すき）</b><br><br>💡 ヒント：\"often make lunch\"（よく 昼ごはんを 作る）と あります。りょうりが すきなので love（大すき）です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-287",
+        "question": "A: Welcome to the party! Please _____ the food.\nB: Thanks.",
+        "translation": "A：パーティーへ ようこそ。食べものを <b>楽しんで</b> ください。\nB：ありがとう。",
+        "options": [
+            "walk",
+            "know",
+            "write",
+            "enjoy"
+        ],
+        "optionMeanings": [
+            "歩く",
+            "知って いる",
+            "書く",
+            "楽しむ"
+        ],
+        "answer": "enjoy",
+        "explanation": "<b>こたえ：enjoy（楽しむ）</b><br><br>💡 ヒント：party（パーティー）で food（食べもの）を どう するかな。enjoy で「楽しむ」です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-288",
+        "question": "A: Tony, it's cold today. You need a _____.\nB: OK.",
+        "translation": "A：トニー、今日は さむいよ。<b>ジャケット</b>が いるよ。\nB：わかった。",
+        "options": [
+            "song",
+            "bag",
+            "jacket",
+            "water"
+        ],
+        "optionMeanings": [
+            "歌",
+            "かばん",
+            "ジャケット",
+            "水"
+        ],
+        "answer": "jacket",
+        "explanation": "<b>こたえ：jacket（ジャケット）</b><br><br>💡 ヒント：\"it's cold\"（さむい）と あります。さむい ときに きる ものは jacket（ジャケット）です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-289",
+        "question": "I have one _____. He is 10 years old.",
+        "translation": "わたしには <b>男の きょうだい</b>が 1人 います。かれは 10さいです。",
+        "options": [
+            "mother",
+            "brother",
+            "aunt",
+            "sister"
+        ],
+        "optionMeanings": [
+            "母",
+            "男の きょうだい",
+            "おば",
+            "女の きょうだい"
+        ],
+        "answer": "brother",
+        "explanation": "<b>こたえ：brother（男の きょうだい）</b><br><br>💡 ヒント：\"He is 10 years old\" の He（かれ）は 男の 人です。だから brother です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-290",
+        "question": "A: Where's Mom?\nB: She's in the _____. She's giving water to the flowers.",
+        "translation": "A：お母さんは どこ？\nB：<b>にわ</b>に いるよ。花に 水を あげて いるよ。",
+        "options": [
+            "bread",
+            "milk",
+            "garden",
+            "winter"
+        ],
+        "optionMeanings": [
+            "パン",
+            "ぎゅうにゅう",
+            "にわ",
+            "冬"
+        ],
+        "answer": "garden",
+        "explanation": "<b>こたえ：garden（にわ）</b><br><br>💡 ヒント：\"giving water to the flowers\"（花に 水を あげて いる）と あります。花が あるのは garden（にわ）です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-291",
+        "question": "A: Mom, what color are pandas?\nB: They're _____ and white.",
+        "translation": "A：お母さん、パンダは 何色？\nB：<b>黒</b>と 白だよ。",
+        "options": [
+            "black",
+            "hot",
+            "fast",
+            "old"
+        ],
+        "optionMeanings": [
+            "黒い",
+            "あつい",
+            "はやい",
+            "古い"
+        ],
+        "answer": "black",
+        "explanation": "<b>こたえ：black（黒い）</b><br><br>💡 ヒント：what color（何色）と きいて います。パンダの 色は black（黒）と white（白）です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-292",
+        "question": "A: Mike, don't jump on the _____.\nB: Sorry.",
+        "translation": "A：マイク、<b>ベッド</b>の 上で とびはねないで。\nB：ごめんなさい。",
+        "options": [
+            "math",
+            "bed",
+            "sky",
+            "name"
+        ],
+        "optionMeanings": [
+            "算数",
+            "ベッド",
+            "空",
+            "名前"
+        ],
+        "answer": "bed",
+        "explanation": "<b>こたえ：bed（ベッド）</b><br><br>💡 ヒント：jump on ～ で「～の 上で とびはねる」です。上で はねられる ものは bed（ベッド）です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-293",
+        "question": "Kenta usually listens _____ CDs after dinner.",
+        "translation": "ケンタは ふだん 夕ごはんの あとに CD<b>を</b> 聞きます。",
+        "options": [
+            "at",
+            "to",
+            "in",
+            "on"
+        ],
+        "optionMeanings": [
+            "～で",
+            "～へ・～に",
+            "～の 中に",
+            "～の 上に"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（～に）</b><br><br>💡 ヒント：listen to ～ で「～を 聞く」です。listen の あとには to が つきます。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-294",
+        "question": "Rick cooks dinner _____ night for his family.",
+        "translation": "リックは <b>毎ばん</b> かぞくの ために 夕ごはんを 作ります。",
+        "options": [
+            "slow",
+            "every",
+            "tall",
+            "last"
+        ],
+        "optionMeanings": [
+            "おそい",
+            "毎～",
+            "せが 高い",
+            "この 前の"
+        ],
+        "answer": "every",
+        "explanation": "<b>こたえ：every（毎～）</b><br><br>💡 ヒント：every night で「毎ばん」です。every は「毎～」と いう いみです。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-295",
+        "question": "A: Does Cindy live _____ Italy?\nB: Yes.",
+        "translation": "A：シンディは イタリア<b>に</b> すんで いますか。\nB：はい。",
+        "options": [
+            "in",
+            "for",
+            "of",
+            "to"
+        ],
+        "optionMeanings": [
+            "～に・～の 中に",
+            "～の ために",
+            "～の",
+            "～へ"
+        ],
+        "answer": "in",
+        "explanation": "<b>こたえ：in（～に）</b><br><br>💡 ヒント：live in ～ で「～に すむ」です。国や 町の 名前の 前には in を つかいます。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-296",
+        "question": "A: Mom, I want a _____ of juice.\nB: Sorry, we don't have any juice now.",
+        "translation": "A：お母さん、ジュースを <b>コップ 1ぱい</b> ほしいな。\nB：ごめんね、今 ジュースが ないの。",
+        "options": [
+            "camera",
+            "clock",
+            "glass",
+            "restaurant"
+        ],
+        "optionMeanings": [
+            "カメラ",
+            "時計",
+            "コップ",
+            "レストラン"
+        ],
+        "answer": "glass",
+        "explanation": "<b>こたえ：glass（コップ）</b><br><br>💡 ヒント：a glass of ～ で「コップ 1ぱいの ～」です。juice（ジュース）は コップで のみます。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-297",
+        "question": "Kumiko can play the violin a _____.",
+        "translation": "クミコは バイオリンを <b>少し</b> ひけます。",
+        "options": [
+            "little",
+            "much",
+            "long",
+            "most"
+        ],
+        "optionMeanings": [
+            "少し",
+            "たくさん",
+            "長い",
+            "いちばん"
+        ],
+        "answer": "little",
+        "explanation": "<b>こたえ：little（少し）</b><br><br>💡 ヒント：a little で「少し」です。セットで おぼえましょう。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-298",
+        "question": "A: Julia, _____ umbrella do you want, the large one or the small one?\nB: The small one, please.",
+        "translation": "A：ジュリア、<b>どちらの</b> かさが ほしい？ 大きいの？ 小さいの？\nB：小さいのを ください。",
+        "options": [
+            "why",
+            "which",
+            "who",
+            "how"
+        ],
+        "optionMeanings": [
+            "なぜ",
+            "どちらの",
+            "だれ",
+            "どう"
+        ],
+        "answer": "which",
+        "explanation": "<b>こたえ：which（どちらの）</b><br><br>💡 ヒント：\"the large one or the small one\"（大きいの か 小さいの）と あります。2つから えらぶ ときは which です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-299",
+        "question": "A: Meg, let's go to the shopping mall this weekend.\nB: I'm sorry, Lucy. I can't go with _____.",
+        "translation": "A：メグ、今週の 土日に ショッピングモールに 行こうよ。\nB：ごめんね、ルーシー。<b>あなたと</b> いっしょには 行けないの。",
+        "options": [
+            "your",
+            "yours",
+            "you",
+            "he"
+        ],
+        "optionMeanings": [
+            "あなたの",
+            "あなたの もの",
+            "あなた・あなたを",
+            "かれは"
+        ],
+        "answer": "you",
+        "explanation": "<b>こたえ：you（あなた）</b><br><br>💡 ヒント：with you で「あなたと いっしょに」です。with の あとは you の かたちが 来ます。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-300",
+        "question": "A: Dad, this cup _____ mine. It's Mom's.\nB: Oh, sorry.",
+        "translation": "A：お父さん、この カップは わたしのじゃ <b>ないよ</b>。お母さんのだよ。\nB：あっ、ごめん。",
+        "options": [
+            "aren't",
+            "don't",
+            "doesn't",
+            "isn't"
+        ],
+        "optionMeanings": [
+            "～ではない（you・we の とき）",
+            "～しない",
+            "～しない（he・she の とき）",
+            "～ではない（1つの もの の とき）"
+        ],
+        "answer": "isn't",
+        "explanation": "<b>こたえ：isn't（～ではない）</b><br><br>💡 ヒント：this cup（この カップ）は 1つです。mine（わたしの もの）では ないと 言うので isn't です。",
+        "source": "2023年第2回(準会場)"
+    },
+    {
+        "id": "5-301",
+        "question": "Stan is a tennis player. He wants a nice _____ for his birthday.",
+        "translation": "スタンは テニスの せんしゅです。たんじょう日に いい <b>ラケット</b>を ほしがって います。",
+        "options": [
+            "summer",
+            "school",
+            "racket",
+            "mouth"
+        ],
+        "optionMeanings": [
+            "夏",
+            "学校",
+            "ラケット",
+            "口"
+        ],
+        "answer": "racket",
+        "explanation": "<b>こたえ：racket（ラケット）</b><br><br>💡 ヒント：tennis player（テニスの せんしゅ）と あります。テニスで つかうのは racket（ラケット）です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-302",
+        "question": "A: Let’s go to the _____. We can play basketball there.\nB: OK.",
+        "translation": "A：<b>公園</b>に 行こう。そこで バスケットボールが できるよ。\nB：いいよ。",
+        "options": [
+            "park",
+            "camera",
+            "notebook",
+            "bench"
+        ],
+        "optionMeanings": [
+            "公園",
+            "カメラ",
+            "ノート",
+            "ベンチ"
+        ],
+        "answer": "park",
+        "explanation": "<b>こたえ：park（公園）</b><br><br>💡 ヒント：\"play basketball there\"（そこで バスケットボールが できる）と あります。行って あそべる ところは park（公園）です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-303",
+        "question": "Julie likes art. She often goes to a _____ with her mother.",
+        "translation": "ジュリーは 絵が すきです。よく お母さんと <b>びじゅつかん</b>に 行きます。",
+        "options": [
+            "fish",
+            "museum",
+            "fruit",
+            "pencil"
+        ],
+        "optionMeanings": [
+            "魚",
+            "びじゅつかん",
+            "くだもの",
+            "えんぴつ"
+        ],
+        "answer": "museum",
+        "explanation": "<b>こたえ：museum（びじゅつかん）</b><br><br>💡 ヒント：art（絵など）が すきと あります。絵を 見に 行く ところは museum（びじゅつかん）です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-304",
+        "question": "Judy is in the art club. She _____ pictures every day.",
+        "translation": "ジュディは びじゅつぶに 入って います。毎日 絵を <b>かきます</b>。",
+        "options": [
+            "paints",
+            "sings",
+            "cooks",
+            "helps"
+        ],
+        "optionMeanings": [
+            "（絵を）かく",
+            "歌う",
+            "りょうりする",
+            "手つだう"
+        ],
+        "answer": "paints",
+        "explanation": "<b>こたえ：paints（（絵を）かく）</b><br><br>💡 ヒント：art club（びじゅつぶ）と pictures（絵）が ヒントです。paint pictures で「絵を かく」です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-305",
+        "question": "Tom likes animals and often goes to the _____.",
+        "translation": "トムは どうぶつが すきで、よく <b>どうぶつえん</b>に 行きます。",
+        "options": [
+            "restaurant",
+            "zoo",
+            "bus stop",
+            "bathroom"
+        ],
+        "optionMeanings": [
+            "レストラン",
+            "どうぶつえん",
+            "バスてい",
+            "おふろば"
+        ],
+        "answer": "zoo",
+        "explanation": "<b>こたえ：zoo（どうぶつえん）</b><br><br>💡 ヒント：animals（どうぶつ）が すきと あります。どうぶつを 見に 行く ところは zoo（どうぶつえん）です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-306",
+        "question": "A: Do you have any pets, Kelly?\nB: Yes. I have two dogs and a _____.",
+        "translation": "A：ケリー、ペットを かって いる？\nB：うん。犬 2ひきと <b>うさぎ</b> 1ぴきを かって いるよ。",
+        "options": [
+            "door",
+            "coin",
+            "mouth",
+            "rabbit"
+        ],
+        "optionMeanings": [
+            "ドア",
+            "コイン",
+            "口",
+            "うさぎ"
+        ],
+        "answer": "rabbit",
+        "explanation": "<b>こたえ：rabbit（うさぎ）</b><br><br>💡 ヒント：pets（ペット）の 話です。dogs（犬）と いっしょに かえる どうぶつは rabbit（うさぎ）です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-307",
+        "question": "Carl has many _____ hats. It’s his favorite color.",
+        "translation": "カールは <b>ピンク</b>の ぼうしを たくさん もって います。それは かれの いちばん すきな 色です。",
+        "options": [
+            "pink",
+            "long",
+            "sweet",
+            "busy"
+        ],
+        "optionMeanings": [
+            "ピンク",
+            "長い",
+            "あまい",
+            "いそがしい"
+        ],
+        "answer": "pink",
+        "explanation": "<b>こたえ：pink（ピンク）</b><br><br>💡 ヒント：\"favorite color\"（いちばん すきな 色）と あります。4つの 中で 色は pink（ピンク）だけです。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-308",
+        "question": "Karen is _____ her homework for math class.",
+        "translation": "カレンは 算数の じゅぎょうの しゅくだいを <b>して</b> います。",
+        "options": [
+            "swimming",
+            "asking",
+            "thinking",
+            "doing"
+        ],
+        "optionMeanings": [
+            "およいで いる",
+            "たずねて いる",
+            "考えて いる",
+            "して いる"
+        ],
+        "answer": "doing",
+        "explanation": "<b>こたえ：doing（して いる）</b><br><br>💡 ヒント：do homework で「しゅくだいを する」です。is doing で「して いる」です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-309",
+        "question": "I usually read magazines _____ home.",
+        "translation": "わたしは ふだん <b>家で</b> ざっしを 読みます。",
+        "options": [
+            "of",
+            "on",
+            "with",
+            "at"
+        ],
+        "optionMeanings": [
+            "～の",
+            "～の 上に",
+            "～と いっしょに",
+            "～で（ばしょ）"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（～で）</b><br><br>💡 ヒント：at home で「家で」です。セットで おぼえましょう。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-310",
+        "question": "A: How _____ is your soccer practice, John?\nB: It’s one hour.",
+        "translation": "A：ジョン、サッカーの れんしゅうは <b>どのくらいの 長さ</b>なの？\nB：1時間だよ。",
+        "options": [
+            "cold",
+            "big",
+            "long",
+            "fine"
+        ],
+        "optionMeanings": [
+            "さむい",
+            "大きい",
+            "長い",
+            "元気な"
+        ],
+        "answer": "long",
+        "explanation": "<b>こたえ：long（長い）</b><br><br>💡 ヒント：\"one hour\"（1時間）と こたえて います。時間の 長さを きく ときは How long です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-311",
+        "question": "A: Let’s go to the pool _____ school.\nB: Sorry. I have a piano lesson at four.",
+        "translation": "A：学校の <b>あとで</b> プールに 行こう。\nB：ごめんね。4時に ピアノの レッスンが あるの。",
+        "options": [
+            "with",
+            "up",
+            "into",
+            "after"
+        ],
+        "optionMeanings": [
+            "～と いっしょに",
+            "上へ",
+            "～の 中へ",
+            "～の あとで"
+        ],
+        "answer": "after",
+        "explanation": "<b>こたえ：after（～の あとで）</b><br><br>💡 ヒント：after school で「学校の あとで」です。じゅぎょうが おわった あとの ことです。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-312",
+        "question": "Samantha always drinks a cup _____ coffee with breakfast.",
+        "translation": "サマンサは いつも 朝ごはんの ときに、コーヒーを <b>1ぱい</b> のみます。",
+        "options": [
+            "as",
+            "by",
+            "of",
+            "in"
+        ],
+        "optionMeanings": [
+            "～として",
+            "～の そばに",
+            "～の",
+            "～の 中に"
+        ],
+        "answer": "of",
+        "explanation": "<b>こたえ：of（～の）</b><br><br>💡 ヒント：a cup of ～ で「カップ 1ぱいの ～」です。のみものの りょうを 言う ときに つかいます。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-313",
+        "question": "A: I have a big dog. How about you?\nB: _____ is small.",
+        "translation": "A：わたしは 大きい 犬を かって いるの。あなたは？\nB：<b>わたしのは</b> 小さいよ。",
+        "options": [
+            "My",
+            "I",
+            "Mine",
+            "Me"
+        ],
+        "optionMeanings": [
+            "わたしの",
+            "わたしは",
+            "わたしの もの",
+            "わたしを"
+        ],
+        "answer": "Mine",
+        "explanation": "<b>こたえ：Mine（わたしの もの）</b><br><br>💡 ヒント：「わたしの 犬」の ことを 言って います。「わたしの もの」は 1つの ことばで Mine です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-314",
+        "question": "A: _____ is your Spanish teacher?\nB: Mr. Garcia. He’s very nice.",
+        "translation": "A：あなたの スペインごの 先生は <b>だれ</b>？\nB：ガルシア先生だよ。とても やさしいよ。",
+        "options": [
+            "When",
+            "Who",
+            "What",
+            "Where"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "だれ",
+            "何",
+            "どこ"
+        ],
+        "answer": "Who",
+        "explanation": "<b>こたえ：Who（だれ）</b><br><br>💡 ヒント：\"Mr. Garcia\"（ガルシア先生）と 人の 名前で こたえて います。人を きく ときは Who です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-315",
+        "question": "Please _____ quiet, Dan. Your sister is sleeping.",
+        "translation": "ダン、<b>しずかに して</b> ください。妹が ねて いるよ。",
+        "options": [
+            "am",
+            "is",
+            "be",
+            "are"
+        ],
+        "optionMeanings": [
+            "～です（I の とき）",
+            "～です（he・she の とき）",
+            "～です（もとの かたち）",
+            "～です（you・we の とき）"
+        ],
+        "answer": "be",
+        "explanation": "<b>こたえ：be（もとの かたち）</b><br><br>💡 ヒント：Please の あとは、もとの かたちに します。am・is・are の もとの かたちは be です。",
+        "source": "2023年第3回(本会場)"
+    },
+    {
+        "id": "5-316",
+        "question": "A: What do you want for _____ today?\nB: Let's have sandwiches.",
+        "translation": "A：今日の <b>昼ごはん</b>は 何に する？\nB：サンドイッチに しよう。",
+        "options": [
+            "cafeteria",
+            "drink",
+            "lunch",
+            "plate"
+        ],
+        "optionMeanings": [
+            "しょくどう",
+            "のみもの",
+            "昼ごはん",
+            "おさら"
+        ],
+        "answer": "lunch",
+        "explanation": "<b>こたえ：lunch（昼ごはん）</b><br><br>💡 ヒント：\"Let's have sandwiches\"（サンドイッチに しよう）と こたえて います。ごはんの ことなので lunch（昼ごはん）です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-317",
+        "question": "I like this park. It's my favorite _____.",
+        "translation": "わたしは この 公園が すきです。いちばん すきな <b>ばしょ</b>です。",
+        "options": [
+            "place",
+            "sport",
+            "food",
+            "book"
+        ],
+        "optionMeanings": [
+            "ばしょ",
+            "スポーツ",
+            "食べもの",
+            "本"
+        ],
+        "answer": "place",
+        "explanation": "<b>こたえ：place（ばしょ）</b><br><br>💡 ヒント：park（公園）は ばしょです。だから place（ばしょ）です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-318",
+        "question": "This melon is too small. I want a _____ one.",
+        "translation": "この メロンは 小さすぎます。<b>大きい</b>のが ほしいです。",
+        "options": [
+            "young",
+            "short",
+            "high",
+            "big"
+        ],
+        "optionMeanings": [
+            "わかい",
+            "みじかい",
+            "高い",
+            "大きい"
+        ],
+        "answer": "big",
+        "explanation": "<b>こたえ：big（大きい）</b><br><br>💡 ヒント：\"too small\"（小さすぎる）と あります。小さいの はんたいは big（大きい）です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-319",
+        "question": "A: Do you like _____, Judy?\nB: Yes. I like oranges.",
+        "translation": "A：ジュディ、<b>くだもの</b>は すき？\nB：うん。オレンジが すきだよ。",
+        "options": [
+            "bread",
+            "fruit",
+            "meat",
+            "fish"
+        ],
+        "optionMeanings": [
+            "パン",
+            "くだもの",
+            "肉",
+            "魚"
+        ],
+        "answer": "fruit",
+        "explanation": "<b>こたえ：fruit（くだもの）</b><br><br>💡 ヒント：\"I like oranges\"（オレンジが すき）と こたえて います。オレンジは fruit（くだもの）です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-320",
+        "question": "A: Do you eat rice for _____, Taro?\nB: No, I have eggs and toast.",
+        "translation": "A：タロウ、<b>朝ごはん</b>に お米を 食べる？\nB：ううん、たまごと トーストを 食べるよ。",
+        "options": [
+            "newspaper",
+            "spoon",
+            "breakfast",
+            "light"
+        ],
+        "optionMeanings": [
+            "しんぶん",
+            "スプーン",
+            "朝ごはん",
+            "明かり"
+        ],
+        "answer": "breakfast",
+        "explanation": "<b>こたえ：breakfast（朝ごはん）</b><br><br>💡 ヒント：eggs and toast（たまごと トースト）は 朝に よく 食べます。for breakfast で「朝ごはんに」です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-321",
+        "question": "I _____ a letter to my grandparents every month.",
+        "translation": "わたしは 毎月 おじいちゃんと おばあちゃんに 手紙を <b>書きます</b>。",
+        "options": [
+            "eat",
+            "wash",
+            "know",
+            "write"
+        ],
+        "optionMeanings": [
+            "食べる",
+            "あらう",
+            "知って いる",
+            "書く"
+        ],
+        "answer": "write",
+        "explanation": "<b>こたえ：write（書く）</b><br><br>💡 ヒント：a letter（手紙）は 書く ものです。write で「書く」です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-322",
+        "question": "A: Kathy, this dress is a present for you.\nB: Thank you. It's very _____.",
+        "translation": "A：キャシー、この ドレスは あなたへの プレゼントよ。\nB：ありがとう。とても <b>かわいい</b>ね。",
+        "options": [
+            "high",
+            "cute",
+            "rainy",
+            "fast"
+        ],
+        "optionMeanings": [
+            "高い",
+            "かわいい",
+            "雨の",
+            "はやい"
+        ],
+        "answer": "cute",
+        "explanation": "<b>こたえ：cute（かわいい）</b><br><br>💡 ヒント：dress（ドレス）を もらって よろこんで います。ドレスに 合うのは cute（かわいい）です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-323",
+        "question": "A: Welcome _____ my house. Please come in.\nB: Thank you.",
+        "translation": "A：わたしの 家<b>へ</b> ようこそ。どうぞ 入って。\nB：ありがとう。",
+        "options": [
+            "down",
+            "to",
+            "over",
+            "of"
+        ],
+        "optionMeanings": [
+            "下へ",
+            "～へ",
+            "～の 上に",
+            "～の"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（～へ）</b><br><br>💡 ヒント：Welcome to ～. で「～へ ようこそ」です。セットで おぼえましょう。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-324",
+        "question": "A: _____ at the sky.\nB: Wow! The stars are beautiful.",
+        "translation": "A：空を <b>見て</b>。\nB：わあ。星が きれいだね。",
+        "options": [
+            "Know",
+            "Read",
+            "Help",
+            "Look"
+        ],
+        "optionMeanings": [
+            "知って いる",
+            "読む",
+            "手つだう",
+            "見る"
+        ],
+        "answer": "Look",
+        "explanation": "<b>こたえ：Look（見る）</b><br><br>💡 ヒント：look at ～ で「～を 見る」です。the sky（空）を 見るので Look です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-325",
+        "question": "John always _____ a bath before dinner, and then he watches TV.",
+        "translation": "ジョンは いつも 夕ごはんの 前に おふろに <b>入り</b>、それから テレビを 見ます。",
+        "options": [
+            "catches",
+            "gives",
+            "opens",
+            "takes"
+        ],
+        "optionMeanings": [
+            "つかまえる",
+            "あたえる",
+            "ひらく",
+            "とる"
+        ],
+        "answer": "takes",
+        "explanation": "<b>こたえ：takes（とる）</b><br><br>💡 ヒント：take a bath で「おふろに 入る」です。John は 1人なので takes と s が つきます。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-326",
+        "question": "A: What _____ does your math class start?\nB: At 8:00 a.m.",
+        "translation": "A：算数の じゅぎょうは <b>何時</b>に はじまるの？\nB：午前 8時だよ。",
+        "options": [
+            "time",
+            "room",
+            "day",
+            "clock"
+        ],
+        "optionMeanings": [
+            "時間・時こく",
+            "へや",
+            "日",
+            "時計"
+        ],
+        "answer": "time",
+        "explanation": "<b>こたえ：time（時こく）</b><br><br>💡 ヒント：\"At 8:00\"（8時に）と こたえて います。What time で「何時」と きけます。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-327",
+        "question": "I get _____ early every morning and go to the park.",
+        "translation": "わたしは 毎朝 早く <b>おきて</b>、公園に 行きます。",
+        "options": [
+            "on",
+            "up",
+            "over",
+            "right"
+        ],
+        "optionMeanings": [
+            "～の 上に",
+            "上へ",
+            "～の 上を こえて",
+            "右・正しい"
+        ],
+        "answer": "up",
+        "explanation": "<b>こたえ：up（上へ）</b><br><br>💡 ヒント：get up で「おきる」です。early（早く）と いっしょに よく つかいます。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-328",
+        "question": "Brian's mother is a nurse. _____ works in a small hospital.",
+        "translation": "ブライアンの お母さんは かんごしです。<b>かのじょは</b> 小さな びょういんで はたらいて います。",
+        "options": [
+            "Their",
+            "Them",
+            "She",
+            "Her"
+        ],
+        "optionMeanings": [
+            "かれらの",
+            "かれらを",
+            "かのじょは",
+            "かのじょの・かのじょを"
+        ],
+        "answer": "She",
+        "explanation": "<b>こたえ：She（かのじょは）</b><br><br>💡 ヒント：Brian's mother（ブライアンの お母さん）は 女の 人です。文の はじめで「かのじょは」は She です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-329",
+        "question": "A: Good afternoon, Jane. _____ are you?\nB: I'm all right, Mr. Davis. Thank you.",
+        "translation": "A：こんにちは、ジェーン。<b>元気</b>ですか。\nB：だいじょうぶです、デイビス先生。ありがとう。",
+        "options": [
+            "What",
+            "Which",
+            "Who",
+            "How"
+        ],
+        "optionMeanings": [
+            "何",
+            "どちら",
+            "だれ",
+            "どう"
+        ],
+        "answer": "How",
+        "explanation": "<b>こたえ：How（どう）</b><br><br>💡 ヒント：How are you? で「元気ですか」です。あいさつの ことばです。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-330",
+        "question": "A: What is Frank doing now?\nB: He is _____ in the kitchen.",
+        "translation": "A：フランクは 今 何を して いるの？\nB：だいどころで <b>りょうりを して</b> いるよ。",
+        "options": [
+            "cook",
+            "cooking",
+            "cooks",
+            "cooked"
+        ],
+        "optionMeanings": [
+            "りょうりする（もとの かたち）",
+            "cook に ing が ついた かたち",
+            "cook に s が ついた かたち",
+            "cook の 前の かたち（りょうりした）"
+        ],
+        "answer": "cooking",
+        "explanation": "<b>こたえ：cooking（りょうりして いる）</b><br><br>💡 ヒント：He is の あとで「～して いる」と 言う ときは、ing の かたちに します。だから cooking です。",
+        "source": "2023年第3回(準会場)"
+    },
+    {
+        "id": "5-331",
+        "question": "A: Look at that _____ over there, Jack.\nB: Wow! The water is very blue.",
+        "translation": "A：ジャック、あそこの <b>川</b> を 見て。\nB：わあ。水が とても 青いね。",
+        "options": [
+            "class",
+            "river",
+            "foot",
+            "textbook"
+        ],
+        "optionMeanings": [
+            "クラス",
+            "川",
+            "足",
+            "きょうかしょ"
+        ],
+        "answer": "river",
+        "explanation": "<b>こたえ：river（川）</b><br><br>💡 ヒント：\"The water is very blue\"（水が とても 青い）と 言って います。水が ながれて いるのは 川です。だから river です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-332",
+        "question": "A: What is your favorite _____?\nB: I like red.",
+        "translation": "A：あなたの すきな <b>色</b> は 何？\nB：わたしは 赤が すき。",
+        "options": [
+            "milk",
+            "fruit",
+            "color",
+            "pet"
+        ],
+        "optionMeanings": [
+            "ぎゅうにゅう",
+            "くだもの",
+            "色",
+            "ペット"
+        ],
+        "answer": "color",
+        "explanation": "<b>こたえ：color（色）</b><br><br>💡 ヒント：\"I like red\"（赤が すき）と こたえて います。赤は 色の 名前です。だから color です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-333",
+        "question": "Adam and I often go to the park. We _____ pictures of flowers there.",
+        "translation": "アダムと わたしは よく こうえんに 行きます。そこで 花の 絵を <b>かきます</b>。",
+        "options": [
+            "read",
+            "tell",
+            "say",
+            "draw"
+        ],
+        "optionMeanings": [
+            "読む",
+            "話して つたえる",
+            "言う",
+            "（絵を）かく"
+        ],
+        "answer": "draw",
+        "explanation": "<b>こたえ：draw（（絵を）かく）</b><br><br>💡 ヒント：pictures（絵）が ヒントです。「絵を かく」は draw pictures と 言います。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-334",
+        "question": "A: Is it _____ today?\nB: No, it’s sunny and warm.",
+        "translation": "A：今日は <b>さむい</b> ですか。\nB：いいえ、はれて いて あたたかいです。",
+        "options": [
+            "tall",
+            "young",
+            "cold",
+            "new"
+        ],
+        "optionMeanings": [
+            "せが 高い",
+            "わかい",
+            "さむい",
+            "新しい"
+        ],
+        "answer": "cold",
+        "explanation": "<b>こたえ：cold（さむい）</b><br><br>💡 ヒント：\"sunny and warm\"（はれて あたたかい）と こたえて います。天気を 聞く ことばの cold（さむい）が あいます。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-335",
+        "question": "A: Do you like music, Karen?\nB: Yes, I do. I play the _____.",
+        "translation": "A：カレン、音楽は すき？\nB：うん、すきだよ。わたしは <b>バイオリン</b> を ひくの。",
+        "options": [
+            "hat",
+            "camera",
+            "violin",
+            "desk"
+        ],
+        "optionMeanings": [
+            "ぼうし",
+            "カメラ",
+            "バイオリン",
+            "つくえ"
+        ],
+        "answer": "violin",
+        "explanation": "<b>こたえ：violin（バイオリン）</b><br><br>💡 ヒント：music（音楽）の 話です。play の あとに がっきの 名前が 来ます。がっきは violin です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-336",
+        "question": "A: What are you _____?\nB: Chocolate cookies.",
+        "translation": "A：何を <b>作って</b> いるの？\nB：チョコレートクッキーだよ。",
+        "options": [
+            "sleeping",
+            "playing",
+            "running",
+            "making"
+        ],
+        "optionMeanings": [
+            "ねて いる",
+            "あそんで いる",
+            "走って いる",
+            "作って いる"
+        ],
+        "answer": "making",
+        "explanation": "<b>こたえ：making（作って いる）</b><br><br>💡 ヒント：\"Chocolate cookies\"（チョコレートクッキー）と こたえて います。クッキーは 作る ものです。だから making です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-337",
+        "question": "A: Do you want some water, Kevin?\nB: Yes, please. I’m really _____.",
+        "translation": "A：ケビン、水が ほしい？\nB：うん、おねがい。とても <b>のどが かわいて</b> いるんだ。",
+        "options": [
+            "soft",
+            "thirsty",
+            "kind",
+            "new"
+        ],
+        "optionMeanings": [
+            "やわらかい",
+            "のどが かわいた",
+            "やさしい",
+            "新しい"
+        ],
+        "answer": "thirsty",
+        "explanation": "<b>こたえ：thirsty（のどが かわいた）</b><br><br>💡 ヒント：water（水）を ほしがって います。水が ほしいのは、のどが かわいた ときです。だから thirsty です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-338",
+        "question": "Ryuji is Japanese. He’s _____ Osaka.",
+        "translation": "リュウジは 日本人です。おおさか <b>から</b> 来ました。",
+        "options": [
+            "with",
+            "about",
+            "under",
+            "from"
+        ],
+        "optionMeanings": [
+            "〜と いっしょに",
+            "〜に ついて",
+            "〜の 下に",
+            "〜から"
+        ],
+        "answer": "from",
+        "explanation": "<b>こたえ：from（〜から）</b><br><br>💡 ヒント：He's from ～. で「～から 来た」と いう いみです。どこの 人かを つたえる ときに つかいます。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-339",
+        "question": "A: Do you want some cake?\nB: No, _____ you.",
+        "translation": "A：ケーキは いかが？\nB：いいえ、けっこうです。<b>ありがとう</b>。",
+        "options": [
+            "enjoy",
+            "thank",
+            "give",
+            "speak"
+        ],
+        "optionMeanings": [
+            "たのしむ",
+            "かんしゃする",
+            "あげる",
+            "話す"
+        ],
+        "answer": "thank",
+        "explanation": "<b>こたえ：thank（かんしゃする）</b><br><br>💡 ヒント：No, thank you. は「いいえ、けっこうです」と いう ことばです。ことわる ときも ていねいに 言います。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-340",
+        "question": "A: Hello, Mr. Green.\nB: Hi, Sara. Please come in and _____ down.",
+        "translation": "A：こんにちは、グリーン先生。\nB：こんにちは、サラ。どうぞ 入って <b>すわって</b> ください。",
+        "options": [
+            "sit",
+            "help",
+            "sing",
+            "listen"
+        ],
+        "optionMeanings": [
+            "すわる",
+            "手つだう",
+            "歌う",
+            "聞く"
+        ],
+        "answer": "sit",
+        "explanation": "<b>こたえ：sit（すわる）</b><br><br>💡 ヒント：sit down で「すわる」です。down が ヒントです。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-341",
+        "question": "A: How _____ is your brother?\nB: He’s four.",
+        "translation": "A：あなたの 弟は <b>何さい</b> ですか。\nB：4さいです。",
+        "options": [
+            "long",
+            "cloudy",
+            "old",
+            "many"
+        ],
+        "optionMeanings": [
+            "長い",
+            "くもった",
+            "年を とった",
+            "たくさんの"
+        ],
+        "answer": "old",
+        "explanation": "<b>こたえ：old（How old で 何さい）</b><br><br>💡 ヒント：\"He's four.\"（4さいです）と こたえて います。年を 聞く ときは How old ～? です。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-342",
+        "question": "A: Let’s go to the park _____ the afternoon, Dad.\nB: OK.",
+        "translation": "A：お父さん、<b>午後に</b> こうえんに 行こうよ。\nB：いいよ。",
+        "options": [
+            "of",
+            "in",
+            "at",
+            "on"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜の 中に",
+            "〜に（時こく）",
+            "〜の 上に"
+        ],
+        "answer": "in",
+        "explanation": "<b>こたえ：in（〜の 中に）</b><br><br>💡 ヒント：「午後に」は in the afternoon です。「朝に」も in the morning と 言います。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-343",
+        "question": "Please _____ eat in the library.",
+        "translation": "図書かんの 中で 食べ<b>ないで</b> ください。",
+        "options": [
+            "aren’t",
+            "no",
+            "don’t",
+            "not"
+        ],
+        "optionMeanings": [
+            "〜では ない（are not）",
+            "ない・いいえ",
+            "〜しない（do not）",
+            "〜ではない"
+        ],
+        "answer": "don’t",
+        "explanation": "<b>こたえ：don’t（〜しない）</b><br><br>💡 ヒント：「～しないで ください」は Please don't ～. です。don't の あとに うごきの ことばが 来ます。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-344",
+        "question": "Sally and Patty _____ good friends. They go jogging together.",
+        "translation": "サリーと パティは なかよしの 友だち <b>です</b>。2人は いっしょに ジョギングを します。",
+        "options": [
+            "are",
+            "is",
+            "be",
+            "am"
+        ],
+        "optionMeanings": [
+            "〜です（2人 いじょう）",
+            "〜です（1人）",
+            "（もとの かたち）",
+            "〜です（I の とき）"
+        ],
+        "answer": "are",
+        "explanation": "<b>こたえ：are（〜です（2人 いじょう））</b><br><br>💡 ヒント：Sally and Patty で 2人です。2人 いじょうの ときは are を つかいます。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-345",
+        "question": "A: Is this notebook _____?\nB: No, it’s Helen’s.",
+        "translation": "A：この ノートは <b>あなたの もの</b> ですか。\nB：いいえ、ヘレンの です。",
+        "options": [
+            "my",
+            "her",
+            "yours",
+            "our"
+        ],
+        "optionMeanings": [
+            "わたしの",
+            "かのじょの",
+            "あなたの もの",
+            "わたしたちの"
+        ],
+        "answer": "yours",
+        "explanation": "<b>こたえ：yours（あなたの もの）</b><br><br>💡 ヒント：notebook の あとに ことばが ありません。この ときは「あなたの もの」の yours を つかいます。",
+        "source": "2022年第1回(本会場)"
+    },
+    {
+        "id": "5-346",
+        "question": "The _____ month of the year is January.",
+        "translation": "1年の <b>1ばん目の</b> 月は 1月です。",
+        "options": [
+            "first",
+            "second",
+            "third",
+            "fourth"
+        ],
+        "optionMeanings": [
+            "1ばん目",
+            "2ばん目",
+            "3ばん目",
+            "4ばん目"
+        ],
+        "answer": "first",
+        "explanation": "<b>こたえ：first（1ばん目）</b><br><br>💡 ヒント：January（1月）は 1年の 1ばん目の 月です。1ばん目は first です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-347",
+        "question": "A: Do you want some _____ in your tea, Sally?\nB: Yes, please.",
+        "translation": "A：サリー、こうちゃに <b>さとう</b> を 入れる？\nB：うん、おねがい。",
+        "options": [
+            "beef",
+            "sugar",
+            "salad",
+            "pasta"
+        ],
+        "optionMeanings": [
+            "牛肉",
+            "さとう",
+            "サラダ",
+            "パスタ"
+        ],
+        "answer": "sugar",
+        "explanation": "<b>こたえ：sugar（さとう）</b><br><br>💡 ヒント：\"in your tea\"（こうちゃに）と 言って います。こうちゃに 入れるのは さとうです。だから sugar です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-348",
+        "question": "Today is Monday. Tomorrow is _____.",
+        "translation": "今日は 月曜日です。明日は <b>火曜日</b> です。",
+        "options": [
+            "Tuesday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "optionMeanings": [
+            "火曜日",
+            "金曜日",
+            "土曜日",
+            "日曜日"
+        ],
+        "answer": "Tuesday",
+        "explanation": "<b>こたえ：Tuesday（火曜日）</b><br><br>💡 ヒント：Monday（月曜日）の つぎの 日を 考えます。月曜日の つぎは Tuesday（火曜日）です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-349",
+        "question": "A: What is your favorite _____?\nB: I like spaghetti.",
+        "translation": "A：あなたの すきな <b>食べもの</b> は 何？\nB：スパゲッティが すき。",
+        "options": [
+            "milk",
+            "sport",
+            "food",
+            "animal"
+        ],
+        "optionMeanings": [
+            "ぎゅうにゅう",
+            "スポーツ",
+            "食べもの",
+            "どうぶつ"
+        ],
+        "answer": "food",
+        "explanation": "<b>こたえ：food（食べもの）</b><br><br>💡 ヒント：spaghetti（スパゲッティ）と こたえて います。スパゲッティは 食べものです。だから food です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-350",
+        "question": "A: I like this music. Let's _____, Kate.\nB: OK.",
+        "translation": "A：この 音楽、すきだな。いっしょに <b>歌おう</b>、ケイト。\nB：いいよ。",
+        "options": [
+            "have",
+            "sing",
+            "look",
+            "do"
+        ],
+        "optionMeanings": [
+            "もつ",
+            "歌う",
+            "見る",
+            "する"
+        ],
+        "answer": "sing",
+        "explanation": "<b>こたえ：sing（歌う）</b><br><br>💡 ヒント：music（音楽）の 話です。Let's sing. で「歌おう」と いう いみです。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-351",
+        "question": "Peter sleeps in a _____ with his brother.",
+        "translation": "ピーターは 兄弟と いっしょの <b>へや</b> で ねます。",
+        "options": [
+            "hat",
+            "foot",
+            "room",
+            "ball"
+        ],
+        "optionMeanings": [
+            "ぼうし",
+            "足",
+            "へや",
+            "ボール"
+        ],
+        "answer": "room",
+        "explanation": "<b>こたえ：room（へや）</b><br><br>💡 ヒント：sleeps（ねる）と あります。ねる ばしょは room（へや）です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-352",
+        "question": "A: Where do you _____?\nB: In London.",
+        "translation": "A：あなたは どこに <b>すんで</b> いますか。\nB：ロンドンです。",
+        "options": [
+            "get",
+            "know",
+            "make",
+            "live"
+        ],
+        "optionMeanings": [
+            "手に 入れる",
+            "知って いる",
+            "作る",
+            "すむ"
+        ],
+        "answer": "live",
+        "explanation": "<b>こたえ：live（すむ）</b><br><br>💡 ヒント：\"In London\"（ロンドンに）と ばしょを こたえて います。すむ ところを 聞く ときは Where do you live? です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-353",
+        "question": "A: Dad, can you help me with my homework?\nB: _____ course.",
+        "translation": "A：お父さん、しゅくだいを 手つだって くれる？\nB：<b>もちろん</b>。",
+        "options": [
+            "Of",
+            "By",
+            "At",
+            "Out"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜で",
+            "〜に",
+            "外へ"
+        ],
+        "answer": "Of",
+        "explanation": "<b>こたえ：Of（Of course で もちろん）</b><br><br>💡 ヒント：Of course. で「もちろん」です。of と course は いつも いっしょに つかいます。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-354",
+        "question": "A: Do you wash the dishes every _____, Tim?\nB: No, only on weekends.",
+        "translation": "A：ティム、<b>毎ばん</b> おさらを あらうの？\nB：ううん、週まつ だけだよ。",
+        "options": [
+            "night",
+            "cup",
+            "hand",
+            "coin"
+        ],
+        "optionMeanings": [
+            "夜",
+            "カップ",
+            "手",
+            "コイン"
+        ],
+        "answer": "night",
+        "explanation": "<b>こたえ：night（夜）</b><br><br>💡 ヒント：every night で「毎ばん」です。\"only on weekends\"（週まつ だけ）と こたえて います。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-355",
+        "question": "I usually get _____ at eight on weekends.",
+        "translation": "わたしは 週まつは たいてい 8時に <b>おきます</b>。",
+        "options": [
+            "with",
+            "for",
+            "under",
+            "up"
+        ],
+        "optionMeanings": [
+            "〜と いっしょに",
+            "〜の ために",
+            "〜の 下に",
+            "上へ"
+        ],
+        "answer": "up",
+        "explanation": "<b>こたえ：up（get up で おきる）</b><br><br>💡 ヒント：get up で「おきる」です。get と up を セットで おぼえましょう。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-356",
+        "question": "A: How does Jenny _____ to school?\nB: She walks here, Ms. Taylor.",
+        "translation": "A：ジェニーは どうやって 学校に <b>来ます</b> か。\nB：ここまで 歩いて 来ます、テイラー先生。",
+        "options": [
+            "fly",
+            "give",
+            "look",
+            "come"
+        ],
+        "optionMeanings": [
+            "とぶ",
+            "あげる",
+            "見る",
+            "来る"
+        ],
+        "answer": "come",
+        "explanation": "<b>こたえ：come（来る）</b><br><br>💡 ヒント：\"She walks here\"（ここまで 歩いて 来る）と こたえて います。「学校に 来る」は come to school です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-357",
+        "question": "A: I like tennis. What _____ you, Rachel?\nB: I do, too.",
+        "translation": "A：わたしは テニスが すき。レイチェル、あなた<b>は どう</b>？\nB：わたしも すき。",
+        "options": [
+            "over",
+            "about",
+            "down",
+            "after"
+        ],
+        "optionMeanings": [
+            "〜の 上に",
+            "〜に ついて",
+            "下へ",
+            "〜の あとに"
+        ],
+        "answer": "about",
+        "explanation": "<b>こたえ：about（〜に ついて）</b><br><br>💡 ヒント：What about you? で「あなたは どう？」です。あいての ことを 聞く ときに つかいます。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-358",
+        "question": "_____ English teacher is Mr. Suzuki.",
+        "translation": "<b>わたしたちの</b> えいごの 先生は スズキ先生です。",
+        "options": [
+            "We",
+            "Our",
+            "Us",
+            "Ours"
+        ],
+        "optionMeanings": [
+            "わたしたちは",
+            "わたしたちの",
+            "わたしたちを",
+            "わたしたちの もの"
+        ],
+        "answer": "Our",
+        "explanation": "<b>こたえ：Our（わたしたちの）</b><br><br>💡 ヒント：あとに English teacher（えいごの 先生）が つづきます。「わたしたちの ～」は Our ～ です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-359",
+        "question": "My father _____ the newspaper every morning.",
+        "translation": "わたしの 父は 毎朝 しんぶんを <b>読みます</b>。",
+        "options": [
+            "to read",
+            "reading",
+            "reads",
+            "are reading"
+        ],
+        "optionMeanings": [
+            "読む ための",
+            "読んで いる",
+            "読む（s が つく かたち）",
+            "読んで いる（are の かたち）"
+        ],
+        "answer": "reads",
+        "explanation": "<b>こたえ：reads（読む）</b><br><br>💡 ヒント：My father は 1人で、毎朝 する ことです。この ときは read に s を つけて reads に します。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-360",
+        "question": "A: _____ are my dad's shoes.\nB: Wow! They are really big.",
+        "translation": "A：<b>これらは</b> お父さんの くつだよ。\nB：わあ。ほんとうに 大きいね。",
+        "options": [
+            "This",
+            "Them",
+            "That",
+            "These"
+        ],
+        "optionMeanings": [
+            "これ",
+            "かれらを",
+            "あれ",
+            "これら"
+        ],
+        "answer": "These",
+        "explanation": "<b>こたえ：These（これら）</b><br><br>💡 ヒント：are と shoes（くつ）が あるので、2つ いじょうです。2つ いじょうの「これら」は These です。",
+        "source": "2022年第1回(準会場)"
+    },
+    {
+        "id": "5-361",
+        "question": "We have two _____ this afternoon, English and math.",
+        "translation": "今日の 午後は <b>じゅぎょう</b> が 2つ あります。えいごと 算数です。",
+        "options": [
+            "desks",
+            "friends",
+            "classes",
+            "oranges"
+        ],
+        "optionMeanings": [
+            "つくえ",
+            "友だち",
+            "じゅぎょう",
+            "オレンジ"
+        ],
+        "answer": "classes",
+        "explanation": "<b>こたえ：classes（じゅぎょう）</b><br><br>💡 ヒント：English（えいご）と math（算数）は じゅぎょうです。だから classes です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-362",
+        "question": "My mother often _____ tulips at the flower shop.",
+        "translation": "わたしの 母は よく 花やさんで チューリップを <b>買います</b>。",
+        "options": [
+            "plays",
+            "teaches",
+            "closes",
+            "buys"
+        ],
+        "optionMeanings": [
+            "あそぶ",
+            "教える",
+            "しめる",
+            "買う"
+        ],
+        "answer": "buys",
+        "explanation": "<b>こたえ：buys（買う）</b><br><br>💡 ヒント：\"at the flower shop\"（花やさんで）と あります。お店で する ことは「買う」です。だから buys です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-363",
+        "question": "A: Carl, do you go to school by bus _____ by train?\nB: By bus, Mr. Anderson.",
+        "translation": "A：カール、学校へは バス<b>か</b> 電車で 行くの？\nB：バスです、アンダーソン先生。",
+        "options": [
+            "but",
+            "so",
+            "or",
+            "also"
+        ],
+        "optionMeanings": [
+            "でも",
+            "だから",
+            "または",
+            "〜も また"
+        ],
+        "answer": "or",
+        "explanation": "<b>こたえ：or（または）</b><br><br>💡 ヒント：バスと 電車の どちらかを 聞いて います。「A か B」は A or B です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-364",
+        "question": "A: What _____ do you like, Susan?\nB: I like cats and dogs.",
+        "translation": "A：スーザン、どんな <b>どうぶつ</b> が すき？\nB：ねこと 犬が すき。",
+        "options": [
+            "sports",
+            "animals",
+            "movies",
+            "drinks"
+        ],
+        "optionMeanings": [
+            "スポーツ",
+            "どうぶつ",
+            "えいが",
+            "のみもの"
+        ],
+        "answer": "animals",
+        "explanation": "<b>こたえ：animals（どうぶつ）</b><br><br>💡 ヒント：\"cats and dogs\"（ねこと 犬）と こたえて います。ねこも 犬も どうぶつです。だから animals です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-365",
+        "question": "Hiroshi usually _____ basketball games on TV.",
+        "translation": "ヒロシは たいてい テレビで バスケットボールの しあいを <b>見ます</b>。",
+        "options": [
+            "watches",
+            "speaks",
+            "listens",
+            "sings"
+        ],
+        "optionMeanings": [
+            "見る",
+            "話す",
+            "聞く",
+            "歌う"
+        ],
+        "answer": "watches",
+        "explanation": "<b>こたえ：watches（見る）</b><br><br>💡 ヒント：\"on TV\"（テレビで）と あります。テレビを 見る ときは watch を つかいます。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-366",
+        "question": "A: Tom, let’s study at my _____ today.\nB: OK, see you later.",
+        "translation": "A：トム、今日は わたしの <b>家</b> で べんきょう しよう。\nB：いいよ、また あとでね。",
+        "options": [
+            "winter",
+            "time",
+            "foot",
+            "house"
+        ],
+        "optionMeanings": [
+            "冬",
+            "時間",
+            "足",
+            "家"
+        ],
+        "answer": "house",
+        "explanation": "<b>こたえ：house（家）</b><br><br>💡 ヒント：\"at my ～\"（わたしの ～で）は ばしょです。いっしょに べんきょうする ばしょは house（家）です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-367",
+        "question": "A: Who is your favorite baseball player?\nB: Ken Suzuki. He’s _____!",
+        "translation": "A：すきな やきゅうの せんしゅは だれ？\nB：スズキ・ケンだよ。かれは <b>すごい</b> んだ。",
+        "options": [
+            "great",
+            "sure",
+            "many",
+            "sunny"
+        ],
+        "optionMeanings": [
+            "すばらしい",
+            "たしかな",
+            "たくさんの",
+            "はれた"
+        ],
+        "answer": "great",
+        "explanation": "<b>こたえ：great（すばらしい）</b><br><br>💡 ヒント：すきな せんしゅの ことを ほめて います。「すごい」「すばらしい」は great です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-368",
+        "question": "A: Kent, _____ at my new camera.\nB: Oh, it’s cute.",
+        "translation": "A：ケント、わたしの 新しい カメラを <b>見て</b>。\nB：わあ、かわいいね。",
+        "options": [
+            "eat",
+            "cook",
+            "want",
+            "look"
+        ],
+        "optionMeanings": [
+            "食べる",
+            "りょうりする",
+            "ほしい",
+            "見る"
+        ],
+        "answer": "look",
+        "explanation": "<b>こたえ：look（見る）</b><br><br>💡 ヒント：look at ～ で「～を 見る」です。あとの at が ヒントです。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-369",
+        "question": "A: Kelly, what time do you _____ up every morning?\nB: At six.",
+        "translation": "A：ケリー、毎朝 何時に <b>おきる</b> の？\nB：6時だよ。",
+        "options": [
+            "wake",
+            "tell",
+            "say",
+            "know"
+        ],
+        "optionMeanings": [
+            "目が さめる",
+            "話して つたえる",
+            "言う",
+            "知って いる"
+        ],
+        "answer": "wake",
+        "explanation": "<b>こたえ：wake（wake up で おきる）</b><br><br>💡 ヒント：wake up で「おきる」です。あとの up が ヒントです。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-370",
+        "question": "I have a lot _____ postcards. They are from my grandfather.",
+        "translation": "わたしは はがきを <b>たくさん</b> もって います。おじいちゃんから もらった ものです。",
+        "options": [
+            "of",
+            "by",
+            "down",
+            "after"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜に よって",
+            "下へ",
+            "〜の あとに"
+        ],
+        "answer": "of",
+        "explanation": "<b>こたえ：of（a lot of で たくさんの）</b><br><br>💡 ヒント：a lot of ～ で「たくさんの ～」です。a lot と of を セットで おぼえましょう。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-371",
+        "question": "A: Mike, welcome _____ our soccer club!\nB: Thanks.",
+        "translation": "A：マイク、ぼくたちの サッカークラブ<b>へ</b> ようこそ。\nB：ありがとう。",
+        "options": [
+            "before",
+            "to",
+            "under",
+            "off"
+        ],
+        "optionMeanings": [
+            "〜の 前に",
+            "〜へ",
+            "〜の 下に",
+            "はなれて"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：welcome to ～ で「～へ ようこそ」です。welcome の あとは to を つかいます。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-372",
+        "question": "A: Dad, I’m sleepy.\nB: It’s time for bed, Chris. _____ a good night’s sleep.",
+        "translation": "A：お父さん、ねむいよ。\nB：クリス、もう ねる 時間だよ。<b>ぐっすり ねて</b> ね。",
+        "options": [
+            "Go",
+            "Have",
+            "Stand",
+            "Make"
+        ],
+        "optionMeanings": [
+            "行く",
+            "もつ・すごす",
+            "立つ",
+            "作る"
+        ],
+        "answer": "Have",
+        "explanation": "<b>こたえ：Have（もつ・すごす）</b><br><br>💡 ヒント：Have a good ～. で「よい ～を」と いう いみです。Have a nice day.（よい 一日を）も おなじ 形です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-373",
+        "question": "A: Dad, _____ is Karen?\nB: She is in the living room now.",
+        "translation": "A：お父さん、カレンは <b>どこ</b> に いるの？\nB：今 リビングに いるよ。",
+        "options": [
+            "what",
+            "when",
+            "who",
+            "where"
+        ],
+        "optionMeanings": [
+            "何",
+            "いつ",
+            "だれ",
+            "どこ"
+        ],
+        "answer": "where",
+        "explanation": "<b>こたえ：where（どこ）</b><br><br>💡 ヒント：\"in the living room\"（リビングに）と ばしょを こたえて います。ばしょを 聞く ことばは where です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-374",
+        "question": "Mr. Smith is my art teacher. _____ lessons are very fun.",
+        "translation": "スミス先生は わたしの 図工の 先生です。<b>かれの</b> じゅぎょうは とても たのしいです。",
+        "options": [
+            "His",
+            "Your",
+            "We",
+            "Her"
+        ],
+        "optionMeanings": [
+            "かれの",
+            "あなたの",
+            "わたしたちは",
+            "かのじょの"
+        ],
+        "answer": "His",
+        "explanation": "<b>こたえ：His（かれの）</b><br><br>💡 ヒント：Mr. Smith は 男の 人です。男の 人の「～の」は His です。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-375",
+        "question": "A: Hiroko, do you play tennis every day?\nB: Yes, I _____.",
+        "translation": "A：ヒロコ、毎日 テニスを するの？\nB：うん、<b>する</b> よ。",
+        "options": [
+            "does",
+            "do",
+            "are",
+            "is"
+        ],
+        "optionMeanings": [
+            "する（s が つく かたち）",
+            "する",
+            "〜です（are）",
+            "〜です（is）"
+        ],
+        "answer": "do",
+        "explanation": "<b>こたえ：do（する）</b><br><br>💡 ヒント：Do you ～? と 聞かれたら、Yes, I do. と こたえます。",
+        "source": "2022年第2回(本会場)"
+    },
+    {
+        "id": "5-376",
+        "question": "A: It's raining now, Mom. I _____ an umbrella.\nB: All right. Here you are.",
+        "translation": "A：お母さん、今 雨が ふって いるよ。かさが <b>いる</b> んだ。\nB：わかった。はい、どうぞ。",
+        "options": [
+            "cook",
+            "need",
+            "know",
+            "write"
+        ],
+        "optionMeanings": [
+            "りょうりする",
+            "ひつようだ",
+            "知って いる",
+            "書く"
+        ],
+        "answer": "need",
+        "explanation": "<b>こたえ：need（ひつようだ）</b><br><br>💡 ヒント：\"It's raining\"（雨が ふって いる）と あります。だから かさが ひつようです。「ひつようだ」は need です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-377",
+        "question": "It's my friend's birthday today. I have a nice _____ for her.",
+        "translation": "今日は 友だちの たん生日です。かのじょに あげる すてきな <b>プレゼント</b> が あります。",
+        "options": [
+            "pocket",
+            "page",
+            "present",
+            "park"
+        ],
+        "optionMeanings": [
+            "ポケット",
+            "ページ",
+            "プレゼント",
+            "こうえん"
+        ],
+        "answer": "present",
+        "explanation": "<b>こたえ：present（プレゼント）</b><br><br>💡 ヒント：birthday（たん生日）と あります。たん生日に あげるのは present（プレゼント）です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-378",
+        "question": "It's windy. Let's _____ the window.",
+        "translation": "風が 強いです。まどを <b>しめましょう</b>。",
+        "options": [
+            "stand",
+            "write",
+            "know",
+            "close"
+        ],
+        "optionMeanings": [
+            "立つ",
+            "書く",
+            "知って いる",
+            "しめる"
+        ],
+        "answer": "close",
+        "explanation": "<b>こたえ：close（しめる）</b><br><br>💡 ヒント：\"It's windy\"（風が 強い）と あります。だから まどを close（しめる）します。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-379",
+        "question": "A: What does your father _____ after dinner?\nB: Some milk.",
+        "translation": "A：あなたの お父さんは 夕食の あとに 何を <b>のみます</b> か。\nB：ミルクです。",
+        "options": [
+            "drink",
+            "work",
+            "go",
+            "call"
+        ],
+        "optionMeanings": [
+            "のむ",
+            "はたらく",
+            "行く",
+            "電話する"
+        ],
+        "answer": "drink",
+        "explanation": "<b>こたえ：drink（のむ）</b><br><br>💡 ヒント：\"Some milk\"（ミルク）と こたえて います。ミルクは のむ ものなので drink です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-380",
+        "question": "A: Are you in a club, Carol?\nB: Yes. I'm on the basketball _____.",
+        "translation": "A：キャロル、クラブに 入って いる？\nB：うん。バスケットボールの <b>チーム</b> に 入って いるよ。",
+        "options": [
+            "team",
+            "room",
+            "snow",
+            "cap"
+        ],
+        "optionMeanings": [
+            "チーム",
+            "へや",
+            "雪",
+            "ぼうし"
+        ],
+        "answer": "team",
+        "explanation": "<b>こたえ：team（チーム）</b><br><br>💡 ヒント：basketball（バスケットボール）の あとに つづく ことばです。スポーツの なかまは team（チーム）です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-381",
+        "question": "My sister is studying hard. She has a _____ tomorrow.",
+        "translation": "わたしの 姉は がんばって べんきょう して います。明日 <b>テスト</b> が あるのです。",
+        "options": [
+            "name",
+            "clock",
+            "test",
+            "food"
+        ],
+        "optionMeanings": [
+            "名前",
+            "時けい",
+            "テスト",
+            "食べもの"
+        ],
+        "answer": "test",
+        "explanation": "<b>こたえ：test（テスト）</b><br><br>💡 ヒント：\"studying hard\"（がんばって べんきょう）と あります。明日 あるのは test（テスト）です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-382",
+        "question": "A: Can you open the _____, Mike?\nB: Sure, Mom.",
+        "translation": "A：マイク、<b>ドア</b> を あけて くれる？\nB：いいよ、お母さん。",
+        "options": [
+            "math",
+            "door",
+            "pencil",
+            "garden"
+        ],
+        "optionMeanings": [
+            "算数",
+            "ドア",
+            "えんぴつ",
+            "にわ"
+        ],
+        "answer": "door",
+        "explanation": "<b>こたえ：door（ドア）</b><br><br>💡 ヒント：open（あける）と いっしょに つかう ものです。あけられるのは door（ドア）です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-383",
+        "question": "I always _____ to music on the bus.",
+        "translation": "わたしは バスの 中で いつも 音楽を <b>聞きます</b>。",
+        "options": [
+            "know",
+            "open",
+            "listen",
+            "make"
+        ],
+        "optionMeanings": [
+            "知って いる",
+            "あける",
+            "聞く",
+            "作る"
+        ],
+        "answer": "listen",
+        "explanation": "<b>こたえ：listen（聞く）</b><br><br>💡 ヒント：\"to music\"（音楽を）が ヒントです。listen to ～ で「～を 聞く」です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-384",
+        "question": "A: How _____ people live in your house, Janet?\nB: Five.",
+        "translation": "A：ジャネット、あなたの 家には <b>何人</b> すんで いるの？\nB：5人です。",
+        "options": [
+            "every",
+            "small",
+            "big",
+            "many"
+        ],
+        "optionMeanings": [
+            "毎〜",
+            "小さい",
+            "大きい",
+            "たくさんの"
+        ],
+        "answer": "many",
+        "explanation": "<b>こたえ：many（How many で いくつ）</b><br><br>💡 ヒント：\"Five\"（5人）と 数を こたえて います。数を 聞く ときは How many ～? です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-385",
+        "question": "A: John, it's eleven o'clock now. Go _____ bed.\nB: All right, Mom. Good night.",
+        "translation": "A：ジョン、もう 11時よ。<b>ベッドに</b> 行って ねなさい。\nB：わかったよ、お母さん。おやすみなさい。",
+        "options": [
+            "in",
+            "about",
+            "down",
+            "to"
+        ],
+        "optionMeanings": [
+            "〜の 中に",
+            "〜に ついて",
+            "下へ",
+            "〜へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：go to bed で「ねる」です。「ベッドへ 行く」と おぼえましょう。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-386",
+        "question": "A: Oh, it's 5:30 now. Bye, Linda.\nB: OK, _____ you tomorrow.",
+        "translation": "A：あ、もう 5時30分だ。さようなら、リンダ。\nB：うん、また 明日 <b>会おう</b> ね。",
+        "options": [
+            "see",
+            "take",
+            "do",
+            "open"
+        ],
+        "optionMeanings": [
+            "見る・会う",
+            "とる",
+            "する",
+            "あける"
+        ],
+        "answer": "see",
+        "explanation": "<b>こたえ：see（会う）</b><br><br>💡 ヒント：See you tomorrow. で「また 明日ね」です。わかれる ときの あいさつです。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-387",
+        "question": "A: What do you do on weekends?\nB: I usually read magazines _____ home.",
+        "translation": "A：週まつは 何を するの？\nB：たいてい <b>家で</b> ざっしを 読むよ。",
+        "options": [
+            "after",
+            "on",
+            "to",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜の あとに",
+            "〜の 上に",
+            "〜へ",
+            "〜で"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜で）</b><br><br>💡 ヒント：at home で「家で」です。home の 前には at を つかいます。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-388",
+        "question": "A: Hiroko, _____ are your history classes?\nB: On Mondays and Wednesdays.",
+        "translation": "A：ヒロコ、れきしの じゅぎょうは <b>いつ</b> あるの？\nB：月曜日と 水曜日だよ。",
+        "options": [
+            "how",
+            "who",
+            "where",
+            "when"
+        ],
+        "optionMeanings": [
+            "どのように",
+            "だれ",
+            "どこ",
+            "いつ"
+        ],
+        "answer": "when",
+        "explanation": "<b>こたえ：when（いつ）</b><br><br>💡 ヒント：\"On Mondays and Wednesdays\"（月曜日と 水曜日）と 曜日を こたえて います。「いつ」を 聞く ことばは when です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-389",
+        "question": "A: Alice, _____ quiet!\nB: Sorry, Dad.",
+        "translation": "A：アリス、しずかに <b>しなさい</b>。\nB：ごめんなさい、お父さん。",
+        "options": [
+            "am",
+            "are",
+            "be",
+            "is"
+        ],
+        "optionMeanings": [
+            "〜です（I の とき）",
+            "〜です（2人 いじょう）",
+            "（もとの かたち）",
+            "〜です（1人）"
+        ],
+        "answer": "be",
+        "explanation": "<b>こたえ：be（am・are・is の もとの かたち）</b><br><br>💡 ヒント：「～しなさい」と 言う ときは、文の はじめを もとの かたちに します。am、are、is の もとの かたちは be です。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-390",
+        "question": "Peter can't play tennis today. _____ has a bad cold.",
+        "translation": "ピーターは 今日 テニスが できません。<b>かれは</b> ひどい かぜを ひいて います。",
+        "options": [
+            "You",
+            "I",
+            "We",
+            "He"
+        ],
+        "optionMeanings": [
+            "あなたは",
+            "わたしは",
+            "わたしたちは",
+            "かれは"
+        ],
+        "answer": "He",
+        "explanation": "<b>こたえ：He（かれは）</b><br><br>💡 ヒント：前の 文の Peter（ピーター）の ことです。男の 人 1人は He で あらわします。",
+        "source": "2022年第2回(準会場)"
+    },
+    {
+        "id": "5-391",
+        "question": "Jill _____ in a band with her friends.",
+        "translation": "ジルは 友だちと いっしょに バンドで <b>歌って</b> います。",
+        "options": [
+            "puts",
+            "paints",
+            "sings",
+            "speaks"
+        ],
+        "optionMeanings": [
+            "おく",
+            "ぬる",
+            "歌う",
+            "話す"
+        ],
+        "answer": "sings",
+        "explanation": "<b>こたえ：sings（歌う）</b><br><br>💡 ヒント：\"in a band\"（バンドで）と あります。バンドで する ことは「歌う」です。だから sings です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-392",
+        "question": "A: Oh, your picture is very _____, Linda. I like it very much.\nB: Thank you, Ms. Wilson.",
+        "translation": "A：リンダ、あなたの 絵は とても <b>すてき</b> だね。とても すきよ。\nB：ありがとう ございます、ウィルソン先生。",
+        "options": [
+            "nice",
+            "tall",
+            "sorry",
+            "young"
+        ],
+        "optionMeanings": [
+            "すてきな",
+            "せが 高い",
+            "ざんねんな",
+            "わかい"
+        ],
+        "answer": "nice",
+        "explanation": "<b>こたえ：nice（すてきな）</b><br><br>💡 ヒント：\"I like it very much\"（とても すき）と 言って います。ほめる ことばの nice（すてきな）が あいます。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-393",
+        "question": "I have one _____. She is ten years old.",
+        "translation": "わたしには <b>妹</b> が 1人 います。10さいです。",
+        "options": [
+            "son",
+            "father",
+            "brother",
+            "sister"
+        ],
+        "optionMeanings": [
+            "むすこ",
+            "父",
+            "兄・弟",
+            "姉・妹"
+        ],
+        "answer": "sister",
+        "explanation": "<b>こたえ：sister（姉・妹）</b><br><br>💡 ヒント：\"She\"（かのじょ）と あります。女の 子なので sister です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-394",
+        "question": "A: Look! It’s _____!\nB: Yeah, it’s very cold.",
+        "translation": "A：見て。<b>雪が ふって</b> いるよ。\nB：うん、とても さむいね。",
+        "options": [
+            "snowing",
+            "reading",
+            "saying",
+            "telling"
+        ],
+        "optionMeanings": [
+            "雪が ふって いる",
+            "読んで いる",
+            "言って いる",
+            "話して つたえて いる"
+        ],
+        "answer": "snowing",
+        "explanation": "<b>こたえ：snowing（雪が ふって いる）</b><br><br>💡 ヒント：\"very cold\"（とても さむい）と あります。さむい 日に ふるのは 雪です。だから snowing です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-395",
+        "question": "A: Do you often go to _____?\nB: Yes, I like delicious food.",
+        "translation": "A：よく <b>レストラン</b> に 行きますか。\nB：はい、おいしい 食べものが すきなんです。",
+        "options": [
+            "restaurants",
+            "trees",
+            "cameras",
+            "rooms"
+        ],
+        "optionMeanings": [
+            "レストラン",
+            "木",
+            "カメラ",
+            "へや"
+        ],
+        "answer": "restaurants",
+        "explanation": "<b>こたえ：restaurants（レストラン）</b><br><br>💡 ヒント：\"delicious food\"（おいしい 食べもの）と あります。食べに 行く ところは restaurant です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-396",
+        "question": "Mr. Kuroda is a _____. Many people go to his hospital.",
+        "translation": "クロダさんは <b>おいしゃさん</b> です。たくさんの 人が かれの びょういんに 行きます。",
+        "options": [
+            "pilot",
+            "doctor",
+            "dancer",
+            "teacher"
+        ],
+        "optionMeanings": [
+            "パイロット",
+            "いしゃ",
+            "ダンサー",
+            "先生"
+        ],
+        "answer": "doctor",
+        "explanation": "<b>こたえ：doctor（いしゃ）</b><br><br>💡 ヒント：hospital（びょういん）と あります。びょういんで はたらく 人は doctor（いしゃ）です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-397",
+        "question": "A: Oh, that’s a beautiful _____. Is that a present, Jane?\nB: Yes, this is for my mom.",
+        "translation": "A：まあ、きれいな <b>花</b> だね。プレゼントなの、ジェーン？\nB：うん、これは お母さんに あげるの。",
+        "options": [
+            "hair",
+            "test",
+            "flower",
+            "window"
+        ],
+        "optionMeanings": [
+            "かみの毛",
+            "テスト",
+            "花",
+            "まど"
+        ],
+        "answer": "flower",
+        "explanation": "<b>こたえ：flower（花）</b><br><br>💡 ヒント：beautiful（きれいな）と present（プレゼント）が ヒントです。プレゼントに する きれいな ものは flower（花）です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-398",
+        "question": "I play soccer _____ school on Sundays.",
+        "translation": "わたしは 日曜日に 学校<b>で</b> サッカーを します。",
+        "options": [
+            "at",
+            "of",
+            "out",
+            "down"
+        ],
+        "optionMeanings": [
+            "〜で",
+            "〜の",
+            "外へ",
+            "下へ"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜で）</b><br><br>💡 ヒント：ばしょを あらわす「～で」は at です。at school で「学校で」です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-399",
+        "question": "Nancy _____ in California.",
+        "translation": "ナンシーは カリフォルニアに <b>すんで</b> います。",
+        "options": [
+            "lives",
+            "looks",
+            "buys",
+            "wants"
+        ],
+        "optionMeanings": [
+            "すむ",
+            "見る",
+            "買う",
+            "ほしい"
+        ],
+        "answer": "lives",
+        "explanation": "<b>こたえ：lives（すむ）</b><br><br>💡 ヒント：\"in California\"（カリフォルニアに）と ばしょが あります。「～に すむ」は live in ～ です。Nancy は 1人なので lives です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-400",
+        "question": "A: Can you come _____ my house at three this afternoon?\nB: Sorry, I can’t.",
+        "translation": "A：今日の 午後3時に わたしの 家<b>に</b> 来られる？\nB：ごめん、行けないんだ。",
+        "options": [
+            "of",
+            "for",
+            "to",
+            "out"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜の ために",
+            "〜へ",
+            "外へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：come to ～ で「～へ 来る」です。行き先の 前には to を つかいます。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-401",
+        "question": "A: John, what _____ do you usually take a bath?\nB: Around nine o’clock.",
+        "translation": "A：ジョン、ふだん <b>何時に</b> おふろに 入るの？\nB：9時ごろだよ。",
+        "options": [
+            "time",
+            "week",
+            "hand",
+            "face"
+        ],
+        "optionMeanings": [
+            "時間",
+            "週",
+            "手",
+            "顔"
+        ],
+        "answer": "time",
+        "explanation": "<b>こたえ：time（what time で 何時）</b><br><br>💡 ヒント：\"nine o'clock\"（9時）と こたえて います。時こくを 聞く ときは what time です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-402",
+        "question": "A: Do you like English?\nB: Yes, _____ course.",
+        "translation": "A：えいごは すき？\nB：うん、<b>もちろん</b>。",
+        "options": [
+            "in",
+            "out",
+            "on",
+            "of"
+        ],
+        "optionMeanings": [
+            "〜の 中に",
+            "外へ",
+            "〜の 上に",
+            "〜の"
+        ],
+        "answer": "of",
+        "explanation": "<b>こたえ：of（of course で もちろん）</b><br><br>💡 ヒント：Of course. で「もちろん」です。of と course は セットで つかいます。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-403",
+        "question": "Ms. Brown has two children. _____ names are Nick and Cindy.",
+        "translation": "ブラウンさんには 子どもが 2人 います。<b>その子たちの</b> 名前は ニックと シンディです。",
+        "options": [
+            "They",
+            "Theirs",
+            "Them",
+            "Their"
+        ],
+        "optionMeanings": [
+            "かれらは",
+            "かれらの もの",
+            "かれらを",
+            "かれらの"
+        ],
+        "answer": "Their",
+        "explanation": "<b>こたえ：Their（かれらの）</b><br><br>💡 ヒント：あとに names（名前）が つづきます。「かれらの ～」は Their ～ です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-404",
+        "question": "A: Do you speak French?\nB: No, I _____. But I speak Spanish.",
+        "translation": "A：フランス語を 話しますか。\nB：いいえ、<b>話しません</b>。でも、スペイン語は 話します。",
+        "options": [
+            "don’t",
+            "doesn’t",
+            "isn’t",
+            "aren’t"
+        ],
+        "optionMeanings": [
+            "しない",
+            "しない（s が つく ときの かたち）",
+            "〜では ない（is）",
+            "〜では ない（are）"
+        ],
+        "answer": "don’t",
+        "explanation": "<b>こたえ：don’t（しない）</b><br><br>💡 ヒント：Do you ～? と 聞かれて います。I で こたえる ときは No, I don't. です。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-405",
+        "question": "A: This math question is difficult.\nB: Let’s ask Mr. Yamada. He can help _____.",
+        "translation": "A：この 算数の もんだいは むずかしいね。\nB：ヤマダ先生に 聞こう。<b>わたしたちを</b> 手つだって くれるよ。",
+        "options": [
+            "we",
+            "us",
+            "our",
+            "ours"
+        ],
+        "optionMeanings": [
+            "わたしたちは",
+            "わたしたちを",
+            "わたしたちの",
+            "わたしたちの もの"
+        ],
+        "answer": "us",
+        "explanation": "<b>こたえ：us（わたしたちを）</b><br><br>💡 ヒント：help の あとに 来る「わたしたちを」は us です。うごきの ことばの あとは us の かたちに します。",
+        "source": "2022年第3回(本会場)"
+    },
+    {
+        "id": "5-406",
+        "question": "I sometimes get _____ from my grandmother.",
+        "translation": "わたしは ときどき おばあちゃんから <b>手紙</b> を もらいます。",
+        "options": [
+            "places",
+            "letters",
+            "hands",
+            "colors"
+        ],
+        "optionMeanings": [
+            "ばしょ",
+            "手紙",
+            "手",
+            "色"
+        ],
+        "answer": "letters",
+        "explanation": "<b>こたえ：letters（手紙）</b><br><br>💡 ヒント：\"from my grandmother\"（おばあちゃんから）と あります。人から もらう ものは letters（手紙）です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-407",
+        "question": "A: Do you often go to the zoo?\nB: Yes, I love _____.",
+        "translation": "A：よく どうぶつ園に 行くの？\nB：うん、<b>トラ</b> が 大すき。",
+        "options": [
+            "pencils",
+            "strawberries",
+            "tigers",
+            "dictionaries"
+        ],
+        "optionMeanings": [
+            "えんぴつ",
+            "いちご",
+            "トラ",
+            "じしょ"
+        ],
+        "answer": "tigers",
+        "explanation": "<b>こたえ：tigers（トラ）</b><br><br>💡 ヒント：zoo（どうぶつ園）の 話です。どうぶつ園に いるのは tigers（トラ）です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-408",
+        "question": "Mr. Suzuki goes to his office by _____.",
+        "translation": "スズキさんは <b>電車</b> で 会社に 行きます。",
+        "options": [
+            "sport",
+            "train",
+            "table",
+            "room"
+        ],
+        "optionMeanings": [
+            "スポーツ",
+            "電車",
+            "テーブル",
+            "へや"
+        ],
+        "answer": "train",
+        "explanation": "<b>こたえ：train（電車）</b><br><br>💡 ヒント：by ～ で「～に のって」です。のりものは train（電車）です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-409",
+        "question": "Nancy can play the _____.",
+        "translation": "ナンシーは <b>ギター</b> を ひく ことが できます。",
+        "options": [
+            "guitar",
+            "snack",
+            "clock",
+            "window"
+        ],
+        "optionMeanings": [
+            "ギター",
+            "おやつ",
+            "時けい",
+            "まど"
+        ],
+        "answer": "guitar",
+        "explanation": "<b>こたえ：guitar（ギター）</b><br><br>💡 ヒント：play the ～ で がっきを「ひく」です。がっきは guitar（ギター）です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-410",
+        "question": "A: David, don't _____ in the library.\nB: Sorry, Ms. Brown.",
+        "translation": "A：デイビッド、図書かんで <b>走って</b> は いけませんよ。\nB：ごめんなさい、ブラウン先生。",
+        "options": [
+            "know",
+            "like",
+            "run",
+            "want"
+        ],
+        "optionMeanings": [
+            "知って いる",
+            "すき",
+            "走る",
+            "ほしい"
+        ],
+        "answer": "run",
+        "explanation": "<b>こたえ：run（走る）</b><br><br>💡 ヒント：\"in the library\"（図書かんで）と あります。図書かんで しては いけない ことは run（走る）です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-411",
+        "question": "A: Can you play a _____ on the piano?\nB: Yes, I can.",
+        "translation": "A：ピアノで <b>歌</b> を ひける？\nB：うん、ひけるよ。",
+        "options": [
+            "song",
+            "tree",
+            "word",
+            "story"
+        ],
+        "optionMeanings": [
+            "歌",
+            "木",
+            "ことば",
+            "お話"
+        ],
+        "answer": "song",
+        "explanation": "<b>こたえ：song（歌）</b><br><br>💡 ヒント：\"on the piano\"（ピアノで）と あります。ピアノで ひくのは song（歌）です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-412",
+        "question": "A: Do you like Japanese _____, Jack?\nB: Yes. I like sushi very much.",
+        "translation": "A：ジャック、日本の <b>食べもの</b> は すき？\nB：うん。おすしが 大すきだよ。",
+        "options": [
+            "cars",
+            "music",
+            "sports",
+            "food"
+        ],
+        "optionMeanings": [
+            "車",
+            "音楽",
+            "スポーツ",
+            "食べもの"
+        ],
+        "answer": "food",
+        "explanation": "<b>こたえ：food（食べもの）</b><br><br>💡 ヒント：sushi（おすし）と こたえて います。おすしは 食べものです。だから food です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-413",
+        "question": "A: Bob, let's have some ice cream now.\nB: All _____.",
+        "translation": "A：ボブ、今 アイスクリームを 食べようよ。\nB：<b>いいよ</b>。",
+        "options": [
+            "right",
+            "little",
+            "happy",
+            "new"
+        ],
+        "optionMeanings": [
+            "よい・正しい",
+            "小さい",
+            "うれしい",
+            "新しい"
+        ],
+        "answer": "right",
+        "explanation": "<b>こたえ：right（All right で いいよ）</b><br><br>💡 ヒント：All right. で「いいよ」です。さんせい する ときの ことばです。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-414",
+        "question": "Before dinner, I always _____ my homework in my bedroom.",
+        "translation": "夕食の 前に、わたしは いつも 自分の へやで しゅくだいを <b>します</b>。",
+        "options": [
+            "jump",
+            "do",
+            "swim",
+            "eat"
+        ],
+        "optionMeanings": [
+            "とぶ",
+            "する",
+            "およぐ",
+            "食べる"
+        ],
+        "answer": "do",
+        "explanation": "<b>こたえ：do（する）</b><br><br>💡 ヒント：homework（しゅくだい）と いっしょに つかう ことばです。「しゅくだいを する」は do my homework です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-415",
+        "question": "My father and I _____ fishing on Sundays.",
+        "translation": "父と わたしは 日曜日に つりに <b>行きます</b>。",
+        "options": [
+            "look",
+            "speak",
+            "go",
+            "walk"
+        ],
+        "optionMeanings": [
+            "見る",
+            "話す",
+            "行く",
+            "歩く"
+        ],
+        "answer": "go",
+        "explanation": "<b>こたえ：go（行く）</b><br><br>💡 ヒント：go fishing で「つりに 行く」です。go ～ing で「～しに 行く」と おぼえましょう。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-416",
+        "question": "A: Sorry, the library isn't open today.\nB: Oh, I _____.",
+        "translation": "A：ごめんなさい、図書かんは 今日 あいて いないの。\nB：ああ、<b>わかりました</b>。",
+        "options": [
+            "get",
+            "stand",
+            "play",
+            "see"
+        ],
+        "optionMeanings": [
+            "手に 入れる",
+            "立つ",
+            "あそぶ",
+            "見る・わかる"
+        ],
+        "answer": "see",
+        "explanation": "<b>こたえ：see（I see で わかりました）</b><br><br>💡 ヒント：I see. で「わかりました」です。あいての 話が わかった ときに つかいます。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-417",
+        "question": "A: Where are your shoes, Ben?\nB: They're over _____ by the door, Mom.",
+        "translation": "A：ベン、くつは どこに あるの？\nB：<b>あそこの</b> ドアの そばだよ、お母さん。",
+        "options": [
+            "then",
+            "that",
+            "this",
+            "there"
+        ],
+        "optionMeanings": [
+            "その とき",
+            "あれ",
+            "これ",
+            "そこ・あそこ"
+        ],
+        "answer": "there",
+        "explanation": "<b>こたえ：there（あそこ）</b><br><br>💡 ヒント：over there で「あそこに」です。ばしょを しめす ことばです。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-418",
+        "question": "A: Kumiko, do you know Mrs. Vincent?\nB: Yes, I know _____.",
+        "translation": "A：クミコ、ビンセントさんを 知って いる？\nB：うん、<b>かのじょを</b> 知って いるよ。",
+        "options": [
+            "her",
+            "him",
+            "them",
+            "it"
+        ],
+        "optionMeanings": [
+            "かのじょを",
+            "かれを",
+            "かれらを",
+            "それを"
+        ],
+        "answer": "her",
+        "explanation": "<b>こたえ：her（かのじょを）</b><br><br>💡 ヒント：Mrs. は 女の 人に つかいます。「かのじょを」は her です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-419",
+        "question": "A: What is Scott doing now?\nB: He is _____ a doghouse.",
+        "translation": "A：スコットは 今 何を して いるの？\nB：犬の 小やを <b>作って</b> いるよ。",
+        "options": [
+            "make",
+            "making",
+            "makes",
+            "made"
+        ],
+        "optionMeanings": [
+            "作る",
+            "作って いる",
+            "作る（s が つく かたち）",
+            "作った"
+        ],
+        "answer": "making",
+        "explanation": "<b>こたえ：making（作って いる）</b><br><br>💡 ヒント：is の あとに ～ing の かたちを つづけると「～して いる」に なります。だから making です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-420",
+        "question": "A: Cindy, _____ is your favorite soccer player?\nB: Mike Brown is.",
+        "translation": "A：シンディ、すきな サッカーの せんしゅは <b>だれ</b>？\nB：マイク・ブラウンだよ。",
+        "options": [
+            "who",
+            "when",
+            "how",
+            "where"
+        ],
+        "optionMeanings": [
+            "だれ",
+            "いつ",
+            "どのように",
+            "どこ"
+        ],
+        "answer": "who",
+        "explanation": "<b>こたえ：who（だれ）</b><br><br>💡 ヒント：\"Mike Brown\"（人の 名前）で こたえて います。人を 聞く ことばは who です。",
+        "source": "2022年第3回(準会場)"
+    },
+    {
+        "id": "5-421",
+        "question": "A: What is your _____?\nB: Kazumi Suzuki.",
+        "translation": "A：あなたの <b>名前</b>は 何ですか。\nB：すずき かずみです。",
+        "options": [
+            "hour",
+            "club",
+            "date",
+            "name"
+        ],
+        "optionMeanings": [
+            "1時間",
+            "クラブ",
+            "日づけ",
+            "名前"
+        ],
+        "answer": "name",
+        "explanation": "<b>こたえ：name（名前）</b><br><br>💡 ヒント：B は「すずき かずみ」と こたえて います。これは 人の 名前ですね。だから name（名前）です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-422",
+        "question": "I know Judy. She can _____ French very well.",
+        "translation": "わたしは ジュディを しって います。かのじょは フランス語を とても じょうずに <b>話せます</b>。",
+        "options": [
+            "see",
+            "drink",
+            "speak",
+            "open"
+        ],
+        "optionMeanings": [
+            "見る",
+            "のむ",
+            "話す",
+            "あける"
+        ],
+        "answer": "speak",
+        "explanation": "<b>こたえ：speak（話す）</b><br><br>💡 ヒント：French（フランス語）と いう ことばが あります。ことばは「話す」ものですね。だから speak（話す）です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-423",
+        "question": "A: Are your baseball shoes in your room, Mike?\nB: No, Mom. They’re in my _____ at school.",
+        "translation": "A：マイク、やきゅうの くつは 自分の へやに あるの。\nB：ちがうよ、お母さん。学校の ぼくの <b>ロッカー</b>に あるよ。",
+        "options": [
+            "window",
+            "shop",
+            "locker",
+            "door"
+        ],
+        "optionMeanings": [
+            "まど",
+            "おみせ",
+            "ロッカー",
+            "ドア"
+        ],
+        "answer": "locker",
+        "explanation": "<b>こたえ：locker（ロッカー）</b><br><br>💡 ヒント：「at school」（学校に）が ヒントです。学校で くつを 入れて おく ところは locker（ロッカー）です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-424",
+        "question": "My sister usually plays tennis _____ Saturdays.",
+        "translation": "わたしの お姉さんは、ふつう 土曜日<b>に</b> テニスを します。",
+        "options": [
+            "by",
+            "on",
+            "with",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜の そばに",
+            "（よう日の 前に つける）",
+            "〜と いっしょに",
+            "（ばしょの 前に つける）"
+        ],
+        "answer": "on",
+        "explanation": "<b>こたえ：on（〜に）</b><br><br>💡 ヒント：Saturdays（土曜日）は よう日の 名前です。よう日の 前には on を つけます。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-425",
+        "question": "My mother likes _____. She has many pretty ones in the garden.",
+        "translation": "わたしの 母は <b>花</b>が すきです。にわに きれいな 花が たくさん あります。",
+        "options": [
+            "sports",
+            "movies",
+            "schools",
+            "flowers"
+        ],
+        "optionMeanings": [
+            "スポーツ",
+            "えいが",
+            "学校",
+            "花"
+        ],
+        "answer": "flowers",
+        "explanation": "<b>こたえ：flowers（花）</b><br><br>💡 ヒント：「garden」（にわ）に きれいな ものが あると 言って います。にわに さくのは flowers（花）です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-426",
+        "question": "Let’s begin today’s class. Open your textbooks to _____ 22.",
+        "translation": "今日の じゅぎょうを はじめましょう。きょうかしょの 22<b>ページ</b>を ひらいて ください。",
+        "options": [
+            "chalk",
+            "ground",
+            "page",
+            "minute"
+        ],
+        "optionMeanings": [
+            "チョーク",
+            "じめん",
+            "ページ",
+            "1分"
+        ],
+        "answer": "page",
+        "explanation": "<b>こたえ：page（ページ）</b><br><br>💡 ヒント：「Open your textbooks」（きょうかしょを ひらいて）と 言って います。数字の 前に つけるのは page（ページ）です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-427",
+        "question": "Today is Wednesday. Tomorrow is _____.",
+        "translation": "今日は 水曜日です。明日は <b>木曜日</b>です。",
+        "options": [
+            "Monday",
+            "Tuesday",
+            "Thursday",
+            "Friday"
+        ],
+        "optionMeanings": [
+            "月曜日",
+            "火曜日",
+            "木曜日",
+            "金曜日"
+        ],
+        "answer": "Thursday",
+        "explanation": "<b>こたえ：Thursday（木曜日）</b><br><br>💡 ヒント：今日は Wednesday（水曜日）です。つぎの 日は Thursday（木曜日）ですね。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-428",
+        "question": "I usually read magazines _____ home.",
+        "translation": "わたしは ふつう 家<b>で</b> ざっしを 読みます。",
+        "options": [
+            "of",
+            "on",
+            "with",
+            "at"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜の 上に",
+            "〜と いっしょに",
+            "〜で"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜で）</b><br><br>💡 ヒント：「家で」は at home と 言います。at home で ひとつの ことばと して おぼえましょう。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-429",
+        "question": "A: It’s ten o’clock, Jimmy. _____ to bed.\nB: All right, Mom.",
+        "translation": "A：10時よ、ジミー。もう ねに <b>行き</b>なさい。\nB：わかったよ、お母さん。",
+        "options": [
+            "Go",
+            "Sleep",
+            "Do",
+            "Sit"
+        ],
+        "optionMeanings": [
+            "行く",
+            "ねむる",
+            "する",
+            "すわる"
+        ],
+        "answer": "Go",
+        "explanation": "<b>こたえ：Go（行く）</b><br><br>💡 ヒント：「to bed」（ベッドへ）の 前に 入る ことばです。go to bed で「ねる」と いう いみに なります。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-430",
+        "question": "A: Do you live _____ Tokyo?\nB: Yes. It’s a big city.",
+        "translation": "A：あなたは 東京<b>に</b> すんで いますか。\nB：はい。大きな 町です。",
+        "options": [
+            "after",
+            "with",
+            "on",
+            "in"
+        ],
+        "optionMeanings": [
+            "〜の あとで",
+            "〜と いっしょに",
+            "〜の 上に",
+            "〜の 中に"
+        ],
+        "answer": "in",
+        "explanation": "<b>こたえ：in（〜に）</b><br><br>💡 ヒント：町や 国の 中に いる ときは in を つかいます。live in Tokyo で「東京に すむ」です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-431",
+        "question": "My brother usually _____ to his favorite songs after dinner.",
+        "translation": "わたしの 兄は ふつう 夕ごはんの あと、すきな 歌を <b>聞きます</b>。",
+        "options": [
+            "helps",
+            "starts",
+            "teaches",
+            "listens"
+        ],
+        "optionMeanings": [
+            "てつだう",
+            "はじめる",
+            "おしえる",
+            "聞く"
+        ],
+        "answer": "listens",
+        "explanation": "<b>こたえ：listens（聞く）</b><br><br>💡 ヒント：「to his favorite songs」（すきな 歌を）が ヒントです。歌は 聞く ものですね。listen to で「〜を 聞く」です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-432",
+        "question": "A: Where are your shoes, Ben?\nB: They’re over _____ by the door, Mom.",
+        "translation": "A：くつは どこに あるの、ベン。\nB：<b>あそこ</b>の ドアの そばだよ、お母さん。",
+        "options": [
+            "then",
+            "that",
+            "this",
+            "there"
+        ],
+        "optionMeanings": [
+            "その とき",
+            "あれ",
+            "これ",
+            "そこに"
+        ],
+        "answer": "there",
+        "explanation": "<b>こたえ：there（そこに）</b><br><br>💡 ヒント：over there で「あそこに」と いう いみです。ひとつの ことばと して おぼえましょう。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-433",
+        "question": "A: Ted! _____ read comic books in the classroom.\nB: Sorry, Mr. Brown.",
+        "translation": "A：テッド。教室で まんがを <b>読まないで</b>。\nB：ごめんなさい、ブラウン先生。",
+        "options": [
+            "Don’t",
+            "Aren’t",
+            "Isn’t",
+            "Doesn’t"
+        ],
+        "optionMeanings": [
+            "〜しないで",
+            "（この かたちは ここでは つかわない）",
+            "（この かたちは ここでは つかわない）",
+            "（この かたちは ここでは つかわない）"
+        ],
+        "answer": "Don’t",
+        "explanation": "<b>こたえ：Don’t（〜しないで）</b><br><br>💡 ヒント：「〜しないで」と 言う ときは、文の はじめに Don't を おきます。そのあとは うごきの ことばです。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-434",
+        "question": "Ellen can _____ very well.",
+        "translation": "エレンは とても じょうずに <b>歌う</b> ことが できます。",
+        "options": [
+            "sing",
+            "sings",
+            "sang",
+            "singing"
+        ],
+        "optionMeanings": [
+            "歌う（もとの かたち）",
+            "ing の かたち",
+            "s が つく かたち",
+            "前の かたち（歌った）"
+        ],
+        "answer": "sing",
+        "explanation": "<b>こたえ：sing（歌う）</b><br><br>💡 ヒント：can の あとは、うごきの ことばを もとの かたちに します。だから sing です。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-435",
+        "question": "A: _____ your father a teacher, Karen?\nB: Yes, he is.",
+        "translation": "A：カレン、あなたの お父さんは 先生<b>ですか</b>。\nB：ええ、そうです。",
+        "options": [
+            "Are",
+            "Is",
+            "Do",
+            "Can"
+        ],
+        "optionMeanings": [
+            "〜ですか（you など）",
+            "〜ですか（ひとり）",
+            "〜しますか",
+            "〜できますか"
+        ],
+        "answer": "Is",
+        "explanation": "<b>こたえ：Is（〜ですか）</b><br><br>💡 ヒント：your father（あなたの お父さん）は ひとりです。ひとりの 人には is を つかいます。こたえも he is ですね。",
+        "source": "2021年第1回(本会場)"
+    },
+    {
+        "id": "5-436",
+        "question": "Reiko likes reading books. She often goes to the _____.",
+        "translation": "レイコは 本を 読む ことが すきです。かのじょは よく <b>としょかん</b>に 行きます。",
+        "options": [
+            "pet",
+            "letter",
+            "pen",
+            "library"
+        ],
+        "optionMeanings": [
+            "ペット",
+            "手紙",
+            "ペン",
+            "としょかん"
+        ],
+        "answer": "library",
+        "explanation": "<b>こたえ：library（としょかん）</b><br><br>💡 ヒント：「reading books」（本を 読む こと）が すきだと あります。本が たくさん ある ところは library（としょかん）です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-437",
+        "question": "A: Can you come to my party _____ Saturday?\nB: Yes, I can.",
+        "translation": "A：<b>こんどの</b> 土曜日、わたしの パーティーに 来られる？\nB：うん、行けるよ。",
+        "options": [
+            "slow",
+            "fast",
+            "next",
+            "much"
+        ],
+        "optionMeanings": [
+            "おそい",
+            "はやい",
+            "つぎの",
+            "たくさん"
+        ],
+        "answer": "next",
+        "explanation": "<b>こたえ：next（つぎの）</b><br><br>💡 ヒント：Saturday（土曜日）の 前に つける ことばです。next Saturday で「こんどの 土曜日」です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-438",
+        "question": "I like flowers. I have many pretty ones in my _____.",
+        "translation": "わたしは 花が すきです。わたしの <b>にわ</b>には きれいな 花が たくさん あります。",
+        "options": [
+            "color",
+            "dance",
+            "garden",
+            "test"
+        ],
+        "optionMeanings": [
+            "色",
+            "ダンス",
+            "にわ",
+            "テスト"
+        ],
+        "answer": "garden",
+        "explanation": "<b>こたえ：garden（にわ）</b><br><br>💡 ヒント：flowers（花）が たくさん ある ところです。花が さくのは garden（にわ）ですね。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-439",
+        "question": "My computer is old. I _____ a new computer.",
+        "translation": "わたしの コンピューターは 古いです。新しい コンピューターが <b>ひつようです</b>。",
+        "options": [
+            "sleep",
+            "jump",
+            "need",
+            "read"
+        ],
+        "optionMeanings": [
+            "ねむる",
+            "とぶ",
+            "ひつようだ",
+            "読む"
+        ],
+        "answer": "need",
+        "explanation": "<b>こたえ：need（ひつようだ）</b><br><br>💡 ヒント：「old」（古い）と 言って います。だから 新しい ものが ほしいのです。need は「ひつようだ」です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-440",
+        "question": "I have three children, two sons and one _____.",
+        "translation": "わたしには 子どもが 3人 います。むすこが 2人と <b>むすめ</b>が 1人です。",
+        "options": [
+            "mother",
+            "daughter",
+            "brother",
+            "sister"
+        ],
+        "optionMeanings": [
+            "お母さん",
+            "むすめ",
+            "兄・弟",
+            "姉・妹"
+        ],
+        "answer": "daughter",
+        "explanation": "<b>こたえ：daughter（むすめ）</b><br><br>💡 ヒント：「children」（子ども）と「sons」（むすこ）が ヒントです。女の 子どもは daughter（むすめ）です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-441",
+        "question": "Satoshi often swims at the _____.",
+        "translation": "サトシは よく <b>プール</b>で およぎます。",
+        "options": [
+            "store",
+            "cafeteria",
+            "pool",
+            "door"
+        ],
+        "optionMeanings": [
+            "おみせ",
+            "しょくどう",
+            "プール",
+            "ドア"
+        ],
+        "answer": "pool",
+        "explanation": "<b>こたえ：pool（プール）</b><br><br>💡 ヒント：「swims」（およぐ）と あります。およぐ ところは pool（プール）です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-442",
+        "question": "A: Do you have your ticket, Cindy?\nB: Yes, Dad. It's in my _____.",
+        "translation": "A：シンディ、きっぷは もって いるかい。\nB：うん、お父さん。わたしの <b>ポケット</b>の 中に あるよ。",
+        "options": [
+            "pocket",
+            "money",
+            "picture",
+            "shower"
+        ],
+        "optionMeanings": [
+            "ポケット",
+            "お金",
+            "絵",
+            "シャワー"
+        ],
+        "answer": "pocket",
+        "explanation": "<b>こたえ：pocket（ポケット）</b><br><br>💡 ヒント：「ticket」（きっぷ）を どこに もって いるかを 聞いて います。小さな ものを 入れるのは pocket（ポケット）です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-443",
+        "question": "A: Good morning, Mr. Smith. May I come in?\nB: Sure, Bill. _____ down.",
+        "translation": "A：おはようございます、スミス先生。入っても いいですか。\nB：いいよ、ビル。<b>すわり</b>なさい。",
+        "options": [
+            "Talk",
+            "Sit",
+            "Give",
+            "Be"
+        ],
+        "optionMeanings": [
+            "話す",
+            "すわる",
+            "あげる",
+            "〜で ある"
+        ],
+        "answer": "Sit",
+        "explanation": "<b>こたえ：Sit（すわる）</b><br><br>💡 ヒント：「down」（下へ）と いっしょに つかいます。sit down で「すわる」です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-444",
+        "question": "A: Where is Mike?\nB: He's sleeping in _____.",
+        "translation": "A：マイクは どこ？\nB：<b>ベッド</b>で ねて いるよ。",
+        "options": [
+            "week",
+            "year",
+            "noon",
+            "bed"
+        ],
+        "optionMeanings": [
+            "週",
+            "年",
+            "お昼",
+            "ベッド"
+        ],
+        "answer": "bed",
+        "explanation": "<b>こたえ：bed（ベッド）</b><br><br>💡 ヒント：「sleeping」（ねて いる）と あります。ねる ところは bed（ベッド）ですね。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-445",
+        "question": "A: How _____ is your cat?\nB: She's three.",
+        "translation": "A：あなたの ねこは <b>何さい</b>ですか。\nB：3さいです。",
+        "options": [
+            "old",
+            "many",
+            "fast",
+            "soft"
+        ],
+        "optionMeanings": [
+            "年を とった",
+            "たくさんの",
+            "はやい",
+            "やわらかい"
+        ],
+        "answer": "old",
+        "explanation": "<b>こたえ：old（年を とった）</b><br><br>💡 ヒント：B は「three」（3さい）と こたえて います。How old で「何さい」と 聞く ことが できます。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-446",
+        "question": "I eat rice for breakfast every _____.",
+        "translation": "わたしは <b>毎日</b>、朝ごはんに ごはんを 食べます。",
+        "options": [
+            "clock",
+            "day",
+            "home",
+            "world"
+        ],
+        "optionMeanings": [
+            "とけい",
+            "日",
+            "家",
+            "せかい"
+        ],
+        "answer": "day",
+        "explanation": "<b>こたえ：day（日）</b><br><br>💡 ヒント：every の あとに day を つけると、every day（毎日）に なります。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-447",
+        "question": "A: Your bag is big, Billy.\nB: Yes. I have a lot _____ books in it.",
+        "translation": "A：あなたの かばんは 大きいね、ビリー。\nB：うん。中に 本が <b>たくさん</b> 入って いるんだ。",
+        "options": [
+            "over",
+            "in",
+            "by",
+            "of"
+        ],
+        "optionMeanings": [
+            "〜の 上に",
+            "〜の 中に",
+            "〜の そばに",
+            "〜の"
+        ],
+        "answer": "of",
+        "explanation": "<b>こたえ：of（〜の）</b><br><br>💡 ヒント：a lot of で「たくさんの」と いう いみです。a lot of books で「たくさんの 本」です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-448",
+        "question": "A: Are you a junior high school student, Kenji?\nB: Yes, I _____.",
+        "translation": "A：ケンジ、あなたは 中学生ですか。\nB：はい、<b>そうです</b>。",
+        "options": [
+            "am",
+            "are",
+            "be",
+            "is"
+        ],
+        "optionMeanings": [
+            "（I の あとに つかう）",
+            "（you の あとに つかう）",
+            "（もとの かたち）",
+            "（he や she の あとに つかう）"
+        ],
+        "answer": "am",
+        "explanation": "<b>こたえ：am（〜です）</b><br><br>💡 ヒント：Are you 〜? と 聞かれたら、I am で こたえます。I の あとは am です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-449",
+        "question": "A: Alan, it's too cold in here. Please _____ the window.\nB: Yes, Dad.",
+        "translation": "A：アラン、ここは さむすぎるよ。まどを <b>しめて</b> おくれ。\nB：うん、お父さん。",
+        "options": [
+            "close",
+            "closing",
+            "closes",
+            "closed"
+        ],
+        "optionMeanings": [
+            "しめる（もとの かたち）",
+            "ing の かたち",
+            "s が つく かたち",
+            "前の かたち（しめた）"
+        ],
+        "answer": "close",
+        "explanation": "<b>こたえ：close（しめる）</b><br><br>💡 ヒント：Please の あとは、うごきの ことばを もとの かたちに します。だから close です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-450",
+        "question": "This notebook isn't yours. It's _____.",
+        "translation": "この ノートは あなたの ものでは ありません。<b>わたしの もの</b>です。",
+        "options": [
+            "he",
+            "they",
+            "I",
+            "mine"
+        ],
+        "optionMeanings": [
+            "かれは",
+            "かれらは",
+            "わたしは",
+            "わたしの もの"
+        ],
+        "answer": "mine",
+        "explanation": "<b>こたえ：mine（わたしの もの）</b><br><br>💡 ヒント：「yours」（あなたの もの）では ないと 言って います。「わたしの もの」は mine です。",
+        "source": "2021年第1回(準会場)"
+    },
+    {
+        "id": "5-451",
+        "question": "I have piano _____ on Tuesdays.",
+        "translation": "わたしは 火曜日に ピアノの <b>レッスン</b>が あります。",
+        "options": [
+            "doors",
+            "books",
+            "chairs",
+            "lessons"
+        ],
+        "optionMeanings": [
+            "ドア",
+            "本",
+            "いす",
+            "レッスン"
+        ],
+        "answer": "lessons",
+        "explanation": "<b>こたえ：lessons（レッスン）</b><br><br>💡 ヒント：piano（ピアノ）の あとに 入る ことばです。ならいごとは lesson（レッスン）と 言います。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-452",
+        "question": "A: Do you like _____, Peter?\nB: Yes, I do. I like soccer.",
+        "translation": "A：ピーター、<b>スポーツ</b>は すき？\nB：うん、すきだよ。サッカーが すきなんだ。",
+        "options": [
+            "music",
+            "fruit",
+            "sports",
+            "fish"
+        ],
+        "optionMeanings": [
+            "音楽",
+            "くだもの",
+            "スポーツ",
+            "魚"
+        ],
+        "answer": "sports",
+        "explanation": "<b>こたえ：sports（スポーツ）</b><br><br>💡 ヒント：B は「soccer」（サッカー）が すきと 言って います。サッカーは sports（スポーツ）の なかまです。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-453",
+        "question": "A: Bob is a good swimmer.\nB: Yes. He is very _____.",
+        "translation": "A：ボブは およぐのが じょうずだね。\nB：うん。とても <b>はやい</b>よ。",
+        "options": [
+            "fast",
+            "slow",
+            "long",
+            "blue"
+        ],
+        "optionMeanings": [
+            "はやい",
+            "おそい",
+            "長い",
+            "青い"
+        ],
+        "answer": "fast",
+        "explanation": "<b>こたえ：fast（はやい）</b><br><br>💡 ヒント：「good swimmer」（およぐのが じょうずな 人）と あります。だから fast（はやい）が あいます。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-454",
+        "question": "October is the tenth _____ of the year.",
+        "translation": "10月は 1年の 10番目の <b>月</b>です。",
+        "options": [
+            "day",
+            "week",
+            "month",
+            "hour"
+        ],
+        "optionMeanings": [
+            "日",
+            "週",
+            "月",
+            "1時間"
+        ],
+        "answer": "month",
+        "explanation": "<b>こたえ：month（月）</b><br><br>💡 ヒント：October（10月）は 月の 名前です。だから month（月）です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-455",
+        "question": "My mother plays the piano very _____.",
+        "translation": "わたしの 母は ピアノを とても <b>じょうずに</b> ひきます。",
+        "options": [
+            "all",
+            "well",
+            "next",
+            "right"
+        ],
+        "optionMeanings": [
+            "ぜんぶ",
+            "じょうずに",
+            "つぎの",
+            "正しい"
+        ],
+        "answer": "well",
+        "explanation": "<b>こたえ：well（じょうずに）</b><br><br>💡 ヒント：very well で「とても じょうずに」と いう いみです。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-456",
+        "question": "A: Dad, please _____ me with this math homework.\nB: All right, Judy.",
+        "translation": "A：お父さん、この 算数の しゅくだいを <b>てつだって</b>。\nB：いいよ、ジュディ。",
+        "options": [
+            "write",
+            "help",
+            "work",
+            "know"
+        ],
+        "optionMeanings": [
+            "書く",
+            "てつだう",
+            "はたらく",
+            "しって いる"
+        ],
+        "answer": "help",
+        "explanation": "<b>こたえ：help（てつだう）</b><br><br>💡 ヒント：「homework」（しゅくだい）が あります。help me with 〜 で「〜を てつだって」です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-457",
+        "question": "A: Happy birthday, Anna. This is your _____.\nB: Thank you, Grandpa!",
+        "translation": "A：アンナ、おたんじょう日 おめでとう。これは きみへの <b>プレゼント</b>だよ。\nB：ありがとう、おじいちゃん。",
+        "options": [
+            "page",
+            "pocket",
+            "present",
+            "park"
+        ],
+        "optionMeanings": [
+            "ページ",
+            "ポケット",
+            "プレゼント",
+            "こうえん"
+        ],
+        "answer": "present",
+        "explanation": "<b>こたえ：present（プレゼント）</b><br><br>💡 ヒント：「Happy birthday」（おたんじょう日 おめでとう）と 言って います。たんじょう日に わたす ものは present（プレゼント）です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-458",
+        "question": "A: Does this train go from Tokyo _____ Kanazawa?\nB: Yes, it does.",
+        "translation": "A：この 電車は 東京から かなざわ<b>まで</b> 行きますか。\nB：はい、行きます。",
+        "options": [
+            "at",
+            "off",
+            "to",
+            "down"
+        ],
+        "optionMeanings": [
+            "〜で",
+            "はなれて",
+            "〜へ",
+            "下へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：from A to B で「A から B まで」です。from Tokyo（東京から）の あとなので to です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-459",
+        "question": "Akiko drinks a _____ of tea after dinner every day.",
+        "translation": "アキコは 毎日、夕ごはんの あとに お茶を <b>1ぱい</b> のみます。",
+        "options": [
+            "chair",
+            "cup",
+            "bread",
+            "lunch"
+        ],
+        "optionMeanings": [
+            "いす",
+            "カップ",
+            "パン",
+            "お昼ごはん"
+        ],
+        "answer": "cup",
+        "explanation": "<b>こたえ：cup（カップ）</b><br><br>💡 ヒント：a cup of tea で「お茶 1ぱい」と いう いみです。のみものを かぞえる ときに つかいます。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-460",
+        "question": "The man in this picture is my grandfather. He’s 65 years _____.",
+        "translation": "この しゃしんの 男の 人は わたしの おじいさんです。かれは 65<b>さい</b>です。",
+        "options": [
+            "many",
+            "old",
+            "tall",
+            "big"
+        ],
+        "optionMeanings": [
+            "たくさんの",
+            "年を とった",
+            "せが 高い",
+            "大きい"
+        ],
+        "answer": "old",
+        "explanation": "<b>こたえ：old（年を とった）</b><br><br>💡 ヒント：〜 years old で「〜さい」と 年を あらわします。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-461",
+        "question": "I have a camera. Let’s _____ a picture together.",
+        "translation": "わたしは カメラを もって います。いっしょに しゃしんを <b>とり</b>ましょう。",
+        "options": [
+            "sing",
+            "know",
+            "speak",
+            "take"
+        ],
+        "optionMeanings": [
+            "歌う",
+            "しって いる",
+            "話す",
+            "とる"
+        ],
+        "answer": "take",
+        "explanation": "<b>こたえ：take（とる）</b><br><br>💡 ヒント：「camera」（カメラ）が あります。take a picture で「しゃしんを とる」です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-462",
+        "question": "A: Can I have some chocolate?\nB: Yes, _____ course.",
+        "translation": "A：チョコレートを もらっても いい？\nB：うん、<b>もちろん</b>。",
+        "options": [
+            "with",
+            "of",
+            "after",
+            "by"
+        ],
+        "optionMeanings": [
+            "〜と いっしょに",
+            "〜の",
+            "〜の あとで",
+            "〜の そばに"
+        ],
+        "answer": "of",
+        "explanation": "<b>こたえ：of（〜の）</b><br><br>💡 ヒント：of course で「もちろん」と いう いみです。ひとつの ことばと して おぼえましょう。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-463",
+        "question": "Kate has a computer. She uses _____ in her room.",
+        "translation": "ケイトは コンピューターを もって います。かのじょは 自分の へやで <b>それを</b> つかいます。",
+        "options": [
+            "it",
+            "us",
+            "they",
+            "them"
+        ],
+        "optionMeanings": [
+            "それを",
+            "わたしたちを",
+            "かれらは",
+            "かれらを"
+        ],
+        "answer": "it",
+        "explanation": "<b>こたえ：it（それを）</b><br><br>💡 ヒント：「a computer」（コンピューター）を さして います。ひとつの ものは it（それを）で あらわします。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-464",
+        "question": "Michelle is _____ TV in the living room now.",
+        "translation": "ミシェルは 今、いまで テレビを <b>見て いる</b> ところです。",
+        "options": [
+            "watching",
+            "watch",
+            "watched",
+            "watches"
+        ],
+        "optionMeanings": [
+            "ing の かたち",
+            "見る（もとの かたち）",
+            "前の かたち（見た）",
+            "s が つく かたち"
+        ],
+        "answer": "watching",
+        "explanation": "<b>こたえ：watching（見て いる）</b><br><br>💡 ヒント：is と now（今）が あります。「今 〜して いる」は is の あとに ing の かたちを つかいます。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-465",
+        "question": "A: _____ pencil case is this? It’s very pretty.\nB: It’s Cindy’s.",
+        "translation": "A：これは <b>だれの</b> ふでばこ？ とても かわいいね。\nB：シンディの だよ。",
+        "options": [
+            "Who",
+            "Where",
+            "When",
+            "Whose"
+        ],
+        "optionMeanings": [
+            "だれ",
+            "どこ",
+            "いつ",
+            "だれの"
+        ],
+        "answer": "Whose",
+        "explanation": "<b>こたえ：Whose（だれの）</b><br><br>💡 ヒント：B は「Cindy's」（シンディの もの）と こたえて います。「だれの」と 聞く ときは Whose です。",
+        "source": "2021年第2回(本会場)"
+    },
+    {
+        "id": "5-466",
+        "question": "A: Where is Daddy?\nB: In the living _____.",
+        "translation": "A：パパは どこ？\nB：<b>リビングルーム</b>に いるよ。",
+        "options": [
+            "room",
+            "table",
+            "wall",
+            "window"
+        ],
+        "optionMeanings": [
+            "へや",
+            "テーブル",
+            "かべ",
+            "まど"
+        ],
+        "answer": "room",
+        "explanation": "<b>こたえ：room（へや）</b><br><br>💡 ヒント：living room で「リビングルーム（いま）」と いう いみです。家の 人が すごす へやです。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-467",
+        "question": "A: What do you want for _____, Jack?\nB: Ice cream.",
+        "translation": "A：ジャック、<b>デザート</b>に 何が ほしい？\nB：アイスクリーム。",
+        "options": [
+            "dessert",
+            "flute",
+            "color",
+            "drink"
+        ],
+        "optionMeanings": [
+            "デザート",
+            "フルート",
+            "色",
+            "のみもの"
+        ],
+        "answer": "dessert",
+        "explanation": "<b>こたえ：dessert（デザート）</b><br><br>💡 ヒント：B は「Ice cream」（アイスクリーム）と こたえて います。ごはんの あとの あまい ものは dessert（デザート）です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-468",
+        "question": "A: When is Mary's birthday _____?\nB: Next Friday.",
+        "translation": "A：メアリーの おたんじょう日 <b>パーティー</b>は いつ？\nB：こんどの 金曜日だよ。",
+        "options": [
+            "cake",
+            "party",
+            "dress",
+            "park"
+        ],
+        "optionMeanings": [
+            "ケーキ",
+            "パーティー",
+            "ドレス",
+            "こうえん"
+        ],
+        "answer": "party",
+        "explanation": "<b>こたえ：party（パーティー）</b><br><br>💡 ヒント：「When」（いつ）と 聞いて います。日にちが きまって いるのは birthday party（たんじょう日 パーティー）です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-469",
+        "question": "A: Do you have any _____, Susan?\nB: Yes. I have two birds.",
+        "translation": "A：スーザン、<b>ペット</b>を かって いる？\nB：うん。鳥を 2わ かって いるよ。",
+        "options": [
+            "pets",
+            "sports",
+            "books",
+            "videos"
+        ],
+        "optionMeanings": [
+            "ペット",
+            "スポーツ",
+            "本",
+            "ビデオ"
+        ],
+        "answer": "pets",
+        "explanation": "<b>こたえ：pets（ペット）</b><br><br>💡 ヒント：B は「two birds」（鳥 2わ）と こたえて います。家で かう 鳥は pet（ペット）です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-470",
+        "question": "A: What day of the _____ is it today?\nB: It's Monday.",
+        "translation": "A：今日は <b>何よう日</b>ですか。\nB：月曜日です。",
+        "options": [
+            "hour",
+            "year",
+            "week",
+            "time"
+        ],
+        "optionMeanings": [
+            "1時間",
+            "年",
+            "週",
+            "時間"
+        ],
+        "answer": "week",
+        "explanation": "<b>こたえ：week（週）</b><br><br>💡 ヒント：B は「Monday」（月曜日）と こたえて います。What day of the week で「何よう日」と 聞けます。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-471",
+        "question": "A: I like _____.\nB: Me, too. I play the flute and the piano.",
+        "translation": "A：わたしは <b>音楽</b>が すきです。\nB：ぼくも。フルートと ピアノを ひくよ。",
+        "options": [
+            "food",
+            "books",
+            "sports",
+            "music"
+        ],
+        "optionMeanings": [
+            "食べもの",
+            "本",
+            "スポーツ",
+            "音楽"
+        ],
+        "answer": "music",
+        "explanation": "<b>こたえ：music（音楽）</b><br><br>💡 ヒント：B は「flute」（フルート）と「piano」（ピアノ）を ひくと 言って います。だから music（音楽）です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-472",
+        "question": "Fred is _____ volleyball in the gym now.",
+        "translation": "フレッドは 今、体いくかんで バレーボールを <b>して います</b>。",
+        "options": [
+            "sitting",
+            "walking",
+            "playing",
+            "waiting"
+        ],
+        "optionMeanings": [
+            "すわって いる",
+            "歩いて いる",
+            "（スポーツを）して いる",
+            "まって いる"
+        ],
+        "answer": "playing",
+        "explanation": "<b>こたえ：playing（して いる）</b><br><br>💡 ヒント：「volleyball」（バレーボール）が あります。スポーツを する ときは play を つかいます。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-473",
+        "question": "I usually use my computer _____ night.",
+        "translation": "わたしは ふつう <b>夜に</b> コンピューターを つかいます。",
+        "options": [
+            "in",
+            "of",
+            "at",
+            "on"
+        ],
+        "optionMeanings": [
+            "〜の 中に",
+            "〜の",
+            "〜に",
+            "〜の 上に"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜に）</b><br><br>💡 ヒント：at night で「夜に」と いう いみです。ひとつの ことばと して おぼえましょう。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-474",
+        "question": "A: _____ many CDs do you have, Bill?\nB: About fifty.",
+        "translation": "A：ビル、CDを <b>何まい</b> もって いるの？\nB：50まい くらいだよ。",
+        "options": [
+            "Do",
+            "What",
+            "Why",
+            "How"
+        ],
+        "optionMeanings": [
+            "〜しますか",
+            "何",
+            "なぜ",
+            "どれくらい"
+        ],
+        "answer": "How",
+        "explanation": "<b>こたえ：How（どれくらい）</b><br><br>💡 ヒント：B は「About fifty」（50 くらい）と 数を こたえて います。How many で「いくつ」と 数を 聞きます。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-475",
+        "question": "I get _____ early every morning and go to the park.",
+        "translation": "わたしは 毎朝 早く <b>おきて</b>、こうえんに 行きます。",
+        "options": [
+            "on",
+            "up",
+            "over",
+            "right"
+        ],
+        "optionMeanings": [
+            "〜の 上に",
+            "上へ",
+            "〜を こえて",
+            "右"
+        ],
+        "answer": "up",
+        "explanation": "<b>こたえ：up（上へ）</b><br><br>💡 ヒント：get up で「おきる」と いう いみです。「early」（早く）と いっしょに よく つかいます。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-476",
+        "question": "A: Excuse _____. Where is the hospital?\nB: It's over there.",
+        "translation": "A：<b>すみません</b>。びょういんは どこですか。\nB：あそこです。",
+        "options": [
+            "I",
+            "my",
+            "me",
+            "mine"
+        ],
+        "optionMeanings": [
+            "わたしは",
+            "わたしの",
+            "わたしを",
+            "わたしの もの"
+        ],
+        "answer": "me",
+        "explanation": "<b>こたえ：me（わたしを）</b><br><br>💡 ヒント：Excuse me で「すみません」と いう いみです。人に 話しかける ときに つかいます。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-477",
+        "question": "A: What do you do after school, Kevin?\nB: I read a _____ of books.",
+        "translation": "A：ケビン、学校の あとは 何を するの？\nB：本を <b>たくさん</b> 読むよ。",
+        "options": [
+            "many",
+            "lot",
+            "some",
+            "little"
+        ],
+        "optionMeanings": [
+            "たくさんの",
+            "たくさん",
+            "いくつかの",
+            "少しの"
+        ],
+        "answer": "lot",
+        "explanation": "<b>こたえ：lot（たくさん）</b><br><br>💡 ヒント：a の あとに 入り、うしろに of が あります。a lot of で「たくさんの」です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-478",
+        "question": "A: _____ Mr. Johnson teach math?\nB: No, he is my history teacher.",
+        "translation": "A：ジョンソン先生は 数学を <b>おしえて いますか</b>。\nB：いいえ、かれは わたしの れきしの 先生です。",
+        "options": [
+            "Do",
+            "Does",
+            "Am",
+            "Are"
+        ],
+        "optionMeanings": [
+            "（I や you の とき）",
+            "（he や she の とき）",
+            "（I の とき）",
+            "（you の とき）"
+        ],
+        "answer": "Does",
+        "explanation": "<b>こたえ：Does（〜しますか）</b><br><br>💡 ヒント：Mr. Johnson（ジョンソン先生）は ひとりです。ひとりの 人の ことを 聞く ときは Does を つかいます。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-479",
+        "question": "A: Emily, _____ is that woman?\nB: She's my sister.",
+        "translation": "A：エミリー、あの 女の 人は <b>だれ</b>？\nB：わたしの お姉さんよ。",
+        "options": [
+            "when",
+            "where",
+            "how",
+            "who"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "どこ",
+            "どのように",
+            "だれ"
+        ],
+        "answer": "who",
+        "explanation": "<b>こたえ：who（だれ）</b><br><br>💡 ヒント：B は「my sister」（わたしの お姉さん）と 人を こたえて います。人を 聞く ときは who（だれ）です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-480",
+        "question": "Jenny and Mary are sisters. _____ go to school together.",
+        "translation": "ジェニーと メアリーは しまいです。<b>かのじょたちは</b> いっしょに 学校へ 行きます。",
+        "options": [
+            "Their",
+            "She",
+            "Them",
+            "They"
+        ],
+        "optionMeanings": [
+            "かのじょたちの",
+            "かのじょは",
+            "かのじょたちを",
+            "かのじょたちは"
+        ],
+        "answer": "They",
+        "explanation": "<b>こたえ：They（かのじょたちは）</b><br><br>💡 ヒント：ジェニーと メアリーの 2人の ことです。2人の ことを「かのじょたちは」と 言う ときは They です。",
+        "source": "2021年第2回(準会場)"
+    },
+    {
+        "id": "5-481",
+        "question": "A: Janet, here is my grandma’s photo _____.\nB: Wow! It’s very nice.",
+        "translation": "A：ジャネット、これが ぼくの おばあちゃんの しゃしん<b>アルバム</b>だよ。\nB：わあ、とても すてきね。",
+        "options": [
+            "album",
+            "lunch",
+            "harmonica",
+            "ticket"
+        ],
+        "optionMeanings": [
+            "アルバム",
+            "お昼ごはん",
+            "ハーモニカ",
+            "チケット"
+        ],
+        "answer": "album",
+        "explanation": "<b>こたえ：album（アルバム）</b><br><br>💡 ヒント：「photo」（しゃしん）の あとに 入る ことばです。しゃしんを まとめる ものは album（アルバム）です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-482",
+        "question": "A: Hi, my name’s Peter.\nB: Hi, Peter. I’m Junko. Nice to _____ you.",
+        "translation": "A：やあ、ぼくの 名前は ピーターです。\nB：こんにちは、ピーター。わたしは ジュンコです。<b>会えて</b> うれしいです。",
+        "options": [
+            "walk",
+            "meet",
+            "write",
+            "enjoy"
+        ],
+        "optionMeanings": [
+            "歩く",
+            "会う",
+            "書く",
+            "たのしむ"
+        ],
+        "answer": "meet",
+        "explanation": "<b>こたえ：meet（会う）</b><br><br>💡 ヒント：Nice to meet you. で「はじめまして」と いう あいさつです。meet は「会う」です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-483",
+        "question": "A: Do you have any pets, Kelly?\nB: Yes. I have two dogs and a _____.",
+        "translation": "A：ケリー、ペットは かって いる？\nB：うん。犬 2ひきと <b>ウサギ</b> 1ぴきを かって いるよ。",
+        "options": [
+            "door",
+            "coin",
+            "mouth",
+            "rabbit"
+        ],
+        "optionMeanings": [
+            "ドア",
+            "コイン",
+            "口",
+            "ウサギ"
+        ],
+        "answer": "rabbit",
+        "explanation": "<b>こたえ：rabbit（ウサギ）</b><br><br>💡 ヒント：「pets」（ペット）と「dogs」（犬）が あります。ペットに なる どうぶつは rabbit（ウサギ）です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-484",
+        "question": "A: When is your science test, Jim?\nB: It’s _____ Monday, Mom.",
+        "translation": "A：ジム、理科の テストは いつ？\nB：<b>こんどの</b> 月曜日だよ、お母さん。",
+        "options": [
+            "fast",
+            "well",
+            "next",
+            "free"
+        ],
+        "optionMeanings": [
+            "はやい",
+            "じょうずに",
+            "つぎの",
+            "ひまな"
+        ],
+        "answer": "next",
+        "explanation": "<b>こたえ：next（つぎの）</b><br><br>💡 ヒント：Monday（月曜日）の 前に つける ことばです。next Monday で「こんどの 月曜日」です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-485",
+        "question": "April is the _____ month of the year.",
+        "translation": "4月は 1年の <b>4番目の</b> 月です。",
+        "options": [
+            "first",
+            "second",
+            "third",
+            "fourth"
+        ],
+        "optionMeanings": [
+            "1番目の",
+            "2番目の",
+            "3番目の",
+            "4番目の"
+        ],
+        "answer": "fourth",
+        "explanation": "<b>こたえ：fourth（4番目の）</b><br><br>💡 ヒント：April（4月）は 1年で 4番目の 月です。4番目は fourth です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-486",
+        "question": "Julie likes art. She often goes to a _____ with her mother.",
+        "translation": "ジュリーは 絵が すきです。かのじょは よく お母さんと <b>びじゅつかん</b>へ 行きます。",
+        "options": [
+            "fish",
+            "museum",
+            "fruit",
+            "pencil"
+        ],
+        "optionMeanings": [
+            "魚",
+            "びじゅつかん",
+            "くだもの",
+            "えんぴつ"
+        ],
+        "answer": "museum",
+        "explanation": "<b>こたえ：museum（びじゅつかん）</b><br><br>💡 ヒント：「art」（絵や びじゅつ）が すきだと あります。絵を 見に 行く ところは museum（びじゅつかん）です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-487",
+        "question": "My mother _____ Japanese and English.",
+        "translation": "わたしの 母は 日本語と えいごを <b>話します</b>。",
+        "options": [
+            "lives",
+            "speaks",
+            "washes",
+            "sees"
+        ],
+        "optionMeanings": [
+            "すむ",
+            "話す",
+            "あらう",
+            "見る"
+        ],
+        "answer": "speaks",
+        "explanation": "<b>こたえ：speaks（話す）</b><br><br>💡 ヒント：「Japanese and English」（日本語と えいご）が あります。ことばは「話す」もの。だから speaks です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-488",
+        "question": "Fred always _____ a shower before breakfast.",
+        "translation": "フレッドは いつも 朝ごはんの 前に シャワーを <b>あびます</b>。",
+        "options": [
+            "reads",
+            "goes",
+            "takes",
+            "listens"
+        ],
+        "optionMeanings": [
+            "読む",
+            "行く",
+            "（シャワーを）あびる",
+            "聞く"
+        ],
+        "answer": "takes",
+        "explanation": "<b>こたえ：takes（あびる）</b><br><br>💡 ヒント：take a shower で「シャワーを あびる」と いう いみです。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-489",
+        "question": "A: Do you have your history notebook, Mark?\nB: No, Scott. It’s _____ home.",
+        "translation": "A：マーク、れきしの ノートを もって いる？\nB：ううん、スコット。<b>家に</b> あるんだ。",
+        "options": [
+            "with",
+            "at",
+            "of",
+            "to"
+        ],
+        "optionMeanings": [
+            "〜と いっしょに",
+            "〜で・〜に",
+            "〜の",
+            "〜へ"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜に）</b><br><br>💡 ヒント：「家に」は at home と 言います。at home で ひとつの ことばと して おぼえましょう。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-490",
+        "question": "James goes jogging every _____.",
+        "translation": "ジェームズは <b>毎日</b> ジョギングを します。",
+        "options": [
+            "clock",
+            "letter",
+            "watch",
+            "day"
+        ],
+        "optionMeanings": [
+            "とけい",
+            "手紙",
+            "うでどけい",
+            "日"
+        ],
+        "answer": "day",
+        "explanation": "<b>こたえ：day（日）</b><br><br>💡 ヒント：every の あとに day を つけると、every day（毎日）に なります。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-491",
+        "question": "A: How _____ is your soccer practice, John?\nB: It’s one hour.",
+        "translation": "A：ジョン、サッカーの れんしゅうは <b>どれくらい</b> あるの？\nB：1時間だよ。",
+        "options": [
+            "cold",
+            "big",
+            "long",
+            "fine"
+        ],
+        "optionMeanings": [
+            "さむい",
+            "大きい",
+            "長い",
+            "げんきな"
+        ],
+        "answer": "long",
+        "explanation": "<b>こたえ：long（長い）</b><br><br>💡 ヒント：B は「one hour」（1時間）と こたえて います。How long で「どれくらいの 長さ」を 聞けます。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-492",
+        "question": "A: Is Amy studying in her room?\nB: No, she’s sleeping in _____.",
+        "translation": "A：エイミーは 自分の へやで べんきょうして いるの？\nB：ううん、<b>ベッド</b>で ねて いるよ。",
+        "options": [
+            "bed",
+            "door",
+            "table",
+            "cup"
+        ],
+        "optionMeanings": [
+            "ベッド",
+            "ドア",
+            "テーブル",
+            "カップ"
+        ],
+        "answer": "bed",
+        "explanation": "<b>こたえ：bed（ベッド）</b><br><br>💡 ヒント：「sleeping」（ねて いる）と あります。ねる ところは bed（ベッド）です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-493",
+        "question": "Bill likes sports. He can _____ very fast.",
+        "translation": "ビルは スポーツが すきです。かれは とても はやく <b>およぐ</b> ことが できます。",
+        "options": [
+            "swim",
+            "swims",
+            "swam",
+            "swimming"
+        ],
+        "optionMeanings": [
+            "およぐ（もとの かたち）",
+            "ing の かたち",
+            "s が つく かたち",
+            "前の かたち（およいだ）"
+        ],
+        "answer": "swim",
+        "explanation": "<b>こたえ：swim（およぐ）</b><br><br>💡 ヒント：can の あとは、うごきの ことばを もとの かたちに します。だから swim です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-494",
+        "question": "A: Do you like baseball, Mike?\nB: Yes, Karen. But my brother _____.",
+        "translation": "A：マイク、やきゅうは すき？\nB：うん、カレン。でも ぼくの お兄さんは すき<b>じゃないんだ</b>。",
+        "options": [
+            "isn’t",
+            "don’t",
+            "aren’t",
+            "doesn’t"
+        ],
+        "optionMeanings": [
+            "（ひとりの とき、〜では ない）",
+            "（I や you の とき、〜しない）",
+            "（you などの とき、〜では ない）",
+            "（ひとりの とき、〜しない）"
+        ],
+        "answer": "doesn’t",
+        "explanation": "<b>こたえ：doesn’t（〜しない）</b><br><br>💡 ヒント：my brother（ぼくの お兄さん）は ひとりです。「すきでは ない」と 言うので doesn't を つかいます。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-495",
+        "question": "I have two sisters. I like _____ very much.",
+        "translation": "わたしには しまいが 2人 います。わたしは <b>かのじょたち</b>が 大すきです。",
+        "options": [
+            "me",
+            "you",
+            "them",
+            "she"
+        ],
+        "optionMeanings": [
+            "わたしを",
+            "あなたを",
+            "かのじょたちを",
+            "かのじょは"
+        ],
+        "answer": "them",
+        "explanation": "<b>こたえ：them（かのじょたちを）</b><br><br>💡 ヒント：「two sisters」（2人の しまい）の ことです。like の あとで 2人を あらわすのは them です。",
+        "source": "2021年第3回(本会場)"
+    },
+    {
+        "id": "5-496",
+        "question": "_____ is the twelfth month of the year.",
+        "translation": "<b>12月</b>は 1年の 12番目の 月です。",
+        "options": [
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "optionMeanings": [
+            "9月",
+            "10月",
+            "11月",
+            "12月"
+        ],
+        "answer": "December",
+        "explanation": "<b>こたえ：December（12月）</b><br><br>💡 ヒント：「twelfth」（12番目）と あります。12番目の 月は December（12月）です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-497",
+        "question": "A: Are you OK, Meg? You look really _____.\nB: Yes, I am. I'm going to bed now, Dad.",
+        "translation": "A：だいじょうぶかい、メグ。とても <b>ねむそう</b>だね。\nB：うん、だいじょうぶ。もう ねるね、お父さん。",
+        "options": [
+            "clean",
+            "sleepy",
+            "big",
+            "cloudy"
+        ],
+        "optionMeanings": [
+            "きれいな",
+            "ねむい",
+            "大きい",
+            "くもりの"
+        ],
+        "answer": "sleepy",
+        "explanation": "<b>こたえ：sleepy（ねむい）</b><br><br>💡 ヒント：B は「going to bed」（もう ねる）と 言って います。だから sleepy（ねむい）です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-498",
+        "question": "Janet is on the volleyball team at school. She has volleyball _____ every day.",
+        "translation": "ジャネットは 学校の バレーボールの チームに 入って います。毎日 バレーボールの <b>れんしゅう</b>が あります。",
+        "options": [
+            "practice",
+            "drum",
+            "page",
+            "water"
+        ],
+        "optionMeanings": [
+            "れんしゅう",
+            "たいこ",
+            "ページ",
+            "水"
+        ],
+        "answer": "practice",
+        "explanation": "<b>こたえ：practice（れんしゅう）</b><br><br>💡 ヒント：「team」（チーム）に 入って いて、「every day」（毎日）と あります。毎日 する ものは practice（れんしゅう）です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-499",
+        "question": "A: What time do you have _____?\nB: At 12:30.",
+        "translation": "A：何時に <b>お昼ごはん</b>を 食べますか。\nB：12時30分です。",
+        "options": [
+            "lunch",
+            "hour",
+            "hand",
+            "face"
+        ],
+        "optionMeanings": [
+            "お昼ごはん",
+            "1時間",
+            "手",
+            "かお"
+        ],
+        "answer": "lunch",
+        "explanation": "<b>こたえ：lunch（お昼ごはん）</b><br><br>💡 ヒント：B は「At 12:30」（12時30分に）と こたえて います。その 時間に 食べるのは lunch（お昼ごはん）です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-500",
+        "question": "A: Thank you for a _____ dinner, Grandma.\nB: You're welcome.",
+        "translation": "A：<b>すばらしい</b> 夕ごはんを ありがとう、おばあちゃん。\nB：どういたしまして。",
+        "options": [
+            "young",
+            "high",
+            "wonderful",
+            "rainy"
+        ],
+        "optionMeanings": [
+            "わかい",
+            "高い",
+            "すばらしい",
+            "雨の"
+        ],
+        "answer": "wonderful",
+        "explanation": "<b>こたえ：wonderful（すばらしい）</b><br><br>💡 ヒント：「Thank you」（ありがとう）と 言って います。ごはんを ほめる ことばは wonderful（すばらしい）です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-501",
+        "question": "A: When is your _____, Alice?\nB: It's August 6.",
+        "translation": "A：アリス、あなたの <b>たんじょう日</b>は いつ？\nB：8月6日よ。",
+        "options": [
+            "morning",
+            "birthday",
+            "clock",
+            "album"
+        ],
+        "optionMeanings": [
+            "朝",
+            "たんじょう日",
+            "とけい",
+            "アルバム"
+        ],
+        "answer": "birthday",
+        "explanation": "<b>こたえ：birthday（たんじょう日）</b><br><br>💡 ヒント：B は「August 6」（8月6日）と 日にちを こたえて います。だから birthday（たんじょう日）です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-502",
+        "question": "A: Do you like _____, Bob?\nB: Yes. I often eat chicken for dinner.",
+        "translation": "A：ボブ、<b>肉</b>は すき？\nB：うん。夕ごはんに よく とり肉を 食べるよ。",
+        "options": [
+            "milk",
+            "bread",
+            "meat",
+            "fruit"
+        ],
+        "optionMeanings": [
+            "ぎゅうにゅう",
+            "パン",
+            "肉",
+            "くだもの"
+        ],
+        "answer": "meat",
+        "explanation": "<b>こたえ：meat（肉）</b><br><br>💡 ヒント：B は「chicken」（とり肉）を 食べると 言って います。とり肉は meat（肉）の なかまです。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-503",
+        "question": "A: I'm going to school now, Mom.\nB: OK, Ben. _____ a good day.",
+        "translation": "A：もう 学校に 行くね、お母さん。\nB：わかったわ、ベン。いい 1日を <b>すごしてね</b>。",
+        "options": [
+            "Take",
+            "Have",
+            "See",
+            "Go"
+        ],
+        "optionMeanings": [
+            "とる",
+            "すごす",
+            "見る",
+            "行く"
+        ],
+        "answer": "Have",
+        "explanation": "<b>こたえ：Have（すごす）</b><br><br>💡 ヒント：Have a good day. で「いい 1日を」と いう あいさつです。出かける 人に 言います。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-504",
+        "question": "John often watches baseball games _____ TV.",
+        "translation": "ジョンは よく <b>テレビで</b> やきゅうの しあいを 見ます。",
+        "options": [
+            "on",
+            "in",
+            "to",
+            "at"
+        ],
+        "optionMeanings": [
+            "（テレビの 前に つける）",
+            "〜の 中に",
+            "〜へ",
+            "（ばしょの 前に つける）"
+        ],
+        "answer": "on",
+        "explanation": "<b>こたえ：on（〜で）</b><br><br>💡 ヒント：「テレビで」は on TV と 言います。ひとつの ことばと して おぼえましょう。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-505",
+        "question": "A: Hello, it's Tom. Is Rachel there?\nB: No, she's at the library. Please call _____ tonight.",
+        "translation": "A：もしもし、トムです。レイチェルは いますか。\nB：いいえ、としょかんに いるのよ。今夜、<b>かけなおして</b> ください。",
+        "options": [
+            "then",
+            "down",
+            "well",
+            "back"
+        ],
+        "optionMeanings": [
+            "その とき",
+            "下へ",
+            "じょうずに",
+            "もどって"
+        ],
+        "answer": "back",
+        "explanation": "<b>こたえ：back（もどって）</b><br><br>💡 ヒント：call back で「電話を かけなおす」と いう いみです。back は「もどって」です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-506",
+        "question": "A: Excuse _____. Can I sit here?\nB: Of course.",
+        "translation": "A：<b>すみません</b>。ここに すわっても いいですか。\nB：もちろんです。",
+        "options": [
+            "him",
+            "me",
+            "her",
+            "you"
+        ],
+        "optionMeanings": [
+            "かれを",
+            "わたしを",
+            "かのじょを",
+            "あなたを"
+        ],
+        "answer": "me",
+        "explanation": "<b>こたえ：me（わたしを）</b><br><br>💡 ヒント：Excuse me で「すみません」と いう いみです。人に 話しかける ときに つかいます。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-507",
+        "question": "A: Are you from England, Katie?\nB: That's _____. I'm from London.",
+        "translation": "A：ケイティ、あなたは イギリスから 来たの？\nB：<b>そのとおり</b>よ。ロンドンから 来たの。",
+        "options": [
+            "well",
+            "little",
+            "right",
+            "happy"
+        ],
+        "optionMeanings": [
+            "じょうずに",
+            "小さい",
+            "正しい",
+            "うれしい"
+        ],
+        "answer": "right",
+        "explanation": "<b>こたえ：right（正しい）</b><br><br>💡 ヒント：That's right. で「そのとおり」と いう いみです。right は「正しい」です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-508",
+        "question": "A: Look! _____ man is very tall.\nB: Yes, he is.",
+        "translation": "A：見て。<b>あの</b> 男の 人は とても せが 高いね。\nB：うん、そうだね。",
+        "options": [
+            "Them",
+            "Those",
+            "That",
+            "There"
+        ],
+        "optionMeanings": [
+            "かれらを",
+            "あれらの",
+            "あの",
+            "そこに"
+        ],
+        "answer": "That",
+        "explanation": "<b>こたえ：That（あの）</b><br><br>💡 ヒント：man（男の 人）は ひとりです。ひとりの 人を さして「あの」と 言う ときは That です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-509",
+        "question": "Please don't _____ in the library.",
+        "translation": "としょかんでは <b>話さないで</b> ください。",
+        "options": [
+            "to talk",
+            "talks",
+            "talk",
+            "talking"
+        ],
+        "optionMeanings": [
+            "話す こと",
+            "s が つく かたち",
+            "話す（もとの かたち）",
+            "ing の かたち"
+        ],
+        "answer": "talk",
+        "explanation": "<b>こたえ：talk（話す）</b><br><br>💡 ヒント：don't の あとは、うごきの ことばを もとの かたちに します。だから talk です。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-510",
+        "question": "A: Where is Ellie, Mark?\nB: She's _____ in her room.",
+        "translation": "A：マーク、エリーは どこ？\nB：自分の へやで <b>べんきょうして いる</b>よ。",
+        "options": [
+            "study",
+            "studied",
+            "studies",
+            "studying"
+        ],
+        "optionMeanings": [
+            "べんきょうする（もとの かたち）",
+            "前の かたち（べんきょうした）",
+            "s が つく かたち",
+            "ing の かたち"
+        ],
+        "answer": "studying",
+        "explanation": "<b>こたえ：studying（べんきょうして いる）</b><br><br>💡 ヒント：She's は She is の ことです。「今 〜して いる」は is の あとに ing の かたちを つかいます。",
+        "source": "2021年第3回(準会場)"
+    },
+    {
+        "id": "5-511",
+        "question": "My friend lives in Brazil. It’s a nice _____.",
+        "translation": "わたしの 友だちは ブラジルに すんで います。いい <b>くに</b>です。",
+        "options": [
+            "drum",
+            "page",
+            "country",
+            "chalk"
+        ],
+        "optionMeanings": [
+            "たいこ",
+            "ページ",
+            "くに",
+            "チョーク"
+        ],
+        "answer": "country",
+        "explanation": "<b>こたえ：country（くに）</b><br><br>💡 ヒント：Brazil（ブラジル）は くにの 名前です。だから country（くに）です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-512",
+        "question": "A: Jane, do you know the _____ of Snow White?\nB: Yes, of course. I love it.",
+        "translation": "A：ジェーン、白雪ひめの <b>お話</b>を しって いる？\nB：うん、もちろん。大すきだよ。",
+        "options": [
+            "story",
+            "letter",
+            "rain",
+            "clock"
+        ],
+        "optionMeanings": [
+            "お話",
+            "手紙",
+            "雨",
+            "とけい"
+        ],
+        "answer": "story",
+        "explanation": "<b>こたえ：story（お話）</b><br><br>💡 ヒント：Snow White（白雪ひめ）は お話です。だから story（お話）です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-513",
+        "question": "_____ is the tenth month of the year.",
+        "translation": "<b>10月</b>は 1年の 10ばん目の 月です。",
+        "options": [
+            "July",
+            "August",
+            "September",
+            "October"
+        ],
+        "optionMeanings": [
+            "7月",
+            "8月",
+            "9月",
+            "10月"
+        ],
+        "answer": "October",
+        "explanation": "<b>こたえ：October（10月）</b><br><br>💡 ヒント：\"tenth\" は「10ばん目」です。10ばん目の 月は October（10月）です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-514",
+        "question": "A: What do you usually have for _____, John?\nB: Two eggs and toast.",
+        "translation": "A：ジョン、いつも <b>朝ごはん</b>に 何を 食べるの？\nB：たまご 2つと トーストだよ。",
+        "options": [
+            "breakfast",
+            "cafeteria",
+            "morning",
+            "sport"
+        ],
+        "optionMeanings": [
+            "朝ごはん",
+            "がっこうの しょくどう",
+            "朝",
+            "スポーツ"
+        ],
+        "answer": "breakfast",
+        "explanation": "<b>こたえ：breakfast（朝ごはん）</b><br><br>💡 ヒント：\"Two eggs and toast\"（たまご 2つと トースト）と こたえて います。朝に 食べる ものです。だから breakfast（朝ごはん）です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-515",
+        "question": "I _____ this dictionary at home.",
+        "translation": "わたしは 家で この じしょを <b>つかいます</b>。",
+        "options": [
+            "use",
+            "know",
+            "cook",
+            "stop"
+        ],
+        "optionMeanings": [
+            "つかう",
+            "しって いる",
+            "りょうりする",
+            "とめる"
+        ],
+        "answer": "use",
+        "explanation": "<b>こたえ：use（つかう）</b><br><br>💡 ヒント：\"dictionary\"（じしょ）は つかう ものです。だから use（つかう）です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-516",
+        "question": "A: Do you play tennis, Yoko?\nB: Yes. This is my _____.",
+        "translation": "A：テニスを する？ ヨウコ。\nB：うん。これが わたしの <b>ラケット</b>だよ。",
+        "options": [
+            "racket",
+            "postcard",
+            "fork",
+            "eraser"
+        ],
+        "optionMeanings": [
+            "ラケット",
+            "はがき",
+            "フォーク",
+            "けしゴム"
+        ],
+        "answer": "racket",
+        "explanation": "<b>こたえ：racket（ラケット）</b><br><br>💡 ヒント：\"tennis\"（テニス）で つかう ものは racket（ラケット）です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-517",
+        "question": "In winter, I ski in the _____ with my family.",
+        "translation": "冬に、わたしは かぞくと <b>山</b>で スキーを します。",
+        "options": [
+            "rooms",
+            "houses",
+            "desks",
+            "mountains"
+        ],
+        "optionMeanings": [
+            "へや",
+            "家",
+            "つくえ",
+            "山"
+        ],
+        "answer": "mountains",
+        "explanation": "<b>こたえ：mountains（山）</b><br><br>💡 ヒント：\"ski\"（スキーを する）と あります。スキーを するのは 山です。だから mountains（山）です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-518",
+        "question": "A: Do you want a _____ of tea?\nB: Yes, please.",
+        "translation": "A：お茶を <b>1ぱい</b> のみますか？\nB：はい、おねがいします。",
+        "options": [
+            "table",
+            "cup",
+            "chair",
+            "fork"
+        ],
+        "optionMeanings": [
+            "テーブル",
+            "カップ",
+            "いす",
+            "フォーク"
+        ],
+        "answer": "cup",
+        "explanation": "<b>こたえ：cup（カップ）</b><br><br>💡 ヒント：\"a cup of tea\" で「お茶 1ぱい」です。お茶は カップに 入れて のみます。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-519",
+        "question": "A: I like Japanese music. _____ about you?\nB: I like it, too.",
+        "translation": "A：わたしは 日本の 音楽が すき。あなたは <b>どう</b>？\nB：わたしも すきだよ。",
+        "options": [
+            "Who",
+            "What",
+            "Where",
+            "Which"
+        ],
+        "optionMeanings": [
+            "だれ",
+            "何",
+            "どこ",
+            "どちら"
+        ],
+        "answer": "What",
+        "explanation": "<b>こたえ：What（何）</b><br><br>💡 ヒント：\"What about you?\" で「あなたは どう？」と 聞く 言い方です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-520",
+        "question": "A: Let’s _____ camping this summer, Dad.\nB: OK, Tom.",
+        "translation": "A：この 夏、キャンプに <b>行こう</b>よ、お父さん。\nB：いいよ、トム。",
+        "options": [
+            "take",
+            "cook",
+            "go",
+            "wash"
+        ],
+        "optionMeanings": [
+            "とる",
+            "りょうりする",
+            "行く",
+            "あらう"
+        ],
+        "answer": "go",
+        "explanation": "<b>こたえ：go（行く）</b><br><br>💡 ヒント：\"go camping\" で「キャンプに 行く」です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-521",
+        "question": "A: Bob, let’s have pizza for lunch.\nB: All _____.",
+        "translation": "A：ボブ、お昼ごはんに ピザを 食べようよ。\nB：<b>いいよ</b>。",
+        "options": [
+            "right",
+            "little",
+            "happy",
+            "new"
+        ],
+        "optionMeanings": [
+            "正しい",
+            "少し",
+            "うれしい",
+            "あたらしい"
+        ],
+        "answer": "right",
+        "explanation": "<b>こたえ：right（All right で「いいよ」）</b><br><br>💡 ヒント：\"All right.\" で「いいよ」と いう 言い方です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-522",
+        "question": "Nancy usually _____ up around seven o’clock.",
+        "translation": "ナンシーは たいてい 7時ごろに <b>おきます</b>。",
+        "options": [
+            "gets",
+            "knows",
+            "sees",
+            "sleeps"
+        ],
+        "optionMeanings": [
+            "おきる（get up で）",
+            "しって いる",
+            "見る",
+            "ねむる"
+        ],
+        "answer": "gets",
+        "explanation": "<b>こたえ：gets（get up で おきる）</b><br><br>💡 ヒント：\"get up\" で「おきる」です。Nancy は 1人なので、s が ついた gets です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-523",
+        "question": "A: Do you know that woman?\nB: Yes, I _____. She’s the new English teacher.",
+        "translation": "A：あの 女の 人を しって いる？\nB：うん、<b>しって いるよ</b>。あたらしい えいごの 先生だよ。",
+        "options": [
+            "do",
+            "is",
+            "am",
+            "does"
+        ],
+        "optionMeanings": [
+            "する（Do で 聞かれた とき）",
+            "〜です（he, she の とき）",
+            "〜です（I の とき）",
+            "する（he, she の とき）"
+        ],
+        "answer": "do",
+        "explanation": "<b>こたえ：do（Do で 聞かれた ときの こたえ）</b><br><br>💡 ヒント：\"Do you know …?\" と 聞いて います。Do you で 聞かれたら、I do で こたえます。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-524",
+        "question": "A: What is Jack doing now?\nB: He _____ in his room.",
+        "translation": "A：ジャックは 今 何を して いるの？\nB：へやで <b>ねて いるよ</b>。",
+        "options": [
+            "sleeping",
+            "is sleeping",
+            "am sleeping",
+            "are sleeping"
+        ],
+        "optionMeanings": [
+            "（この かたちは ここでは つかわない）",
+            "ねて いる",
+            "（この かたちは ここでは つかわない）",
+            "（この かたちは ここでは つかわない）"
+        ],
+        "answer": "is sleeping",
+        "explanation": "<b>こたえ：is sleeping（ねて いる）</b><br><br>💡 ヒント：\"doing now\"（今 して いる）と 聞いて います。He の ときは is と ing の かたちです。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-525",
+        "question": "This dictionary isn’t _____.",
+        "translation": "この じしょは <b>あなたの もの</b>では ありません。",
+        "options": [
+            "my",
+            "I",
+            "yours",
+            "she"
+        ],
+        "optionMeanings": [
+            "わたしの",
+            "わたしは",
+            "あなたの もの",
+            "かのじょは"
+        ],
+        "answer": "yours",
+        "explanation": "<b>こたえ：yours（あなたの もの）</b><br><br>💡 ヒント：isn't の あとに、ものの 名前が ありません。だから「あなたの もの」の yours です。",
+        "source": "2020年第1回(本会場)"
+    },
+    {
+        "id": "5-526",
+        "question": "This bag is too small. I want a _____ one.",
+        "translation": "この かばんは 小さすぎます。<b>大きい</b> ものが ほしいです。",
+        "options": [
+            "short",
+            "young",
+            "big",
+            "little"
+        ],
+        "optionMeanings": [
+            "みじかい",
+            "わかい",
+            "大きい",
+            "小さい"
+        ],
+        "answer": "big",
+        "explanation": "<b>こたえ：big（大きい）</b><br><br>💡 ヒント：\"too small\"（小さすぎる）と 言って います。だから big（大きい）です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-527",
+        "question": "A: This is a picture of my sister.\nB: Oh, she's pretty. Her _____ is really long.",
+        "translation": "A：これは わたしの お姉さんの しゃしんです。\nB：わあ、きれいだね。<b>かみの毛</b>が とても ながいね。",
+        "options": [
+            "hair",
+            "coin",
+            "dance",
+            "diary"
+        ],
+        "optionMeanings": [
+            "かみの毛",
+            "コイン",
+            "ダンス",
+            "日記"
+        ],
+        "answer": "hair",
+        "explanation": "<b>こたえ：hair（かみの毛）</b><br><br>💡 ヒント：\"really long\"（とても ながい）と 言って います。ながいのは hair（かみの毛）です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-528",
+        "question": "Tom _____ tennis very much.",
+        "translation": "トムは テニスを とても <b>たのしみます</b>。",
+        "options": [
+            "walks",
+            "meets",
+            "writes",
+            "enjoys"
+        ],
+        "optionMeanings": [
+            "あるく",
+            "会う",
+            "書く",
+            "たのしむ"
+        ],
+        "answer": "enjoys",
+        "explanation": "<b>こたえ：enjoys（たのしむ）</b><br><br>💡 ヒント：テニスを「たのしむ」と いう いみの enjoys です。Tom は 1人なので、s が つきます。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-529",
+        "question": "A: Let's play football in the _____.\nB: Good idea!",
+        "translation": "A：<b>公園</b>で サッカーを しようよ。\nB：いい 考えだね。",
+        "options": [
+            "park",
+            "song",
+            "time",
+            "table"
+        ],
+        "optionMeanings": [
+            "公園",
+            "歌",
+            "時間",
+            "テーブル"
+        ],
+        "answer": "park",
+        "explanation": "<b>こたえ：park（公園）</b><br><br>💡 ヒント：\"play football\"（サッカーを する）のは 外の 広い ところです。だから park（公園）です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-530",
+        "question": "It's very cold here in winter. We have a lot of _____ every year.",
+        "translation": "ここは 冬に とても さむいです。毎年 <b>雪</b>が たくさん ふります。",
+        "options": [
+            "snow",
+            "sugar",
+            "water",
+            "salt"
+        ],
+        "optionMeanings": [
+            "雪",
+            "さとう",
+            "水",
+            "しお"
+        ],
+        "answer": "snow",
+        "explanation": "<b>こたえ：snow（雪）</b><br><br>💡 ヒント：\"cold\"（さむい）と \"winter\"（冬）が あります。だから snow（雪）です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-531",
+        "question": "A: What is the _____ month of the year?\nB: It's August.",
+        "translation": "A：1年の <b>8ばん目</b>の 月は 何？\nB：8月です。",
+        "options": [
+            "first",
+            "third",
+            "fifth",
+            "eighth"
+        ],
+        "optionMeanings": [
+            "1ばん目",
+            "3ばん目",
+            "5ばん目",
+            "8ばん目"
+        ],
+        "answer": "eighth",
+        "explanation": "<b>こたえ：eighth（8ばん目）</b><br><br>💡 ヒント：\"August\" は 8月です。だから eighth（8ばん目）です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-532",
+        "question": "Patty often buys flowers from a flower _____ by her house.",
+        "translation": "パティは よく 家の 近くの 花<b>やさん</b>で 花を 買います。",
+        "options": [
+            "kitchen",
+            "shop",
+            "bath",
+            "door"
+        ],
+        "optionMeanings": [
+            "だいどころ",
+            "お店",
+            "おふろ",
+            "ドア"
+        ],
+        "answer": "shop",
+        "explanation": "<b>こたえ：shop（お店）</b><br><br>💡 ヒント：\"buys flowers\"（花を 買う）と あります。花を 買う お店は flower shop（花やさん）です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-533",
+        "question": "Jack plays soccer _____ school every day.",
+        "translation": "ジャックは 毎日 学校の <b>あとで</b> サッカーを します。",
+        "options": [
+            "after",
+            "into",
+            "on",
+            "over"
+        ],
+        "optionMeanings": [
+            "〜の あとで",
+            "〜の 中へ",
+            "〜の 上に",
+            "〜を こえて"
+        ],
+        "answer": "after",
+        "explanation": "<b>こたえ：after（〜の あとで）</b><br><br>💡 ヒント：\"after school\" で「学校の あとで」です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-534",
+        "question": "A: I often play volleyball. How _____ you, Steve?\nB: I do, too.",
+        "translation": "A：ぼくは よく バレーボールを するよ。スティーブ、きみは <b>どう</b>？\nB：ぼくも するよ。",
+        "options": [
+            "down",
+            "up",
+            "about",
+            "of"
+        ],
+        "optionMeanings": [
+            "下へ",
+            "上へ",
+            "〜に ついて",
+            "〜の"
+        ],
+        "answer": "about",
+        "explanation": "<b>こたえ：about（〜に ついて）</b><br><br>💡 ヒント：\"How about you?\" で「あなたは どう？」と 聞く 言い方です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-535",
+        "question": "A: Kate, please _____ up and come to the blackboard.\nB: Yes, Ms. Sullivan.",
+        "translation": "A：ケイト、<b>立って</b>、こくばんの ところへ 来て ください。\nB：はい、サリバン先生。",
+        "options": [
+            "cook",
+            "do",
+            "be",
+            "stand"
+        ],
+        "optionMeanings": [
+            "りょうりする",
+            "する",
+            "〜で ある",
+            "立つ"
+        ],
+        "answer": "stand",
+        "explanation": "<b>こたえ：stand（立つ）</b><br><br>💡 ヒント：\"stand up\" で「立つ」です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-536",
+        "question": "I have my camera. Let's _____ a picture together.",
+        "translation": "カメラを もって いるよ。いっしょに しゃしんを <b>とろう</b>。",
+        "options": [
+            "sing",
+            "walk",
+            "take",
+            "speak"
+        ],
+        "optionMeanings": [
+            "歌う",
+            "あるく",
+            "とる",
+            "話す"
+        ],
+        "answer": "take",
+        "explanation": "<b>こたえ：take（とる）</b><br><br>💡 ヒント：\"take a picture\" で「しゃしんを とる」です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-537",
+        "question": "A: What time do you go to bed _____ night?\nB: Around 10:00.",
+        "translation": "A：<b>夜に</b> 何時ごろ ねるの？\nB：10時ごろだよ。",
+        "options": [
+            "on",
+            "at",
+            "off",
+            "for"
+        ],
+        "optionMeanings": [
+            "〜の 上に",
+            "〜に（時こく など）",
+            "はなれて",
+            "〜の ために"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜に）</b><br><br>💡 ヒント：\"at night\" で「夜に」です。night の 前には at を つかいます。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-538",
+        "question": "A: Is this Mom's book?\nB: No, it isn't _____. It's Dad's.",
+        "translation": "A：これは お母さんの 本？\nB：ううん、<b>お母さんの もの</b>じゃ ないよ。お父さんの ものだよ。",
+        "options": [
+            "his",
+            "hers",
+            "its",
+            "theirs"
+        ],
+        "optionMeanings": [
+            "かれの もの",
+            "かのじょの もの",
+            "それの",
+            "かれらの もの"
+        ],
+        "answer": "hers",
+        "explanation": "<b>こたえ：hers（かのじょの もの）</b><br><br>💡 ヒント：Mom（お母さん）は 女の 人です。「かのじょの もの」は hers です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-539",
+        "question": "A: What is Frank doing now?\nB: He is _____ in the kitchen.",
+        "translation": "A：フランクは 今 何を して いるの？\nB：だいどころで <b>りょうりを して いるよ</b>。",
+        "options": [
+            "cook",
+            "cooking",
+            "cooks",
+            "cooked"
+        ],
+        "optionMeanings": [
+            "りょうりする",
+            "りょうりして いる",
+            "りょうりする（s が つく かたち）",
+            "りょうりした"
+        ],
+        "answer": "cooking",
+        "explanation": "<b>こたえ：cooking（りょうりして いる）</b><br><br>💡 ヒント：\"doing now\"（今 して いる）と 聞いて います。is の あとは ing の かたちの cooking です。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-540",
+        "question": "A: Do you speak French?\nB: No, I _____. But I speak Spanish.",
+        "translation": "A：フランス語を 話しますか？\nB：いいえ、<b>話しません</b>。でも スペイン語は 話します。",
+        "options": [
+            "don't",
+            "doesn't",
+            "isn't",
+            "aren't"
+        ],
+        "optionMeanings": [
+            "〜しない（I, you の とき）",
+            "〜しない（he, she の とき）",
+            "〜では ない（is の かたち）",
+            "〜では ない（are の かたち）"
+        ],
+        "answer": "don't",
+        "explanation": "<b>こたえ：don't（〜しない）</b><br><br>💡 ヒント：\"Do you …?\" と 聞かれたら、No, I don't. で こたえます。",
+        "source": "2020年第1回(準会場)"
+    },
+    {
+        "id": "5-541",
+        "question": "A: Paul, what do you need for school?\nB: I need new pens and a _____, Mom.",
+        "translation": "A：ポール、学校で 何が いるの？\nB：あたらしい ペンと <b>ノート</b>が いるよ、お母さん。",
+        "options": [
+            "bench",
+            "coin",
+            "notebook",
+            "week"
+        ],
+        "optionMeanings": [
+            "ベンチ",
+            "コイン",
+            "ノート",
+            "週"
+        ],
+        "answer": "notebook",
+        "explanation": "<b>こたえ：notebook（ノート）</b><br><br>💡 ヒント：\"pens\"（ペン）と いっしょに 学校で つかう ものは notebook（ノート）です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-542",
+        "question": "A: Your hat is _____. I like it.\nB: Thanks.",
+        "translation": "A：あなたの ぼうし、<b>かわいい</b>ね。すきだよ。\nB：ありがとう。",
+        "options": [
+            "pretty",
+            "fast",
+            "cold",
+            "slow"
+        ],
+        "optionMeanings": [
+            "かわいい",
+            "はやい",
+            "つめたい",
+            "おそい"
+        ],
+        "answer": "pretty",
+        "explanation": "<b>こたえ：pretty（かわいい）</b><br><br>💡 ヒント：\"I like it.\"（すきだよ）と 言って います。ほめる ことばの pretty（かわいい）です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-543",
+        "question": "I don’t _____ dinner on Saturdays. I always go to a restaurant with my family.",
+        "translation": "わたしは 土曜日には 夕ごはんを <b>作りません</b>。いつも かぞくと レストランへ 行きます。",
+        "options": [
+            "put",
+            "sell",
+            "cook",
+            "carry"
+        ],
+        "optionMeanings": [
+            "おく",
+            "うる",
+            "りょうりする",
+            "はこぶ"
+        ],
+        "answer": "cook",
+        "explanation": "<b>こたえ：cook（りょうりする）</b><br><br>💡 ヒント：\"dinner\"（夕ごはん）を 作るのは cook（りょうりする）です。レストランへ 行くので、作らないのです。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-544",
+        "question": "A: Do you like _____, Helen?\nB: Yes. I like apples.",
+        "translation": "A：<b>くだもの</b>は すき？ ヘレン。\nB：うん。りんごが すきだよ。",
+        "options": [
+            "fruit",
+            "meat",
+            "bread",
+            "fish"
+        ],
+        "optionMeanings": [
+            "くだもの",
+            "肉",
+            "パン",
+            "魚"
+        ],
+        "answer": "fruit",
+        "explanation": "<b>こたえ：fruit（くだもの）</b><br><br>💡 ヒント：\"apples\"（りんご）は くだものです。だから fruit です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-545",
+        "question": "A: Let’s play tennis this afternoon, Alice.\nB: Sorry. I have a piano _____.",
+        "translation": "A：今日の 午後、テニスを しようよ、アリス。\nB：ごめんね。ピアノの <b>レッスン</b>が あるの。",
+        "options": [
+            "story",
+            "book",
+            "chair",
+            "lesson"
+        ],
+        "optionMeanings": [
+            "お話",
+            "本",
+            "いす",
+            "レッスン"
+        ],
+        "answer": "lesson",
+        "explanation": "<b>こたえ：lesson（レッスン）</b><br><br>💡 ヒント：\"piano lesson\" で「ピアノの レッスン」です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-546",
+        "question": "A: Tom, come on! It’s _____ for dinner.\nB: OK, I’m coming.",
+        "translation": "A：トム、早く。夕ごはんの <b>時間</b>だよ。\nB：うん、今 行くよ。",
+        "options": [
+            "day",
+            "noon",
+            "hour",
+            "time"
+        ],
+        "optionMeanings": [
+            "日",
+            "お昼の 12時",
+            "1時間",
+            "時間（〜の 時）"
+        ],
+        "answer": "time",
+        "explanation": "<b>こたえ：time（〜の 時間）</b><br><br>💡 ヒント：\"It's time for dinner.\" で「夕ごはんの 時間だよ」と いう 言い方です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-547",
+        "question": "In summer, I often go swimming in the _____ at school.",
+        "translation": "夏に、わたしは よく 学校の <b>プール</b>で およぎます。",
+        "options": [
+            "classroom",
+            "door",
+            "pool",
+            "cafeteria"
+        ],
+        "optionMeanings": [
+            "きょうしつ",
+            "ドア",
+            "プール",
+            "しょくどう"
+        ],
+        "answer": "pool",
+        "explanation": "<b>こたえ：pool（プール）</b><br><br>💡 ヒント：\"swimming\"（およぐ こと）を する ところは pool（プール）です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-548",
+        "question": "This train goes from Nagoya _____ Osaka.",
+        "translation": "この 電車は なごや から おおさか<b>まで</b> 行きます。",
+        "options": [
+            "about",
+            "off",
+            "to",
+            "down"
+        ],
+        "optionMeanings": [
+            "〜に ついて",
+            "はなれて",
+            "〜まで",
+            "下へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜まで）</b><br><br>💡 ヒント：\"from 〜 to …\" で「〜から …まで」です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-549",
+        "question": "A: What do you do in the evening?\nB: I watch the news _____ TV.",
+        "translation": "A：夜は 何を して いるの？\nB：<b>テレビで</b> ニュースを 見て いるよ。",
+        "options": [
+            "on",
+            "about",
+            "in",
+            "from"
+        ],
+        "optionMeanings": [
+            "〜で（テレビ など）",
+            "〜に ついて",
+            "〜の 中に",
+            "〜から"
+        ],
+        "answer": "on",
+        "explanation": "<b>こたえ：on（〜で）</b><br><br>💡 ヒント：\"on TV\" で「テレビで」です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-550",
+        "question": "A: How _____ is this pencil case?\nB: It’s 200 yen.",
+        "translation": "A：この ふでばこは <b>いくら</b>ですか？\nB：200円です。",
+        "options": [
+            "long",
+            "much",
+            "many",
+            "old"
+        ],
+        "optionMeanings": [
+            "ながい",
+            "どれくらい（ねだん）",
+            "いくつの（かず）",
+            "古い"
+        ],
+        "answer": "much",
+        "explanation": "<b>こたえ：much（How much で いくら）</b><br><br>💡 ヒント：\"How much\" で「いくら」と ねだんを 聞きます。こたえは \"200 yen\"（200円）です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-551",
+        "question": "A: See you, Mom.\nB: _____ a good day, Kevin.",
+        "translation": "A：行って きます、お母さん。\nB：いい 一日を <b>すごしてね</b>、ケビン。",
+        "options": [
+            "Go",
+            "Take",
+            "Live",
+            "Have"
+        ],
+        "optionMeanings": [
+            "行く",
+            "とる",
+            "すむ",
+            "もつ（すごす）"
+        ],
+        "answer": "Have",
+        "explanation": "<b>こたえ：Have（すごす）</b><br><br>💡 ヒント：\"Have a good day.\" で「いい 一日を すごしてね」と いう 言い方です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-552",
+        "question": "Lucy’s mother comes home around seven every _____.",
+        "translation": "ルーシーの お母さんは 毎日 <b>夜</b>の 7時ごろに 帰って 来ます。",
+        "options": [
+            "noon",
+            "hour",
+            "today",
+            "night"
+        ],
+        "optionMeanings": [
+            "お昼の 12時",
+            "1時間",
+            "今日",
+            "夜"
+        ],
+        "answer": "night",
+        "explanation": "<b>こたえ：night（夜）</b><br><br>💡 ヒント：\"every night\" で「毎ばん」です。7時は 夜の 時間です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-553",
+        "question": "I play the piano, but my brother _____.",
+        "translation": "わたしは ピアノを ひきますが、兄は <b>ひきません</b>。",
+        "options": [
+            "don’t",
+            "doesn’t",
+            "isn’t",
+            "aren’t"
+        ],
+        "optionMeanings": [
+            "〜しない（I, you の とき）",
+            "〜しない（he, she の とき）",
+            "〜では ない（is の かたち）",
+            "〜では ない（are の かたち）"
+        ],
+        "answer": "doesn’t",
+        "explanation": "<b>こたえ：doesn’t（〜しない）</b><br><br>💡 ヒント：\"my brother\"（兄）は 1人です。he, she の ときは doesn't を つかいます。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-554",
+        "question": "Mr. Spencer _____ English at my school.",
+        "translation": "スペンサー先生は わたしの 学校で えいごを <b>おしえて います</b>。",
+        "options": [
+            "teach",
+            "teaches",
+            "teaching",
+            "to teach"
+        ],
+        "optionMeanings": [
+            "おしえる（もとの かたち）",
+            "おしえる（s が つく かたち）",
+            "おしえて いる",
+            "おしえる こと"
+        ],
+        "answer": "teaches",
+        "explanation": "<b>こたえ：teaches（おしえる）</b><br><br>💡 ヒント：Mr. Spencer は 1人です。だから s が つく かたちの teaches です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-555",
+        "question": "A: _____ is that young man?\nB: He’s Mr. Brown.",
+        "translation": "A：あの わかい 男の 人は <b>だれ</b>ですか？\nB：ブラウンさんです。",
+        "options": [
+            "When",
+            "Who",
+            "Why",
+            "How"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "だれ",
+            "なぜ",
+            "どう"
+        ],
+        "answer": "Who",
+        "explanation": "<b>こたえ：Who（だれ）</b><br><br>💡 ヒント：\"He's Mr. Brown.\"（ブラウンさんです）と 人の 名前で こたえて います。だから Who（だれ）です。",
+        "source": "2020年第2回(本会場)"
+    },
+    {
+        "id": "5-556",
+        "question": "Welcome to my _____, Takao. Please come in.",
+        "translation": "わたしの <b>家</b>へ ようこそ、タカオ。どうぞ 入って。",
+        "options": [
+            "time",
+            "home",
+            "winter",
+            "day"
+        ],
+        "optionMeanings": [
+            "時間",
+            "家",
+            "冬",
+            "日"
+        ],
+        "answer": "home",
+        "explanation": "<b>こたえ：home（家）</b><br><br>💡 ヒント：\"come in\"（入って）と 言って います。人を まねく ところは home（家）です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-557",
+        "question": "A: Do you _____ go to the mountains, Linda?\nB: No. Just in summer.",
+        "translation": "A：リンダ、<b>よく</b> 山へ 行くの？\nB：ううん。夏だけだよ。",
+        "options": [
+            "down",
+            "often",
+            "very",
+            "fine"
+        ],
+        "optionMeanings": [
+            "下へ",
+            "よく",
+            "とても",
+            "げんきな"
+        ],
+        "answer": "often",
+        "explanation": "<b>こたえ：often（よく）</b><br><br>💡 ヒント：\"Just in summer.\"（夏だけ）と こたえて います。どれくらい 行くかを 聞く often（よく）です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-558",
+        "question": "A: Are you OK, Tom?\nB: No, I'm not. I'm really _____.",
+        "translation": "A：だいじょうぶ？ トム。\nB：ううん。とても <b>ねむい</b>んだ。",
+        "options": [
+            "sleepy",
+            "soft",
+            "cloudy",
+            "green"
+        ],
+        "optionMeanings": [
+            "ねむい",
+            "やわらかい",
+            "くもりの",
+            "みどりの"
+        ],
+        "answer": "sleepy",
+        "explanation": "<b>こたえ：sleepy（ねむい）</b><br><br>💡 ヒント：\"Are you OK?\"（だいじょうぶ？）に \"No\" と こたえて います。人の ようすを あらわす sleepy（ねむい）です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-559",
+        "question": "Kenji loves music. He plays the guitar and the _____.",
+        "translation": "ケンジは 音楽が 大すきです。ギターを ひいて、<b>ハーモニカ</b>も ふきます。",
+        "options": [
+            "cap",
+            "camera",
+            "door",
+            "harmonica"
+        ],
+        "optionMeanings": [
+            "ぼうし",
+            "カメラ",
+            "ドア",
+            "ハーモニカ"
+        ],
+        "answer": "harmonica",
+        "explanation": "<b>こたえ：harmonica（ハーモニカ）</b><br><br>💡 ヒント：\"music\"（音楽）と \"plays\"（えんそうする）が あります。がっきは harmonica（ハーモニカ）です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-560",
+        "question": "A: Kate, is that your brother?\nB: Yes. He's a high school _____.",
+        "translation": "A：ケイト、あれは あなたの お兄さん？\nB：うん。高校<b>生</b>だよ。",
+        "options": [
+            "student",
+            "team",
+            "class",
+            "book"
+        ],
+        "optionMeanings": [
+            "生と",
+            "チーム",
+            "クラス",
+            "本"
+        ],
+        "answer": "student",
+        "explanation": "<b>こたえ：student（生と）</b><br><br>💡 ヒント：\"high school student\" で「高校生」です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-561",
+        "question": "A: What _____ do you like at school, Ann?\nB: Science.",
+        "translation": "A：アン、学校で どの <b>科目</b>が すき？\nB：理科だよ。",
+        "options": [
+            "bag",
+            "present",
+            "dress",
+            "subject"
+        ],
+        "optionMeanings": [
+            "かばん",
+            "プレゼント",
+            "ドレス",
+            "科目"
+        ],
+        "answer": "subject",
+        "explanation": "<b>こたえ：subject（科目）</b><br><br>💡 ヒント：\"Science\"（理科）と こたえて います。理科は 学校の 科目です。だから subject です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-562",
+        "question": "I usually go to school by bicycle. But on rainy days, I _____ to school.",
+        "translation": "わたしは ふだん じてんしゃで 学校へ 行きます。でも 雨の 日は、学校まで <b>あるいて</b> 行きます。",
+        "options": [
+            "walk",
+            "move",
+            "have",
+            "take"
+        ],
+        "optionMeanings": [
+            "あるく",
+            "うごかす",
+            "もつ",
+            "とる"
+        ],
+        "answer": "walk",
+        "explanation": "<b>こたえ：walk（あるく）</b><br><br>💡 ヒント：\"rainy days\"（雨の 日）は じてんしゃに のりません。\"walk to school\" で「あるいて 学校へ 行く」です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-563",
+        "question": "A: How _____ CDs do you have?\nB: About 20.",
+        "translation": "A：CDを <b>何まい</b> もって いるの？\nB：20まい くらいだよ。",
+        "options": [
+            "many",
+            "lot",
+            "long",
+            "tall"
+        ],
+        "optionMeanings": [
+            "いくつの（かず）",
+            "たくさん（a lot で）",
+            "ながい",
+            "せが 高い"
+        ],
+        "answer": "many",
+        "explanation": "<b>こたえ：many（How many で いくつ）</b><br><br>💡 ヒント：\"How many\" で「いくつ」と かずを 聞きます。こたえは \"About 20.\"（20くらい）です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-564",
+        "question": "A: Are you writing a letter, Susan?\nB: No, I'm studying.\nA: Oh, I _____.",
+        "translation": "A：手紙を 書いて いるの？ スーザン。\nB：ううん、べんきょうして いるの。\nA：ああ、<b>そうなんだ</b>。",
+        "options": [
+            "do",
+            "get",
+            "think",
+            "see"
+        ],
+        "optionMeanings": [
+            "する",
+            "手に 入れる",
+            "考える",
+            "見る（わかる）"
+        ],
+        "answer": "see",
+        "explanation": "<b>こたえ：see（I see で わかった）</b><br><br>💡 ヒント：\"I see.\" で「そうなんだ」「わかった」と いう 言い方です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-565",
+        "question": "A: Can you come _____ my house at three this afternoon?\nB: Sorry, I can't.",
+        "translation": "A：今日の 午後 3時に わたしの 家<b>へ</b> 来られる？\nB：ごめん、行けないよ。",
+        "options": [
+            "of",
+            "for",
+            "to",
+            "out"
+        ],
+        "optionMeanings": [
+            "〜の",
+            "〜の ために",
+            "〜へ",
+            "外へ"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：\"come to 〜\" で「〜へ 来る」です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-566",
+        "question": "Mr. Clark _____ from Sydney, Australia.",
+        "translation": "クラークさんは オーストラリアの シドニー から 来た 人<b>です</b>。",
+        "options": [
+            "does",
+            "gets",
+            "is",
+            "makes"
+        ],
+        "optionMeanings": [
+            "する",
+            "手に 入れる",
+            "〜です",
+            "作る"
+        ],
+        "answer": "is",
+        "explanation": "<b>こたえ：is（〜です）</b><br><br>💡 ヒント：\"is from 〜\" で「〜から 来た 人です」です。Mr. Clark は 1人なので is です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-567",
+        "question": "Mrs. Simpson _____ with her family in London.",
+        "translation": "シンプソンさんは ロンドンで かぞくと <b>くらして います</b>。",
+        "options": [
+            "gets",
+            "sees",
+            "lives",
+            "stands"
+        ],
+        "optionMeanings": [
+            "手に 入れる",
+            "見る",
+            "すむ",
+            "立つ"
+        ],
+        "answer": "lives",
+        "explanation": "<b>こたえ：lives（すむ）</b><br><br>💡 ヒント：\"with her family\"（かぞくと）と \"in London\"（ロンドンで）が あります。だから lives（すむ）です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-568",
+        "question": "John! Don't _____ in this lake.",
+        "translation": "ジョン、この みずうみで <b>およいでは いけません</b>。",
+        "options": [
+            "swim",
+            "swims",
+            "to swim",
+            "swimming"
+        ],
+        "optionMeanings": [
+            "およぐ（もとの かたち）",
+            "およぐ（s が つく かたち）",
+            "およぐ こと",
+            "およいで いる"
+        ],
+        "answer": "swim",
+        "explanation": "<b>こたえ：swim（およぐ）</b><br><br>💡 ヒント：\"Don't\" の あとは、うごきの ことばを もとの かたちに します。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-569",
+        "question": "This letter is from my pen pal. _____ name is Jack.",
+        "translation": "この 手紙は ペンフレンドから です。<b>かれの</b> 名前は ジャックです。",
+        "options": [
+            "Our",
+            "Their",
+            "Your",
+            "His"
+        ],
+        "optionMeanings": [
+            "わたしたちの",
+            "かれらの",
+            "あなたの",
+            "かれの"
+        ],
+        "answer": "His",
+        "explanation": "<b>こたえ：His（かれの）</b><br><br>💡 ヒント：Jack は 男の 子の 名前です。「かれの」は His です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-570",
+        "question": "I have two dictionaries. I use _____ every day.",
+        "translation": "わたしは じしょを 2さつ もって います。毎日 <b>それらを</b> つかいます。",
+        "options": [
+            "me",
+            "them",
+            "you",
+            "he"
+        ],
+        "optionMeanings": [
+            "わたしを",
+            "それらを",
+            "あなたを",
+            "かれは"
+        ],
+        "answer": "them",
+        "explanation": "<b>こたえ：them（それらを）</b><br><br>💡 ヒント：\"two dictionaries\"（2さつの じしょ）の ことです。2つ いじょうの ものは them です。",
+        "source": "2020年第2回(準会場)"
+    },
+    {
+        "id": "5-571",
+        "question": "A: When do you usually have _____?\nB: At 12:30. I eat it in my classroom.",
+        "translation": "A：いつも 何時に <b>お昼ごはん</b>を 食べるの？\nB：12時30分。きょうしつで 食べるよ。",
+        "options": [
+            "lunch",
+            "hour",
+            "study",
+            "morning"
+        ],
+        "optionMeanings": [
+            "お昼ごはん",
+            "1時間",
+            "べんきょうする",
+            "朝"
+        ],
+        "answer": "lunch",
+        "explanation": "<b>こたえ：lunch（お昼ごはん）</b><br><br>💡 ヒント：\"At 12:30\"（12時30分）に 食べるのは lunch（お昼ごはん）です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-572",
+        "question": "Sam likes sports and can _____ very fast.",
+        "translation": "サムは スポーツが すきで、とても はやく <b>はしる</b> ことが できます。",
+        "options": [
+            "run",
+            "sleep",
+            "see",
+            "rain"
+        ],
+        "optionMeanings": [
+            "はしる",
+            "ねむる",
+            "見る",
+            "雨が ふる"
+        ],
+        "answer": "run",
+        "explanation": "<b>こたえ：run（はしる）</b><br><br>💡 ヒント：\"very fast\"（とても はやく）と あります。だから run（はしる）です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-573",
+        "question": "Jack is on the school tennis _____.",
+        "translation": "ジャックは 学校の テニス<b>チーム</b>に 入って います。",
+        "options": [
+            "team",
+            "pool",
+            "box",
+            "home"
+        ],
+        "optionMeanings": [
+            "チーム",
+            "プール",
+            "はこ",
+            "家"
+        ],
+        "answer": "team",
+        "explanation": "<b>こたえ：team（チーム）</b><br><br>💡 ヒント：\"tennis team\" で「テニスの チーム」です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-574",
+        "question": "A: What color do you like?\nB: I like _____.",
+        "translation": "A：何色が すき？\nB：<b>黒</b>が すきだよ。",
+        "options": [
+            "trees",
+            "music",
+            "black",
+            "birds"
+        ],
+        "optionMeanings": [
+            "木",
+            "音楽",
+            "黒",
+            "鳥"
+        ],
+        "answer": "black",
+        "explanation": "<b>こたえ：black（黒）</b><br><br>💡 ヒント：\"What color\"（何色）と 聞いて います。色の 名前は black（黒）です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-575",
+        "question": "A: I want a glass of _____, Mom.\nB: Here you are, Tom.",
+        "translation": "A：<b>ぎゅうにゅう</b>を 1ぱい ちょうだい、お母さん。\nB：はい、どうぞ、トム。",
+        "options": [
+            "milk",
+            "meat",
+            "bread",
+            "fish"
+        ],
+        "optionMeanings": [
+            "ぎゅうにゅう",
+            "肉",
+            "パン",
+            "魚"
+        ],
+        "answer": "milk",
+        "explanation": "<b>こたえ：milk（ぎゅうにゅう）</b><br><br>💡 ヒント：\"a glass of\"（コップ 1ぱいの）と あります。のみものは milk（ぎゅうにゅう）です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-576",
+        "question": "The eighth month of the year is _____.",
+        "translation": "1年の 8ばん目の 月は <b>8月</b>です。",
+        "options": [
+            "May",
+            "June",
+            "July",
+            "August"
+        ],
+        "optionMeanings": [
+            "5月",
+            "6月",
+            "7月",
+            "8月"
+        ],
+        "answer": "August",
+        "explanation": "<b>こたえ：August（8月）</b><br><br>💡 ヒント：\"eighth\" は「8ばん目」です。8ばん目の 月は August（8月）です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-577",
+        "question": "A: Where is your dog?\nB: He’s _____ the chair.",
+        "translation": "A：あなたの 犬は どこ？\nB：いすの <b>下</b>に いるよ。",
+        "options": [
+            "about",
+            "to",
+            "for",
+            "under"
+        ],
+        "optionMeanings": [
+            "〜に ついて",
+            "〜へ",
+            "〜の ために",
+            "〜の 下に"
+        ],
+        "answer": "under",
+        "explanation": "<b>こたえ：under（〜の 下に）</b><br><br>💡 ヒント：\"Where\"（どこ）と 聞いて います。ばしょを あらわす under（〜の 下に）です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-578",
+        "question": "A: Bye, Peter.\nB: Bye, Sam. _____ you tomorrow.",
+        "translation": "A：バイバイ、ピーター。\nB：バイバイ、サム。また あした <b>会おう</b>ね。",
+        "options": [
+            "Read",
+            "Use",
+            "See",
+            "Open"
+        ],
+        "optionMeanings": [
+            "読む",
+            "つかう",
+            "見る（会う）",
+            "ひらく"
+        ],
+        "answer": "See",
+        "explanation": "<b>こたえ：See（会う）</b><br><br>💡 ヒント：\"See you tomorrow.\" で「また あした」と いう あいさつです。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-579",
+        "question": "Lucy plays tennis _____ school every day.",
+        "translation": "ルーシーは 毎日 学校の <b>あとで</b> テニスを します。",
+        "options": [
+            "with",
+            "after",
+            "on",
+            "about"
+        ],
+        "optionMeanings": [
+            "〜と いっしょに",
+            "〜の あとで",
+            "〜の 上に",
+            "〜に ついて"
+        ],
+        "answer": "after",
+        "explanation": "<b>こたえ：after（〜の あとで）</b><br><br>💡 ヒント：\"after school\" で「学校の あとで」です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-580",
+        "question": "My name is Linda Ford. I’m _____ Australia.",
+        "translation": "わたしの 名前は リンダ・フォードです。オーストラリア<b>から</b> 来ました。",
+        "options": [
+            "from",
+            "to",
+            "out",
+            "down"
+        ],
+        "optionMeanings": [
+            "〜から",
+            "〜へ",
+            "外へ",
+            "下へ"
+        ],
+        "answer": "from",
+        "explanation": "<b>こたえ：from（〜から）</b><br><br>💡 ヒント：\"I'm from 〜\" で「〜から 来ました」と いう 言い方です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-581",
+        "question": "A: How _____ is this swimming pool?\nB: It’s 50 meters.",
+        "translation": "A：この プールは どれくらいの <b>ながさ</b>ですか？\nB：50メートルです。",
+        "options": [
+            "old",
+            "cold",
+            "long",
+            "young"
+        ],
+        "optionMeanings": [
+            "古い",
+            "つめたい",
+            "ながい",
+            "わかい"
+        ],
+        "answer": "long",
+        "explanation": "<b>こたえ：long（ながい）</b><br><br>💡 ヒント：\"50 meters\"（50メートル）と こたえて います。ながさを 聞く How long です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-582",
+        "question": "A: Look _____ that bird, Mom.\nB: It’s very pretty.",
+        "translation": "A：あの 鳥<b>を</b> 見て、お母さん。\nB：とても きれいね。",
+        "options": [
+            "at",
+            "of",
+            "with",
+            "in"
+        ],
+        "optionMeanings": [
+            "〜を（見る）",
+            "〜の",
+            "〜と いっしょに",
+            "〜の 中に"
+        ],
+        "answer": "at",
+        "explanation": "<b>こたえ：at（〜を）</b><br><br>💡 ヒント：\"Look at 〜\" で「〜を 見る」です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-583",
+        "question": "A: _____ phone is this?\nB: It’s Bill’s.",
+        "translation": "A：これは <b>だれの</b> 電話ですか？\nB：ビルの です。",
+        "options": [
+            "When",
+            "Where",
+            "Whose",
+            "How"
+        ],
+        "optionMeanings": [
+            "いつ",
+            "どこ",
+            "だれの",
+            "どう"
+        ],
+        "answer": "Whose",
+        "explanation": "<b>こたえ：Whose（だれの）</b><br><br>💡 ヒント：\"Bill's\"（ビルの もの）と こたえて います。だから Whose（だれの）です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-584",
+        "question": "I have two brothers. _____ names are Ben and Steve.",
+        "translation": "わたしには 兄弟が 2人 います。<b>かれらの</b> 名前は ベンと スティーブです。",
+        "options": [
+            "My",
+            "Your",
+            "Our",
+            "Their"
+        ],
+        "optionMeanings": [
+            "わたしの",
+            "あなたの",
+            "わたしたちの",
+            "かれらの"
+        ],
+        "answer": "Their",
+        "explanation": "<b>こたえ：Their（かれらの）</b><br><br>💡 ヒント：\"two brothers\"（2人の 兄弟）の ことです。2人の ことは Their（かれらの）です。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-585",
+        "question": "Please _____ quiet in the library.",
+        "translation": "としょかんでは <b>しずかに して</b> ください。",
+        "options": [
+            "be",
+            "is",
+            "am",
+            "are"
+        ],
+        "optionMeanings": [
+            "〜で いる（もとの かたち）",
+            "〜です（he, she の とき）",
+            "〜です（I の とき）",
+            "〜です（you, we の とき）"
+        ],
+        "answer": "be",
+        "explanation": "<b>こたえ：be（〜で いる）</b><br><br>💡 ヒント：\"Please\" で はじまる おねがいの 文では、もとの かたちの be を つかいます。",
+        "source": "2020年第3回(本会場)"
+    },
+    {
+        "id": "5-586",
+        "question": "Basketball is my favorite _____.",
+        "translation": "バスケットボールは わたしの いちばん すきな <b>スポーツ</b>です。",
+        "options": [
+            "place",
+            "sport",
+            "food",
+            "color"
+        ],
+        "optionMeanings": [
+            "ばしょ",
+            "スポーツ",
+            "食べもの",
+            "色"
+        ],
+        "answer": "sport",
+        "explanation": "<b>こたえ：sport（スポーツ）</b><br><br>💡 ヒント：\"Basketball\"（バスケットボール）は スポーツです。だから sport です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-587",
+        "question": "I like this park. Many _____ come here.",
+        "translation": "わたしは この 公園が すきです。たくさんの <b>人</b>が ここへ 来ます。",
+        "options": [
+            "people",
+            "desks",
+            "pencils",
+            "trees"
+        ],
+        "optionMeanings": [
+            "人たち",
+            "つくえ",
+            "えんぴつ",
+            "木"
+        ],
+        "answer": "people",
+        "explanation": "<b>こたえ：people（人たち）</b><br><br>💡 ヒント：\"come here\"（ここへ 来る）のは people（人たち）です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-588",
+        "question": "Today is Monday. Tomorrow is _____.",
+        "translation": "今日は 月曜日です。あしたは <b>火曜日</b>です。",
+        "options": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "optionMeanings": [
+            "火曜日",
+            "水曜日",
+            "木曜日",
+            "金曜日"
+        ],
+        "answer": "Tuesday",
+        "explanation": "<b>こたえ：Tuesday（火曜日）</b><br><br>💡 ヒント：\"Monday\"（月曜日）の つぎの 日は Tuesday（火曜日）です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-589",
+        "question": "A: Look. A big bird is _____ in the sky.\nB: Yes. It's very fast.",
+        "translation": "A：見て。大きな 鳥が 空を <b>とんで いる</b>よ。\nB：うん。とても はやいね。",
+        "options": [
+            "cutting",
+            "flying",
+            "snowing",
+            "running"
+        ],
+        "optionMeanings": [
+            "切って いる",
+            "とんで いる",
+            "雪が ふって いる",
+            "はしって いる"
+        ],
+        "answer": "flying",
+        "explanation": "<b>こたえ：flying（とんで いる）</b><br><br>💡 ヒント：\"bird\"（鳥）と \"sky\"（空）が あります。鳥が 空で する ことは flying（とんで いる）です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-590",
+        "question": "Ms. Green's English class is _____. I like it very much.",
+        "translation": "グリーン先生の えいごの じゅぎょうは <b>おもしろい</b>です。とても すきです。",
+        "options": [
+            "young",
+            "tired",
+            "tall",
+            "interesting"
+        ],
+        "optionMeanings": [
+            "わかい",
+            "つかれた",
+            "せが 高い",
+            "おもしろい"
+        ],
+        "answer": "interesting",
+        "explanation": "<b>こたえ：interesting（おもしろい）</b><br><br>💡 ヒント：\"I like it very much.\"（とても すき）と 言って います。だから interesting（おもしろい）です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-591",
+        "question": "A: Ted, can you _____ the dog under the tree?\nB: Yes. It's very big.",
+        "translation": "A：テッド、木の 下の 犬が <b>見える</b>？\nB：うん。とても 大きいね。",
+        "options": [
+            "see",
+            "open",
+            "sing",
+            "write"
+        ],
+        "optionMeanings": [
+            "見る",
+            "ひらく",
+            "歌う",
+            "書く"
+        ],
+        "answer": "see",
+        "explanation": "<b>こたえ：see（見る）</b><br><br>💡 ヒント：\"the dog under the tree\"（木の 下の 犬）が 見えるか 聞いて います。だから see（見る）です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-592",
+        "question": "November is the _____ month of the year.",
+        "translation": "11月は 1年の <b>11ばん目</b>の 月です。",
+        "options": [
+            "ninth",
+            "tenth",
+            "eleventh",
+            "twelfth"
+        ],
+        "optionMeanings": [
+            "9ばん目",
+            "10ばん目",
+            "11ばん目",
+            "12ばん目"
+        ],
+        "answer": "eleventh",
+        "explanation": "<b>こたえ：eleventh（11ばん目）</b><br><br>💡 ヒント：\"November\" は 11月です。だから eleventh（11ばん目）です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-593",
+        "question": "I _____ up at 6:30 every morning.",
+        "translation": "わたしは 毎朝 6時30分に <b>おきます</b>。",
+        "options": [
+            "get",
+            "know",
+            "buy",
+            "have"
+        ],
+        "optionMeanings": [
+            "おきる（get up で）",
+            "しって いる",
+            "買う",
+            "もつ"
+        ],
+        "answer": "get",
+        "explanation": "<b>こたえ：get（get up で おきる）</b><br><br>💡 ヒント：\"get up\" で「おきる」です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-594",
+        "question": "A: I like hamburgers. How _____ you, Steve?\nB: I don't.",
+        "translation": "A：ぼくは ハンバーガーが すき。スティーブ、きみは <b>どう</b>？\nB：ぼくは すきじゃ ないよ。",
+        "options": [
+            "down",
+            "up",
+            "about",
+            "of"
+        ],
+        "optionMeanings": [
+            "下へ",
+            "上へ",
+            "〜に ついて",
+            "〜の"
+        ],
+        "answer": "about",
+        "explanation": "<b>こたえ：about（〜に ついて）</b><br><br>💡 ヒント：\"How about you?\" で「あなたは どう？」と 聞く 言い方です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-595",
+        "question": "A: Dinner is ready, Matt.\nB: _____ right, Mom.",
+        "translation": "A：夕ごはんが できたよ、マット。\nB：<b>わかったよ</b>、お母さん。",
+        "options": [
+            "All",
+            "Each",
+            "Sure",
+            "Every"
+        ],
+        "optionMeanings": [
+            "ぜんぶ",
+            "それぞれ",
+            "もちろん",
+            "毎〜"
+        ],
+        "answer": "All",
+        "explanation": "<b>こたえ：All（All right で わかった）</b><br><br>💡 ヒント：\"All right.\" で「わかった」「いいよ」と いう 言い方です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-596",
+        "question": "A: Can I have a _____ of orange juice, Mom?\nB: Yes, here you are.",
+        "translation": "A：オレンジジュースを <b>1ぱい</b> もらえる？ お母さん。\nB：ええ、はい どうぞ。",
+        "options": [
+            "glass",
+            "coin",
+            "camera",
+            "mouth"
+        ],
+        "optionMeanings": [
+            "コップ",
+            "コイン",
+            "カメラ",
+            "口"
+        ],
+        "answer": "glass",
+        "explanation": "<b>こたえ：glass（コップ）</b><br><br>💡 ヒント：\"a glass of 〜\" で「コップ 1ぱいの 〜」です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-597",
+        "question": "Welcome _____ the party! Have a good time.",
+        "translation": "パーティー<b>へ</b> ようこそ。たのしんで ね。",
+        "options": [
+            "to",
+            "down",
+            "on",
+            "under"
+        ],
+        "optionMeanings": [
+            "〜へ",
+            "下へ",
+            "〜の 上に",
+            "〜の 下に"
+        ],
+        "answer": "to",
+        "explanation": "<b>こたえ：to（〜へ）</b><br><br>💡 ヒント：\"Welcome to 〜\" で「〜へ ようこそ」です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-598",
+        "question": "This song is very good. I listen to _____ every day.",
+        "translation": "この 歌は とても いいです。毎日 <b>それを</b> 聞いて います。",
+        "options": [
+            "one",
+            "those",
+            "it",
+            "me"
+        ],
+        "optionMeanings": [
+            "1つ",
+            "それらを",
+            "それを",
+            "わたしを"
+        ],
+        "answer": "it",
+        "explanation": "<b>こたえ：it（それを）</b><br><br>💡 ヒント：\"This song\"（この 歌）の ことです。1つの ものは it（それ）です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-599",
+        "question": "I like Tom. _____ often play computer games at my house.",
+        "translation": "わたしは トムが すきです。<b>わたしたちは</b> よく わたしの 家で コンピューターゲームを します。",
+        "options": [
+            "Us",
+            "We",
+            "Our",
+            "Ours"
+        ],
+        "optionMeanings": [
+            "わたしたちを",
+            "わたしたちは",
+            "わたしたちの",
+            "わたしたちの もの"
+        ],
+        "answer": "We",
+        "explanation": "<b>こたえ：We（わたしたちは）</b><br><br>💡 ヒント：文の はじめで「〜は」に なる ことばは We です。",
+        "source": "2020年第3回(準会場)"
+    },
+    {
+        "id": "5-600",
+        "question": "A: _____ is your father's birthday, Tom?\nB: It's April 5.",
+        "translation": "A：トム、お父さんの たんじょう日は <b>いつ</b>？\nB：4月5日だよ。",
+        "options": [
+            "Where",
+            "Who",
+            "How",
+            "When"
+        ],
+        "optionMeanings": [
+            "どこ",
+            "だれ",
+            "どう",
+            "いつ"
+        ],
+        "answer": "When",
+        "explanation": "<b>こたえ：When（いつ）</b><br><br>💡 ヒント：\"April 5\"（4月5日）と 日にちで こたえて います。だから When（いつ）です。",
+        "source": "2020年第3回(準会場)"
+    }
+];
+
 window.questionsMap = {
+    "5": grade5Questions,
     "4": grade4Questions,
     "3": grade3Questions,
     "pre-2": gradePre2Questions,
